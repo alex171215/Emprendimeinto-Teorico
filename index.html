@@ -1,0 +1,2271 @@
+<!DOCTYPE html>
+<html lang="es" class="h-full">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Examen: Design Thinking & Emprender con IA · RDA2</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts Inter & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#eef2ff',
+                            100: '#e0e7ff',
+                            500: '#6366f1',
+                            600: '#4f46e5',
+                            700: '#4338ca',
+                            800: '#3730a3',
+                            900: '#312e81',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Transiciones suaves y barra de desplazamiento estilizada */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 9999px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569;
+        }
+
+        .glass {
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+
+        @keyframes pulse-subtle {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.7;
+            }
+        }
+
+        .pulse-glow {
+            animation: pulse-subtle 3s infinite ease-in-out;
+        }
+
+        .bank-btn {
+            background: rgba(30, 41, 59, 0.6);
+            color: #94a3b8;
+            border-color: #334155;
+        }
+
+        .bank-btn:hover {
+            background: rgba(51, 65, 85, 0.8);
+            color: #e2e8f0;
+        }
+
+        .active-bank {
+            background: rgba(79, 70, 229, 0.25) !important;
+            color: #a5b4fc !important;
+            border-color: #6366f1 !important;
+        }
+    </style>
+</head>
+
+<body class="h-full bg-slate-950 text-slate-100 font-sans antialiased flex flex-col selection:bg-indigo-500 selection:text-white">
+
+    <!-- Encabezado Superior -->
+    <header class="border-b border-slate-800 bg-slate-900/80 sticky top-0 z-30 glass">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 via-indigo-500 to-amber-500 flex items-center justify-center shadow-lg shadow-indigo-500/20 text-white font-bold text-lg">
+                    DT
+                </div>
+                <div>
+                    <h1 class="text-base sm:text-lg font-bold tracking-tight text-white flex items-center gap-2">
+                        Simulador: Design Thinking & IA
+                        <span class="text-xs font-semibold px-2 py-0.5 rounded-full bg-indigo-950 text-indigo-300 border border-indigo-800">RDA2 · PUCE</span>
+                    </h1>
+                    <p class="text-xs text-slate-400 hidden sm:block">Emprendimiento · F. Rodríguez Clavijo · Fases, JTBD, Métricas & Unit Economics</p>
+                </div>
+            </div>
+
+            <!-- Controles de cabecera -->
+            <div class="flex items-center space-x-2 sm:space-x-3">
+                <!-- Modo de Audio -->
+                <button id="soundToggleBtn" title="Activar/Desactivar efectos de audio"
+                    class="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 transition-colors">
+                    <svg id="soundIconOn" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+                    </svg>
+                    <svg id="soundIconOff" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15zM17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2" />
+                    </svg>
+                </button>
+
+                <!-- Botón Sincronizar / Compartir Progreso -->
+                <button id="openSyncModalBtn" title="Sincronizar progreso entre dispositivos (Celular, PC, etc.)"
+                    class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 text-xs sm:text-sm font-medium border border-emerald-500/40 transition">
+                    <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                    </svg>
+                    <span>Sincronizar</span>
+                </button>
+
+                <!-- Botón Añadir Preguntas -->
+                <button id="openAddModalBtn"
+                    class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs sm:text-sm font-medium border border-slate-700 transition">
+                    <svg class="w-4 h-4 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                    </svg>
+                    <span class="hidden md:inline">Añadir Pregunta</span>
+                </button>
+
+                <!-- Botón Reiniciar Test -->
+                <button id="restartBtn"
+                    class="flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs sm:text-sm font-semibold shadow-md shadow-indigo-600/20 transition">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                    </svg>
+                    <span>Reiniciar</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Barra de Selección de Materia y Sub-banco -->
+    <div id="bankSelectorBar" class="bg-slate-950 border-b border-slate-800/60 py-2.5 px-4 sm:px-6">
+        <div class="max-w-7xl mx-auto flex flex-wrap items-center gap-4 text-xs sm:text-sm">
+            <div class="flex items-center gap-2">
+                <label class="text-slate-400 font-medium">Materia:</label>
+                <select id="materiaSelect"
+                    class="bg-slate-800 border border-slate-700 rounded-lg px-2.5 py-1 text-slate-200 text-xs focus:ring-2 focus:ring-indigo-500 focus:outline-none">
+                    <option value="RDA2">Emprendimiento e Innovación (RDA2)</option>
+                </select>
+            </div>
+            <div class="flex items-center gap-2">
+                <label class="text-slate-400 font-medium">Banco Activo:</label>
+                <select id="bankSelectDropdown"
+                    class="bg-indigo-900/40 border border-indigo-700/50 rounded-lg px-2.5 py-1 text-indigo-200 text-xs focus:ring-2 focus:ring-indigo-500 focus:outline-none font-medium">
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Barra de Filtros y Métricas en Vivo -->
+    <div class="bg-slate-900 border-b border-slate-800 py-2.5 px-4 sm:px-6">
+        <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3 text-xs sm:text-sm">
+            <!-- Filtros y Opciones -->
+            <div class="flex flex-wrap items-center gap-2">
+                <label class="text-slate-400 font-medium">Fase / Eje:</label>
+                <select id="categoryFilter"
+                    class="bg-slate-800 border border-slate-700 rounded-lg px-2.5 py-1 text-slate-200 text-xs focus:ring-2 focus:ring-indigo-500 focus:outline-none">
+                    <option value="all">Todas las Fases (40 Preguntas)</option>
+                    <option value="cap1">Cap. 1 · Por qué Design Thinking</option>
+                    <option value="cap2">Cap. 2 · Fase Empatizar e IA</option>
+                    <option value="cap3">Cap. 3 · Fase Definir, JTBD y Filtros</option>
+                    <option value="cap4">Cap. 4 · Fase Idear y 3 Lentes</option>
+                    <option value="cap5">Cap. 5 · Fase Prototipar</option>
+                    <option value="cap6">Cap. 6 · Fase Testear y Métricas</option>
+                    <option value="cap7">Cap. 7 · Prototipo al Negocio (Unit Economics)</option>
+                    <option value="cap8_11">Cap. 8-11 · Roadmap, Riesgos y Casos</option>
+                    <option value="incorrect">Solo Preguntas Erradas</option>
+                    <option value="bookmarked">Marcadas para Duda</option>
+                </select>
+
+                <div class="h-4 w-px bg-slate-700 hidden sm:block"></div>
+
+                <!-- Modo de Examen vs Práctica Inmediata -->
+                <label
+                    class="flex items-center gap-1.5 cursor-pointer text-slate-300 text-xs bg-slate-800/80 px-2.5 py-1 rounded-lg border border-slate-700 hover:bg-slate-800">
+                    <input type="checkbox" id="immediateFeedbackToggle"
+                        class="rounded bg-slate-900 border-slate-600 text-indigo-600 focus:ring-indigo-500" checked>
+                    <span>Explicación Inmediata</span>
+                </label>
+            </div>
+
+            <!-- Métricas en Vivo -->
+            <div class="flex items-center gap-4 text-xs font-mono">
+                <div class="flex items-center gap-1 text-slate-400">
+                    <span>Pregunta:</span>
+                    <span id="statCurrentQuestion" class="font-bold text-white">1</span>
+                    <span>/</span>
+                    <span id="statTotalQuestions" class="text-slate-400">40</span>
+                </div>
+                <div class="flex items-center gap-1 text-emerald-400" title="Aciertos">
+                    <span>✓</span>
+                    <span id="statCorrect" class="font-bold">0</span>
+                </div>
+                <div class="flex items-center gap-1 text-rose-400" title="Errores">
+                    <span>✗</span>
+                    <span id="statIncorrect" class="font-bold">0</span>
+                </div>
+                <div class="flex items-center gap-1 text-amber-400" title="Dudas marcadas">
+                    <span>★</span>
+                    <span id="statBookmarked" class="font-bold">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenedor Principal -->
+    <main class="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+
+        <!-- Columna Principal: Área de Pregunta (8 cols) -->
+        <section class="lg:col-span-8 flex flex-col space-y-4">
+
+            <!-- Tarjeta de Pregunta -->
+            <div
+                class="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 sm:p-8 shadow-2xl relative overflow-hidden transition-all duration-300">
+
+                <!-- Indicador de Categoría y Marcador de Duda -->
+                <div class="flex items-center justify-between mb-4">
+                    <span id="qBadge"
+                        class="text-xs font-semibold px-3 py-1 rounded-full bg-indigo-900/50 text-indigo-300 border border-indigo-700/50 uppercase tracking-wider">
+                        Capítulo 01 · Por qué Design Thinking
+                    </span>
+                    <button id="bookmarkBtn"
+                        class="flex items-center gap-1 text-xs font-medium text-slate-400 hover:text-amber-400 transition-colors p-1.5 rounded-lg hover:bg-slate-800">
+                        <svg id="bookmarkIcon" class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                        </svg>
+                        <span id="bookmarkText">Marcar duda</span>
+                    </button>
+                </div>
+
+                <!-- Enunciado -->
+                <div class="mb-6">
+                    <p id="qNumber" class="text-xs font-mono font-medium text-indigo-400 mb-1">PREGUNTA 01 DE 40</p>
+                    <h2 id="qText" class="text-lg sm:text-xl font-semibold text-slate-100 leading-relaxed">
+                        Cargando pregunta...
+                    </h2>
+                </div>
+
+                <!-- Opciones de Respuesta -->
+                <div id="optionsContainer" class="space-y-3">
+                    <!-- Se inyectan dinámicamente con JS -->
+                </div>
+
+                <!-- Caja de Retroalimentación Explicativa -->
+                <div id="feedbackBox" class="hidden mt-6 p-5 rounded-xl border transition-all duration-300">
+                    <div class="flex items-start gap-3">
+                        <div id="feedbackIconContainer"
+                            class="mt-0.5 flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold font-mono">
+                            <!-- Icono dinámico -->
+                        </div>
+                        <div class="flex-1 text-sm">
+                            <h4 id="feedbackTitle" class="font-bold mb-1">Retroalimentación Conceptual</h4>
+                            <p id="feedbackText" class="text-slate-300 leading-relaxed"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navegación Inferior -->
+                <div class="flex items-center justify-between mt-8 pt-6 border-t border-slate-800">
+                    <button id="prevBtn"
+                        class="flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-sm font-medium transition disabled:opacity-30 disabled:cursor-not-allowed">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                        </svg>
+                        Anterior
+                    </button>
+
+                    <div class="flex items-center gap-2">
+                        <button id="clearChoiceBtn"
+                            class="text-xs text-slate-500 hover:text-slate-300 px-3 py-1.5 rounded-lg hover:bg-slate-800/60 transition">
+                            Desmarcar
+                        </button>
+                        <button id="nextBtn"
+                            class="flex items-center gap-2 px-5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-semibold shadow-lg shadow-indigo-600/25 transition">
+                            Siguiente
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 5l7 7-7 7" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Barra Lateral: Mapa del Examen y Diagnóstico (4 cols) -->
+        <aside class="lg:col-span-4 flex flex-col space-y-4">
+
+            <!-- Cuadrícula de Preguntas -->
+            <div class="bg-slate-900/90 border border-slate-800 rounded-2xl p-5 shadow-xl">
+                <div class="flex items-center justify-between mb-3">
+                    <h3 class="text-sm font-semibold text-slate-200">Mapa del Examen</h3>
+                    <span id="answeredCount"
+                        class="text-xs font-mono text-indigo-400 bg-indigo-950/60 px-2 py-0.5 rounded border border-indigo-800/50">0/40 Resp.</span>
+                </div>
+
+                <p class="text-xs text-slate-400 mb-3">Haz clic en cualquier número para saltar directamente:</p>
+
+                <!-- Contenedor del Grid -->
+                <div id="questionsGrid"
+                    class="grid grid-cols-5 sm:grid-cols-8 lg:grid-cols-5 gap-2 max-h-64 overflow-y-auto pr-1">
+                    <!-- Generado dinámicamente -->
+                </div>
+
+                <!-- Leyenda cromática -->
+                <div class="mt-4 pt-3 border-t border-slate-800 flex flex-wrap gap-2 text-[11px] text-slate-400">
+                    <span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm bg-indigo-600 ring-1 ring-indigo-400"></span> Actual</span>
+                    <span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm bg-emerald-700"></span> Correcta</span>
+                    <span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm bg-rose-700"></span> Incorrecta</span>
+                    <span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm bg-amber-500"></span> Duda</span>
+                    <span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm border border-amber-400/80" style="background: linear-gradient(135deg, #059669 50%, #f59e0b 50%);"></span> Duda + Correcta</span>
+                    <span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm border border-amber-400/80" style="background: linear-gradient(135deg, #e11d48 50%, #f59e0b 50%);"></span> Duda + Incorrecta</span>
+                    <span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm bg-slate-800 border border-slate-700"></span> Pendiente</span>
+                </div>
+            </div>
+
+            <!-- Tarjeta de Acciones y Finalización -->
+            <div
+                class="bg-gradient-to-br from-slate-900 to-indigo-950/40 border border-slate-800 rounded-2xl p-5 shadow-xl space-y-3">
+                <h3 class="text-sm font-semibold text-slate-200">Finalizar y Diagnóstico</h3>
+                <p class="text-xs text-slate-400 leading-relaxed">
+                    Al completar el simulador, obtendrás tu calificación sobre 10, desglose por fases de Design Thinking y recomendaciones de estudio.
+                </p>
+                <button id="finishExamBtn"
+                    class="w-full py-2.5 px-4 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white text-sm font-bold shadow-lg shadow-emerald-600/20 transition flex items-center justify-center gap-2">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    Calificar y Ver Resultados
+                </button>
+                <button id="shuffleAllBtn"
+                    class="w-full py-2 px-3 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-medium border border-slate-700 transition flex items-center justify-center gap-1.5">
+                    <svg class="w-3.5 h-3.5 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                    </svg>
+                    Barajar Preguntas y Opciones
+                </button>
+            </div>
+
+        </aside>
+
+    </main>
+
+    <!-- Modal de Resultados / Diagnóstico -->
+    <div id="resultsModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 glass hidden">
+        <div
+            class="bg-slate-900 border border-slate-800 rounded-3xl max-w-2xl w-full p-6 sm:p-8 shadow-2xl max-h-[90vh] overflow-y-auto">
+            <div class="text-center pb-6 border-b border-slate-800">
+                <div id="resultScoreBadge"
+                    class="inline-flex items-center justify-center w-20 h-20 rounded-full bg-indigo-900/50 border-2 border-indigo-500 text-3xl font-extrabold text-indigo-300 font-mono mb-3">
+                    0/40
+                </div>
+                <h3 id="resultTitle" class="text-2xl font-bold text-white mb-1">¡Diagnóstico Completado!</h3>
+                <p id="resultSubtitle" class="text-sm text-slate-400">Revisión profunda según los estándares de Emprendimiento e Innovación</p>
+            </div>
+
+            <!-- Resumen Cuantitativo -->
+            <div class="grid grid-cols-3 gap-3 my-6 text-center font-mono">
+                <div class="bg-slate-800/60 p-3 rounded-xl border border-slate-700">
+                    <span class="text-xs text-slate-400 block">Aciertos</span>
+                    <span id="modalCorrectCount" class="text-xl font-bold text-emerald-400">0</span>
+                </div>
+                <div class="bg-slate-800/60 p-3 rounded-xl border border-slate-700">
+                    <span class="text-xs text-slate-400 block">Errores</span>
+                    <span id="modalIncorrectCount" class="text-xl font-bold text-rose-400">0</span>
+                </div>
+                <div class="bg-slate-800/60 p-3 rounded-xl border border-slate-700">
+                    <span class="text-xs text-slate-400 block">Puntaje /10</span>
+                    <span id="modalGrade10" class="text-xl font-bold text-indigo-400">0.0</span>
+                </div>
+            </div>
+
+            <!-- Desglose por Eje Temático -->
+            <div class="space-y-3 mb-6">
+                <h4 class="text-xs font-semibold uppercase tracking-wider text-slate-300">Desempeño por Fase Temática</h4>
+                <div id="categoryBreakdown" class="space-y-2 text-xs">
+                    <!-- Inyectado dinámicamente -->
+                </div>
+            </div>
+
+            <!-- Opciones de Continuación -->
+            <div class="flex flex-col sm:flex-row gap-3 pt-4 border-t border-slate-800">
+                <button id="reviewErrorsBtn"
+                    class="flex-1 py-2.5 px-4 rounded-xl bg-rose-900/40 hover:bg-rose-900/60 border border-rose-700/50 text-rose-200 text-sm font-medium transition">
+                    Reintentar solo errores
+                </button>
+                <button id="modalRestartAllBtn"
+                    class="flex-1 py-2.5 px-4 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-semibold transition">
+                    Reiniciar todo barajado
+                </button>
+                <button id="closeResultsModalBtn"
+                    class="py-2.5 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-sm transition">
+                    Cerrar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Añadir Preguntas Personalizadas -->
+    <div id="addModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 glass hidden">
+        <div
+            class="bg-slate-900 border border-slate-800 rounded-3xl max-w-xl w-full p-6 shadow-2xl max-h-[90vh] overflow-y-auto">
+            <div class="flex items-center justify-between mb-4 pb-3 border-b border-slate-800">
+                <h3 class="text-lg font-bold text-white">Añadir Pregunta al Simulador</h3>
+                <button id="closeAddModalBtn" class="text-slate-400 hover:text-white text-xl font-bold">&times;</button>
+            </div>
+
+            <form id="addQuestionForm" class="space-y-4 text-xs sm:text-sm">
+                <div>
+                    <label class="block font-medium text-slate-300 mb-1">Eje Temático / Fase:</label>
+                    <select id="newCat"
+                        class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-slate-200">
+                        <option value="cap1">Cap. 1 · Por qué Design Thinking</option>
+                        <option value="cap2">Cap. 2 · Fase Empatizar e IA</option>
+                        <option value="cap3">Cap. 3 · Fase Definir, JTBD y Filtros</option>
+                        <option value="cap4">Cap. 4 · Fase Idear y 3 Lentes</option>
+                        <option value="cap5">Cap. 5 · Fase Prototipar</option>
+                        <option value="cap6">Cap. 6 · Fase Testear y Métricas</option>
+                        <option value="cap7">Cap. 7 · Prototipo al Negocio (Unit Economics)</option>
+                        <option value="cap8_11">Cap. 8-11 · Roadmap, Riesgos y Casos</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block font-medium text-slate-300 mb-1">Enunciado de la Pregunta:</label>
+                    <textarea id="newText" rows="3" required
+                        placeholder="Redacta la pregunta exigiendo razonamiento conceptual..."
+                        class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2.5 text-slate-100 placeholder-slate-500"></textarea>
+                </div>
+
+                <div class="space-y-2">
+                    <label class="block font-medium text-slate-300">Opciones (Marca el botón circular de la opción correcta):</label>
+                    <div class="flex items-center gap-2">
+                        <input type="radio" name="newCorrectIdx" value="0" checked class="text-indigo-600">
+                        <input type="text" id="newOpt0" required placeholder="Opción A (marca radio si es correcta)"
+                            class="flex-1 bg-slate-800 border border-slate-700 rounded-lg p-2 text-slate-200 text-xs">
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <input type="radio" name="newCorrectIdx" value="1" class="text-indigo-600">
+                        <input type="text" id="newOpt1" required placeholder="Opción B"
+                            class="flex-1 bg-slate-800 border border-slate-700 rounded-lg p-2 text-slate-200 text-xs">
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <input type="radio" name="newCorrectIdx" value="2" class="text-indigo-600">
+                        <input type="text" id="newOpt2" required placeholder="Opción C"
+                            class="flex-1 bg-slate-800 border border-slate-700 rounded-lg p-2 text-slate-200 text-xs">
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <input type="radio" name="newCorrectIdx" value="3" class="text-indigo-600">
+                        <input type="text" id="newOpt3" required placeholder="Opción D"
+                            class="flex-1 bg-slate-800 border border-slate-700 rounded-lg p-2 text-slate-200 text-xs">
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block font-medium text-slate-300 mb-1">Retroalimentación Conceptual Explicativa:</label>
+                    <textarea id="newFeedback" rows="2" required
+                        placeholder="Explica por qué la opción correcta es la adecuada y cuál es la lógica de fondo..."
+                        class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-slate-100 placeholder-slate-500"></textarea>
+                </div>
+
+                <div class="pt-2 flex justify-end gap-2">
+                    <button type="button" id="cancelAddBtn"
+                        class="px-4 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Cancelar</button>
+                    <button type="submit"
+                        class="px-5 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-medium">Guardar Pregunta</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal de Sincronización y Respaldo Multi-dispositivo -->
+    <div id="syncModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 glass hidden">
+        <div class="bg-slate-900 border border-slate-800 rounded-3xl max-w-xl w-full p-6 shadow-2xl max-h-[92vh] overflow-y-auto space-y-5">
+            <!-- Encabezado Modal -->
+            <div class="flex items-center justify-between pb-3 border-b border-slate-800">
+                <div class="flex items-center gap-2.5">
+                    <div class="w-9 h-9 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center border border-emerald-500/30 font-bold">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-base sm:text-lg font-bold text-white flex items-center gap-2">
+                            Sincronizar Progreso Multi-dispositivo
+                            <span class="text-xs px-2 py-0.5 rounded-full bg-emerald-950 text-emerald-300 border border-emerald-800/80">Offline · Instantáneo</span>
+                        </h3>
+                        <p class="text-xs text-slate-400">Pasa tus respuestas y dudas entre computadora y celular sin perder datos</p>
+                    </div>
+                </div>
+                <button id="closeSyncModalBtn" class="text-slate-400 hover:text-white text-2xl font-bold leading-none p-1 transition">&times;</button>
+            </div>
+
+            <!-- Resumen de estado actual -->
+            <div class="bg-slate-950/70 rounded-xl p-3 border border-slate-800 flex items-center justify-between text-xs">
+                <div class="flex items-center gap-2">
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                    <span class="text-slate-400">Progreso en este equipo:</span>
+                    <span id="syncStatsSummary" class="font-semibold text-emerald-300">Calculando...</span>
+                </div>
+                <span class="text-[11px] text-amber-300/90 font-medium">Prioridad a Erróneas y Dudas</span>
+            </div>
+
+            <!-- SECCIÓN 1: CARGAR PROGRESO DIRECTO -->
+            <div class="bg-gradient-to-b from-indigo-950/60 to-slate-900 rounded-2xl p-4 border-2 border-indigo-500/50 space-y-3 shadow-lg shadow-indigo-950/40">
+                <div class="flex items-center gap-2.5">
+                    <div class="w-7 h-7 rounded-lg bg-indigo-500/20 text-indigo-300 flex items-center justify-center font-bold text-sm">📥</div>
+                    <div>
+                        <h4 class="text-sm font-bold text-white">1. Cargar Progreso desde Enlace o Código</h4>
+                        <p class="text-xs text-indigo-200/80">Pega aquí el enlace compartido por WhatsApp o el código comprimido:</p>
+                    </div>
+                </div>
+                <div class="space-y-2">
+                    <textarea id="syncDirectInput" rows="3" placeholder="Pega aquí el enlace completo de WhatsApp (ej: ...index.html#sync=...) o el código de sincronización..."
+                        class="w-full bg-slate-950 border border-indigo-500/60 rounded-xl p-3 text-xs font-mono text-slate-100 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-400 select-all"></textarea>
+                    <button id="btnApplyDirectSync"
+                        class="w-full py-2.5 bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white font-bold text-xs sm:text-sm rounded-xl shadow-lg shadow-indigo-600/30 flex items-center justify-center gap-2 transition active:scale-[0.98]">
+                        <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" /></svg>
+                        <span>⚡ CARGAR Y APLICAR PROGRESO</span>
+                    </button>
+                </div>
+                <div id="syncResultBanner" class="hidden p-3 rounded-xl text-xs font-semibold"></div>
+            </div>
+
+            <!-- SECCIÓN 2: COMPARTIR DESDE ESTE DISPOSITIVO -->
+            <div class="bg-slate-800/40 rounded-2xl p-4 border border-slate-700/60 space-y-3">
+                <div class="flex items-center gap-2.5">
+                    <div class="w-7 h-7 rounded-lg bg-emerald-500/20 text-emerald-300 flex items-center justify-center font-bold text-sm">🔗</div>
+                    <div>
+                        <h4 class="text-sm font-semibold text-slate-200">2. Compartir Progreso de este Equipo</h4>
+                        <p class="text-xs text-slate-400">Copia el enlace para enviarlo a tu celular por WhatsApp o chat:</p>
+                    </div>
+                </div>
+                <div class="flex gap-2">
+                    <input id="syncMagicUrlInput" type="text" readonly
+                        class="flex-1 bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-xs font-mono text-slate-300 truncate select-all focus:outline-none focus:border-emerald-500">
+                    <button id="copyMagicUrlBtn"
+                        class="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg text-xs font-semibold flex items-center gap-1.5 transition shrink-0 shadow-md shadow-emerald-600/20">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
+                        </svg>
+                        <span>Copiar Enlace</span>
+                    </button>
+                </div>
+                <div id="copySuccessMsg" class="text-xs text-emerald-400 font-medium hidden flex items-center gap-1">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
+                    <span>¡Enlace copiado! Envíatelo por WhatsApp y ábrelo o pégalo en la opción 1 de tu celular.</span>
+                </div>
+            </div>
+
+            <!-- SECCIÓN 3: ARCHIVO DE RESPALDO -->
+            <div class="bg-slate-800/40 rounded-2xl p-4 border border-slate-700/60 space-y-3">
+                <div class="flex items-center gap-2.5">
+                    <div class="w-7 h-7 rounded-lg bg-indigo-500/20 text-indigo-300 flex items-center justify-center font-bold text-sm">💾</div>
+                    <div>
+                        <h4 class="text-sm font-semibold text-slate-200">3. Archivo de Respaldo (.json)</h4>
+                        <p class="text-xs text-slate-400">Descarga un archivo local de seguridad o carga uno previo:</p>
+                    </div>
+                </div>
+                <div class="flex gap-2">
+                    <button id="downloadBackupBtn"
+                        class="flex-1 py-2 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 rounded-lg text-xs font-medium flex items-center justify-center gap-1.5 transition">
+                        <svg class="w-4 h-4 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                        </svg>
+                        <span>Descargar .json</span>
+                    </button>
+                    <label class="flex-1 py-2 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 rounded-lg text-xs font-medium flex items-center justify-center gap-1.5 cursor-pointer transition">
+                        <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
+                        </svg>
+                        <span>Cargar .json</span>
+                        <input id="uploadBackupInput" type="file" accept=".json" class="hidden">
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Librería de compresión LZString embebida directamente (100% offline y sin fallos de red) -->
+    <script>
+    var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",n="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+-$",e={};function t(r,o){if(!e[r]){e[r]={};for(var n=0;n<r.length;n++)e[r][r.charAt(n)]=n}return e[r][o]}var i={compressToBase64:function(r){if(null==r)return"";var n=i._compress(r,6,function(r){return o.charAt(r)});switch(n.length%4){default:case 0:return n;case 1:return n+"===";case 2:return n+"==";case 3:return n+"="}},decompressFromBase64:function(r){return null==r?"":""==r?null:i._decompress(r.length,32,function(n){return t(o,r.charAt(n))})},compressToUTF16:function(o){return null==o?"":i._compress(o,15,function(o){return r(o+32)})+" "},decompressFromUTF16:function(r){return null==r?"":""==r?null:i._decompress(r.length,16384,function(o){return r.charCodeAt(o)-32})},compressToUint8Array:function(r){for(var o=i.compress(r),n=new Uint8Array(2*o.length),e=0,t=o.length;e<t;e++){var s=o.charCodeAt(e);n[2*e]=s>>>8,n[2*e+1]=s%256}return n},decompressFromUint8Array:function(o){if(null==o)return i.decompress(o);for(var n=new Array(o.length/2),e=0,t=n.length;e<t;e++)n[e]=256*o[2*e]+o[2*e+1];var s=[];return n.forEach(function(o){s.push(r(o))}),i.decompress(s.join(""))},compressToEncodedURIComponent:function(r){return null==r?"":i._compress(r,6,function(r){return n.charAt(r)})},decompressFromEncodedURIComponent:function(r){return null==r?"":""==r?null:(r=r.replace(/ /g,"+"),i._decompress(r.length,32,function(o){return t(n,r.charAt(o))}))},compress:function(o){return i._compress(o,16,function(o){return r(o)})},_compress:function(r,o,n){if(null==r)return"";var e,t,i,s={},u={},a="",p="",c="",l=2,f=3,h=2,d=[],m=0,v=0;for(i=0;i<r.length;i+=1)if(a=r.charAt(i),Object.prototype.hasOwnProperty.call(s,a)||(s[a]=f++,u[a]=!0),p=c+a,Object.prototype.hasOwnProperty.call(s,p))c=p;else{if(Object.prototype.hasOwnProperty.call(u,c)){if(c.charCodeAt(0)<256){for(e=0;e<h;e++)m<<=1,v==o-1?(v=0,d.push(n(m)),m=0):v++;for(t=c.charCodeAt(0),e=0;e<8;e++)m=m<<1|1&t,v==o-1?(v=0,d.push(n(m)),m=0):v++,t>>=1}else{for(t=1,e=0;e<h;e++)m=m<<1|t,v==o-1?(v=0,d.push(n(m)),m=0):v++,t=0;for(t=c.charCodeAt(0),e=0;e<16;e++)m=m<<1|1&t,v==o-1?(v=0,d.push(n(m)),m=0):v++,t>>=1}0==--l&&(l=Math.pow(2,h),h++),delete u[c]}else for(t=s[c],e=0;e<h;e++)m=m<<1|1&t,v==o-1?(v=0,d.push(n(m)),m=0):v++,t>>=1;0==--l&&(l=Math.pow(2,h),h++),s[p]=f++,c=String(a)}if(""!==c){if(Object.prototype.hasOwnProperty.call(u,c)){if(c.charCodeAt(0)<256){for(e=0;e<h;e++)m<<=1,v==o-1?(v=0,d.push(n(m)),m=0):v++;for(t=c.charCodeAt(0),e=0;e<8;e++)m=m<<1|1&t,v==o-1?(v=0,d.push(n(m)),m=0):v++,t>>=1}else{for(t=1,e=0;e<h;e++)m=m<<1|t,v==o-1?(v=0,d.push(n(m)),m=0):v++,t=0;for(t=c.charCodeAt(0),e=0;e<16;e++)m=m<<1|1&t,v==o-1?(v=0,d.push(n(m)),m=0):v++,t>>=1}0==--l&&(l=Math.pow(2,h),h++),delete u[c]}else for(t=s[c],e=0;e<h;e++)m=m<<1|1&t,v==o-1?(v=0,d.push(n(m)),m=0):v++,t>>=1;0==--l&&(l=Math.pow(2,h),h++),s[p]=f++,c=String(a)}for(t=2,e=0;e<h;e++)m=m<<1|1&t,v==o-1?(v=0,d.push(n(m)),m=0):v++,t>>=1;for(;;){if(m<<=1,v==o-1){d.push(n(m));break}v++}return d.join("")},decompress:function(r){return null==r?"":""==r?null:i._decompress(r.length,32768,function(o){return r.charCodeAt(o)})},_decompress:function(o,n,e){var t,i,s,u,a,p,c,l=[],f=4,h=4,d=3,m="",v=[],g={val:e(0),position:n,index:1};for(t=0;t<3;t+=1)l[t]=t;for(s=0,a=Math.pow(2,2),p=1;p!=a;)u=g.val&g.position,g.position>>=1,0==g.position&&(g.position=n,g.val=e(g.index++)),s|=(u>0?1:0)*p,p<<=1;switch(s){case 0:for(s=0,a=Math.pow(2,8),p=1;p!=a;)u=g.val&g.position,g.position>>=1,0==g.position&&(g.position=n,g.val=e(g.index++)),s|=(u>0?1:0)*p,p<<=1;c=r(s);break;case 1:for(s=0,a=Math.pow(2,16),p=1;p!=a;)u=g.val&g.position,g.position>>=1,0==g.position&&(g.position=n,g.val=e(g.index++)),s|=(u>0?1:0)*p,p<<=1;c=r(s);break;case 2:return""}for(l[3]=c,i=c,v.push(c);;){if(g.index>o)return"";for(s=0,a=Math.pow(2,d),p=1;p!=a;)u=g.val&g.position,g.position>>=1,0==g.position&&(g.position=n,g.val=e(g.index++)),s|=(u>0?1:0)*p,p<<=1;switch(c=s){case 0:for(s=0,a=Math.pow(2,8),p=1;p!=a;)u=g.val&g.position,g.position>>=1,0==g.position&&(g.position=n,g.val=e(g.index++)),s|=(u>0?1:0)*p,p<<=1;l[h++]=r(s),c=h-1,f--;break;case 1:for(s=0,a=Math.pow(2,16),p=1;p!=a;)u=g.val&g.position,g.position>>=1,0==g.position&&(g.position=n,g.val=e(g.index++)),s|=(u>0?1:0)*p,p<<=1;l[h++]=r(s),c=h-1,f--;break;case 2:return v.join("")}if(0==f&&(f=Math.pow(2,d),d++),l[c])m=l[c];else{if(c!==h)return null;m=i+i.charAt(0)}v.push(m),l[h++]=i+m.charAt(0),i=m,0==--f&&(f=Math.pow(2,d),d++)}}};return i}();"function"==typeof define&&define.amd?define(function(){return LZString}):"undefined"!=typeof module&&null!=module?module.exports=LZString:"undefined"!=typeof angular&&null!=angular&&angular.module("LZString",[]).factory("LZString",function(){return LZString});
+    </script>
+
+    <!-- Cargar banco de preguntas de Design Thinking -->
+    <script src="data/banco_preguntas_design_thinking.js"></script>
+
+    <!-- Script Principal de la Aplicación -->
+    <script>
+        // Sistema de Audio Sintetizado Web Audio API (Sin dependencias externas)
+        class SoundFX {
+            constructor() {
+                this.ctx = null;
+                this.enabled = true;
+            }
+            init() {
+                if (!this.ctx) {
+                    const AudioContext = window.AudioContext || window.webkitAudioContext;
+                    if (AudioContext) this.ctx = new AudioContext();
+                }
+            }
+            playCorrect() {
+                if (!this.enabled) return;
+                this.init();
+                if (!this.ctx) return;
+                try {
+                    const now = this.ctx.currentTime;
+                    const osc = this.ctx.createOscillator();
+                    const gain = this.ctx.createGain();
+                    osc.type = 'sine';
+                    osc.frequency.setValueAtTime(523.25, now); // C5
+                    osc.frequency.exponentialRampToValueAtTime(783.99, now + 0.15); // G5
+                    gain.gain.setValueAtTime(0.12, now);
+                    gain.gain.linearRampToValueAtTime(0, now + 0.25);
+                    osc.connect(gain);
+                    gain.connect(this.ctx.destination);
+                    osc.start(now);
+                    osc.stop(now + 0.25);
+                } catch(e) {}
+            }
+            playWrong() {
+                if (!this.enabled) return;
+                this.init();
+                if (!this.ctx) return;
+                try {
+                    const now = this.ctx.currentTime;
+                    const osc = this.ctx.createOscillator();
+                    const gain = this.ctx.createGain();
+                    osc.type = 'sawtooth';
+                    osc.frequency.setValueAtTime(220, now);
+                    osc.frequency.linearRampToValueAtTime(140, now + 0.2);
+                    gain.gain.setValueAtTime(0.1, now);
+                    gain.gain.linearRampToValueAtTime(0, now + 0.25);
+                    osc.connect(gain);
+                    gain.connect(this.ctx.destination);
+                    osc.start(now);
+                    osc.stop(now + 0.25);
+                } catch(e) {}
+            }
+            playClick() {
+                if (!this.enabled) return;
+                this.init();
+                if (!this.ctx) return;
+                try {
+                    const now = this.ctx.currentTime;
+                    const osc = this.ctx.createOscillator();
+                    const gain = this.ctx.createGain();
+                    osc.type = 'triangle';
+                    osc.frequency.setValueAtTime(440, now);
+                    gain.gain.setValueAtTime(0.04, now);
+                    gain.gain.linearRampToValueAtTime(0, now + 0.05);
+                    osc.connect(gain);
+                    gain.connect(this.ctx.destination);
+                    osc.start(now);
+                    osc.stop(now + 0.05);
+                } catch(e) {}
+            }
+        }
+
+        const sound = new SoundFX();
+
+        // ── Estado del banco activo ──────────────────────────────────────────
+        let quizData = {};
+        let dataBancos = [];
+        let activeMateria = localStorage.getItem('ai_quiz_active_materia') || 'RDA2';
+        let activeBank = localStorage.getItem('ai_quiz_active_bank') || 'design_thinking_40';
+
+        // ESTADO DE LA APLICACIÓN
+        let currentQuestions = [];
+        let currentIndex = 0;
+        let userAnswers = {}; // { qId: selectedOptionIndex }
+        let bookmarked = new Set();
+        let examFinished = false;
+        let immediateFeedback = true;
+
+        function getBankQuestions() { 
+            const b = dataBancos.find(x => x.id === activeBank); 
+            return b ? b.preguntas : []; 
+        }
+
+        function getBankCategories() { 
+            const b = dataBancos.find(x => x.id === activeBank); 
+            return b ? b.categorias : []; 
+        }
+        
+        function getBankStorageKey(type) {
+            return 'ai_quiz_' + type + '_' + activeBank + '_v3';
+        }
+
+        function isQuestionBookmarked(qId) {
+            if (!bookmarked) return false;
+            if (bookmarked.has(qId)) return true;
+            if (bookmarked.has(String(qId))) return true;
+            if (typeof qId === 'string' && !isNaN(Number(qId)) && bookmarked.has(Number(qId))) return true;
+            return false;
+        }
+
+        function getUniqueBookmarkedCount() {
+            if (!bookmarked) return 0;
+            const s = new Set();
+            bookmarked.forEach(id => s.add(String(id)));
+            return s.size;
+        }
+
+        function loadData() {
+            if (window.QUIZ_DATA) {
+                quizData = window.QUIZ_DATA;
+                
+                if (!quizData[activeMateria]) {
+                    const firstMat = Object.keys(quizData)[0] || 'RDA2';
+                    activeMateria = firstMat;
+                }
+                dataBancos = quizData[activeMateria] || [];
+                
+                if (!dataBancos.find(b => b.id === activeBank) && dataBancos.length > 0) {
+                    activeBank = dataBancos[0].id;
+                }
+                
+                var materiaSel = document.getElementById('materiaSelect');
+                if(materiaSel) {
+                    materiaSel.value = activeMateria;
+                    materiaSel.onchange = function(e) {
+                        activeMateria = e.target.value;
+                        localStorage.setItem('ai_quiz_active_materia', activeMateria);
+                        dataBancos = quizData[activeMateria] || [];
+                        if (dataBancos.length > 0) activeBank = dataBancos[0].id;
+                        buildBankButtons();
+                        selectBank(activeBank);
+                    };
+                }
+
+                buildBankButtons();
+                initApp();
+            } else {
+                console.error("Error loading JS data");
+                const qTextEl = document.getElementById('qText');
+                if (qTextEl) {
+                    qTextEl.innerHTML = `<span class="text-red-500">Error al cargar datos. Verifica el archivo data/banco_preguntas_design_thinking.js.</span>`;
+                }
+            }
+        }
+
+        function buildBankButtons() {
+            var select = document.getElementById('bankSelectDropdown');
+            if (!select) return;
+            select.innerHTML = '';
+            dataBancos.forEach(function(b) {
+                var opt = document.createElement('option');
+                opt.value = b.id;
+                opt.textContent = b.titulo;
+                select.appendChild(opt);
+            });
+            select.value = activeBank;
+            select.onchange = function(e) {
+                selectBank(e.target.value);
+            };
+        }
+
+        function populateCategoryDropdown() {
+            categoryFilter.innerHTML = '';
+            var cats = getBankCategories();
+            var hasIncorrect = false;
+            var hasBookmarked = false;
+
+            cats.forEach(function(c) {
+                if (c.value === 'incorrect') hasIncorrect = true;
+                if (c.value === 'bookmarked') hasBookmarked = true;
+                var opt = document.createElement('option');
+                opt.value = c.value;
+                opt.textContent = c.label;
+                categoryFilter.appendChild(opt);
+            });
+
+            if (!hasIncorrect) {
+                var errOpt = document.createElement('option');
+                errOpt.value = 'incorrect';
+                errOpt.textContent = 'Solo Preguntas Erradas';
+                var bmElem = categoryFilter.querySelector('option[value="bookmarked"]');
+                if (bmElem) {
+                    categoryFilter.insertBefore(errOpt, bmElem);
+                } else {
+                    categoryFilter.appendChild(errOpt);
+                }
+            }
+
+            if (!hasBookmarked) {
+                var bmOpt = document.createElement('option');
+                bmOpt.value = 'bookmarked';
+                bmOpt.textContent = 'Solo Preguntas Marcadas';
+                categoryFilter.appendChild(bmOpt);
+            }
+        }
+
+        function selectBank(bankName, skipSave = false) {
+            if (!skipSave) {
+                saveState();
+            }
+            activeBank = bankName;
+            localStorage.setItem('ai_quiz_active_bank', bankName);
+            userAnswers = {};
+            bookmarked = new Set();
+            try {
+                var sa = localStorage.getItem(getBankStorageKey('ans'));
+                if (sa) userAnswers = JSON.parse(sa);
+                var sb = localStorage.getItem(getBankStorageKey('bm'));
+                if (sb) {
+                    bookmarked = new Set();
+                    JSON.parse(sb).forEach(id => {
+                        bookmarked.add(id);
+                        bookmarked.add(String(id));
+                    });
+                }
+            } catch(e) {}
+            var select = document.getElementById('bankSelectDropdown');
+            if (select) select.value = bankName;
+            examFinished = false;
+            populateCategoryDropdown();
+            restoreBankState();
+            var bObj = dataBancos.find(b => b.id === bankName);
+            var label = bObj ? bObj.titulo : bankName;
+            showToast('Banco cargado: ' + label);
+        }
+
+        // ELEMENTOS DOM
+        const qBadge = document.getElementById('qBadge');
+        const qNumber = document.getElementById('qNumber');
+        const qText = document.getElementById('qText');
+        const optionsContainer = document.getElementById('optionsContainer');
+        const feedbackBox = document.getElementById('feedbackBox');
+        const feedbackTitle = document.getElementById('feedbackTitle');
+        const feedbackText = document.getElementById('feedbackText');
+        const feedbackIconContainer = document.getElementById('feedbackIconContainer');
+        const bookmarkBtn = document.getElementById('bookmarkBtn');
+        const bookmarkIcon = document.getElementById('bookmarkIcon');
+        const bookmarkText = document.getElementById('bookmarkText');
+
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const clearChoiceBtn = document.getElementById('clearChoiceBtn');
+        const questionsGrid = document.getElementById('questionsGrid');
+
+        const statCurrentQuestion = document.getElementById('statCurrentQuestion');
+        const statTotalQuestions = document.getElementById('statTotalQuestions');
+        const statCorrect = document.getElementById('statCorrect');
+        const statIncorrect = document.getElementById('statIncorrect');
+        const statBookmarked = document.getElementById('statBookmarked');
+        const answeredCount = document.getElementById('answeredCount');
+
+        const categoryFilter = document.getElementById('categoryFilter');
+        const immediateFeedbackToggle = document.getElementById('immediateFeedbackToggle');
+        const restartBtn = document.getElementById('restartBtn');
+        const shuffleAllBtn = document.getElementById('shuffleAllBtn');
+        const finishExamBtn = document.getElementById('finishExamBtn');
+
+        // Modales
+        const resultsModal = document.getElementById('resultsModal');
+        const closeResultsModalBtn = document.getElementById('closeResultsModalBtn');
+        const modalRestartAllBtn = document.getElementById('modalRestartAllBtn');
+        const reviewErrorsBtn = document.getElementById('reviewErrorsBtn');
+        const modalCorrectCount = document.getElementById('modalCorrectCount');
+        const modalIncorrectCount = document.getElementById('modalIncorrectCount');
+        const modalGrade10 = document.getElementById('modalGrade10');
+        const resultScoreBadge = document.getElementById('resultScoreBadge');
+        const categoryBreakdown = document.getElementById('categoryBreakdown');
+
+        const addModal = document.getElementById('addModal');
+        const openAddModalBtn = document.getElementById('openAddModalBtn');
+        const closeAddModalBtn = document.getElementById('closeAddModalBtn');
+        const cancelAddBtn = document.getElementById('cancelAddBtn');
+        const addQuestionForm = document.getElementById('addQuestionForm');
+
+        // Sonido
+        const soundToggleBtn = document.getElementById('soundToggleBtn');
+        const soundIconOn = document.getElementById('soundIconOn');
+        const soundIconOff = document.getElementById('soundIconOff');
+
+        soundToggleBtn.addEventListener('click', () => {
+            sound.enabled = !sound.enabled;
+            if (sound.enabled) {
+                soundIconOn.classList.remove('hidden');
+                soundIconOff.classList.add('hidden');
+                sound.playClick();
+            } else {
+                soundIconOn.classList.add('hidden');
+                soundIconOff.classList.remove('hidden');
+            }
+        });
+
+        function saveState() {
+            try {
+                localStorage.setItem(getBankStorageKey('ans'), JSON.stringify(userAnswers));
+                const uniqueBm = Array.from(new Set(Array.from(bookmarked).map(id => String(id))));
+                localStorage.setItem(getBankStorageKey('bm'), JSON.stringify(uniqueBm));
+                localStorage.setItem(getBankStorageKey('cat'), categoryFilter.value);
+                localStorage.setItem(getBankStorageKey('idx'), currentIndex.toString());
+                localStorage.setItem(getBankStorageKey('order'), JSON.stringify(currentQuestions.map(q => q.id)));
+            } catch (e) {
+                console.error("Error saving state:", e);
+            }
+        }
+
+        function restoreBankState() {
+            try {
+                var savedCat = localStorage.getItem(getBankStorageKey('cat'));
+                if (savedCat) categoryFilter.value = savedCat;
+                else categoryFilter.value = 'all';
+
+                if (categoryFilter.value === 'incorrect' || categoryFilter.value === 'bookmarked') {
+                    applyFilter();
+                    return;
+                }
+
+                var savedOrder = localStorage.getItem(getBankStorageKey('order'));
+                var savedIdx = localStorage.getItem(getBankStorageKey('idx'));
+
+                if (savedOrder) {
+                    var orderIds = JSON.parse(savedOrder);
+                    var bank = getBankQuestions();
+                    currentQuestions = [];
+                    var bankMap = {};
+                    bank.forEach(function(q) { bankMap[q.id] = q; });
+                    var addedIds = new Set();
+                    orderIds.forEach(function(id) {
+                        if (bankMap[id]) {
+                            currentQuestions.push(bankMap[id]);
+                            addedIds.add(id);
+                        }
+                    });
+                    // Agregar preguntas nuevas que no estaban en el orden previo guardado
+                    bank.forEach(function(q) {
+                        if (!addedIds.has(q.id) && (categoryFilter.value === 'all' || q.category === categoryFilter.value)) {
+                            currentQuestions.push(q);
+                        }
+                    });
+                    
+                    if (currentQuestions.length === 0) {
+                        applyFilter();
+                        return;
+                    }
+
+                    currentIndex = savedIdx ? (parseInt(savedIdx, 10) || 0) : 0;
+                    if (currentIndex >= currentQuestions.length) currentIndex = 0;
+
+                    updateHeaderStats();
+                    renderGrid();
+                    renderCurrentQuestion();
+                } else {
+                    applyFilter();
+                }
+            } catch(e) {
+                console.error("Error restoring state:", e);
+                applyFilter();
+            }
+        }
+
+        function initApp() {
+            // Cargar estado del banco activo
+            try {
+                var savedAns = localStorage.getItem(getBankStorageKey('ans'));
+                if (savedAns) userAnswers = JSON.parse(savedAns);
+                var savedBm = localStorage.getItem(getBankStorageKey('bm'));
+                if (savedBm) {
+                    bookmarked = new Set();
+                    JSON.parse(savedBm).forEach(id => {
+                        bookmarked.add(id);
+                        bookmarked.add(String(id));
+                    });
+                }
+            } catch(e) {
+                console.error("Error loading state:", e);
+            }
+
+            // Cargar preguntas personalizadas añadidas por el usuario en el banco activo
+            var customData = localStorage.getItem('ai_quiz_custom_q');
+            if (customData) {
+                try {
+                    var parsed = JSON.parse(customData);
+                    if (Array.isArray(parsed) && parsed.length > 0) {
+                        const activeB = dataBancos.find(b => b.id === activeBank);
+                        if (activeB) {
+                            activeB.preguntas.push(...parsed);
+                        }
+                    }
+                } catch (e) {
+                    console.error("Error al cargar preguntas personalizadas:", e);
+                }
+            }
+
+            populateCategoryDropdown();
+            restoreBankState();
+        }
+
+        function applyFilter() {
+            var bank = getBankQuestions();
+            var cat = categoryFilter.value;
+            if (cat === 'all') {
+                currentQuestions = [...bank];
+            } else if (cat === 'bookmarked') {
+                currentQuestions = bank.filter(function(q){ return isQuestionBookmarked(q.id); });
+                if (currentQuestions.length === 0) {
+                    currentQuestions = [...bank];
+                    showToast("No tienes preguntas marcadas con duda. Mostrando todas.");
+                    categoryFilter.value = 'all';
+                }
+            } else if (cat === 'incorrect') {
+                currentQuestions = bank.filter(function(q) {
+                    var ans = userAnswers[q.id];
+                    return ans !== undefined && ans !== q.correct;
+                });
+                if (currentQuestions.length === 0) {
+                    currentQuestions = [...bank];
+                    showToast("No tienes preguntas respondidas incorrectamente en este banco. Mostrando todas.");
+                    categoryFilter.value = 'all';
+                }
+            } else {
+                currentQuestions = bank.filter(function(q){ return q.category === cat; });
+            }
+            currentIndex = 0;
+            updateHeaderStats();
+            renderGrid();
+            renderCurrentQuestion();
+            saveState();
+        }
+
+        function renderGrid() {
+            questionsGrid.innerHTML = '';
+            currentQuestions.forEach((q, idx) => {
+                const btn = document.createElement('button');
+                btn.textContent = idx + 1;
+                btn.className = `h-8 rounded-lg text-xs font-mono font-semibold transition flex items-center justify-center border `;
+
+                const isCurrent = idx === currentIndex;
+                const ans = userAnswers[q.id];
+                const isAnswered = ans !== undefined;
+                const isMarked = isQuestionBookmarked(q.id);
+                const showFeedback = examFinished || immediateFeedback;
+
+                // 1. Estilos según estado de respuesta y marca de duda
+                if (isMarked && isAnswered && showFeedback) {
+                    if (ans === q.correct) {
+                        // Bicolor: Mitad Verde y Mitad Amarillo
+                        btn.style.background = 'linear-gradient(135deg, #059669 50%, #f59e0b 50%)';
+                        btn.style.textShadow = '0 1px 2px rgba(0,0,0,0.85)';
+                        btn.className += 'text-white font-bold border-amber-400/90 shadow-sm hover:brightness-110 ';
+                    } else {
+                        // Bicolor: Mitad Rojo y Mitad Amarillo
+                        btn.style.background = 'linear-gradient(135deg, #e11d48 50%, #f59e0b 50%)';
+                        btn.style.textShadow = '0 1px 2px rgba(0,0,0,0.85)';
+                        btn.className += 'text-white font-bold border-amber-400/90 shadow-sm hover:brightness-110 ';
+                    }
+                } else if (isMarked && !isAnswered) {
+                    // Solo marcada sin responder: Amarillo oro
+                    btn.style.background = '#f59e0b';
+                    btn.className += 'text-slate-950 font-bold border-amber-300 shadow-sm shadow-amber-500/20 hover:bg-amber-400 ';
+                } else if (isMarked && isAnswered && !showFeedback) {
+                    // Marcada y respondida en modo examen diferido
+                    btn.style.background = 'linear-gradient(135deg, #475569 50%, #f59e0b 50%)';
+                    btn.className += 'text-white font-bold border-amber-400/90 shadow-sm ';
+                } else if (!isMarked && isAnswered) {
+                    // No marcada, respondida
+                    if (showFeedback) {
+                        if (ans === q.correct) {
+                            btn.className += 'bg-emerald-900/70 text-emerald-300 border-emerald-600/80 hover:bg-emerald-800/80 ';
+                        } else {
+                            btn.className += 'bg-rose-900/70 text-rose-300 border-rose-600/80 hover:bg-rose-800/80 ';
+                        }
+                    } else {
+                        btn.className += 'bg-slate-700 text-slate-200 border-slate-600 ';
+                    }
+                } else {
+                    // Ni marcada ni respondida (Pendiente)
+                    if (isCurrent) {
+                        btn.className += 'bg-indigo-600 text-white border-indigo-400 shadow-lg shadow-indigo-600/40 ';
+                    } else {
+                        btn.className += 'bg-slate-800/80 text-slate-400 border-slate-700/60 hover:bg-slate-800 hover:text-slate-200 ';
+                    }
+                }
+
+                // 2. Destacar pregunta activa con anillo índigo
+                if (isCurrent) {
+                    btn.className += 'ring-2 ring-indigo-400 ring-offset-2 ring-offset-slate-950 shadow-lg shadow-indigo-500/40 scale-105 z-10 ';
+                }
+
+                btn.onclick = () => {
+                    sound.playClick();
+                    currentIndex = idx;
+                    renderGrid();
+                    renderCurrentQuestion();
+                };
+
+                questionsGrid.appendChild(btn);
+            });
+
+            // Contador respondidas
+            const count = currentQuestions.filter(q => userAnswers[q.id] !== undefined).length;
+            answeredCount.textContent = `${count}/${currentQuestions.length} Resp.`;
+        }
+
+        function renderCurrentQuestion() {
+            if (currentQuestions.length === 0) return;
+            const q = currentQuestions[currentIndex];
+
+            // Badges y datos
+            qBadge.textContent = q.categoryName;
+            qNumber.textContent = `PREGUNTA ${(currentIndex + 1).toString().padStart(2, '0')} DE ${currentQuestions.length.toString().padStart(2, '0')}`;
+            qText.textContent = q.text;
+
+            // Estado del botón Duda
+            const isMarked = isQuestionBookmarked(q.id);
+            if (isMarked) {
+                bookmarkIcon.classList.add('text-amber-400', 'fill-amber-400');
+                bookmarkText.textContent = "Duda marcada";
+                bookmarkText.className = "text-amber-400";
+            } else {
+                bookmarkIcon.classList.remove('text-amber-400', 'fill-amber-400');
+                bookmarkText.textContent = "Marcar duda";
+                bookmarkText.className = "text-slate-400";
+            }
+
+            // Renderizar Opciones
+            optionsContainer.innerHTML = '';
+            const letters = ['A', 'B', 'C', 'D'];
+            const currentAnswer = userAnswers[q.id];
+            const hasAnswered = currentAnswer !== undefined;
+            const showCorrection = hasAnswered && (immediateFeedback || examFinished);
+
+            q.options.forEach((optText, optIdx) => {
+                const optBtn = document.createElement('button');
+                optBtn.className = `w-full text-left p-4 rounded-xl border transition-all duration-200 flex items-start gap-3 text-xs sm:text-sm `;
+
+                let isThisSelected = currentAnswer === optIdx;
+                let isThisCorrect = optIdx === q.correct;
+
+                if (showCorrection) {
+                    if (isThisCorrect) {
+                        optBtn.className += 'bg-emerald-950/50 border-emerald-500/80 text-emerald-100 shadow-md shadow-emerald-950/40 ';
+                    } else if (isThisSelected) {
+                        optBtn.className += 'bg-rose-950/50 border-rose-500/80 text-rose-100 shadow-md shadow-rose-950/40 ';
+                    } else {
+                        optBtn.className += 'bg-slate-900/50 border-slate-800 text-slate-500 opacity-60 ';
+                    }
+                } else if (isThisSelected) {
+                    optBtn.className += 'bg-indigo-950/60 border-indigo-500 text-white shadow-lg shadow-indigo-950/50 ring-1 ring-indigo-500 ';
+                } else {
+                    optBtn.className += 'bg-slate-800/60 border-slate-700/80 text-slate-200 hover:bg-slate-800 hover:border-slate-600 ';
+                }
+
+                // Letra identificadora (badge)
+                const badge = document.createElement('span');
+                badge.className = `flex-shrink-0 w-6 h-6 rounded-lg flex items-center justify-center font-bold text-xs font-mono border `;
+
+                if (showCorrection) {
+                    if (isThisCorrect) {
+                        badge.className += 'bg-emerald-600 text-white border-emerald-400';
+                        badge.innerHTML = '✓';
+                    } else if (isThisSelected) {
+                        badge.className += 'bg-rose-600 text-white border-rose-400';
+                        badge.innerHTML = '✗';
+                    } else {
+                        badge.className += 'bg-slate-800 text-slate-500 border-slate-700';
+                        badge.textContent = letters[optIdx];
+                    }
+                } else if (isThisSelected) {
+                    badge.className += 'bg-indigo-600 text-white border-indigo-400';
+                    badge.textContent = letters[optIdx];
+                } else {
+                    badge.className += 'bg-slate-700/60 text-slate-400 border-slate-600';
+                    badge.textContent = letters[optIdx];
+                }
+
+                const textSpan = document.createElement('span');
+                textSpan.className = 'flex-1 leading-relaxed';
+                textSpan.textContent = optText;
+
+                optBtn.appendChild(badge);
+                optBtn.appendChild(textSpan);
+
+                optBtn.onclick = () => {
+                    if (examFinished) return;
+                    selectOption(q.id, optIdx);
+                };
+
+                optionsContainer.appendChild(optBtn);
+            });
+
+            // Caja de retroalimentación
+            if (showCorrection) {
+                feedbackBox.classList.remove('hidden');
+                const isUserCorrect = currentAnswer === q.correct;
+                if (isUserCorrect) {
+                    feedbackBox.className = "mt-6 p-4 rounded-xl border bg-emerald-950/40 border-emerald-800/80 text-emerald-200";
+                    feedbackIconContainer.className = "w-6 h-6 rounded-full bg-emerald-700 text-white flex items-center justify-center font-bold";
+                    feedbackIconContainer.innerHTML = "✓";
+                    feedbackTitle.textContent = "¡Correcto! Razonamiento Válido";
+                    feedbackTitle.className = "font-bold text-emerald-300 mb-1 text-sm";
+                } else {
+                    feedbackBox.className = "mt-6 p-4 rounded-xl border bg-rose-950/40 border-rose-800/80 text-rose-200";
+                    feedbackIconContainer.className = "w-6 h-6 rounded-full bg-rose-700 text-white flex items-center justify-center font-bold";
+                    feedbackIconContainer.innerHTML = "✗";
+                    feedbackTitle.textContent = "Respuesta Incorrecta — Análisis de Error";
+                    feedbackTitle.className = "font-bold text-rose-300 mb-1 text-sm";
+                }
+                feedbackText.textContent = q.feedback;
+            } else {
+                feedbackBox.classList.add('hidden');
+            }
+
+            // Estados de botones anterior y siguiente
+            prevBtn.disabled = currentIndex === 0;
+            nextBtn.textContent = currentIndex === currentQuestions.length - 1 ? "Revisar / Calificar" : "Siguiente";
+
+            updateHeaderStats();
+        }
+
+        function selectOption(qId, optIdx) {
+            const q = currentQuestions.find(item => item.id === qId);
+            if (!q) return;
+
+            userAnswers[qId] = optIdx;
+            saveState();
+
+            if (immediateFeedback) {
+                if (optIdx === q.correct) {
+                    sound.playCorrect();
+                } else {
+                    sound.playWrong();
+                }
+            } else {
+                sound.playClick();
+            }
+
+            renderGrid();
+            renderCurrentQuestion();
+        }
+
+        function updateHeaderStats() {
+            statCurrentQuestion.textContent = currentIndex + 1;
+            statTotalQuestions.textContent = currentQuestions.length;
+
+            let correct = 0;
+            let incorrect = 0;
+            currentQuestions.forEach(q => {
+                const a = userAnswers[q.id];
+                if (a !== undefined) {
+                    if (a === q.correct) correct++;
+                    else incorrect++;
+                }
+            });
+
+            statCorrect.textContent = correct;
+            statIncorrect.textContent = incorrect;
+            statBookmarked.textContent = getUniqueBookmarkedCount();
+        }
+
+        prevBtn.addEventListener('click', () => {
+            sound.playClick();
+            if (currentIndex > 0) {
+                currentIndex--;
+                renderGrid();
+                renderCurrentQuestion();
+                saveState();
+            }
+        });
+
+        nextBtn.addEventListener('click', () => {
+            sound.playClick();
+            if (currentIndex < currentQuestions.length - 1) {
+                currentIndex++;
+                renderGrid();
+                renderCurrentQuestion();
+                saveState();
+            } else {
+                showResults();
+            }
+        });
+
+        clearChoiceBtn.addEventListener('click', () => {
+            sound.playClick();
+            const q = currentQuestions[currentIndex];
+            if (q) {
+                delete userAnswers[q.id];
+                saveState();
+                renderGrid();
+                renderCurrentQuestion();
+            }
+        });
+
+        bookmarkBtn.addEventListener('click', () => {
+            sound.playClick();
+            const q = currentQuestions[currentIndex];
+            if (!q) return;
+            const sId = String(q.id);
+            const nId = Number(q.id);
+            if (isQuestionBookmarked(q.id)) {
+                bookmarked.delete(q.id);
+                bookmarked.delete(sId);
+                if (!isNaN(nId)) bookmarked.delete(nId);
+            } else {
+                bookmarked.add(q.id);
+                bookmarked.add(sId);
+            }
+            saveState();
+            renderGrid();
+            renderCurrentQuestion();
+        });
+
+        categoryFilter.addEventListener('change', () => {
+            applyFilter();
+        });
+
+        immediateFeedbackToggle.addEventListener('change', (e) => {
+            immediateFeedback = e.target.checked;
+            renderGrid();
+            renderCurrentQuestion();
+        });
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        function shuffleQuestionsAndOptions() {
+            currentQuestions = shuffleArray([...currentQuestions]);
+            currentQuestions.forEach(q => {
+                const optionsWithIndices = q.options.map((opt, idx) => ({
+                    text: opt,
+                    isCorrect: idx === q.correct
+                }));
+                shuffleArray(optionsWithIndices);
+                q.options = optionsWithIndices.map(o => o.text);
+                q.correct = optionsWithIndices.findIndex(o => o.isCorrect);
+            });
+            currentQuestions.forEach(q => {
+                delete userAnswers[q.id];
+            });
+            currentIndex = 0;
+            examFinished = false;
+            saveState();
+            renderGrid();
+            renderCurrentQuestion();
+            showToast("¡Barajado aleatorio listo! Respuestas de esta lista reiniciadas.");
+        }
+
+        shuffleAllBtn.addEventListener('click', () => {
+            sound.playClick();
+            shuffleQuestionsAndOptions();
+        });
+
+        restartBtn.addEventListener('click', () => {
+            sound.playClick();
+            currentQuestions.forEach(q => {
+                delete userAnswers[q.id];
+            });
+            saveState();
+            examFinished = false;
+            currentIndex = 0;
+            renderGrid();
+            renderCurrentQuestion();
+            showToast("Cuestionario actual reiniciado. ¡Buena suerte!");
+        });
+
+        finishExamBtn.addEventListener('click', () => {
+            showResults();
+        });
+
+        function showResults() {
+            examFinished = true;
+            let total = currentQuestions.length;
+            let correct = 0;
+            let answered = 0;
+
+            const catStats = {};
+
+            currentQuestions.forEach(q => {
+                const catGroup = q.categoryName || 'General';
+                if (!catStats[catGroup]) {
+                    catStats[catGroup] = { correct: 0, total: 0 };
+                }
+                catStats[catGroup].total++;
+
+                const userChoice = userAnswers[q.id];
+                if (userChoice !== undefined) {
+                    answered++;
+                    if (userChoice === q.correct) {
+                        correct++;
+                        catStats[catGroup].correct++;
+                    }
+                }
+            });
+
+            const incorrect = answered - correct;
+            const grade10 = total > 0 ? ((correct / total) * 10).toFixed(1) : "0.0";
+
+            modalCorrectCount.textContent = correct;
+            modalIncorrectCount.textContent = incorrect + (total - answered);
+            modalGrade10.textContent = grade10;
+            resultScoreBadge.textContent = `${correct}/${total}`;
+
+            if (grade10 >= 8.5) {
+                resultScoreBadge.className = "inline-flex items-center justify-center w-20 h-20 rounded-full bg-emerald-950/80 border-2 border-emerald-500 text-3xl font-extrabold text-emerald-300 font-mono mb-3";
+            } else if (grade10 >= 6.0) {
+                resultScoreBadge.className = "inline-flex items-center justify-center w-20 h-20 rounded-full bg-amber-950/80 border-2 border-amber-500 text-3xl font-extrabold text-amber-300 font-mono mb-3";
+            } else {
+                resultScoreBadge.className = "inline-flex items-center justify-center w-20 h-20 rounded-full bg-rose-950/80 border-2 border-rose-500 text-3xl font-extrabold text-rose-300 font-mono mb-3";
+            }
+
+            // Render desglose por unidad / capítulo
+            categoryBreakdown.innerHTML = '';
+            for (const [catName, stats] of Object.entries(catStats)) {
+                const pct = Math.round((stats.correct / stats.total) * 100) || 0;
+                const div = document.createElement('div');
+                div.className = "p-2.5 rounded-lg bg-slate-800 border border-slate-700";
+                div.innerHTML = `
+                    <div class="flex justify-between items-center mb-1">
+                        <span class="font-medium text-slate-200 truncate pr-2">${catName}</span>
+                        <span class="font-mono flex-shrink-0 ${pct >= 70 ? 'text-emerald-400' : 'text-amber-400'}">${stats.correct}/${stats.total} (${pct}%)</span>
+                    </div>
+                    <div class="w-full h-1.5 bg-slate-700 rounded-full overflow-hidden">
+                        <div class="h-full ${pct >= 70 ? 'bg-emerald-500' : pct >= 40 ? 'bg-amber-500' : 'bg-rose-500'} rounded-full transition-all duration-500" style="width: ${pct}%"></div>
+                    </div>
+                `;
+                categoryBreakdown.appendChild(div);
+            }
+
+            resultsModal.classList.remove('hidden');
+            renderGrid();
+            renderCurrentQuestion();
+        }
+
+        closeResultsModalBtn.addEventListener('click', () => {
+            resultsModal.classList.add('hidden');
+        });
+
+        modalRestartAllBtn.addEventListener('click', () => {
+            resultsModal.classList.add('hidden');
+            shuffleQuestionsAndOptions();
+        });
+
+        reviewErrorsBtn.addEventListener('click', () => {
+            const errorQuestions = currentQuestions.filter(q => {
+                const a = userAnswers[q.id];
+                return a === undefined || a !== q.correct;
+            });
+
+            if (errorQuestions.length === 0) {
+                showToast("¡Felicitaciones! No tienes errores que repasar.");
+                return;
+            }
+
+            currentQuestions = errorQuestions;
+            userAnswers = {};
+            examFinished = false;
+            currentIndex = 0;
+            saveState();
+            resultsModal.classList.add('hidden');
+            renderGrid();
+            renderCurrentQuestion();
+            showToast(`Modo repaso activado: ${errorQuestions.length} preguntas por consolidar.`);
+        });
+
+        openAddModalBtn.addEventListener('click', () => {
+            addModal.classList.remove('hidden');
+        });
+
+        closeAddModalBtn.addEventListener('click', () => {
+            addModal.classList.add('hidden');
+        });
+
+        cancelAddBtn.addEventListener('click', () => {
+            addModal.classList.add('hidden');
+        });
+
+        addQuestionForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const cat = document.getElementById('newCat').value;
+            const text = document.getElementById('newText').value.trim();
+            const opt0 = document.getElementById('newOpt0').value.trim();
+            const opt1 = document.getElementById('newOpt1').value.trim();
+            const opt2 = document.getElementById('newOpt2').value.trim();
+            const opt3 = document.getElementById('newOpt3').value.trim();
+            const correctIdx = parseInt(document.querySelector('input[name="newCorrectIdx"]:checked').value, 10);
+            const feedback = document.getElementById('newFeedback').value.trim();
+
+            const catNames = {
+                'cap1': 'Cap. 1 · Por qué Design Thinking',
+                'cap2': 'Cap. 2 · Fase Empatizar e IA',
+                'cap3': 'Cap. 3 · Fase Definir, JTBD y Filtros',
+                'cap4': 'Cap. 4 · Fase Idear y 3 Lentes',
+                'cap5': 'Cap. 5 · Fase Prototipar',
+                'cap6': 'Cap. 6 · Fase Testear y Métricas',
+                'cap7': 'Cap. 7 · Prototipo al Negocio (Unit Economics)',
+                'cap8_11': 'Cap. 8-11 · Roadmap, Riesgos y Casos'
+            };
+
+            const newQ = {
+                id: 'custom_' + Date.now(),
+                category: cat,
+                categoryName: catNames[cat] || 'Personalizada',
+                text: text,
+                options: [opt0, opt1, opt2, opt3],
+                correct: correctIdx,
+                feedback: feedback
+            };
+
+            const activeB = dataBancos.find(b => b.id === activeBank);
+            if (activeB) {
+                activeB.preguntas.push(newQ);
+            }
+            try {
+                const stored = JSON.parse(localStorage.getItem('ai_quiz_custom_q') || '[]');
+                stored.push(newQ);
+                localStorage.setItem('ai_quiz_custom_q', JSON.stringify(stored));
+            } catch (err) {
+                console.error(err);
+            }
+
+            addModal.classList.add('hidden');
+            addQuestionForm.reset();
+            applyFilter();
+            showToast("¡Nueva pregunta añadida al banco!");
+        });
+
+        // Notificación flotante (toast)
+        function showToast(msg) {
+            const toast = document.createElement('div');
+            toast.className = "fixed bottom-6 right-6 z-50 bg-indigo-600 text-white px-4 py-2.5 rounded-xl shadow-2xl text-xs sm:text-sm font-medium transition-all duration-300 transform translate-y-2 opacity-0";
+            toast.textContent = msg;
+            document.body.appendChild(toast);
+            setTimeout(() => {
+                toast.classList.remove('translate-y-2', 'opacity-0');
+            }, 10);
+            setTimeout(() => {
+                toast.classList.add('translate-y-2', 'opacity-0');
+                setTimeout(() => toast.remove(), 300);
+            }, 3000);
+        }
+
+        // ==========================================================
+        // SISTEMA DE SINCRONIZACIÓN Y COMPARTIR PROGRESO MULTI-DISPOSITIVO
+        // ==========================================================
+
+        function getBankQuestionCatalog() {
+            const list = [];
+            const map = new Map();
+            if (!window.QUIZ_DATA) return { list, map };
+            
+            const materias = Object.keys(window.QUIZ_DATA).sort();
+            for (const mat of materias) {
+                const banks = window.QUIZ_DATA[mat];
+                if (!Array.isArray(banks)) continue;
+                for (const bank of banks) {
+                    if (!Array.isArray(bank.preguntas)) continue;
+                    for (const q of bank.preguntas) {
+                        const idx = list.length;
+                        const key = bank.id + '::' + String(q.id);
+                        map.set(key, idx);
+                        list.push({
+                            idx,
+                            bankId: bank.id,
+                            materia: mat,
+                            qId: q.id,
+                            correct: q.correct
+                        });
+                    }
+                }
+            }
+            return { list, map };
+        }
+
+        // Exportación V3 Ultracompacta (< 250 caracteres, resistente a cortes)
+        function exportAllQuizData() {
+            const catalog = getBankQuestionCatalog();
+            const answers = [];
+            const bookmarks = [];
+            const customAnswers = [];
+            const customBookmarks = [];
+
+            for (let i = 0; i < localStorage.length; i++) {
+                const k = localStorage.key(i);
+                if (!k) continue;
+
+                if (k.startsWith('ai_quiz_ans_') && k.endsWith('_v3')) {
+                    const bankId = k.replace('ai_quiz_ans_', '').replace('_v3', '');
+                    try {
+                        const obj = JSON.parse(localStorage.getItem(k) || '{}');
+                        for (const qId in obj) {
+                            const key = bankId + '::' + String(qId);
+                            if (catalog.map.has(key)) {
+                                answers.push([catalog.map.get(key), Number(obj[qId])]);
+                            } else {
+                                customAnswers.push([bankId, qId, Number(obj[qId])]);
+                            }
+                        }
+                    } catch(e) {}
+                } else if (k.startsWith('ai_quiz_bm_') && k.endsWith('_v3')) {
+                    const bankId = k.replace('ai_quiz_bm_', '').replace('_v3', '');
+                    try {
+                        const arr = JSON.parse(localStorage.getItem(k) || '[]');
+                        arr.forEach(qId => {
+                            const key = bankId + '::' + String(qId);
+                            if (catalog.map.has(key)) {
+                                bookmarks.push(catalog.map.get(key));
+                            } else {
+                                customBookmarks.push([bankId, qId]);
+                            }
+                        });
+                    } catch(e) {}
+                }
+            }
+
+            answers.sort((a, b) => a[0] - b[0]);
+            const uniqueBm = Array.from(new Set(bookmarks)).sort((a, b) => a - b);
+
+            let customQuestions = [];
+            try {
+                customQuestions = JSON.parse(localStorage.getItem('ai_quiz_custom_q') || '[]');
+            } catch(e) {}
+
+            const payload = {
+                app: "quiz_simulator",
+                v: 3,
+                m: localStorage.getItem('ai_quiz_active_materia') || activeMateria || 'RDA2',
+                b: localStorage.getItem('ai_quiz_active_bank') || activeBank || 'design_thinking_40',
+                a: answers,
+                bm: uniqueBm
+            };
+
+            if (customAnswers.length > 0) payload.ca = customAnswers;
+            if (customBookmarks.length > 0) payload.cbm = customBookmarks;
+            if (customQuestions.length > 0) payload.cq = customQuestions;
+
+            return payload;
+        }
+
+        function countStoredProgress() {
+            let totalAns = 0;
+            let totalBm = 0;
+            let totalCorrect = 0;
+            let totalIncorrect = 0;
+            const correctMap = getQuestionCorrectAnswerMap();
+
+            for (let i = 0; i < localStorage.length; i++) {
+                const k = localStorage.key(i);
+                if (!k) continue;
+                if (k.startsWith('ai_quiz_ans_') && k.endsWith('_v3')) {
+                    try {
+                        const obj = JSON.parse(localStorage.getItem(k) || '{}');
+                        totalAns += Object.keys(obj).length;
+                        for (const qId in obj) {
+                            const c = correctMap[qId] !== undefined ? correctMap[qId] : correctMap[String(qId)];
+                            if (c !== undefined) {
+                                if (Number(obj[qId]) === Number(c)) totalCorrect++;
+                                else totalIncorrect++;
+                            }
+                        }
+                    } catch(e) {}
+                } else if (k.startsWith('ai_quiz_bm_') && k.endsWith('_v3')) {
+                    try {
+                        const arr = JSON.parse(localStorage.getItem(k) || '[]');
+                        const unique = new Set(arr.map(id => String(id)));
+                        totalBm += unique.size;
+                    } catch(e) {}
+                }
+            }
+            return { totalAns, totalBm, totalCorrect, totalIncorrect };
+        }
+
+        function compressPayload(str) {
+            if (window.LZString && typeof LZString.compressToEncodedURIComponent === 'function') {
+                return 'lz:' + LZString.compressToEncodedURIComponent(str);
+            }
+            try {
+                return 'b64:' + encodeURIComponent(btoa(unescape(encodeURIComponent(str))));
+            } catch(e) {
+                return 'raw:' + encodeURIComponent(str);
+            }
+        }
+
+        function resilientLZDecompress(raw) {
+            if (!raw || !window.LZString) return null;
+            const candidates = [
+                raw,
+                raw.replace(/ /g, '+'),
+                raw.replace(/%20/g, '+'),
+                raw.replace(/%2B/gi, '+')
+            ];
+            try { candidates.push(decodeURIComponent(raw)); } catch(e) {}
+            try { candidates.push(decodeURIComponent(raw).replace(/ /g, '+')); } catch(e) {}
+            try { candidates.push(decodeURIComponent(raw).replace(/%20/g, '+')); } catch(e) {}
+            try { candidates.push(decodeURIComponent(raw).replace(/%2B/gi, '+')); } catch(e) {}
+
+            for (const cand of candidates) {
+                try {
+                    const res = LZString.decompressFromEncodedURIComponent(cand);
+                    if (res && res.trim().startsWith('{')) return res;
+                } catch(e) {}
+            }
+            for (const cand of candidates) {
+                try {
+                    const res = LZString.decompressFromBase64(cand);
+                    if (res && res.trim().startsWith('{')) return res;
+                } catch(e) {}
+            }
+            return null;
+        }
+
+        function extractSyncPayload(inputStr) {
+            if (!inputStr) throw new Error("Por favor ingresa un enlace o código de sincronización.");
+            let str = inputStr.trim();
+            str = str.replace(/^["'`]|["'`]$/g, '').trim();
+
+            if (str.startsWith('{') && str.endsWith('}')) {
+                return JSON.parse(str);
+            }
+
+            if (str.includes('sync=')) {
+                str = str.split('sync=')[1];
+                str = str.split(/\s+/)[0];
+            } else {
+                const hashIdx = str.indexOf('#');
+                if (hashIdx !== -1 && hashIdx < str.length - 1) {
+                    str = str.substring(hashIdx + 1).split(/\s+/)[0];
+                }
+            }
+            if (str.includes('&')) str = str.split('&')[0];
+            if (str.startsWith('#')) str = str.substring(1);
+            str = str.replace(/[.,;!?]+$/, '');
+
+            if (str.startsWith('lz:')) {
+                const decomp = resilientLZDecompress(str.substring(3));
+                if (decomp) return JSON.parse(decomp);
+            }
+
+            const directDecomp = resilientLZDecompress(str);
+            if (directDecomp) return JSON.parse(directDecomp);
+
+            if (str.startsWith('b64:')) {
+                const raw = str.substring(4);
+                try {
+                    const decoded = decodeURIComponent(escape(atob(decodeURIComponent(raw))));
+                    return JSON.parse(decoded);
+                } catch(e) {}
+            }
+            if (str.startsWith('raw:')) {
+                return JSON.parse(decodeURIComponent(str.substring(4)));
+            }
+            try {
+                const decoded = decodeURIComponent(escape(atob(decodeURIComponent(str))));
+                if (decoded && decoded.trim().startsWith('{')) return JSON.parse(decoded);
+            } catch(e) {}
+
+            throw new Error("No se pudo descifrar el enlace o código ingresado. Verifica que esté completo.");
+        }
+
+        function getQuestionCorrectAnswerMap() {
+            const map = {};
+            if (window.QUIZ_DATA) {
+                for (const mat in window.QUIZ_DATA) {
+                    const banks = window.QUIZ_DATA[mat];
+                    if (Array.isArray(banks)) {
+                        banks.forEach(b => {
+                            if (Array.isArray(b.preguntas)) {
+                                b.preguntas.forEach(q => {
+                                    if (q.id !== undefined && q.correct !== undefined) {
+                                        map[q.id] = q.correct;
+                                        map[String(q.id)] = q.correct;
+                                    }
+                                });
+                            }
+                        });
+                    }
+                }
+            }
+            try {
+                const custom = JSON.parse(localStorage.getItem('ai_quiz_custom_q') || '[]');
+                if (Array.isArray(custom)) {
+                    custom.forEach(q => {
+                        if (q.id !== undefined && q.correct !== undefined) {
+                            map[q.id] = q.correct;
+                            map[String(q.id)] = q.correct;
+                        }
+                    });
+                }
+            } catch(e) {}
+            return map;
+        }
+
+        function mergeAnswersWithPriority(existing, incoming, correctMap) {
+            const allQIds = new Set([...Object.keys(existing), ...Object.keys(incoming)]);
+            const result = {};
+
+            for (const qId of allQIds) {
+                const has1 = existing[qId] !== undefined;
+                const has2 = incoming[qId] !== undefined;
+
+                if (has1 && !has2) {
+                    result[qId] = existing[qId];
+                } else if (!has1 && has2) {
+                    result[qId] = incoming[qId];
+                } else {
+                    const ans1 = existing[qId];
+                    const ans2 = incoming[qId];
+                    const correctOpt = correctMap[qId] !== undefined ? correctMap[qId] : correctMap[String(qId)];
+
+                    if (correctOpt !== undefined) {
+                        const isWrong1 = (Number(ans1) !== Number(correctOpt));
+                        const isWrong2 = (Number(ans2) !== Number(correctOpt));
+
+                        // Prioridad absoluta al error: si en cualquiera falló, GANA EL ERROR para repaso
+                        if (isWrong1 && !isWrong2) {
+                            result[qId] = ans1;
+                        } else if (!isWrong1 && isWrong2) {
+                            result[qId] = ans2;
+                        } else {
+                            result[qId] = ans2;
+                        }
+                    } else {
+                        result[qId] = ans2;
+                    }
+                }
+            }
+            return result;
+        }
+
+        function importQuizData(payload, mode = 'merge') {
+            if (!payload || typeof payload !== 'object') {
+                throw new Error("El archivo o código no contiene datos de progreso válidos.");
+            }
+
+            const catalog = getBankQuestionCatalog();
+            const correctMap = getQuestionCorrectAnswerMap();
+            let answersCount = 0;
+            let bookmarksCount = 0;
+            let correctCount = 0;
+            let incorrectCount = 0;
+
+            // FORMATO V3 ULTRACOMPACTO
+            if (payload.v === 3 || (Array.isArray(payload.a) && Array.isArray(payload.bm))) {
+                if (payload.m) localStorage.setItem('ai_quiz_active_materia', payload.m);
+                if (payload.b) localStorage.setItem('ai_quiz_active_bank', payload.b);
+
+                const incomingByBankAns = {};
+                if (Array.isArray(payload.a)) {
+                    payload.a.forEach(item => {
+                        const idx = item[0];
+                        const opt = item[1];
+                        const meta = catalog.list[idx];
+                        if (meta) {
+                            if (!incomingByBankAns[meta.bankId]) incomingByBankAns[meta.bankId] = {};
+                            incomingByBankAns[meta.bankId][meta.qId] = opt;
+                        }
+                    });
+                }
+
+                if (Array.isArray(payload.ca)) {
+                    payload.ca.forEach(item => {
+                        const bankId = item[0];
+                        const qId = item[1];
+                        const opt = item[2];
+                        if (!incomingByBankAns[bankId]) incomingByBankAns[bankId] = {};
+                        incomingByBankAns[bankId][qId] = opt;
+                    });
+                }
+
+                const incomingByBankBm = {};
+                if (Array.isArray(payload.bm)) {
+                    payload.bm.forEach(idx => {
+                        const meta = catalog.list[idx];
+                        if (meta) {
+                            if (!incomingByBankBm[meta.bankId]) incomingByBankBm[meta.bankId] = new Set();
+                            incomingByBankBm[meta.bankId].add(String(meta.qId));
+                        }
+                    });
+                }
+
+                if (Array.isArray(payload.cbm)) {
+                    payload.cbm.forEach(item => {
+                        const bankId = item[0];
+                        const qId = item[1];
+                        if (!incomingByBankBm[bankId]) incomingByBankBm[bankId] = new Set();
+                        incomingByBankBm[bankId].add(String(qId));
+                    });
+                }
+
+                const allBankIds = new Set([
+                    ...Object.keys(incomingByBankAns),
+                    ...Object.keys(incomingByBankBm)
+                ]);
+
+                for (let i = 0; i < localStorage.length; i++) {
+                    const k = localStorage.key(i);
+                    if (k && k.startsWith('ai_quiz_ans_') && k.endsWith('_v3')) {
+                        allBankIds.add(k.replace('ai_quiz_ans_', '').replace('_v3', ''));
+                    }
+                }
+
+                for (const bankId of allBankIds) {
+                    const keyAns = 'ai_quiz_ans_' + bankId + '_v3';
+                    const keyBm = 'ai_quiz_bm_' + bankId + '_v3';
+
+                    const incomingAns = incomingByBankAns[bankId] || {};
+                    const existingAns = JSON.parse(localStorage.getItem(keyAns) || '{}');
+
+                    const mergedAns = mergeAnswersWithPriority(existingAns, incomingAns, correctMap);
+                    localStorage.setItem(keyAns, JSON.stringify(mergedAns));
+                    answersCount += Object.keys(mergedAns).length;
+
+                    for (const qId in mergedAns) {
+                        const correctOpt = correctMap[qId] !== undefined ? correctMap[qId] : correctMap[String(qId)];
+                        if (correctOpt !== undefined) {
+                            if (Number(mergedAns[qId]) === Number(correctOpt)) {
+                                correctCount++;
+                            } else {
+                                incorrectCount++;
+                            }
+                        }
+                    }
+
+                    const incomingBm = incomingByBankBm[bankId] || new Set();
+                    const existingBmList = JSON.parse(localStorage.getItem(keyBm) || '[]');
+                    const mergedBmSet = new Set();
+                    existingBmList.forEach(id => mergedBmSet.add(String(id)));
+                    incomingBm.forEach(id => mergedBmSet.add(String(id)));
+
+                    const arrBm = Array.from(mergedBmSet);
+                    localStorage.setItem(keyBm, JSON.stringify(arrBm));
+                    bookmarksCount += arrBm.length;
+                }
+
+                if (Array.isArray(payload.cq) && payload.cq.length > 0) {
+                    try {
+                        const existCustom = JSON.parse(localStorage.getItem('ai_quiz_custom_q') || '[]');
+                        const existIds = new Set(existCustom.map(q => q.id));
+                        payload.cq.forEach(q => {
+                            if (!existIds.has(q.id)) {
+                                existCustom.push(q);
+                                existIds.add(q.id);
+                            }
+                        });
+                        localStorage.setItem('ai_quiz_custom_q', JSON.stringify(existCustom));
+                    } catch(e) {}
+                }
+
+                return { answersCount, bookmarksCount, correctCount, incorrectCount };
+            }
+
+            // FORMATO BACKUP (.json con store)
+            if (payload.app && payload.store) {
+                if (payload.activeMateria) localStorage.setItem('ai_quiz_active_materia', payload.activeMateria);
+                if (payload.activeBank) localStorage.setItem('ai_quiz_active_bank', payload.activeBank);
+
+                for (const k in payload.store) {
+                    const incomingVal = payload.store[k];
+                    if (k.startsWith('ai_quiz_ans_')) {
+                        const existingVal = localStorage.getItem(k);
+                        const existingObj = existingVal ? JSON.parse(existingVal) : {};
+                        const incomingObj = JSON.parse(incomingVal || '{}');
+                        const mergedObj = mergeAnswersWithPriority(existingObj, incomingObj, correctMap);
+                        localStorage.setItem(k, JSON.stringify(mergedObj));
+                        answersCount += Object.keys(mergedObj).length;
+                        for (const qId in mergedObj) {
+                            const correctOpt = correctMap[qId] !== undefined ? correctMap[qId] : correctMap[String(qId)];
+                            if (correctOpt !== undefined) {
+                                if (Number(mergedObj[qId]) === Number(correctOpt)) correctCount++;
+                                else incorrectCount++;
+                            }
+                        }
+                    } else if (k.startsWith('ai_quiz_bm_')) {
+                        const existingVal = localStorage.getItem(k);
+                        const existingArr = existingVal ? JSON.parse(existingVal) : [];
+                        const incomingArr = JSON.parse(incomingVal || '[]');
+                        const mergedSet = new Set();
+                        existingArr.forEach(id => mergedSet.add(String(id)));
+                        incomingArr.forEach(id => mergedSet.add(String(id)));
+                        const arr = Array.from(mergedSet);
+                        localStorage.setItem(k, JSON.stringify(arr));
+                        bookmarksCount += arr.length;
+                    } else {
+                        localStorage.setItem(k, incomingVal);
+                    }
+                }
+                return { answersCount, bookmarksCount, correctCount, incorrectCount };
+            }
+
+            throw new Error("El archivo o código no contiene datos de progreso válidos.");
+        }
+
+        function refreshStateAfterImport() {
+            activeMateria = localStorage.getItem('ai_quiz_active_materia') || activeMateria;
+            activeBank = localStorage.getItem('ai_quiz_active_bank') || activeBank;
+            
+            if (quizData && quizData[activeMateria]) {
+                dataBancos = quizData[activeMateria];
+            }
+            var materiaSel = document.getElementById('materiaSelect');
+            if (materiaSel) materiaSel.value = activeMateria;
+
+            buildBankButtons();
+            selectBank(activeBank, true);
+        }
+
+        function checkIncomingSync() {
+            let rawInput = null;
+            if (window.location.hash && window.location.hash.includes('sync=')) {
+                rawInput = window.location.hash;
+            } else if (window.location.search && window.location.search.includes('sync=')) {
+                rawInput = window.location.search;
+            }
+
+            if (!rawInput) return;
+
+            try {
+                const payload = extractSyncPayload(rawInput);
+                const stats = importQuizData(payload, 'merge');
+                if (window.history && window.history.replaceState) {
+                    window.history.replaceState(null, '', window.location.pathname);
+                }
+                refreshStateAfterImport();
+                setTimeout(() => {
+                    showToast(`🎉 ¡Progreso sincronizado! ${stats.correctCount} aciertos, ${stats.incorrectCount} errores y ${stats.bookmarksCount} dudas.`);
+                    if (sound && sound.playCorrect) sound.playCorrect();
+                }, 400);
+            } catch (err) {
+                console.error("Error al procesar sincronización entrante:", err);
+            }
+        }
+
+        // DOM Elements del Modal de Sincronización
+        const syncModal = document.getElementById('syncModal');
+        const openSyncModalBtn = document.getElementById('openSyncModalBtn');
+        const closeSyncModalBtn = document.getElementById('closeSyncModalBtn');
+        const syncStatsSummary = document.getElementById('syncStatsSummary');
+        const syncMagicUrlInput = document.getElementById('syncMagicUrlInput');
+        const copyMagicUrlBtn = document.getElementById('copyMagicUrlBtn');
+        const copySuccessMsg = document.getElementById('copySuccessMsg');
+        const syncDirectInput = document.getElementById('syncDirectInput');
+        const btnApplyDirectSync = document.getElementById('btnApplyDirectSync');
+        const syncResultBanner = document.getElementById('syncResultBanner');
+        const downloadBackupBtn = document.getElementById('downloadBackupBtn');
+        const uploadBackupInput = document.getElementById('uploadBackupInput');
+
+        let currentCompressedCode = '';
+
+        if (openSyncModalBtn) {
+            openSyncModalBtn.addEventListener('click', () => {
+                saveState();
+                const payload = exportAllQuizData();
+                const jsonStr = JSON.stringify(payload);
+                currentCompressedCode = compressPayload(jsonStr);
+
+                const stats = countStoredProgress();
+                syncStatsSummary.textContent = `${stats.totalAns} respuestas (${stats.totalCorrect} aciertos · ${stats.totalIncorrect} fallos) · ${stats.totalBm} marcadas con duda`;
+
+                let baseUrl = window.location.href.split('#')[0].split('?')[0];
+                const magicUrl = baseUrl + '#sync=' + currentCompressedCode;
+                syncMagicUrlInput.value = magicUrl;
+
+                if (copySuccessMsg) copySuccessMsg.classList.add('hidden');
+                if (syncResultBanner) {
+                    syncResultBanner.classList.add('hidden');
+                    syncResultBanner.innerHTML = '';
+                }
+                if (syncDirectInput) syncDirectInput.value = '';
+
+                syncModal.classList.remove('hidden');
+                if (sound && sound.playClick) sound.playClick();
+            });
+        }
+
+        if (closeSyncModalBtn) {
+            closeSyncModalBtn.addEventListener('click', () => {
+                syncModal.classList.add('hidden');
+            });
+        }
+
+        if (syncModal) {
+            syncModal.addEventListener('click', (e) => {
+                if (e.target === syncModal) {
+                    syncModal.classList.add('hidden');
+                }
+            });
+        }
+
+        function copyToClipboard(text, onSuccess) {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(text).then(onSuccess).catch(() => fallbackCopy(text, onSuccess));
+            } else {
+                fallbackCopy(text, onSuccess);
+            }
+        }
+
+        function fallbackCopy(text, onSuccess) {
+            const ta = document.createElement('textarea');
+            ta.value = text;
+            ta.style.position = 'fixed';
+            ta.style.opacity = '0';
+            document.body.appendChild(ta);
+            ta.select();
+            try {
+                document.execCommand('copy');
+                if (onSuccess) onSuccess();
+            } catch(e) {
+                alert("Por favor copia manualmente el texto seleccionado.");
+            }
+            document.body.removeChild(ta);
+        }
+
+        if (copyMagicUrlBtn) {
+            copyMagicUrlBtn.addEventListener('click', () => {
+                copyToClipboard(syncMagicUrlInput.value, () => {
+                    if (copySuccessMsg) copySuccessMsg.classList.remove('hidden');
+                    showToast("🔗 ¡Enlace copiado! Envíatelo a tu celular y ábrelo o pégalo en la opción 1.");
+                    if (sound && sound.playClick) sound.playClick();
+                });
+            });
+        }
+
+        if (btnApplyDirectSync) {
+            btnApplyDirectSync.addEventListener('click', () => {
+                const text = syncDirectInput ? syncDirectInput.value.trim() : '';
+                if (!text) {
+                    alert("Por favor pega el enlace de WhatsApp o el código en el cuadro de texto.");
+                    return;
+                }
+                try {
+                    const payload = extractSyncPayload(text);
+                    const stats = importQuizData(payload, 'merge');
+                    refreshStateAfterImport();
+
+                    if (syncResultBanner) {
+                        syncResultBanner.className = "p-3.5 rounded-xl text-xs font-medium bg-emerald-950/90 border-2 border-emerald-500 text-emerald-100 block space-y-2 shadow-lg shadow-emerald-950/50";
+                        syncResultBanner.innerHTML = `
+                            <div class="font-bold text-emerald-300 text-sm flex items-center gap-1.5">
+                                <span>🎉 ¡Sincronización Exitosa!</span>
+                            </div>
+                            <div class="grid grid-cols-3 gap-2 pt-1 text-center">
+                                <div class="bg-emerald-900/40 p-2 rounded-lg border border-emerald-700/50">
+                                    <span class="block text-lg font-black text-emerald-300">${stats.correctCount}</span>
+                                    <span class="text-[10px] uppercase tracking-wider text-emerald-200/80">✅ Aciertos</span>
+                                </div>
+                                <div class="bg-rose-950/60 p-2 rounded-lg border border-rose-700/50">
+                                    <span class="block text-lg font-black text-rose-300">${stats.incorrectCount}</span>
+                                    <span class="text-[10px] uppercase tracking-wider text-rose-200/80">❌ A Repasar</span>
+                                </div>
+                                <div class="bg-amber-950/60 p-2 rounded-lg border border-amber-700/50">
+                                    <span class="block text-lg font-black text-amber-300">${stats.bookmarksCount}</span>
+                                    <span class="text-[10px] uppercase tracking-wider text-amber-200/80">🔖 Dudas</span>
+                                </div>
+                            </div>
+                            <div class="pt-1 text-[11px] text-slate-300 text-center">
+                                Total respuestas fusionadas: <strong class="text-white">${stats.answersCount}</strong>
+                            </div>
+                        `;
+                    }
+                    showToast(`🎉 ¡Sincronizado! ${stats.correctCount} aciertos, ${stats.incorrectCount} errores y ${stats.bookmarksCount} dudas.`);
+                    if (sound && sound.playCorrect) sound.playCorrect();
+
+                    setTimeout(() => {
+                        syncModal.classList.add('hidden');
+                    }, 2400);
+                } catch(err) {
+                    if (syncResultBanner) {
+                        syncResultBanner.className = "p-3 rounded-xl text-xs font-semibold bg-rose-950 border border-rose-500 text-rose-200 block";
+                        syncResultBanner.textContent = "❌ " + err.message;
+                    }
+                    alert("Error: " + err.message);
+                }
+            });
+        }
+
+        if (downloadBackupBtn) {
+            downloadBackupBtn.addEventListener('click', () => {
+                saveState();
+                const payload = exportAllQuizData();
+                const str = JSON.stringify(payload, null, 2);
+                const blob = new Blob([str], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                const dateStr = new Date().toISOString().slice(0, 10);
+                a.href = url;
+                a.download = `progreso_design_thinking_${dateStr}.json`;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+                showToast("💾 ¡Archivo de respaldo .json descargado!");
+                if (sound && sound.playClick) sound.playClick();
+            });
+        }
+
+        if (uploadBackupInput) {
+            uploadBackupInput.addEventListener('change', (e) => {
+                const file = e.target.files && e.target.files[0];
+                if (!file) return;
+                const reader = new FileReader();
+                reader.onload = function(evt) {
+                    try {
+                        const parsed = JSON.parse(evt.target.result);
+                        const stats = importQuizData(parsed, 'merge');
+                        refreshStateAfterImport();
+                        syncModal.classList.add('hidden');
+                        showToast(`🎉 ¡Respaldo cargado! (${stats.correctCount} aciertos, ${stats.incorrectCount} errores, ${stats.bookmarksCount} dudas)`);
+                        if (sound && sound.playCorrect) sound.playCorrect();
+                    } catch(err) {
+                        alert("Error al leer el archivo de respaldo: " + err.message);
+                    }
+                    uploadBackupInput.value = '';
+                };
+                reader.readAsText(file);
+            });
+        }
+
+        // Inicializar al cargar
+        function startApp() {
+            loadData();
+            checkIncomingSync();
+        }
+
+        if (document.readyState === 'loading') {
+            window.addEventListener('DOMContentLoaded', startApp);
+        } else {
+            startApp();
+        }
+
+        window.addEventListener('hashchange', () => {
+            checkIncomingSync();
+        });
+    </script>
+</body>
+
+</html>

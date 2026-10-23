@@ -1,0 +1,607 @@
+{
+  "informacion_general": {
+    "titulo": "Examen integral de Emprendimiento Tecnológico - Unificado (Preguntas y Respuestas)",
+    "estudiante": "Paul Rosero",
+    "version": "B",
+    "fecha_examen": "28/09/2026",
+    "resumen_calificaciones": {
+      "parte_1": "9/20",
+      "parte_2": "8/10",
+      "parte_3": "4.5/8",
+      "parte_4": "7.5/12",
+      "puntaje_examen": "29/50",
+      "ajuste_docente": "+4",
+      "nota_final": "33/50"
+    }
+  },
+  "seccion_I_teoria_aplicada": [
+    {
+      "id": "I.1",
+      "enunciado": "Un equipo presenta cuatro enunciados sobre el comedor de una universidad: (1) un sistema de pedido anticipado por WhatsApp; (2) los estudiantes pierden 25 minutos en la fila; (3) la prueba con 60 estudiantes bajó la espera a 6 minutos; (4) la caja registra 40 almuerzos menos los días de fila larga y el administrador ya paga un cajero extra. ¿Qué enunciado corresponde a la oportunidad, y por qué?",
+      "opciones": [
+        "a) El (4): une frecuencia, pérdida verificada y un gasto que ya existe.",
+        "b) El (2): describe una brecha frecuente que existe aunque nadie la resuelva.",
+        "c) El (1): es la apuesta concreta que convierte el problema en negocio.",
+        "d) El (3): demuestra con datos de la prueba que existe un mercado dispuesto."
+      ],
+      "tu_respuesta": "A",
+      "correcta": "A",
+      "resultado": "V"
+    },
+    {
+      "id": "I.2",
+      "enunciado": "Cada fin de quimestre, el técnico de un colegio pasa la tarde entera consolidando las notas de cinco cursos, porque cada docente usa una plantilla distinta. ¿Qué tipo de problema predomina y con qué métrica se demostraría la mejora?",
+      "opciones": [
+        "a) De información; días de anticipación con que el rector conoce las notas.",
+        "b) Financiero; dólares en horas extra que paga el colegio al técnico.",
+        "c) Emocional; porcentaje de docentes que adoptan la plantilla común.",
+        "d) Funcional; horas que toma consolidar las notas de un quimestre."
+      ],
+      "tu_respuesta": "D",
+      "correcta": "D",
+      "resultado": "V"
+    },
+    {
+      "id": "I.3",
+      "enunciado": "Cadena de un equipo. Síntoma: los talleres instalan repuestos equivocados. ¿Por qué? El ayudante compra lo que cree que se necesita. ¿Por qué? Los ayudantes son descuidados. ¿Por qué? Son jóvenes y no tienen experiencia. ¿Qué juicio es el más acertado?",
+      "opciones": [
+        "a) Es sólida: llega a una causa personal profunda en pocos pasos.",
+        "b) Falla en el segundo porqué: culpa a la persona y no revisa el proceso.",
+        "c) Falla en el primer porqué: el síntoma elegido no es el correcto.",
+        "d) Es sólida, aunque bastaba con detenerse en el primer porqué."
+      ],
+      "tu_respuesta": "A",
+      "correcta": "A",
+      "resultado": "V"
+    },
+    {
+      "id": "I.4",
+      "enunciado": "Plataforma de tareas para un colegio particular: los estudiantes la usan, la coordinadora académica propone al rector qué herramienta contratar, el rector firma y los docentes pueden negarse a subir las tareas. El equipo entrevistó a 15 estudiantes y 11 dijeron «la usaría». ¿Qué conclusión es la más defendible?",
+      "opciones": [
+        "a) Validaron la demanda, porque 11 de 15 supera la regla de 10 de 16.",
+        "b) Deben entrevistar solo al rector, porque él firma la compra.",
+        "c) Conocen al usuario, pero todavía no a quienes recomiendan y pagan.",
+        "d) Deben encuestar a más estudiantes para dar peso estadístico al dato."
+      ],
+      "tu_respuesta": "A",
+      "correcta": "A",
+      "resultado": "V"
+    },
+    {
+      "id": "I.5",
+      "enunciado": "En una cadena de farmacias, las cajeras usarán el sistema de turnos. La jefa de talento humano dice: «Yo comparo proveedores y se los propongo a la gerente; la última vez aceptó mi recomendación sin cambios». El contador externo revisa las facturas. Antes de preparar la propuesta, ¿a quién conviene entrevistar primero?",
+      "opciones": [
+        "a) A la jefa de talento humano, que en la práctica decide.",
+        "b) A la gerente, porque tiene el presupuesto y la firma final.",
+        "c) A más cajeras, porque la usuaria define la adopción.",
+        "d) Al contador externo, porque aprueba el pago de cada factura."
+      ],
+      "tu_respuesta": "B",
+      "correcta": "B",
+      "resultado": "V"
+    },
+    {
+      "id": "I.6",
+      "enunciado": "Un equipo vendió su servicio a 25 talleres usando el mismo guion y con un ciclo de venta de una semana. Ahora quiere invertir en anuncios para llegar a 300 talleres. Según Blank, ¿qué afirmación es correcta?",
+      "opciones": [
+        "a) Sigue en validación: 25 ventas no prueban una venta repetible.",
+        "b) Sigue en descubrimiento: debe volver a entrevistar a los usuarios.",
+        "c) Está en creación de clientes: busca generar demanda con un canal.",
+        "d) Está en construcción de la empresa: toca organizar las áreas."
+      ],
+      "tu_respuesta": "C",
+      "correcta": "C",
+      "resultado": "V"
+    },
+    {
+      "id": "I.7",
+      "enunciado": "Un equipo quiere saber si los estudiantes se inscribirían en un curso corto de Excel para el trabajo. ¿Qué plan respeta la forma en que Lean Startup planifica un experimento?",
+      "opciones": [
+        "a) Definir qué dato cambiaría el rumbo, fijar el umbral y armar lo mínimo.",
+        "b) Grabar el curso completo, medir cuántos se inscriben y decidir luego qué aprender.",
+        "c) Contar cuántos estudiantes hay, grabar el curso y escuchar comentarios.",
+        "d) Grabar y medir a la vez, y fijar el umbral según los primeros datos."
+      ],
+      "tu_respuesta": "A",
+      "correcta": "A",
+      "resultado": "V"
+    },
+    {
+      "id": "I.8",
+      "enunciado": "«Los dueños de peluquerías quieren modernizarse, según lo que observamos en redes sociales». ¿Qué diagnóstico QRST es el correcto?",
+      "opciones": [
+        "a) Falla Q y S, pero es comprobable porque cita una fuente observada.",
+        "b) Falla solo R: modernizarse no es relevante para una peluquería.",
+        "c) Cumple las cuatro, porque se basa en la observación de un canal real.",
+        "d) Falla Q, S y T: no hay número, actor preciso ni método."
+      ],
+      "tu_respuesta": "D",
+      "correcta": "D",
+      "resultado": "V"
+    },
+    {
+      "id": "I.9",
+      "enunciado": "Cuatro hipótesis de un equipo que trabaja con consultorios dentales. ¿Cuál es de ecosistema?",
+      "opciones": [
+        "a) La asistente elige el software y la odontóloga solo firma la compra.",
+        "b) La asistente dedica una hora diaria a confirmar las citas por teléfono.",
+        "c) La asistente valora terminar la jornada sin llamadas nonfinitas."
+      ],
+      "tu_respuesta": "B",
+      "correcta": "B",
+      "resultado": "V"
+    },
+    {
+      "id": "I.10",
+      "enunciado": "Un equipo describe el «trabajo» (job) de una madre que sigue el grupo de WhatsApp del curso de su hijo. ¿Qué formulación respeta mejor Jobs to Be Done?",
+      "opciones": [
+        "a) Recibir los avisos del colegio en una aplicación ordenada por tema.",
+        "b) Contar con un resumen diario de mensajes generado automáticamente.",
+        "c) Saber qué debe llevar su hijo mañana sin leer todo el chat.",
+        "d) Dejar de usar el grupo de WhatsApp del curso para temas escolares."
+      ],
+      "tu_respuesta": "B",
+      "correcta": "B",
+      "resultado": "X",
+      "nota": "El estudiante marcó la misma opción que la correcta, pero el sistema/profesor la calificó como incorrecta (X)."
+    },
+    {
+      "id": "I.11",
+      "enunciado": "Perfil de un docente tutor. Dificultad: copia a mano las notas de cinco plantillas a una sola. Beneficio que espera: quedar bien en la junta de curso. ¿Qué elemento del mapa de valor es un aliviador de dificultad que encaja con ese perfil?",
+      "opciones": [
+        "a) Generar un resumen visual para presentarlo en la junta de curso.",
+        "b) Unir las cinco plantillas en una sola matriz sin copiar.",
+        "c) Enviar recordatorios de las fechas de entrega de notas.",
+        "d) Guardar una copia de seguridad de las notas cada semana."
+      ],
+      "tu_respuesta": "A",
+      "correcta": "A",
+      "resultado": "X"
+    },
+    {
+      "id": "I.12",
+      "enunciado": "Un equipo ya confirmó que los estudiantes buscan tutorías antes de los exámenes. Su duda ahora es si entienden, sin ayuda, cómo reservar una tutoría en tres pantallas. Tiene 10 días y ningún presupuesto. ¿Qué PMV responde mejor esa duda?",
+      "opciones": [
+        "a) Coordinar a mano, por WhatsApp, las tutorías de diez estudiantes.",
+        "b) Publicar una página con un botón «quiero reservar» y contar clics.",
+        "c) Ofrecer una preventa del semestre con descuento antes de construir.",
+        "d) Simular las tres pantallas en Figma y observarlos sin darles ayuda."
+      ],
+      "tu_respuesta": "D",
+      "correcta": "D",
+      "resultado": "X"
+    },
+    {
+      "id": "I.13",
+      "enunciado": "Resultados de un PMV. Cohorte 1: 12 comerciantes empiezan la semana 1 y 6 vuelven en la semana 2. Cohorte 2: 8 comerciantes empiezan la semana 3 y 6 vuelven en la semana 4. Los usuarios activos se mantuvieron en 6. ¿Qué lectura es la correcta?",
+      "opciones": [
+        "a) El producto no mejora, porque los activos siguen siendo 6.",
+        "b) La retención bajó: 12 de 20 es el 60 % en conjunto.",
+        "c) La retención subió del 50 % al 75 %; los activos no crecieron.",
+        "d) No se puede comparar, porque las cohortes tienen distinto tamaño."
+      ],
+      "tu_respuesta": "A",
+      "correcta": "A",
+      "resultado": "X"
+    },
+    {
+      "id": "I.14",
+      "enunciado": "Tres problemas de una ferretería. P1: actualizar la foto de un producto, una vez al mes, 5 minutos. P2: cuadrar el inventario, todas las noches, 2 horas y unos 30 dólares de pérdida. P3: reponer una vitrina rota, una vez cada tres años, 600 dólares. En la matriz frecuencia × intensidad:",
+      "opciones": [
+        "a) P1 ignorar, P2 zona de oro y P3 emergencia.",
+        "b) P1 molestia crónica, P2 emergencia y P3 zona de oro.",
+        "c) P1 ignorar, P2 molestia crónica y P3 emergencia.",
+        "d) P1 emergencia, P2 zona de oro y P3 ignorar."
+      ],
+      "tu_respuesta": "D",
+      "correcta": "D",
+      "resultado": "X"
+    },
+    {
+      "id": "I.15",
+      "enunciado": "Tras buscar solo en Google y en español, un equipo concluye: «No existe nada parecido en el mercado». Según el curso, ¿qué lectura es la más defendible?",
+      "opciones": [
+        "a) Es la mejor señal: tendrán el mercado para ellos solos al lanzar.",
+        "b) Es mala señal: o no buscaron bien, o a nadie con dinero le importa eso.",
+        "c) Es buena señal si registran la marca antes de que alguien los copie.",
+        "d) Es neutra: la competencia importa recién cuando el producto existe."
+      ],
+      "tu_respuesta": "B",
+      "correcta": "B",
+      "resultado": "X"
+    },
+    {
+      "id": "I.16",
+      "enunciado": "Un equipo tiene 16 entrevistas y 40 encuestas. La encuesta dice que el 70 % «usaría la app»; en las entrevistas, solo 5 de 16 mostraron su tiempo de cierre de 6 a 2 horas. ¿Qué conclusión es la correcta?",
+      "opciones": [
+        "a) Pesa más la encuesta, porque tiene más del doble de respuestas.",
+        "b) Se promedian ambos resultados para estimar la demanda real.",
+        "c) Se descarta la entrevista, porque su muestra es demasiado pequeña.",
+        "d) Pesa más la entrevista: la encuesta midió intención y no una conducta."
+      ],
+      "tu_respuesta": "B",
+      "correcta": "B",
+      "resultado": "X"
+    },
+    {
+      "id": "I.17",
+      "enunciado": "Un servicio cobra 15 dólares por taller al mes y cada taller le cuesta 3 dólares en mensajes. El servidor cuesta 40 dólares al mes y el equipo quiere además pagarse 140 dólares mensuales. ¿Cuántos talleres necesita para cubrir todos esos costos?",
+      "opciones": [
+        "a) 12",
+        "b) 15",
+        "c) 18",
+        "d) 60"
+      ],
+      "tu_respuesta": "A",
+      "correcta": "A",
+      "resultado": "X"
+    },
+    {
+      "id": "I.18",
+      "enunciado": "Los cinco docentes que probaron una plantilla bajaron su tiempo de cierre de 6 a 2 horas. Eran los cinco que se ofrecieron como voluntarios y los que más usan Excel en el colegio. ¿Qué conclusión es la más defendible?",
+      "opciones": [
+        "a) La plantilla reduce el cierre en un 67 %, según los datos del piloto.",
+        "b) La experiencia con Excel explica la baja, así que la plantilla no sirvió.",
+        "c) Hubo una baja, pero puede deberse al perfil de los cinco voluntarios.",
+        "d) El dato no sirve, porque cinco docentes no son una muestra válida."
+      ],
+      "tu_respuesta": "A",
+      "correcta": "A",
+      "resultado": "X"
+    },
+    {
+      "id": "I.19",
+      "enunciado": "Un equipo quiere apoyarse en la tendencia de la inteligencia artificial para su proyecto de repuestos. Antes de afirmar que hay una oportunidad, ¿qué paso es el más necesario?",
+      "opciones": [
+        "a) Elegir el modelo de inteligencia artificial más avanzado del mercado.",
+        "b) Mostrar qué tarea del mecánico cambia y con qué evidencia.",
+        "c) Citar las cifras de crecimiento mundial del mercado de la IA.",
+        "d) Comparar el costo mensual de tres proveedores de modelos de IA."
+      ],
+      "tu_respuesta": "B",
+      "correcta": "B",
+      "resultado": "X"
+    },
+    {
+      "id": "I.20",
+      "enunciado": "En un PMI sobre la idea «cobrar la entrega de repuestos con QR», el equipo escribió en la columna M (negativo): «¿aceptarán los dueños pagar por adelantado?». ¿Qué corrección es la adecuada?",
+      "opciones": [
+        "a) Dejarla en M: toda duda sobre el pago es un riesgo del proyecto.",
+        "b) Moverla a P: si aceptan pagar, mejora el flujo de caja.",
+        "c) Sacarla del PMI y llevarla al puntaje de Factible del NUF.",
+        "d) Moverla a I: es una pregunta abierta que merece investigarse en campo."
+      ],
+      "tu_respuesta": "D",
+      "correcta": "D",
+      "resultado": "X"
+    }
+  ],
+  "seccion_II_the_mom_test": {
+    "contexto": "Entrevistas a dueños de talleres mecánicos pequeños sobre la compra de repuestos.",
+    "preguntas": [
+      {
+        "id": "II.1",
+        "enunciado": "Clasifique cada respuesta con una letra: (8 x 0,5). C cumplido, G genérico o hipotético (lo que suele hacer o haría), F pedido de función, P precio hipotético, D dato real del pasado, A abstracción (habla del país o de «todos», no de sí).",
+        "items": [
+          {
+            "numero": 1,
+            "texto": "«Lo que me urge es que la app me muestre el stock de cada tienda.»",
+            "tu_respuesta": "F",
+            "correcta": "F",
+            "resultado": "V"
+          },
+          {
+            "numero": 2,
+            "texto": "«Cuando lo vi ayer en el grupo, dije: esto es lo mejor que he visto.»",
+            "tu_respuesta": "C",
+            "correcta": "C",
+            "resultado": "V"
+          },
+          {
+            "numero": 3,
+            "texto": "«Seguro me ahorraría unos 200 dólares al mes.»",
+            "tu_respuesta": "P",
+            "correcta": "G",
+            "resultado": "X"
+          },
+          {
+            "numero": 4,
+            "texto": "«El jueves cerré el taller dos horas para ir a la avenida América por un rodamiento.»",
+            "tu_respuesta": "D",
+            "correcta": "D",
+            "resultado": "V"
+          },
+          {
+            "numero": 5,
+            "texto": "«Por algo así pagaría sin problema unos 20 dólares mensuales.»",
+            "tu_respuesta": "P",
+            "correcta": "P",
+            "resultado": "V"
+          },
+          {
+            "numero": 6,
+            "texto": "«Los mecánicos ecuatorianos somos desorganizados; así somos.»",
+            "tu_respuesta": "A",
+            "correcta": "A",
+            "resultado": "V"
+          },
+          {
+            "numero": 7,
+            "texto": "«Normalmente pido todo por WhatsApp y llega el mismo día.»",
+            "tu_respuesta": "G",
+            "correcta": "G",
+            "resultado": "V"
+          },
+          {
+            "numero": 8,
+            "texto": "«En enero le pagué 60 dólares a un mensajero por traerme tres repuestos.»",
+            "tu_respuesta": "D",
+            "correcta": "D",
+            "resultado": "V"
+          }
+        ]
+      },
+      {
+        "id": "II.2",
+        "enunciado": "Cada cierre de entrevista, ¿qué compromiso es? M dinero, T tiempo, R reputación, N ninguno (cumplido o largas). (4 × 0,5)",
+        "items": [
+          {
+            "numero": 1,
+            "texto": "«Te llevo el viernes a la reunión de la asociación de mecánicos y te presento.»",
+            "tu_respuesta": "R",
+            "correcta": "R",
+            "resultado": "V"
+          },
+          {
+            "numero": 2,
+            "texto": "«Te firmo ahora una orden de compra por 60 dólares para el piloto.»",
+            "tu_respuesta": "M",
+            "correcta": "M",
+            "resultado": "V"
+          },
+          {
+            "numero": 3,
+            "texto": "«Cuando esté lista, seguro te la compro.»",
+            "tu_respuesta": "N",
+            "correcta": "N",
+            "resultado": "V"
+          },
+          {
+            "numero": 4,
+            "texto": "«Quédate mañana toda la mañana en el taller y mira cómo pedimos los repuestos.»",
+            "tu_respuesta": "T",
+            "correcta": "T",
+            "resultado": "V"
+          }
+        ]
+      },
+      {
+        "id": "II.3",
+        "enunciado": "Cada pregunta tiene un defecto. Nómbrelo y reescriba la pregunta para que cumpla el Mom Test: (2 × 1). (a) \"¿Cuándo fue la última vez que perdió un cliente por no tener el repuesto a tiempo?\" (b) \"Del 1 al 5, ¿qué tan grave es para usted conseguir repuestos?\"",
+        "tu_respuesta": "Pregunta abierta (ver retroalimentación)",
+        "puntaje": "1,5 / 2",
+        "retroalimentacion_profesor": "Muy bien: detectó y reescribió sobre la última vez. (a) Detectó bien visto (imponía la causa), pero la reescritura sigue suponiendo que perdía clientes. Esperado: (a) Supone que perdía clientes: \"Clemente que podrá lo último vez que le falló un repuesto\". (b) Pide una opinión en escala. (b) Muy bien: detectó y reescribió sobre la última vez. (a) Detectó bien visto (imponía la causa), pero la reescritura sigue suponiendo que perdía clientes. Esperado: (a) Supone que perdía clientes: \"Clemente que podrá lo último vez que le falló un repuesto\". (b) Pide una opinión en escala."
+      },
+      {
+        "id": "II.4",
+        "enunciado": "Con la regla del curso, ¿cómo se cuenta cada entrevista? CF confirma · RF refuta · NC no concluyente. (4 × 0,5)",
+        "items": [
+          {
+            "numero": 1,
+            "texto": "Cuando el entrevistador le preguntó si pierde tiempo buscando repuestos, dijo que sí y mostró los chats con las tiendas.",
+            "tu_respuesta": "CF",
+            "correcta": "NC",
+            "resultado": "X"
+          },
+          {
+            "numero": 2,
+            "texto": "Contó, sin que se lo preguntaran, que cierra el taller para comprar repuestos y mostró el chat del jueves. Dijo que no pagaría nada por una app.",
+            "tu_respuesta": "RF",
+            "correcta": "RF",
+            "resultado": "V"
+          },
+          {
+            "numero": 3,
+            "texto": "Contó, sin sugerencia, que antes salía a comprar, pero desde marzo un proveedor le entrega en el taller y dice que le basta.",
+            "tu_respuesta": "RF",
+            "correcta": "RF",
+            "resultado": "V"
+          },
+          {
+            "numero": 4,
+            "texto": "Se quejó mucho y calculó que pierde 5 horas semanales, pero no mostró nada: «los chats los tiene mi ayudante».",
+            "tu_respuesta": "NC",
+            "correcta": "NC",
+            "resultado": "V"
+          }
+        ]
+      }
+    ]
+  },
+  "seccion_III_de_cero_a_uno": {
+    "preguntas": [
+      {
+        "id": "III.1",
+        "enunciado": "¿Es progreso vertical (0→1) u horizontal (1→n)? (4 x 0,5)",
+        "items": [
+          {
+            "numero": 1,
+            "texto": "Diagnosticar plagas del cacao con una foto de la hoja, algo que hoy solo hace un agrónomo en visita.",
+            "tu_respuesta": "0->1",
+            "correcta": "0->1",
+            "resultado": "V"
+          },
+          {
+            "numero": 2,
+            "texto": "Traducir y lanzar en Ecuador una plataforma de reservas de restaurantes que triunfa en México.",
+            "tu_respuesta": "0->1",
+            "correcta": "0->1",
+            "resultado": "X"
+          },
+          {
+            "numero": 3,
+            "texto": "Crear el primer historial vehicular del país alimentado por los talleres, donde hoy no existe ninguno.",
+            "tu_respuesta": "0->1",
+            "correcta": "0->1",
+            "resultado": "X"
+          },
+          {
+            "numero": 4,
+            "texto": "Abrir una cadena de 20 cafeterías de especialidad con la misma receta y la misma app.",
+            "tu_respuesta": "1->n",
+            "correcta": "1->n",
+            "resultado": "V"
+          }
+        ]
+      },
+      {
+        "id": "III.2",
+        "enunciado": "¿Qué pregunta de Thiel se está haciendo? I ingeniería, M momento, O monopolio, E equipo, D distribución, U durabilidad, S secreto. (4 x 0,5)",
+        "items": [
+          {
+            "numero": 1,
+            "texto": "«Planeamos cubrir las 24 provincias desde el primer mes para no dejar espacio a otros.»",
+            "tu_respuesta": "O",
+            "correcta": "O",
+            "resultado": "V"
+          },
+          {
+            "numero": 2,
+            "texto": "«El producto solo funciona si los tenderos tienen datos móviles, algo que en su barrio todavía no ocurre.»",
+            "tu_respuesta": "I",
+            "correcta": "I",
+            "resultado": "X"
+          },
+          {
+            "numero": 3,
+            "texto": "«Descubrimos que las madres bordan iniciales en cada útil escolar y nadie más lo había notado.»",
+            "tu_respuesta": "S",
+            "correcta": "S",
+            "resultado": "V"
+          },
+          {
+            "numero": 4,
+            "texto": "«Para cerrar cada venta hay que visitar el taller en persona, y el servicio cuesta 4 dólares al mes.»",
+            "tu_respuesta": "M",
+            "correcta": "M",
+            "resultado": "X"
+          }
+        ]
+      },
+      {
+        "id": "III.3",
+        "enunciado": "Un servicio de lavado de zapatos a domicilio que opera solo en Samborondón dice a inversionistas: (1) «competimos en un mercado mundial del calzado de 400.000 millones de dólares»; (2) «somos los únicos que lavan zapatos a domicilio en Samborondón». ¿Qué análisis es el correcto? (1 pt)",
+        "opciones": [
+          "a) (1) es válida y (2) exagera: un nicho tan estrecho oculta la competencia.",
+          "b) (2) es válida y (1) exagera: ser únicos en Samborondón ya es un monopolio defendible.",
+          "c) Ambas son válidas: un nicho único dentro de un gran mercado es el ideal de Thiel.",
+          "d) Ambas distorsionan: (1) exagera con la unión de mercados y (2) con la intersección."
+        ],
+        "tu_respuesta": "C",
+        "correcta": "C",
+        "resultado": "X"
+      },
+      {
+        "id": "III.4",
+        "enunciado": "Una app de cuadre de caja fue la última en entrar al nicho de ferreterías de Cuenca, pero cada ferretería que se une mejora los precios que los proveedores dan a todas. Según De cero a uno, ¿qué la protege mejor? (1 pt)",
+        "opciones": [
+          "a) Haber entrado tarde, cuando el mercado ya estaba educado.",
+          "b) Los efectos de red que genera cada nueva ferretería.",
+          "c) Su precio, que es un 20 % menor que el de la competencia.",
+          "d) Su diseño, que tiene la mejor calificación en la tienda."
+        ],
+        "tu_respuesta": "B",
+        "correcta": "B",
+        "resultado": "V"
+      },
+      {
+        "id": "III.5",
+        "enunciado": "EstudiaYa quiere lanzar en dos meses una app de tutorías para «todos los estudiantes de Latinoamérica». Compite con YouTube y ChatGPT, que son gratis. Su ventaja declarada es «tutores más amables». Conseguir cada alumno le cuesta 12 dólares y cobra 3 dólares al mes. Evalúe el plan con dos de las siete preguntas de Thiel, usando datos del enunciado, y proponga un cambio concreto que se pueda comprobar (2 ptos)",
+        "tu_respuesta": "Pregunta abierta (ver retroalimentación)",
+        "puntaje": "1 / 2",
+        "retroalimentacion_profesor": "Buena primera pregunta con datos (12 dolares, 4 meses). Faltó una segunda bien aplicada y un cambio concreto. Esperado: Ingeniero: motores más amables; frente a la objeción de 'distribución', cuesta 12 y cobra 3, recupera al alumno en 4 meses si no abandona. Monopolio: todo lo contrario. Cambio: estudiantes de un colegio antes de un examen concreto, medir cuántos logran el segundo mes."
+      }
+    ]
+  },
+  "seccion_IV_caso_integrador": {
+    "contexto_caso": {
+      "nombre_proyecto": "TallerYa",
+      "descripcion": "TallerYa atiende la compra de repuestos de talleres mecánicos pequeños de Carapungo (Quito). Hipótesis del equipo: «Creemos que los talleres necesitan una app para conseguir repuestos más fácil». Tiene 300 dólares y cuatro semanas.",
+      "tabla_entrevistas": [
+        {"n": 1, "solo": "S", "mostro": "Chat del jueves con la tienda", "alternativa": "Sale a comprar"},
+        {"n": 2, "solo": "Si", "mostro": "Chat con la tienda", "alternativa": "Sale; no pagaría"},
+        {"n": 3, "solo": "No", "mostro": "Chat, tras la pregunta", "alternativa": "Sale a comprar"},
+        {"n": 4, "solo": "S", "mostro": "Chats con dos tiendas", "alternativa": "Sale a comprar"},
+        {"n": 5, "solo": "No", "mostro": "- («los tiene el ayudante»)", "alternativa": "Manda al ayudante"},
+        {"n": 6, "solo": "Si", "mostro": "Facturas de la semana", "alternativa": "Sale a comprar"},
+        {"n": 7, "solo": "S", "mostro": "Chat con la tienda", "alternativa": "Proveedor entrega; le basta"},
+        {"n": 8, "solo": "SI", "mostro": "Chat con la tienda", "alternativa": "Sale a comprar"},
+        {"n": 9, "solo": "No", "mostro": "Manda a Manda al ayudante", "alternativa": "No Clientes traen repuestos"},
+        {"n": 10, "solo": "", "mostro": "Cuaderno de pedidos", "alternativa": "Sale a comprar"},
+        {"n": 11, "solo": "S", "mostro": "Chat con la tienda", "alternativa": "Sale; ¡me encantó!"},
+        {"n": 12, "solo": "No", "mostro": "Proveedor entrega, le basta", "alternativa": ""},
+        {"n": 13, "solo": "IS", "mostro": "Chat con la tienda", "alternativa": "Manda al ayudante"},
+        {"n": 14, "solo": "No", "mostro": "Chat, tras la pregunta", "alternativa": "Sale a comprar"},
+        {"n": 15, "solo": "No", "mostro": "Proveedor entrega; le basta", "alternativa": ""},
+        {"n": 16, "solo": "Si", "mostro": "Chat con la tienda", "alternativa": "Sale a comprar"}
+      ],
+      "quien_es_quien": "Al ofrecerles el piloto, el mecánico Javier dijo: «Yo digo qué repuesto falta, pero dónde se compra lo ve Patricio». Patricio, el jefe de taller, cambió de tienda el mes pasado; la factura se la pasó al dueño, don Hugo, que la canceló. Luego la señora Carmen, que lleva las cuentas, anuló una compra porque la tienda no daba factura, y esa tienda dejó de venderles.",
+      "mercado": "Las tiendas que entregan en el taller exigen un pedido mínimo de 70 dólares, 10 de los 16 talleres compran menos de 40 dólares por vez. También existen grupos de WhatsApp de mecánicos y Marketplace, gratis. El equipo quiere construir una app para «todos los talleres de Quito»."
+    },
+    "preguntas": [
+      {
+        "id": "IV.1",
+        "enunciado": "Reescriba la hipótesis del equipo para que sea falsable, con la plantilla del curso. (2 ptos)",
+        "tu_respuesta": "Pregunta abierta (ver retroalimentación)",
+        "puntaje": "1,5 / 2",
+        "retroalimentacion_profesor": "Muy buena hipótesis: causa, número y criterio de abandono. Solo cuida que la señal no dependa de tu solución. Ejemplo: \"Creemos que los talleres de Carorongo sin proveedor con entrega pueden variar horas semanales cuando reducimos el tiempo de entrega porque nadie les entrega pedidos pequeños\". Los sobrestimos a los 10 meses 10 de 16 nos muestran su registro de la última semana; si son menos de 7, cambiamos de problema."
+      },
+      {
+        "id": "IV.2",
+        "enunciado": "Identifique al usuario, al decisor, al pagador y a quien puede frenar la compra. (2 ptos)",
+        "tu_respuesta": {
+          "Usuario": "Javier (mecánico)",
+          "Decisor": "Patricio",
+          "Pagador": "Don Hugo (dueño)",
+          "Frena": "Carmen (cuentas)"
+        },
+        "correcta": {
+          "Usuario": "Javier",
+          "Decisor": "Patricio",
+          "Pagador": "Don Hugo",
+          "Frena": "Carmen"
+        },
+        "resultado": "V"
+      },
+      {
+        "id": "IV.3",
+        "enunciado": "(a) ¿Cuántas fichas confirman según la regla del curso? (b) ¿Validada, refutada o pivote? (c) Justifique con dos datos y diga qué queda clavado y qué gira. (2 ptos)",
+        "respuestas_estudiante": {
+          "a": "9",
+          "b": "Pivote"
+        },
+        "respuestas_correctas": {
+          "a": "10",
+          "b": "Validada"
+        },
+        "resultado": "X",
+        "puntaje_parte_c": "0,75 / 1",
+        "retroalimentacion_profesor": "Buenos datos del caso. Lo flojo es el problema: lo que él se está en 16. Ejemplo: Confirmó 9 de 16 en 7 y 9, pívot: 3 tienen proveedor que entrega. Cuando claró el problema, ¿qué segmento queda con proveedor con entrega? El problema que el segmento que queda con proveedor con entrega es el problema. Excelente: Concluye, métrica de comportamiento con número y plazo. Criterio de abandono claro. Esperado: Cerrar el equipo recibir el pedido por WhatsApp y compra y entrega a manos los repuestos a los 5 o 6 talleres durante 2 semanas. Métrica: 4 de 6 repiten el pedido en la semana 2. Plan: la entrega. Abandono: 2 o menos repiten. Tu respuesta no aborda el plan de la rúbrica (buses, tiendas) y no del caso. Esperado: no construir para toda la ciudad. Dominar un nicho (talleres) sin proveedor con entrega de una zona, ser 10 veces mejor en la entrega pequeña y diseñar la distribución (el 'dile' de tomar un nicho (talleres sin proveedor con entrega de una zona, ser 10 veces mejor en la entrega pequeña y diseñar la distribución (el 'dile' de tomar un nicho (talleres sin proveedor con entrega de una zona, ser 10 veces mejor en la entrega pequeña y diseñar la distribución (el 'dile' de tomar un nicho (talleres sin proveedor con entrega de una zona, ser 10 veces mejor en la entrega pequeña y diseñar la distribución (el 'dile' de tomar un nicho (talleres sin proveedor con entrega de una zona, ser 10 veces mejor en la entrega pequeña y diseñar la distribución (el 'dile' de tomar un nicho (talleres sin proveedor con entrega de una zona, ser 10 veces mejor en la entrega pequeña y diseñar la distribución (el 'dile' de tomar un nicho..."
+      },
+      {
+        "id": "IV.4",
+        "enunciado": "Diseñe el PMV de dos semanas: tipo, pregunta riesgosa, con quién, métrica única y criterio de abandono, dentro del presupuesto. (3 ptos)",
+        "tu_respuesta": "Pregunta abierta (ver retroalimentación)",
+        "puntaje": "3 / 3",
+        "retroalimentacion_profesor": "Excelente: Concluye, métrica de comportamiento con número y plazo. Criterio de abandono claro. Esperado: Cerrar el equipo recibir el pedido por WhatsApp y compra y entrega a manos los repuestos a los 5 o 6 talleres durante 2 semanas. Métrica: 4 de 6 repiten el pedido en la semana 2. Plan: la entrega. Abandono: 2 o menos repiten."
+      },
+      {
+        "id": "IV.5",
+        "enunciado": "Con dos ideas de De cero a uno y la evidencia del caso, ¿qué haría usted con el plan de una app para toda la ciudad? Justifique y reconozca un límite. (3 ptos)",
+        "tu_respuesta": "Pregunta abierta (ver retroalimentación)",
+        "puntaje": "0,25 / 3",
+        "retroalimentacion_profesor": "Tu respuesta no aborda el plan de la rúbrica (buses, tiendas) y no del caso. Esperado: no construir para toda la ciudad. Dominar un nicho (talleres) sin proveedor con entrega de una zona, ser 10 veces mejor en la entrega pequeña y diseñar la distribución (el 'dile' de tomar un nicho (talleres sin proveedor con entrega de una zona, ser 10 veces mejor en la entrega pequeña y diseñar la distribución (el 'dile' de tomar un nicho (talleres sin proveedor con entrega de una zona, ser 10 veces mejor en la entrega pequeña y diseñar la distribución (el 'dile' de tomar un nicho (talleres sin proveedor con entrega de una zona, ser 10 veces mejor en la entrega pequeña y diseñar la distribución (el 'dile' de tomar un nicho (talleres sin proveedor con entrega de una zona, ser 10 veces mejor en la entrega pequeña y diseñar la distribución (el 'dile' de tomar un nicho..."
+      }
+    ]
+  }
+}

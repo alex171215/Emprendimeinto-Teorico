@@ -1,0 +1,127 @@
+{
+  "informacion_general": {
+    "titulo": "Calificación y retroalimentación - Examen integral de Emprendimiento Tecnológico",
+    "estudiante": "Paul Rosero",
+    "version": "B",
+    "fecha_examen": "28/09/2026"
+  },
+  "resumen_calificaciones": {
+    "parte_1": "9/20",
+    "parte_2": "8/10",
+    "parte_3": "4.5/8",
+    "parte_4": "7.5/12",
+    "puntaje_examen": "29/50",
+    "ajuste_docente": "+4",
+    "nota_final": "33/50"
+  },
+  "parte_1_teoria_aplicada_seleccion_multiple": [
+    {"item": 1, "tu_respuesta": "A", "correcta": "A", "resultado": "V"},
+    {"item": 2, "tu_respuesta": "D", "correcta": "D", "resultado": "V"},
+    {"item": 3, "tu_respuesta": "A", "correcta": "A", "resultado": "V"},
+    {"item": 4, "tu_respuesta": "A", "correcta": "A", "resultado": "V"},
+    {"item": 5, "tu_respuesta": "B", "correcta": "B", "resultado": "V"},
+    {"item": 6, "tu_respuesta": "C", "correcta": "C", "resultado": "V"},
+    {"item": 7, "tu_respuesta": "A", "correcta": "A", "resultado": "V"},
+    {"item": 8, "tu_respuesta": "D", "correcta": "D", "resultado": "V"},
+    {"item": 9, "tu_respuesta": "B", "correcta": "B", "resultado": "V"},
+    {"item": 10, "tu_respuesta": "B", "correcta": "B", "resultado": "X"},
+    {"item": 11, "tu_respuesta": "A", "correcta": "A", "resultado": "X"},
+    {"item": 12, "tu_respuesta": "D", "correcta": "D", "resultado": "X"},
+    {"item": 13, "tu_respuesta": "A", "correcta": "A", "resultado": "X"},
+    {"item": 14, "tu_respuesta": "D", "correcta": "D", "resultado": "X"},
+    {"item": 15, "tu_respuesta": "B", "correcta": "B", "resultado": "X"},
+    {"item": 16, "tu_respuesta": "B", "correcta": "B", "resultado": "X"},
+    {"item": 17, "tu_respuesta": "A", "correcta": "A", "resultado": "X"},
+    {"item": 18, "tu_respuesta": "A", "correcta": "A", "resultado": "X"},
+    {"item": 19, "tu_respuesta": "B", "correcta": "B", "resultado": "X"},
+    {"item": 20, "tu_respuesta": "D", "correcta": "D", "resultado": "X"}
+  ],
+  "parte_2_the_mom_test": [
+    {"item": "1.1", "tu_respuesta": "F", "correcta": "F", "resultado": "V"},
+    {"item": "1.2", "tu_respuesta": "C", "correcta": "C", "resultado": "V"},
+    {"item": "1.3", "tu_respuesta": "P", "correcta": "G", "resultado": "X"},
+    {"item": "1.4", "tu_respuesta": "D", "correcta": "D", "resultado": "V"},
+    {"item": "1.5", "tu_respuesta": "P", "correcta": "P", "resultado": "V"},
+    {"item": "1.6", "tu_respuesta": "A", "correcta": "A", "resultado": "V"},
+    {"item": "1.7", "tu_respuesta": "G", "correcta": "G", "resultado": "V"},
+    {"item": "1.8", "tu_respuesta": "D", "correcta": "D", "resultado": "V"},
+    {"item": "2.1", "tu_respuesta": "R", "correcta": "R", "resultado": "V"},
+    {"item": "2.2", "tu_respuesta": "M", "correcta": "M", "resultado": "V"},
+    {"item": "2.3", "tu_respuesta": "N", "correcta": "N", "resultado": "V"},
+    {"item": "2.4", "tu_respuesta": "T", "correcta": "T", "resultado": "V"},
+    {"item": "4.1", "tu_respuesta": "CF", "correcta": "NC", "resultado": "X"},
+    {"item": "4.2", "tu_respuesta": "RF", "correcta": "RF", "resultado": "V"},
+    {"item": "4.3", "tu_respuesta": "RF", "correcta": "RF", "resultado": "V"},
+    {"item": "4.4", "tu_respuesta": "NC", "correcta": "NC", "resultado": "V"}
+  ],
+  "parte_3_de_cero_a_uno": [
+    {"item": "1.1", "tu_respuesta": "0->1", "correcta": "0->1", "resultado": "V"},
+    {"item": "1.2", "tu_respuesta": "0->1", "correcta": "0->1", "resultado": "X"},
+    {"item": "1.3", "tu_respuesta": "0->1", "correcta": "0->1", "resultado": "X"},
+    {"item": "1.4", "tu_respuesta": "1->n", "correcta": "1->n", "resultado": "V"},
+    {"item": "2.1", "tu_respuesta": "O", "correcta": "O", "resultado": "V"},
+    {"item": "2.2", "tu_respuesta": "I", "correcta": "I", "resultado": "X"},
+    {"item": "2.3", "tu_respuesta": "S", "correcta": "S", "resultado": "V"},
+    {"item": "2.4", "tu_respuesta": "M", "correcta": "M", "resultado": "X"},
+    {"item": "III.3", "tu_respuesta": "C", "correcta": "C", "resultado": "X"},
+    {"item": "III.4", "tu_respuesta": "B", "correcta": "B", "resultado": "V"}
+  ],
+  "parte_4_caso_integrador": [
+    {"item": "Usuario", "tu_respuesta": "Javier (mecánico)", "correcta": "Javier", "resultado": "V"},
+    {"item": "Decisor", "tu_respuesta": "Patricio", "correcta": "Patricio", "resultado": "V"},
+    {"item": "Pagador", "tu_respuesta": "Don Hugo (dueño)", "correcta": "Don Hugo", "resultado": "V"},
+    {"item": "Frena", "tu_respuesta": "Carmen (cuentas)", "correcta": "Carmen", "resultado": "V"},
+    {"item": "IV.3 a", "tu_respuesta": "9", "correcta": "10", "resultado": "X"},
+    {"item": "IV.3 b", "tu_respuesta": "Pivote", "correcta": "Validada", "resultado": "X"}
+  ],
+  "rubrica_preguntas_abiertas": [
+    {
+      "item": "III.3 - Defecto y pregunta reencuadre",
+      "tu_respuesta": "",
+      "correcta": "",
+      "resultado": "",
+      "puntaje": "1,5 / 2",
+      "comentario_profesor": "Muy bien: detectó y reescribió sobre la última vez. (a) Detectó bien visto (imponía la causa), pero la reescritura sigue suponiendo que perdía clientes. Esperado: (a) Supone que perdía clientes: \"Clemente que podrá lo último vez que le falló un repuesto\". (b) Pide una opinión en escala. (b) Muy bien: detectó y reescribió sobre la última vez. (a) Detectó bien visto (imponía la causa), pero la reescritura sigue suponiendo que perdía clientes. Esperado: (a) Supone que perdía clientes: \"Clemente que podrá lo último vez que le falló un repuesto\". (b) Pide una opinión en escala."
+    },
+    {
+      "item": "III.5 - Thiel y cambio concreto",
+      "tu_respuesta": "",
+      "correcta": "",
+      "resultado": "",
+      "puntaje": "1 / 2",
+      "comentario_profesor": "Buena primera pregunta con datos (12 dolares, 4 meses). Faltó una segunda bien aplicada y un cambio concreto. Esperado: Ingeniero: motores más amables; frente a la objeción de 'distribución', cuesta 12 y cobra 3, recupera al alumno en 4 meses si no abandona. Monopolio: todo lo contrario. Cambio: estudiantes de un colegio antes de un examen concreto, medir cuántos logran el segundo mes."
+    },
+    {
+      "item": "IV.1 - Hipótesis falsable",
+      "tu_respuesta": "",
+      "correcta": "",
+      "resultado": "",
+      "puntaje": "1,5 / 2",
+      "comentario_profesor": "Muy buena hipótesis: causa, número y criterio de abandono. Solo cuida que la señal no dependa de tu solución. Ejemplo: \"Creemos que los talleres de Carorongo sin proveedor con entrega pueden variar horas semanales cuando reducimos el tiempo de entrega porque nadie les entrega pedidos pequeños\". Los sobrestimos a los 10 meses 10 de 16 nos muestran su registro de la última semana; si son menos de 7, cambiamos de problema."
+    },
+    {
+      "item": "IV.3c - Datos y pie clavado",
+      "tu_respuesta": "",
+      "correcta": "",
+      "resultado": "",
+      "puntaje": "0,75 / 1",
+      "comentario_profesor": "Buenos datos del caso. Lo flojo es el problema: lo que él se está en 16. Ejemplo: Confirmó 9 de 16 en 7 y 9, pívot: 3 tienen proveedor que entrega. Cuando claró el problema, ¿qué segmento queda con proveedor con entrega? El problema que el segmento que queda con proveedor con entrega es el problema. Excelente: Concluye, métrica de comportamiento con número y plazo. Criterio de abandono claro. Esperado: Cerrar el equipo recibir el pedido por WhatsApp y compra y entrega a manos los repuestos a los 5 o 6 talleres durante 2 semanas. Métrica: 4 de 6 repiten el pedido en la semana 2. Plan: la entrega. Abandono: 2 o menos repiten. Tu respuesta no aborda el plan de la rúbrica (buses, tiendas) y no del caso. Esperado: no construir para toda la ciudad. Dominar un nicho (talleres) sin proveedor con entrega de una zona, ser 10 veces mejor en la entrega pequeña y diseñar la distribución (el 'dile' de tomar un nicho (talleres sin proveedor con entrega de una zona, ser 10 veces mejor en la entrega pequeña y diseñar la distribución (el 'dile' de tomar un nicho (talleres sin proveedor con entrega de una zona, ser 10 veces mejor en la entrega pequeña y diseñar la distribución (el 'dile' de tomar un nicho (talleres sin proveedor con entrega de una zona, ser 10 veces mejor en la entrega pequeña y diseñar la distribución (el 'dile' de tomar un nicho (talleres sin proveedor con entrega de una zona, ser 10 veces mejor en la entrega pequeña y diseñar la distribución (el 'dile' de tomar un nicho (talleres sin proveedor con entrega de una zona, ser 10 veces mejor en la entrega pequeña y diseñar la distribución (el 'dile' de tomar un nicho..."
+    },
+    {
+      "item": "IV.4 - Diseño del PMV",
+      "tu_respuesta": "",
+      "correcta": "",
+      "resultado": "",
+      "puntaje": "3 / 3",
+      "comentario_profesor": "Excelente: Concluye, métrica de comportamiento con número y plazo. Criterio de abandono claro. Esperado: Cerrar el equipo recibir el pedido por WhatsApp y compra y entrega a manos los repuestos a los 5 o 6 talleres durante 2 semanas. Métrica: 4 de 6 repiten el pedido en la semana 2. Plan: la entrega. Abandono: 2 o menos repiten."
+    },
+    {
+      "item": "IV.5 - Decisión (De cero a uno)",
+      "tu_respuesta": "",
+      "correcta": "",
+      "resultado": "",
+      "puntaje": "0,25 / 3",
+      "comentario_profesor": "Tu respuesta no aborda el plan de la rúbrica (buses, tiendas) y no del caso. Esperado: no construir para toda la ciudad. Dominar un nicho (talleres) sin proveedor con entrega de una zona, ser 10 veces mejor en la entrega pequeña y diseñar la distribución (el 'dile' de tomar un nicho (talleres sin proveedor con entrega de una zona, ser 10 veces mejor en la entrega pequeña y diseñar la distribución (el 'dile' de tomar un nicho (talleres sin proveedor con entrega de una zona, ser 10 veces mejor en la entrega pequeña y diseñar la distribución (el 'dile' de tomar un nicho (talleres sin proveedor con entrega de una zona, ser 10 veces mejor en la entrega pequeña y diseñar la distribución (el 'dile' de tomar un nicho (talleres sin proveedor con entrega de una zona, ser 10 veces mejor en la entrega pequeña y diseñar la distribución (el 'dile' de tomar un nicho..."
+    }
+  ]
+}
