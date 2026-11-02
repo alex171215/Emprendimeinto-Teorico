@@ -1,5 +1,5 @@
 // Banco de Preguntas Design Thinking - Emprendimiento RDA2
-// Libro: Design Thinking - Emprender con Inteligencia Artificial (Francisco Rodríguez Clavijo)
+// Incluye: 40 preguntas del libro + 56 preguntas de Formatos DT PUCE
 window.QUIZ_DATA = {
   "RDA2": [
     {
@@ -611,6 +611,866 @@ window.QUIZ_DATA = {
           ],
           "correct": 2,
           "feedback": "El libro enseña a distinguir entre señales de valor y señales de precio. Los 3 que piden 'más funciones' antes de pagar pueden ser: (a) usuarios que valoran el producto pero no al precio actual (problema de precio) o (b) usuarios que no ven el valor suficiente (problema de propuesta de valor). LTV de los 7 que sí pagan = $20 × 0,75 ÷ 0,08 = $187,50. Ese dato orienta si escalar o ajustar. Construir funciones sin saber la causa es la trampa del ingeniero que salta al código sin investigar."
+        }
+      ]
+    },
+    {
+      "id": "formatos_dt_56",
+      "titulo": "Formatos Design Thinking PUCE (56 Preguntas)",
+      "categorias": [
+        {
+          "value": "all",
+          "label": "Todos los Formatos (56 Preguntas)"
+        },
+        {
+          "value": "incorrect",
+          "label": "Solo Preguntas Erradas"
+        },
+        {
+          "value": "bookmarked",
+          "label": "Solo Preguntas Marcadas (Dudas)"
+        },
+        {
+          "value": "fmt1",
+          "label": "Formato 1 — Guion de entrevista (The Mom Test)"
+        },
+        {
+          "value": "fmt2",
+          "label": "Formato 2 — Mapa de empatia"
+        },
+        {
+          "value": "fmt3",
+          "label": "Formato 3 — Ficha de persona"
+        },
+        {
+          "value": "fmt4",
+          "label": "Formato 4 — Del hallazgo al insight"
+        },
+        {
+          "value": "fmt5",
+          "label": "Formato 5 — JTBD, POV y Como podriamos"
+        },
+        {
+          "value": "fmt6",
+          "label": "Formato 6 — Los cuatro filtros"
+        },
+        {
+          "value": "fmt7",
+          "label": "Formato 7 — Crazy 8s"
+        },
+        {
+          "value": "fmt8",
+          "label": "Formato 8 — SCAMPER"
+        },
+        {
+          "value": "fmt9",
+          "label": "Formato 9 — Matriz impacto-esfuerzo y tres lentes"
+        },
+        {
+          "value": "fmt10",
+          "label": "Formato 10 — Plan de prototipo Mago de Oz"
+        },
+        {
+          "value": "fmt11",
+          "label": "Formato 11 — Registro de prueba con usuarios"
+        },
+        {
+          "value": "fmt12",
+          "label": "Formato 12 — Lean Canvas"
+        },
+        {
+          "value": "fmt13",
+          "label": "Formato 13 — Calculo de precio y LTV/CAC"
+        },
+        {
+          "value": "fmt14",
+          "label": "Formato 14 — Registro de riesgos"
+        }
+      ],
+      "preguntas": [
+        {
+          "id": "F01.01",
+          "category": "fmt1",
+          "categoryName": "Formato 1 — Guion de entrevista (The Mom Test)",
+          "text": "Un equipo que trabaja con veterinarias redacta cuatro preguntas: P1 Usarias una app que avise cuando vacunar a tu mascota; P2 Cuanto gastaste el ultimo ano en visitas de emergencia; P3 No crees que la mayoria de duenos olvida las vacunas; P4 Cuentame la ultima vez que tu mascota tuvo un problema de salud. Segun el Mom Test cuales dos preguntas son correctas?",
+          "options": [
+            "P2 y P4: preguntan por hechos del pasado y datos reales, sin sugerir la respuesta al entrevistado.",
+            "P1 y P3: son directas y obtienen una respuesta clara en poco tiempo de la entrevista realizada.",
+            "P1 y P2: cubren el futuro y el presente, los dos horizontes temporales que el Mom Test valida.",
+            "P3 y P4: la primera contextualiza el problema y la segunda pide un ejemplo concreto del pasado."
+          ],
+          "correct": 0,
+          "feedback": "El Mom Test exige preguntar por hechos del pasado. P2 pide dato economico real. P4 pide hecho especifico del pasado. P1 pregunta por intencion futura y P3 induce la respuesta deseada."
+        },
+        {
+          "id": "F01.02",
+          "category": "fmt1",
+          "categoryName": "Formato 1 — Guion de entrevista (The Mom Test)",
+          "text": "Un equipo pregunta a duenos de lavanderias: Cuando fue la ultima vez que un cliente se quejo porque su ropa salio tarde. El entrevistado responde: El martes pasado una senora llego a las 6pm y su pedido no estaba; tuvimos que devolverle 12 dolares y perdimos al cliente. Segun el Mom Test que tipo de dato es ese?",
+          "options": [
+            "Es dato real del pasado tipo D: muestra conducta verificable, no intencion hipotetica del futuro.",
+            "Es un cumplido tipo C: el entrevistado revela el problema sin que se lo pidan directamente.",
+            "Es precio hipotetico tipo P: cuantifica el costo del problema con un monto especifico y concreto.",
+            "Es abstraccion tipo A: generaliza el comportamiento de todos los duenos de lavanderias del barrio."
+          ],
+          "correct": 0,
+          "feedback": "Un dato tipo D incluye fecha especifica el martes, accion concreta devolucion de 12 dolares y consecuencia real perdida del cliente. A diferencia de una encuesta que mide intencion, este dato evidencia comportamiento ya ocurrido."
+        },
+        {
+          "id": "F01.03",
+          "category": "fmt1",
+          "categoryName": "Formato 1 — Guion de entrevista (The Mom Test)",
+          "text": "Al cierre de una entrevista con la duena de una pasteleria el equipo le dice: Muchas gracias su tiempo fue valioso. La entrevistada responde espontaneamente: Seguro que su app seria muy util para nosotros. Segun el Mom Test que diagnostico es el mas acertado?",
+          "options": [
+            "El equipo revelo su idea antes del cierre y obtuvo un cumplido sin valor; faltaron datos del pasado.",
+            "El cierre fue correcto; el comentario espontaneo de la duena equivale a una intencion de compra real.",
+            "El error fue no preguntar el precio que pagaria; sin ese dato no hay validacion de demanda economica.",
+            "El error fue no grabar la entrevista; los datos verbales sin registro no son verificables como evidencia."
+          ],
+          "correct": 0,
+          "feedback": "El Mom Test advierte: evitar preguntas de intencion futura porque todos dicen que si por cortesia. Seria muy util es un cumplido generico tipo C sin valor. El equipo revelo la idea y recibio validacion social en vez de datos de comportamiento real."
+        },
+        {
+          "id": "F01.04",
+          "category": "fmt1",
+          "categoryName": "Formato 1 — Guion de entrevista (The Mom Test)",
+          "text": "Rosa dice en entrevista: Siempre me pasa que al final del dia no se si gane o perdi plata. El equipo anota esta frase como hallazgo principal. Segun el Formato 1 pregunta 4 del guion que pregunta de seguimiento deberia haber hecho inmediatamente despues?",
+          "options": [
+            "Cuentame la ultima vez que te paso eso que hiciste: pide un hecho concreto del pasado real.",
+            "Usarias una app que te de ese resumen automaticamente: explora la solucion propuesta al usuario.",
+            "Cuantas personas conoces con este problema: estima el tamano del mercado potencial total.",
+            "Pagarias unos 15 dolares al mes por resolverlo: valida la disposicion de pago directamente."
+          ],
+          "correct": 0,
+          "feedback": "La pregunta 4 del guion del Formato 1 pide exactamente: Cuentame la ultima vez que te paso el problema, que hiciste. Obliga al entrevistado a dar un dato del pasado tipo D con fechas, acciones y consecuencias concretas. Las demas preguntan por el futuro o por la solucion, violando el Mom Test."
+        },
+        {
+          "id": "F01.05",
+          "category": "fmt1",
+          "categoryName": "Formato 1 — Guion de entrevista (The Mom Test)",
+          "text": "Un equipo pregunta a un mecanico: Con que frecuencia pierdes tiempo buscando repuestos. El mecanico responde: Siempre; casi todos los dias sale algo. Segun las categorias del Mom Test C G F P D A cual es el diagnostico correcto?",
+          "options": [
+            "Es respuesta generica tipo G: describe lo que suele pasar en general, no un hecho concreto del pasado.",
+            "Es dato real tipo D: la palabra siempre indica una conducta medible y verificable en el tiempo.",
+            "Es un cumplido tipo C: el mecanico valida implicitamente el problema sin comprometerse a nada.",
+            "Es abstraccion tipo A: habla del gremio de mecanicos en general, no de su propia experiencia personal."
+          ],
+          "correct": 0,
+          "feedback": "Tipo G Generico describe lo que suele pasar sin anclar a una fecha, lugar o monto concreto. Casi todos los dias sale algo no dice cuando, que repuesto, ni cuanto costo. Un dato tipo D seria: El jueves sali dos horas al norte por un rodamiento y pague 15 dolares en taxi."
+        },
+        {
+          "id": "F02.01",
+          "category": "fmt2",
+          "categoryName": "Formato 2 — Mapa de empatia",
+          "text": "Un equipo llena el mapa de empatia de la secretaria de un consultorio dental y escribe en la celda HACE: Dice que prefiere confirmar las citas por WhatsApp porque es mas rapido. Que error cometio el equipo y que debia escribir en esa celda?",
+          "options": [
+            "Coloco en HACE una frase del DICE; en HACE va la conducta observada: llama a cada paciente por telefono antes de las 8am.",
+            "El error es usar comillas; en el mapa de empatia las celdas deben ir en tercera persona sin citar al entrevistado.",
+            "La frase es correcta para HACE; la distincion entre DICE y HACE no aplica cuando las dos coinciden exactamente.",
+            "Debio colocarla en PIENSA porque revela una creencia interna sobre su herramienta de trabajo diario."
+          ],
+          "correct": 0,
+          "feedback": "La celda HACE registra conductas observadas directamente, no lo que el entrevistado dice que hace. La frase dice que prefiere es una declaracion DICE. El Formato 2 senala que las contradicciones entre lo que la persona dice y lo que hace son las mejores pistas."
+        },
+        {
+          "id": "F02.02",
+          "category": "fmt2",
+          "categoryName": "Formato 2 — Mapa de empatia",
+          "text": "En el mapa de empatia de Rosa el equipo detecta: en DICE escribe yo controlo mis numeros y en HACE escribe anota ventas en un cuaderno al final del dia sin revisar nunca el total. Segun el Formato 2 que valor tiene esa contradiccion?",
+          "options": [
+            "Es la mejor pista para un insight: revela por que Rosa no usa software aunque quiera control de sus numeros.",
+            "Indica que el equipo entrevisto mal; si hubiese preguntado mejor las celdas no se contradecidrian nunca.",
+            "No es relevante; lo que importa es la celda SIENTE que revela la motivacion emocional real del usuario.",
+            "Significa que Rosa no es el usuario correcto; el sistema deberia dirigirse al contador externo del restaurante."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 2 afirma: Las contradicciones entre lo que dice y lo que hace son las mejores pistas. En Rosa, querer control pero no usar Excel revela el insight: no confia en numeros que no puede revisar linea por linea."
+        },
+        {
+          "id": "F02.03",
+          "category": "fmt2",
+          "categoryName": "Formato 2 — Mapa de empatia",
+          "text": "Cuatro equipos interpretan el Formato 2 al detectar una contradiccion entre DICE y HACE. Cual de los cuatro equipos usa el formato correctamente?",
+          "options": [
+            "El equipo A: anota la contradiccion en el campo Contradicciones y la convierte en entrada para el Formato 4.",
+            "El equipo B: descarta la contradiccion porque el entrevistado pudo haber malintendido la pregunta del guion.",
+            "El equipo C: copia la contradiccion en PIENSA porque refleja la creencia interna mas probable del usuario.",
+            "El equipo D: reporta la contradiccion como error de investigacion que invalida toda la entrevista realizada."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 2 tiene un campo explicito de Contradicciones que encontre. La instruccion es anotarlas ahi y usarlas como entrada para el Formato 4 donde se busca el insight. Descartar las contradicciones vacia el mapa de su valor diagnostico principal."
+        },
+        {
+          "id": "F02.04",
+          "category": "fmt2",
+          "categoryName": "Formato 2 — Mapa de empatia",
+          "text": "El equipo llena la celda SIENTE del mapa de empatia de un contador con: Presionado porque tiene 40 clientes y cada uno usa una plantilla distinta. Otro equipo dice que la causa pertenece a DOLORES no a SIENTE. Cual tiene razon y por que?",
+          "options": [
+            "El segundo equipo: en SIENTE va la emocion presionado; en DOLORES va la causa 40 clientes plantillas distintas.",
+            "El primer equipo: SIENTE puede incluir contexto porque la emocion no se entiende sin su causa especifica.",
+            "Ambos tienen razon: el mapa no requiere distincion estricta entre celdas; lo importante es capturar el dato.",
+            "Ninguno: la frase pertenece a DICE si el contador la pronuncio textualmente durante la entrevista realizada."
+          ],
+          "correct": 0,
+          "feedback": "SIENTE captura emociones angustia presion entusiasmo y DOLORES registra causas concretas de frustracion. Mezclarlas hace que el equipo pierda la separacion que permite encontrar el insight: por que una persona sensata se siente asi?"
+        },
+        {
+          "id": "F03.01",
+          "category": "fmt3",
+          "categoryName": "Formato 3 — Ficha de persona",
+          "text": "Un equipo describe a su persona asi: Mujer entre 30 y 50 anos tecnologica emprendedora que valora su tiempo. Que diagnostico es el mas acertado segun el Formato 3?",
+          "options": [
+            "No sirve: es imaginada no basada en entrevistas; falta ocupacion contexto real y frase textual verificable.",
+            "Es suficiente: con la franja etaria y el perfil tecnologico ya se puede avanzar al Formato 5 de JTBD.",
+            "Le falta solo la frase textual; los demas campos son validos para una ficha de primera etapa de investigacion.",
+            "Es buena para el inicio; se completa con datos reales despues de las primeras tres entrevistas de campo."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 3 advierte: Si un campo no tiene respaldo en una entrevista dejalo vacio y vuelve a preguntar. La descripcion dada no tiene respaldo en ninguna entrevista. Sin ocupacion, contexto ni frase textual real, la ficha no puede conectar con el insight ni con el JTBD."
+        },
+        {
+          "id": "F03.02",
+          "category": "fmt3",
+          "categoryName": "Formato 3 — Ficha de persona",
+          "text": "El Formato 3 exige que si un campo no tiene respaldo en entrevistas se deje vacio. Un equipo llena Tecnologia que usa hoy con probablemente WhatsApp porque no lo preguntaron. Cual es el problema y el paso correcto?",
+          "options": [
+            "Estan inventando el perfil; deben dejar el campo vacio y agregar esa pregunta a la proxima entrevista.",
+            "No hay problema; probablemente WhatsApp es una hipotesis valida mientras se valida en campo.",
+            "El error es solo la redaccion; basta poner WhatsApp sin el probablemente para que sea valido.",
+            "Pueden deducirlo del segmento: si son pequenos comerciantes WhatsApp es un supuesto seguro y fundado."
+          ],
+          "correct": 0,
+          "feedback": "La instruccion del Formato 3 es terminante: Si un campo no tiene respaldo en una entrevista dejalo vacio. Escribir probablemente convierte un dato de investigacion en una suposicion del equipo que puede sesgar todo el proceso posterior."
+        },
+        {
+          "id": "F03.03",
+          "category": "fmt3",
+          "categoryName": "Formato 3 — Ficha de persona",
+          "text": "Rosa tiene 47 anos duena de un restaurante de 40 mesas con 6 empleados. Anota todo en un cuaderno cada noche y dice: Nunca se si gane o perdi plata hasta fin de mes. En que campo de la Ficha de Persona va esa cita y que aporta que un resumen del equipo no aportaria?",
+          "options": [
+            "Va en Frase textual que la define: revela la motivacion en palabras del usuario sin filtro del equipo.",
+            "Va en Frustraciones: sintetiza el dolor principal del usuario con sus propios terminos emocionales.",
+            "Va en Objetivos: expresa directamente lo que Rosa quiere conseguir con una herramienta de control.",
+            "Va en Un dia tipico: describe la rutina nocturna de anotacion que la persona vive cada noche al cerrar."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 3 tiene un campo especifico llamado Frase textual que la define. Su valor radica en que esta en las palabras propias del usuario sin filtro del equipo. Una parafrasis del equipo pierde la autenticidad que conecta con la audiencia."
+        },
+        {
+          "id": "F04.01",
+          "category": "fmt4",
+          "categoryName": "Formato 4 — Del hallazgo al insight",
+          "text": "Tres de cuatro duenos de restaurantes entrevistados anotan ventas en un cuaderno aunque tienen Excel instalado en el celular. El equipo escribe como insight: Los duenos prefieren el cuaderno porque es mas facil. Que problema tiene esa formulacion?",
+          "options": [
+            "No es insight sino repeticion del hallazgo; el insight debe explicar por que: No confian en cifras que no pueden revisar linea por linea.",
+            "El insight es valido; mas facil es la razon no obvia que la competencia no conoce todavia en el mercado.",
+            "El problema es la muestra: con 3 de 4 personas no se puede formular un insight sin mas entrevistas adicionales.",
+            "Deberia ir en PIENSA del mapa de empatia, no en el Formato 4, porque es una creencia interna del usuario."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 4 distingue hallazgo de insight con la pregunta: Por que una persona sensata haria esto. El hallazgo es el dato observado. El insight es la razon no obvia: no confian en numeros que no pueden revisar linea por linea. Es mas facil es otra descripcion del sintoma, no la causa raiz."
+        },
+        {
+          "id": "F04.02",
+          "category": "fmt4",
+          "categoryName": "Formato 4 — Del hallazgo al insight",
+          "text": "Un equipo trabaja con peluquerias y observa que los duenos cobran en efectivo aunque pierden de 15 a 30 minutos diarios contando billetes. Cual de las cuatro opciones es el insight y no un hallazgo repetido?",
+          "options": [
+            "Desconfian de los lectores de tarjeta porque creen que los datos del cliente quedaran expuestos a terceros.",
+            "Los duenos de peluqueria usan efectivo y pierden de 15 a 30 minutos diarios haciendo el cuadre de caja.",
+            "El 80 por ciento de los clientes entrevistados paga en efectivo segun el conteo del equipo de campo.",
+            "La mayoria de duenos prefiere efectivo porque les resulta mas comodo que aprender nueva tecnologia digital."
+          ],
+          "correct": 0,
+          "feedback": "El hallazgo es lo observado: cobran en efectivo mas pierden 15-30 min. El insight es la razon no obvia: Desconfian de la exposicion de datos. Esa razon sorprende y abre una oportunidad de diseno real. Las demas opciones reformulan el hallazgo observado."
+        },
+        {
+          "id": "F04.03",
+          "category": "fmt4",
+          "categoryName": "Formato 4 — Del hallazgo al insight",
+          "text": "El equipo detecta el hallazgo: 5 de 6 mecanicos guardan pedidos de repuestos en notas de WhatsApp no en el sistema de inventario. El instructor dice que eso es hallazgo no insight. Por que y cual seria el insight correcto?",
+          "options": [
+            "El hallazgo describe lo observado; el insight explica la causa: El sistema exige datos que el mecanico no tiene en el momento del pedido.",
+            "El instructor se equivoca: un hallazgo cuantificado con 5 de 6 personas ya es un insight valido y accionable.",
+            "Para ser insight basta agregar la contradiccion: guardan en WhatsApp aunque tienen sistema instalado.",
+            "El insight requiere la pregunta como podriamos al final; sin ella es solo un hallazgo parcial."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 4 dice: Un hallazgo es un dato; un insight es la razon no obvia que la competencia no conoce. 5 de 6 es un conteo. El insight responde POR QUE: el sistema exige numero de parte exacto que el mecanico no tiene hasta ver el repuesto en persona."
+        },
+        {
+          "id": "F04.04",
+          "category": "fmt4",
+          "categoryName": "Formato 4 — Del hallazgo al insight",
+          "text": "Antes de llenar el Formato 4 el equipo agrupa 12 notas de entrevista en tres categorias con un diagrama de afinidad: tiempo perdido dinero perdido y verguenza. Para que sirve ese agrupamiento dentro del proceso del Formato 4?",
+          "options": [
+            "Para identificar que hallazgo se repite en mas entrevistas y merece el esfuerzo de explicar su por que.",
+            "Para calcular el puntaje de Frecuencia del Formato 6 antes de decidir si el problema vale la pena abordar.",
+            "Para dividir el trabajo: cada integrante analiza una categoria de manera independiente y separada del equipo.",
+            "Para decidir cual de los tres dolores fue mencionado con mayor carga emocional en las entrevistas hechas."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 4 instruye: Agrupa primero los hallazgos repetidos diagrama de afinidad. El proposito es encontrar el patron con mas respaldo empirico antes de buscar la explicacion insight. Un hallazgo en 7 de 10 entrevistas merece mas analisis que uno que aparecio una sola vez."
+        },
+        {
+          "id": "F05.01",
+          "category": "fmt5",
+          "categoryName": "Formato 5 — JTBD, POV y Como podriamos",
+          "text": "Un equipo formula el JTBD de una madre asi: Cuando estoy en el grupo de WhatsApp del colegio quiero una app con notificaciones inteligentes para no perderme los avisos de tareas. Que diagnostico es el mas acertado?",
+          "options": [
+            "Falla porque menciona tecnologia: una app con notificaciones es la solucion no el trabajo por hacer.",
+            "Es correcta: tiene las tres partes de la formula situacion motivacion resultado y sigue la estructura.",
+            "El error es solo el resultado; deberia decir para estar tranquila no una funcion de la aplicacion.",
+            "Es valida en esta etapa; el Formato 5 permite mencionar tecnologia si el usuario ya la usa habitualmente."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 5 tiene una lista de verificacion: No menciona tecnologia nada de una app ni un dashboard. El JTBD describe el trabajo que la persona necesita hacer no la solucion. Version correcta: Cuando reviso el grupo del colegio quiero saber que debe llevar mi hijo manana para no pasarme el dia pendiente del celular."
+        },
+        {
+          "id": "F05.02",
+          "category": "fmt5",
+          "categoryName": "Formato 5 — JTBD, POV y Como podriamos",
+          "text": "Rosa cierra su restaurante cada noche y quiere saber en dos minutos cuanto gano y que comprar manana. El equipo formula el POV: Duenos de restaurantes necesitan una app de contabilidad porque no saben sus ganancias. Que correccion es necesaria?",
+          "options": [
+            "El POV debe conectar usuario mas necesidad mas insight: porque no confian en cifras que no pueden revisar linea por linea.",
+            "El POV es correcto; no saben sus ganancias es el insight descubierto en las entrevistas realizadas.",
+            "El error esta en la necesidad; deberia decir necesitan automatizar el registro para ser mas accionable.",
+            "El POV es valido; basta agregar el nombre Rosa al inicio para personalizarlo y cumplir el Formato 5."
+          ],
+          "correct": 0,
+          "feedback": "La formula del POV es: Usuario necesita necesidad porque insight. No saben sus ganancias sigue siendo el hallazgo. El insight es la razon no obvia: no confian en numeros que no pueden revisar linea por linea. Ademas mencionar una app viola la regla de no mencionar tecnologia."
+        },
+        {
+          "id": "F05.03",
+          "category": "fmt5",
+          "categoryName": "Formato 5 — JTBD, POV y Como podriamos",
+          "text": "Un equipo formula tres versiones de Como podriamos para Rosa: 1 Como podriamos hacer que Rosa sepa cuanto gano sin escribir nada extra; 2 Como podriamos crear una app de contabilidad para restaurantes; 3 Como podriamos digitalizar los restaurantes pequenos de Ecuador. Cual cumple los tres criterios del Formato 5?",
+          "options": [
+            "La 1: no menciona tecnologia es concreta y no es tan amplia como para ser irresoluble en una sesion.",
+            "La 2: menciona la tecnologia correcta y el segmento exacto donde debe operar la solucion final.",
+            "La 3: tiene el mayor alcance de mercado y permite explorar mas soluciones diversas al problema.",
+            "La 2 y la 1: la primera para el MVP inicial y la segunda para la version completa del producto final."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 5 tiene tres criterios: no menciona tecnologia es concreta y no es tan amplia. La version 1 cumple las tres: no dice app es medible Rosa sabe cuanto gano y esta acotada. La 2 menciona la app y la 3 es demasiado amplia para guiar una sesion de ideacion enfocada."
+        },
+        {
+          "id": "F05.04",
+          "category": "fmt5",
+          "categoryName": "Formato 5 — JTBD, POV y Como podriamos",
+          "text": "El equipo de CitaClara redacta: Como podriamos usar inteligencia artificial para confirmar citas medicas. El instructor la rechaza. Por que y cual seria la version correcta segun el Formato 5?",
+          "options": [
+            "Menciona IA que es tecnologia; la correcta seria: Como podriamos hacer que ningun paciente olvide su cita.",
+            "Es demasiado corta; debe incluir el segmento objetivo para que el equipo no se desvie al idear.",
+            "El problema es confirmar citas; deberia decir agendar citas para cubrir todo el proceso completo.",
+            "Es tecnicamente correcta; el instructor la rechaza porque no menciona el presupuesto disponible del equipo."
+          ],
+          "correct": 0,
+          "feedback": "La lista de verificacion del Formato 5: No menciona tecnologia nada de una app ni un dashboard. La IA es tecnologia. La version correcta se enfoca en el resultado no olvidar la cita sin prescribir como lograrlo permitiendo que los Formatos 7 y 8 generen soluciones diversas."
+        },
+        {
+          "id": "F05.05",
+          "category": "fmt5",
+          "categoryName": "Formato 5 — JTBD, POV y Como podriamos",
+          "text": "Un equipo tiene tres preguntas Como podriamos validas y debe elegir una para el Formato 7 Crazy 8s. Que criterio determina cual pasa primero segun el proceso del documento de formatos?",
+          "options": [
+            "La que responda directamente al insight mas frecuente y doloroso encontrado en las entrevistas realizadas.",
+            "La que el equipo sepa construir con sus habilidades tecnicas actuales disponibles en una semana de trabajo.",
+            "La que el mayor numero de integrantes voto al terminar la sesion de definicion del POV compartido.",
+            "La que sea mas facil de probar con un Mago de Oz para obtener datos rapidos de comportamiento real."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 5 conecta con el insight del Formato 4. La pregunta que pasa a Idear es la que responde al hallazgo mas frecuente y doloroso garantizando que el equipo resuelva el problema real. La factibilidad se evalua en el Formato 9 tres lentes no antes de idear."
+        },
+        {
+          "id": "F06.01",
+          "category": "fmt6",
+          "categoryName": "Formato 6 — Los cuatro filtros",
+          "text": "Tres problemas detectados en consultorios odontologicos: A se pierden 45 minutos diarios confirmando citas por telefono pagados con horas de secretaria; B la sala de espera a veces huele mal y los pacientes lo comentan; C el dentista olvida actualizar la carpeta fiscal una vez al ano. En la Matriz de Cuatro Filtros cual va a la Zona de Oro?",
+          "options": [
+            "El A: alta frecuencia diaria alta intensidad 45 min mas costo real de secretaria y gasto actual verificable.",
+            "El B: alta intensidad emocional porque afecta la primera impresion del consultorio con cada paciente nuevo.",
+            "El C: alta intensidad porque un problema fiscal puede cerrar el negocio aunque ocurra solo una vez al ano.",
+            "El B y el C juntos: sumados superan al A en impacto total sobre la reputacion general del consultorio."
+          ],
+          "correct": 0,
+          "feedback": "La Zona de Oro es Alta Frecuencia mas Alta Intensidad. El problema A ocurre diariamente genera costo medible ya existe gasto actual y afecta a todo el segmento. El B es de baja frecuencia. El C es muy baja frecuencia 1 vez por ano. Solo el A cumple los cuatro filtros con puntajes altos."
+        },
+        {
+          "id": "F06.02",
+          "category": "fmt6",
+          "categoryName": "Formato 6 — Los cuatro filtros",
+          "text": "Un equipo puntua el problema los duenos de peluqueria no saben cuanto ganaron hasta las 10 p.m.: Frecuencia 5 Intensidad 3 Gasto actual 2 Alcance 2. Que conclusion es la mas defendible segun el Formato 6?",
+          "options": [
+            "Deben buscar otro problema: dos filtros sacan 2 lo que activa la regla de descarte del Formato 6.",
+            "Pueden seguir: el total de 12 sobre 20 supera el umbral minimo aceptable para avanzar a la fase siguiente.",
+            "Solo deben mejorar Alcance: las peluquerias en Ecuador son miles y el puntaje 2 esta subestimado.",
+            "Deben ponderar: Frecuencia e Intensidad pesan mas; un 5 y un 3 compensan los dos puntajes bajos."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 6 establece: Si dos o mas filtros sacan 2 o menos busca otro problema. El equipo tiene Gasto actual y Alcance en 2 activando la regla independientemente del total. El total de 12/20 no es la regla; son los puntajes individuales bajos los que determinan el descarte."
+        },
+        {
+          "id": "F06.03",
+          "category": "fmt6",
+          "categoryName": "Formato 6 — Los cuatro filtros",
+          "text": "Equipo 1: Frecuencia 4 Intensidad 4 Gasto actual 3 Alcance 4 total 15/20. Equipo 2: Frecuencia 5 Intensidad 1 Gasto actual 5 Alcance 5 total 16/20. Cual de los dos debe detenerse segun el Formato 6?",
+          "options": [
+            "El equipo 2: tiene Intensidad en 1 lo que activa la regla de descarte aunque los demas filtros sean altos.",
+            "Ninguno: ambos superan 14 puntos sobre 20 el umbral documentado para avanzar en el proceso completo.",
+            "El equipo 1: con 15/20 esta mas cerca del limite y tiene mayor riesgo de que el problema no sea viable.",
+            "El equipo 2 debe hacer mas entrevistas: Intensidad en 1 puede corregirse con mas datos del segmento."
+          ],
+          "correct": 0,
+          "feedback": "La regla del Formato 6: Si dos o mas filtros sacan 2 o menos busca otro problema. El equipo 2 tiene Intensidad en 1 menor a 2. Un problema frecuente pero de muy baja intensidad es una molestia cronica no una oportunidad de negocio. El total de 16/20 no importa si un filtro falla con puntaje de 1."
+        },
+        {
+          "id": "F06.04",
+          "category": "fmt6",
+          "categoryName": "Formato 6 — Los cuatro filtros",
+          "text": "El Formato 6 pide calificar Gasto actual con: Ya gasta tiempo o dinero en resolverlo. Para el caso de Rosa que pierde casi una hora diaria anotando en el cuaderno que informacion adicional subiria mas el puntaje de ese filtro?",
+          "options": [
+            "Que Rosa ya paga a alguien para ayudarle con las cuentas o compra cuadernos especiales cada mes.",
+            "Que Rosa lleva 3 anos con ese cuaderno porque la antiguedad del habito confirma la frecuencia del problema.",
+            "Que 4 de 4 restaurantes entrevistados tienen el mismo cuaderno porque multiplica el alcance del problema.",
+            "Que Rosa dice sentir angustia al cerrar el local porque la emocion sube el puntaje de Intensidad verificada."
+          ],
+          "correct": 0,
+          "feedback": "El filtro Gasto actual busca evidencia de que el usuario ya invierte dinero hoy en resolver el problema. Si Rosa ya paga a alguien o compra insumos especiales ese gasto en dinero prueba disposicion de pago real elevando el puntaje de ese filtro de forma decisiva."
+        },
+        {
+          "id": "F07.01",
+          "category": "fmt7",
+          "categoryName": "Formato 7 — Crazy 8s",
+          "text": "Al iniciar los Crazy 8s un equipo escribe descripciones con palabras en vez de dibujar y dedica 4 de los 8 minutos a redactar justificacion de la primera idea. Cual es el diagnostico mas acertado segun el Formato 7?",
+          "options": [
+            "Viola el proposito: dibujar rompe el bloqueo linguistico y fuerza ideas visuales que las palabras inhiben.",
+            "No hay problema: si el equipo no sabe dibujar las palabras cumplen exactamente el mismo proposito creativo.",
+            "El error es solo el tiempo: 4 minutos en una idea impide llegar a 8 pero el formato verbal es igual de valido.",
+            "Viola el espiritu pero no la regla: el Formato 7 no especifica dibujar explicitamente solo pide rapidez."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 7 especifica: Dibujas no escribes. No se critica nada mientras dibujas. La instruccion de dibujar es intencional: suprime el filtro racional interno. Las palabras activan el juicio y producen ideas mas convencionales. El formato visual es parte del mecanismo no un detalle opcional."
+        },
+        {
+          "id": "F07.02",
+          "category": "fmt7",
+          "categoryName": "Formato 7 — Crazy 8s",
+          "text": "Despues de los Crazy 8s el equipo tiene 8 bocetos. El instructor les pide elegir uno para el Formato 9. Cual es el criterio correcto para elegir segun el proceso del documento de formatos?",
+          "options": [
+            "El boceto que mejor responda a la pregunta Como podriamos definida en el Formato 5.",
+            "El boceto que el equipo pueda construir mas rapido con sus habilidades tecnicas actuales esta semana.",
+            "El boceto que obtuvo mas votos del equipo al finalizar los 8 minutos de ideacion sin critica alguna.",
+            "El boceto que el instructor senale como mas innovador segun su experiencia con otros proyectos similares."
+          ],
+          "correct": 0,
+          "feedback": "El Crazy 8s responde a la pregunta Como podriamos del Formato 5. El criterio de seleccion es la alineacion con esa pregunta que esta anclada al insight mas relevante del Formato 4. La factibilidad tecnica se evalua en el Formato 9 tres lentes no como criterio de seleccion inmediato."
+        },
+        {
+          "id": "F07.03",
+          "category": "fmt7",
+          "categoryName": "Formato 7 — Crazy 8s",
+          "text": "Un equipo genera 4 ideas en Crazy 8s: 1 app con dashboard; 2 resumen por WhatsApp a las 9 pm; 3 chatbot integrado a caja registradora; 4 QR en mesa que registra pedidos. Cual principio del Formato 7 respalda no descartar ninguna durante los 8 minutos?",
+          "options": [
+            "No se critica nada mientras se dibuja: el juicio sobre factibilidad llega en el Formato 9 no durante la ideacion.",
+            "Solo pasan las ideas factibles: el equipo debe marcarlas antes de terminar la sesion de Crazy 8s.",
+            "Se presenta la mejor idea al instructor para recibir retroalimentacion inmediata y ajustar antes de seguir.",
+            "Cada boceto necesita una frase de justificacion antes de pasar al Formato 9 para ser evaluado correctamente."
+          ],
+          "correct": 0,
+          "feedback": "La regla central del Formato 7 es No se critica nada mientras se dibuja. Todas las ideas tienen el mismo estatus durante los 8 minutos. La idea mas absurda puede inspirar la mas brillante. El juicio llega en el Formato 9 donde la Matriz impacto-esfuerzo y las tres lentes filtran las ideas."
+        },
+        {
+          "id": "F08.01",
+          "category": "fmt8",
+          "categoryName": "Formato 8 — SCAMPER",
+          "text": "El equipo de Rosa aplica la accion E Eliminar del SCAMPER a su idea de app de contabilidad. Cual de las siguientes respuestas aplica correctamente esa accion segun el Formato 8?",
+          "options": [
+            "Eliminar la app y entregar el servicio por WhatsApp: quita la barrera de instalacion para el usuario.",
+            "Eliminar el modulo de reportes: reduce el tiempo de desarrollo en al menos dos semanas de trabajo.",
+            "Eliminar el costo de la API: buscar un proveedor gratuito para bajar el costo por cliente al mes.",
+            "Eliminar la pantalla de login: mejora la experiencia de usuario y reduce la tasa de abandono inicial."
+          ],
+          "correct": 0,
+          "feedback": "La accion E del SCAMPER pregunta: Que quito sin perder valor. En el ejemplo del Formato 8 la respuesta es exactamente: Eliminar la app todo por WhatsApp. Esto quita la barrera de instalacion sin perder el valor del resumen diario. Las otras opciones eliminan componentes internos del producto."
+        },
+        {
+          "id": "F08.02",
+          "category": "fmt8",
+          "categoryName": "Formato 8 — SCAMPER",
+          "text": "Aplicando A Adaptar del SCAMPER a CitaClara un equipo propone: Adaptar el modelo de resumen nocturno de los bancos el sistema le escribe al consultorio cada noche con las citas del dia siguiente. Que evalua esa accion y cual es su ventaja frente a las otras seis letras?",
+          "options": [
+            "Copia una practica de otra industria: reduce el riesgo porque ya se sabe que funciona en otro contexto.",
+            "Sustituye un componente del sistema; es la mas potente porque reemplaza el elemento mas critico actual.",
+            "Combina dos productos existentes; es la mas creativa porque el resultado no existe en ningun mercado.",
+            "Modifica el formato del mensaje; cambia la experiencia sin tocar la logica del negocio subyacente."
+          ],
+          "correct": 0,
+          "feedback": "La accion A del SCAMPER pregunta: Que idea de otra industria puedo copiar. El ejemplo del Formato 8 es: El resumen nocturno de un banco. La ventaja de Adaptar es tomar algo que ya funciona en un contexto diferente reduciendo la incertidumbre de la innovacion."
+        },
+        {
+          "id": "F08.03",
+          "category": "fmt8",
+          "categoryName": "Formato 8 — SCAMPER",
+          "text": "Un equipo aplica R Reordenar o invertir del SCAMPER a su sistema de pedidos y propone: En vez de que el mecanico busque el repuesto el sistema pregunta que carro esta reparando y genera la lista automaticamente. Por que es un ejemplo valido de la accion R?",
+          "options": [
+            "Invierte el flujo: antes el mecanico iniciaba la busqueda; ahora el sistema toma la iniciativa del proceso.",
+            "Sustituye la interfaz por un formulario de datos tecnicos del vehiculo que se llena automaticamente.",
+            "Combina el catalogo de repuestos con el historial del auto uniendo dos fuentes de datos distintas.",
+            "Modifica el numero de pasos: reduce de 5 a 2 pasos al simplificar toda la cadena de pedido actual."
+          ],
+          "correct": 0,
+          "feedback": "La accion R pregunta: Que pasa si cambio el orden o lo invierto. El Formato 8 ejemplifica: Que el sistema le escriba a Rosa no ella al sistema. La idea propuesta invierte el mismo principio: el mecanico ya no inicia la busqueda ahora el sistema toma la iniciativa. Es una inversion del flujo."
+        },
+        {
+          "id": "F08.04",
+          "category": "fmt8",
+          "categoryName": "Formato 8 — SCAMPER",
+          "text": "El instructor revisa el SCAMPER del equipo y nota que las columnas Mis ideas estan vacias en 4 de las 7 acciones. Cual es el diagnostico mas acertado?",
+          "options": [
+            "El SCAMPER no cumplio su proposito: con 4 acciones vacias no se exploro el espacio de ideas completo.",
+            "Es aceptable: completar S C y A las tres primeras acciones es suficiente para pasar al Formato 9.",
+            "El equipo debe usar IA para completar las 4 acciones restantes antes de la siguiente sesion del proyecto.",
+            "No hay problema: el SCAMPER es una guia no un formulario; se pueden saltar acciones irrelevantes."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 8 tiene 7 acciones porque cada una activa un mecanismo creativo diferente. La accion E puede revelar que el canal entero sobra; la R puede generar el producto mas innovador. Dejar 4 vacias significa usar solo 3 palancas creativas de 7 disponibles reduciendo el espacio de ideas explorado."
+        },
+        {
+          "id": "F09.01",
+          "category": "fmt9",
+          "categoryName": "Formato 9 — Matriz impacto-esfuerzo y tres lentes",
+          "text": "Un equipo ubica en la matriz tres ideas: A resumen nocturno por WhatsApp bajo esfuerzo y alto impacto; B integracion con caja registradora alto esfuerzo y alto impacto; C cambiar la hora del mensaje bajo esfuerzo y bajo impacto. Cual debe prototiparsela primero y por que?",
+          "options": [
+            "La A: esta en el cuadrante Hazlo primero que prioriza bajo esfuerzo con alto impacto simultaneamente.",
+            "La B: el alto impacto justifica el esfuerzo aunque tome mas tiempo y recursos de implementacion.",
+            "La C: el bajo esfuerzo permite aprender algo rapido y ajustar el rumbo antes de pasar a las otras dos.",
+            "La A y la C juntas: comparten el bajo esfuerzo y juntas maximizan el aprendizaje inicial de la iteracion."
+          ],
+          "correct": 0,
+          "feedback": "En el Formato 9 el cuadrante Hazlo primero bajo esfuerzo mas alto impacto es la prioridad de prototipado. El ejemplo del documento es exactamente Resumen nocturno por WhatsApp. La B es Planificalo. La C es Mejoras rapidas bajo impacto mas bajo esfuerzo. Solo la A justifica comenzar inmediatamente."
+        },
+        {
+          "id": "F09.02",
+          "category": "fmt9",
+          "categoryName": "Formato 9 — Matriz impacto-esfuerzo y tres lentes",
+          "text": "Una idea esta en el cuadrante Hazlo primero de la matriz pero falla en el filtro Factible la puedo construir de las tres lentes. Cual es el paso correcto segun el Formato 9?",
+          "options": [
+            "No pasa a prototipo: si falla cualquiera de las tres lentes la idea se descarta o ajusta antes de construir.",
+            "Pasa a prototipo con restricciones: se construye la parte factible y se deja el resto para fase posterior.",
+            "Se revisa la matriz: una idea no factible debe reubicarse en Alto esfuerzo y reevaluarse en el cuadrante.",
+            "Se acepta si pasa las otras dos: Deseable y Viable pesan mas que Factible en la primera iteracion."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 9 muestra que la columna Pasa a prototipo solo dice Si cuando las tres lentes marcan Si. Si cualquiera falla la respuesta es No. Factible es condicion necesaria: una idea deseada y pagada pero no construible no puede prototipase. Se debe ajustar la idea o descartarla."
+        },
+        {
+          "id": "F09.03",
+          "category": "fmt9",
+          "categoryName": "Formato 9 — Matriz impacto-esfuerzo y tres lentes",
+          "text": "Las tres lentes de IDEO evaluan: Deseable la quieren Factible la puedo construir y Viable alguien la paga. Un equipo tiene: Deseable Si Factible Si Viable No. Que conclusion es la mas defendible?",
+          "options": [
+            "La idea no pasa a prototipo aun: primero hay que entender quien pagaria y cuanto o ajustar el modelo.",
+            "La idea pasa igual: si es deseable y factible el modelo de negocio se resuelve despues del lanzamiento.",
+            "La idea se descarta definitivamente: si nadie paga no hay mercado y no vale la pena construirla nunca.",
+            "La idea pasa con condicion: se lanza gratis para ganar usuarios y luego se monetiza con publicidad."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 9 exige que las tres lentes digan Si para que Pasa a prototipo sea afirmativa. Viable No significa que el equipo no sabe quien paga ni cuanto. El paso correcto es resolver eso antes de construir hablando con potenciales clientes sobre precio Formato 13."
+        },
+        {
+          "id": "F09.04",
+          "category": "fmt9",
+          "categoryName": "Formato 9 — Matriz impacto-esfuerzo y tres lentes",
+          "text": "Un equipo ubica en Descartalo bajo impacto alto esfuerzo la idea app nativa para iPad con modo oscuro autenticacion biometrica y login con Google. El Formato 10 tambien menciona ese tipo de idea con una advertencia. Que principio comparten ambos formatos?",
+          "options": [
+            "Si el impacto no justifica el esfuerzo las funciones premium distraen del problema central a resolver.",
+            "El modo oscuro y la biometria son funciones deseables; el problema real es que iPad tiene bajo mercado.",
+            "Las apps nativas tienen alto esfuerzo y siempre deben esperar a que el equipo consiga mas inversion.",
+            "La idea puede reubicarse en Planificalo si se elimina el login biometrico y se simplifica la autenticacion."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 9 descarta lo que tiene bajo impacto y alto esfuerzo. El Formato 10 advierte: Si tu MVP tiene modo oscuro y login con Google antes de tener un solo usuario no es minimo. Ambos expresan el principio de Lean Startup: el esfuerzo debe ser proporcional a la hipotesis que se prueba."
+        },
+        {
+          "id": "F10.01",
+          "category": "fmt10",
+          "categoryName": "Formato 10 — Plan de prototipo Mago de Oz",
+          "text": "El equipo de Rosa disena este prototipo: Rosa manda una foto de sus facturas por WhatsApp el equipo las revisa a mano con Claude y le envia un resumen de tres lineas a las 9 p.m. La metrica de exito es responde al menos 5 de 7 noches. Que pregunta responde concretamente este prototipo segun el Formato 10?",
+          "options": [
+            "Si Rosa usa el resumen diario y si ese dato le sirve para tomar decisiones de compra al dia siguiente.",
+            "Si la IA puede procesar fotos de facturas con exactitud superior al 90 por ciento en condiciones reales.",
+            "Si el precio de 15 dolares al mes es aceptable para los duenos de restaurantes del segmento de 40 mesas.",
+            "Si Rosa recomendaria activamente el servicio a otros duenos de restaurantes conocidos de la zona norte."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 10 inicia con el campo Pregunta que quiero responder. En el ejemplo del documento es exactamente: Rosa usa el resumen diario y le sirve para comprar. El Mago de Oz prueba si el usuario adopta el comportamiento no si la tecnologia funciona tecnicamente."
+        },
+        {
+          "id": "F10.02",
+          "category": "fmt10",
+          "categoryName": "Formato 10 — Plan de prototipo Mago de Oz",
+          "text": "Un equipo llena el campo Que hago yo detras a mano del Formato 10 con: Programar un script en Python que conecta con la API de OpenAI para procesar los datos automaticamente. Cual es el diagnostico mas acertado?",
+          "options": [
+            "No es un Mago de Oz: si el trabajo de atras requiere programacion ya es un MVP tecnico no simulacion manual.",
+            "Es correcto: el script corre en el servidor del equipo y el usuario nunca lo ve cumpliendo la premisa.",
+            "Es valido si el script se construye en menos de 4 horas; la complejidad no define el tipo de prototipo.",
+            "El error es usar OpenAI: el costo variable impredecible afecta la metrica de costo del Formato 10."
+          ],
+          "correct": 0,
+          "feedback": "En un Mago de Oz el equipo hace el trabajo a mano; el usuario cree que hay un sistema automatico. Si hay codigo deja de ser Mago de Oz y pasa a ser MVP. En el ejemplo de Rosa detras significa: el equipo recibe la foto abre Claude manualmente y escribe la respuesta a mano."
+        },
+        {
+          "id": "F10.03",
+          "category": "fmt10",
+          "categoryName": "Formato 10 — Plan de prototipo Mago de Oz",
+          "text": "El Formato 10 establece que la metrica de exito debe definirse antes de empezar. El equipo de CitaClara propone medirla segun como vaya saliendo durante las dos semanas del piloto. Cual es el problema con ese enfoque?",
+          "options": [
+            "Sin metrica previa el equipo inevitablemente ajustara el criterio para que el experimento sea un exito.",
+            "No hay problema si el equipo es honesto; la metrica puede afinarse a medida que llegan los datos reales.",
+            "El error es el plazo de dos semanas; con mas tiempo el equipo podria definir la metrica con mas datos.",
+            "La metrica de exito la debe definir el usuario no el equipo para evitar el sesgo interno del prototipo."
+          ],
+          "correct": 0,
+          "feedback": "Definir la metrica antes de empezar es el principio del Criterio de abandono de Lean Startup. Si se define despues de ver los resultados el equipo inconscientemente mueve el umbral para que la hipotesis sobreviva sesgo de confirmacion. El Formato 10 y el Formato 11 son explicitos en este punto."
+        },
+        {
+          "id": "F10.04",
+          "category": "fmt10",
+          "categoryName": "Formato 10 — Plan de prototipo Mago de Oz",
+          "text": "El equipo de CitaClara disena un Mago de Oz donde la secretaria manda manualmente mensajes de confirmacion de cita desde una plantilla de WhatsApp. Cual de las siguientes metricas de exito cumple los criterios del Formato 10?",
+          "options": [
+            "Al menos 8 de cada 10 pacientes confirman la cita dentro de las 2 horas siguientes al mensaje enviado.",
+            "Los pacientes estan satisfechos con el servicio de confirmacion del consultorio en la encuesta final.",
+            "La secretaria tarda menos tiempo confirmando citas que antes de usar la plantilla de WhatsApp manual.",
+            "El consultorio reduce el numero de citas perdidas en el siguiente mes completo de operacion normal."
+          ],
+          "correct": 0,
+          "feedback": "Una metrica valida debe ser numerica 8 de 10 medible antes de que termine el experimento en 2 horas y ligada directamente a la hipotesis. Las opciones B C y D son metricas de proceso que no responden la pregunta del prototipo: el usuario adopta el comportamiento que valida la propuesta de valor."
+        },
+        {
+          "id": "F11.01",
+          "category": "fmt11",
+          "categoryName": "Formato 11 — Registro de prueba con usuarios",
+          "text": "El equipo observa a Rosa usando el prototipo y anota: Rosa dijo que le gusta mucho el resumen nocturno y que lo encuentra muy util para su negocio. El instructor tacha esa nota. Cual es el diagnostico correcto?",
+          "options": [
+            "En el Formato 11 van comportamientos observados no opiniones; lo valido es: Rosa volvio a usarlo 6 de 7 noches.",
+            "El error es la redaccion; debe citarse textualmente entre comillas para que la nota sea valida en el registro.",
+            "La nota es valida si Rosa la dijo espontaneamente y sin que le preguntaran directamente sobre el servicio.",
+            "El instructor se equivoca: las opiniones positivas documentadas ayudan a argumentar el pitch del proyecto."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 11 pide: Anota lo que la gente hace con tu prototipo no lo que opina. La columna clave es el hecho verificable: pago o volvio. El comportamiento real volvio pago predice la adopcion; la opinion positiva no lo hace."
+        },
+        {
+          "id": "F11.02",
+          "category": "fmt11",
+          "categoryName": "Formato 11 — Registro de prueba con usuarios",
+          "text": "El Formato 11 incluye cuatro metricas: Activacion Retencion Conversion a pago y Recomendacion. Un equipo tiene: 20 prueban 14 vuelven la semana siguiente 11 lo recomiendan pero ninguno ha pagado aun. Cual metrica esta en riesgo?",
+          "options": [
+            "Conversion a pago: saben que retienen y recomiendan pero no han probado si alguien pagara por ello.",
+            "Retencion: 14 de 20 es solo el 70 por ciento justo en el limite; cualquier semana de baja los deja debajo.",
+            "Activacion: si 20 prueban pero 6 no vuelven esos 6 nunca llegaron al primer momento de valor real.",
+            "Recomendacion: 11 de 20 es el 55 por ciento lo que indica que el producto aun no genera entusiasmo genuino."
+          ],
+          "correct": 0,
+          "feedback": "Tener retencion y recomendacion sin ninguna conversion a pago es una senal critica: el producto puede ser valioso gratuitamente pero no sostenible. El Formato 13 LTV/CAC no puede calcularse sin al menos un pago real. La pregunta que el equipo debe hacerse es: Que impediria que alguien pague."
+        },
+        {
+          "id": "F11.03",
+          "category": "fmt11",
+          "categoryName": "Formato 11 — Registro de prueba con usuarios",
+          "text": "La metrica de exito era 7 de 10 completan la tarea sin ayuda. Solo 4 de 10 lo lograron pero todos fallaron exactamente en el mismo punto: la pantalla 2 del flujo. Segun el Formato 11 cual es la decision mas defendible?",
+          "options": [
+            "Iterar: el problema esta localizado en un paso especifico no en la propuesta de valor del producto completo.",
+            "Pivotar: si mas de la mitad falla la hipotesis de que el producto es usable esta refutada definitivamente.",
+            "Parar: un resultado de 4 de 10 con la metrica en 7 demuestra que el producto no es viable para el mercado.",
+            "Repetir la prueba con usuarios distintos para confirmar si el problema es de diseno o de muestra estadistica."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 11 ofrece tres opciones: Iterar Pivotar o Parar. Que todos fallen en el mismo punto es senal de un problema de diseno de interfaz pantalla 2 confusa no de propuesta de valor equivocada. Pivotar o Parar implica que la hipotesis central fallo lo que aqui no es el caso."
+        },
+        {
+          "id": "F11.04",
+          "category": "fmt11",
+          "categoryName": "Formato 11 — Registro de prueba con usuarios",
+          "text": "El Formato 11 pide dar al usuario una tarea y pedirle que piense en voz alta sin ayudarle. Un equipo ayuda al tercer usuario porque lleva 5 minutos atascado y parece frustrado. Cual es el diagnostico correcto?",
+          "options": [
+            "Invalidaron el dato: cada ayuda elimina la evidencia de usabilidad que el Formato 11 busca capturar.",
+            "Hicieron bien: un usuario frustrado durante 5 minutos ya aporto datos suficientes para el registro.",
+            "Depende: si la ayuda fue minima senalar la pantalla correcta el dato puede conservarse con una nota.",
+            "El Formato 11 no prohibe ayudar; prohibe opinar; senalar donde hacer clic no contamina el experimento."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 11 dice: Dale una tarea pidele que piense en voz alta y no la ayudes. Cada ayuda elimina una instancia de dato de usabilidad. El punto donde se tranca el tiempo que tarda y lo que dice son exactamente los datos valiosos. La frustracion visible ES el dato no un problema a resolver en ese momento."
+        },
+        {
+          "id": "F12.01",
+          "category": "fmt12",
+          "categoryName": "Formato 12 — Lean Canvas",
+          "text": "Un equipo llena el bloque 1 Problema del Lean Canvas de CitaClara con: Crear una app de gestion de citas medicas para consultorios pequenos de la ciudad. Que correccion es necesaria?",
+          "options": [
+            "Eso es la solucion no el problema; en el bloque 1 va: Los consultorios pierden el 15 por ciento de citas por falta de confirmacion.",
+            "La descripcion es valida si se anade el segmento objetivo al inicio de la frase para contextualizarla.",
+            "El error es la extension; el bloque 1 admite maximo diez palabras descriptivas del problema central.",
+            "La frase pertenece al bloque 4 Solucion; basta moverla para que el Canvas quede estructuralmente correcto."
+          ],
+          "correct": 0,
+          "feedback": "El Lean Canvas tiene 9 bloques con funciones distintas. El bloque 1 es el Problema de los clientes. Crear una app describe la solucion no el problema. Colocar la solucion en el bloque de problema indica que el equipo no definio que duele solo que quiere construir."
+        },
+        {
+          "id": "F12.02",
+          "category": "fmt12",
+          "categoryName": "Formato 12 — Lean Canvas",
+          "text": "Ash Maurya diseno el Lean Canvas para llenarlo en 20 minutos y tratar cada bloque como una hipotesis por validar. Cual es la consecuencia practica mas importante de ese principio para el equipo?",
+          "options": [
+            "Deben actualizar el Canvas cuando la evidencia de campo contradiga cualquiera de los nueve bloques.",
+            "Deben completar los 9 bloques antes de hacer una sola entrevista o experimento en campo con usuarios.",
+            "El Canvas reemplaza al plan de negocios y no necesita revisarse despues del primer lanzamiento del producto.",
+            "Solo los bloques 1 2 y 3 son hipotesis; los demas reflejan datos establecidos del modelo de negocio."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 12 dice: Trata cada bloque como una hipotesis por validar. Si una hipotesis se refuta con datos reales por ejemplo el canal de ventas no funciona el bloque debe actualizarse. El Lean Canvas no es estatico: es un mapa de suposiciones que el equipo va confirmando o descartando con evidencia."
+        },
+        {
+          "id": "F12.03",
+          "category": "fmt12",
+          "categoryName": "Formato 12 — Lean Canvas",
+          "text": "El bloque 8 Metricas clave del Lean Canvas de CierreYa incluye restaurantes activos retencion mensual y resumenes leidos. Un miembro propone agregar numero total de descargas de la app como metrica principal. Que diagnostico es el mas acertado?",
+          "options": [
+            "Las descargas son metricas de vanidad: miden intencion no comportamiento real de uso o de pago efectivo.",
+            "Las descargas son validas como metrica de adquisicion; el problema es que CierreYa opera por WhatsApp.",
+            "Las descargas son la metrica de Activacion del Formato 11; colocarlas en el Canvas las duplicaria.",
+            "Son utiles en la etapa inicial para demostrar traccion a inversores; luego se reemplazan por metricas reales."
+          ],
+          "correct": 0,
+          "feedback": "Las metricas clave de CierreYa miden comportamiento: activos siguen usando retencion vuelven a pagar y resumenes leidos consumen el valor. Las descargas miden si alguien instalo la app no si la uso ni si pago. Una app con 10000 descargas y 0 usuarios activos tiene metricas de vanidad perfectas."
+        },
+        {
+          "id": "F12.04",
+          "category": "fmt12",
+          "categoryName": "Formato 12 — Lean Canvas",
+          "text": "El bloque 9 Ventaja injusta del Lean Canvas de CierreYa dice: Precios del mercado acumulados y red de referidos. Un miembro dice que la red de referidos deberia ir en el bloque 5 Canales. Cual tiene razon y por que?",
+          "options": [
+            "El documento original: la red acumulada es una ventaja que la competencia nueva no puede copiar rapidamente.",
+            "El miembro del equipo: los referidos son un canal de adquisicion y pertenecen al bloque 5 de distribucion.",
+            "Ambos tienen razon: el Lean Canvas permite que un elemento aparezca en dos bloques si cumple dos funciones.",
+            "Ninguno: los referidos pertenecen al bloque 8 Metricas porque la tasa de recomendacion es medible."
+          ],
+          "correct": 0,
+          "feedback": "Los referidos como canal bloque 5 son el mecanismo de distribucion actual. Los referidos como ventaja injusta bloque 9 son la red acumulada de clientes satisfechos algo que un competidor nuevo no puede tener de inmediato. Es el activo relacional construido con el tiempo no solo el canal."
+        },
+        {
+          "id": "F13.01",
+          "category": "fmt13",
+          "categoryName": "Formato 13 — Calculo de precio y LTV/CAC",
+          "text": "CitaClara genera a un consultorio 9 citas confirmadas adicionales al mes a 30 dolares cada cita y ahorra 22 horas de secretaria a 3 dolares la hora. El cobro mensual es 50 dolares. Segun el Formato 13 el precio esta dentro del rango recomendado?",
+          "options": [
+            "Si: el valor mensual es 336 dolares; el rango recomendado es 34 a 67 dolares 10 a 20 por ciento del valor y 50 cae dentro.",
+            "No: 50 dolares supera el 15 por ciento del valor generado 336 por 0.15 igual 50.40 que es el limite superior estricto.",
+            "Si pero al limite: 50 dolares es el 85 por ciento del rango maximo y deja poco margen para aumentar el precio despues.",
+            "No: las 22 horas de secretaria 66 dolares no deben sumarse porque son costos internos del consultorio mismo."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 13 calcula: Valor mensual igual 9 citas por 30 mas 22h por 3 igual 270 mas 66 igual 336. Rango igual 336 por 0.10 a 336 por 0.20 igual 33.60 a 67.20. El precio de 50 cae dentro. El formato incluye las horas de secretaria porque son dinero real que el consultorio deja de perder."
+        },
+        {
+          "id": "F13.02",
+          "category": "fmt13",
+          "categoryName": "Formato 13 — Calculo de precio y LTV/CAC",
+          "text": "CitaClara cobra 50 dolares al mes tiene un costo por cliente de 10 dolares y una cancelacion mensual del 5 por ciento. Cual es el LTV correcto y que nos dice sobre la salud del negocio?",
+          "options": [
+            "800 dolares: precio 50 por margen bruto 80 por ciento dividido cancelacion 5 por ciento; con CAC de 100 LTV/CAC es 8: negocio sano.",
+            "1000 dolares: precio 50 dividido cancelacion 5 por ciento sin aplicar el margen bruto al calculo de largo plazo.",
+            "500 dolares: diferencia precio-costo 40 dividido cancelacion 5 por ciento sin ponderar por el precio mensual.",
+            "480 dolares: precio anual 600 por margen bruto 80 por ciento sin dividir para la cancelacion mensual acumulada."
+          ],
+          "correct": 0,
+          "feedback": "Formula del Formato 13: LTV igual Precio por margen bruto dividido cancelacion mensual. Margen bruto igual 50 menos 10 dividido 50 igual 0.80. LTV igual 50 por 0.80 dividido 0.05 igual 800. La opcion B omite el margen 50 dividido 0.05 igual 1000 sobreestimando el LTV al ignorar el costo por cliente."
+        },
+        {
+          "id": "F13.03",
+          "category": "fmt13",
+          "categoryName": "Formato 13 — Calculo de precio y LTV/CAC",
+          "text": "El precio minimo segun el Formato 13 se calcula como: Costo por cliente dividido 0.30 para asegurar margen bruto del 70 por ciento. Si el costo por cliente de CierreYa es 5 dolares al mes cual es el precio minimo y que significa?",
+          "options": [
+            "16.67 dolares: por debajo de ese valor CierreYa no puede sostener sus costos con el margen minimo del 70 por ciento.",
+            "5 dolares: el precio minimo siempre iguala al costo por cliente; el margen se calcula sobre esa base inicial.",
+            "3.50 dolares: el 70 por ciento del costo por cliente es el precio minimo para garantizar la rentabilidad operativa.",
+            "50 dolares: el precio minimo se multiplica por el factor de mercado estandar x10 para el precio de lanzamiento."
+          ],
+          "correct": 0,
+          "feedback": "Formula del Formato 13: Precio minimo igual Costo por cliente dividido 0.30. Para CierreYa: 5 dividido 0.30 igual 16.67. Cobrar menos de 16.67 hace que el margen bruto sea menor al 70 por ciento requerido. En el ejemplo del documento el costo de CitaClara es aprox 10 y el precio minimo es 33 el dato exacto de la tabla."
+        },
+        {
+          "id": "F13.04",
+          "category": "fmt13",
+          "categoryName": "Formato 13 — Calculo de precio y LTV/CAC",
+          "text": "Un equipo calcula LTV de su cliente en 200 dolares y CAC en 80 dolares. Que conclusion es la mas defendible segun el Formato 13?",
+          "options": [
+            "LTV/CAC es 2.5: esta por debajo de 3 lo que indica riesgo; deben reducir el CAC o aumentar la retencion.",
+            "LTV/CAC es 2.5: es un buen resultado porque supera 1 lo que garantiza que el negocio no pierde dinero.",
+            "El CAC debe reducirse a 40 dolares para que LTV/CAC llegue a 5 el estandar ideal de la industria SaaS global.",
+            "El dato no es concluyente: solo importa LTV/CAC cuando el negocio tiene mas de 100 clientes activos."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 13 establece: LTV dividido CAC debe ser mayor a 3. Con 200 dividido 80 igual 2.5 el ratio esta por debajo. No significa que el negocio pierde dinero 2.5 mayor a 1 pero el margen de recuperacion de inversion en adquisicion es insuficiente. El equipo tiene dos palancas: aumentar la retencion o reducir el CAC."
+        },
+        {
+          "id": "F13.05",
+          "category": "fmt13",
+          "categoryName": "Formato 13 — Calculo de precio y LTV/CAC",
+          "text": "Un servicio genera 336 dolares de valor mensual al cliente. La alternativa actual secretaria manual cuesta 90 dolares al mes. El costo por cliente del equipo es 10 dolares. Segun el Formato 13 entre que rango debe estar el precio?",
+          "options": [
+            "Entre 33 dolares piso 10 dividido 0.30 y 67 dolares 20 por ciento de 336 considerando que la alternativa cuesta 90.",
+            "Debe igualarse a la alternativa de 90 dolares para capturar todo el valor diferencial que la competencia deja.",
+            "Puede llegar hasta 336 dolares porque ese es el valor total generado y el cliente deberia pagar por el valor real.",
+            "Debe ser 10 dolares menos que la alternativa 80 dolares para ganar mercado exclusivamente por diferencial de precio."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 13 establece tres referencias: el piso costo dividido 0.30 igual 33 el techo valor por 0.20 igual 67.20 y la alternativa del cliente 90 dolares. Como la alternativa cuesta 90 y el precio maximo recomendado es 67 cobrar dentro de ese rango es consistente con las tres variables del formato."
+        },
+        {
+          "id": "F14.01",
+          "category": "fmt14",
+          "categoryName": "Formato 14 — Registro de riesgos",
+          "text": "El Formato 14 clasifica los riesgos en tres tipos: Plataforma Tecnico y Legal. Un equipo agrega el equipo no tiene tiempo para dar soporte el fin de semana y lo clasifica como Tecnico. Cual es el diagnostico mas acertado?",
+          "options": [
+            "Es un riesgo operativo o de equipo no Tecnico; el Formato 14 cubre fallas de plataformas IA y tramites legales.",
+            "Es correcto clasificarlo como Tecnico porque el soporte depende de la infraestructura del sistema tecnologico.",
+            "No es un riesgo relevante para este formato; solo se registran riesgos externos al equipo y al proyecto.",
+            "Es un riesgo de Plataforma porque el soporte usa WhatsApp Business que es una herramienta de terceros."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 14 documenta tres tipos: Plataforma dependencia de terceros Tecnico la IA puede dar informacion incorrecta y Legal tramites consentimiento. El riesgo de capacidad operativa del equipo no encaja en ninguna categoria del Formato 14: es un riesgo de recursos humanos o gestion de proyecto."
+        },
+        {
+          "id": "F14.02",
+          "category": "fmt14",
+          "categoryName": "Formato 14 — Registro de riesgos",
+          "text": "El Formato 14 incluye en la Lista de control: Toda conversacion sensible pasa a una persona al instante. Para un proyecto como CitaClara que procesa datos de pacientes con IA por que ese item es el mas critico?",
+          "options": [
+            "La IA puede generar informacion medica incorrecta; una persona humana evita que ese error llegue al paciente.",
+            "La regulacion ecuatoriana exige revision humana de todos los mensajes de salud antes de enviarlos al usuario.",
+            "Sin revision humana la IA no puede personalizar el mensaje segun el historial clinico del paciente.",
+            "El costo de las APIs aumenta exponencialmente si la IA procesa conversaciones medicas sin limite de tiempo."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 14 lista como riesgo Tecnico: La IA inventa un consejo medico clinico. La accion de prevencion es: Acotarla a un documento base; lo clinico pasa a la recepcionista. Una IA mal configurada puede fabricar informacion medica plausible pero incorrecta alucinaciones generando dano clinico real."
+        },
+        {
+          "id": "F14.03",
+          "category": "fmt14",
+          "categoryName": "Formato 14 — Registro de riesgos",
+          "text": "El equipo de CierreYa identifica el riesgo Meta bloquea o demora el numero de WhatsApp Business con Probabilidad M media e Impacto A alto. Que accion de prevencion es mas coherente con el ejemplo del Formato 14?",
+          "options": [
+            "Iniciar la aprobacion del numero en la semana 4 del proyecto y tener un canal de respaldo por SMS o correo.",
+            "Esperar al lanzamiento para iniciar la aprobacion; Meta aprueba mas rapido cuando hay usuarios activos.",
+            "Usar el numero personal del equipo hasta que Meta apruebe; la transicion es sencilla despues del lanzamiento.",
+            "Cambiar el canal principal a Telegram para eliminar completamente la dependencia de las plataformas de Meta."
+          ],
+          "correct": 0,
+          "feedback": "El Formato 14 documenta exactamente ese riesgo con esa accion: Iniciar la aprobacion en la semana 4; solo pacientes que aceptaron; respaldo por SMS o correo. La prevencion combina accion proactiva temprana y canal de respaldo alternativo. Esperar al lanzamiento es el error mas comun: Meta puede tardar semanas."
         }
       ]
     }
