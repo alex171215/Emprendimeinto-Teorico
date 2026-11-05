@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulador de Examen: Design Thinking & Emprender con IA · RDA2</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Simulador de Examen: Design Thinking, Formatos & Model Canvas · RDA2 PUCE</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Fonts Inter & JetBrains Mono -->
@@ -159,20 +162,46 @@
         </div>
     </header>
 
-    <!-- Barra de Selección de Materia y Sub-banco -->
-    <div id="bankSelectorBar" class="bg-slate-950 border-b border-slate-800/60 py-2.5 px-4 sm:px-6">
-        <div class="max-w-7xl mx-auto flex flex-wrap items-center gap-4 text-xs sm:text-sm">
+    <!-- Barra de Selección de Sub-bancos con Píldoras / Botones Interactivos -->
+    <div id="bankSelectorBar" class="bg-slate-950 border-b border-slate-800/80 py-3 px-4 sm:px-6 shadow-inner">
+        <div class="max-w-7xl mx-auto flex flex-col lg:flex-row lg:items-center justify-between gap-3 text-xs sm:text-sm">
             <div class="flex items-center gap-2">
-                <label class="text-slate-400 font-medium">Materia:</label>
-                <select id="materiaSelect"
-                    class="bg-slate-800 border border-slate-700 rounded-lg px-2.5 py-1 text-slate-200 text-xs focus:ring-2 focus:ring-indigo-500 focus:outline-none">
-                    <option value="RDA2">Emprendimiento e Innovación (RDA2)</option>
-                </select>
+                <span class="text-xs font-bold uppercase tracking-wider text-slate-300 flex items-center gap-1.5">
+                    <svg class="w-4 h-4 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                    <span>Sub-Banco a Estudiar:</span>
+                </span>
             </div>
-            <div class="flex items-center gap-2">
-                <label class="text-slate-400 font-medium">Banco Activo:</label>
+            
+            <!-- Botones / Píldoras de Bancos en Vivo (1-clic para cambiar de banco) -->
+            <div id="bankPillsContainer" class="flex flex-wrap items-center gap-2">
+                <button type="button" onclick="selectBank('business_model_canvas_36')"
+                    class="bank-pill px-3 py-1.5 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all duration-200 border bg-indigo-600 border-indigo-400 text-white shadow-lg shadow-indigo-600/30">
+                    <span>📊</span> <span>Business Model Canvas</span> <span class="px-1.5 py-0.5 rounded-md text-[10px] font-mono bg-indigo-700/70 text-indigo-100">36</span>
+                </button>
+                <button type="button" onclick="selectBank('design_thinking_40')"
+                    class="bank-pill px-3 py-1.5 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all duration-200 border bg-slate-900 border-slate-700/80 text-slate-300 hover:bg-slate-800 hover:text-white">
+                    <span>📘</span> <span>Design Thinking (Libro)</span> <span class="px-1.5 py-0.5 rounded-md text-[10px] font-mono bg-slate-800 text-slate-400">40</span>
+                </button>
+                <button type="button" onclick="selectBank('formatos_dt_56')"
+                    class="bank-pill px-3 py-1.5 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all duration-200 border bg-slate-900 border-slate-700/80 text-slate-300 hover:bg-slate-800 hover:text-white">
+                    <span>📋</span> <span>Formatos DT PUCE</span> <span class="px-1.5 py-0.5 rounded-md text-[10px] font-mono bg-slate-800 text-slate-400">56</span>
+                </button>
+                <button type="button" onclick="selectBank('todos_combinados_132')"
+                    class="bank-pill px-3 py-1.5 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all duration-200 border bg-slate-900 border-slate-700/80 text-slate-300 hover:bg-slate-800 hover:text-white">
+                    <span>🚀</span> <span>Examen Completo RDA2</span> <span class="px-1.5 py-0.5 rounded-md text-[10px] font-mono bg-slate-800 text-slate-400">132</span>
+                </button>
+            </div>
+
+            <div class="flex items-center gap-2 text-xs">
                 <select id="bankSelectDropdown"
-                    class="bg-indigo-900/40 border border-indigo-700/50 rounded-lg px-2.5 py-1 text-indigo-200 text-xs focus:ring-2 focus:ring-indigo-500 focus:outline-none font-medium">
+                    class="bg-slate-900 border border-slate-700 hover:border-indigo-500 rounded-lg px-2.5 py-1 text-slate-200 text-xs focus:ring-2 focus:ring-indigo-500 focus:outline-none font-medium">
+                    <option value="business_model_canvas_36">📊 Business Model Canvas PUCE (36 Preguntas)</option>
+                    <option value="design_thinking_40">📘 Design Thinking: Emprender con IA (40 Preguntas)</option>
+                    <option value="formatos_dt_56">📋 Formatos Design Thinking PUCE (56 Preguntas)</option>
+                    <option value="todos_combinados_132">🚀 Examen Completo RDA2 (132 Preguntas)</option>
+                </select>
+                <select id="materiaSelect" class="hidden">
+                    <option value="RDA2">RDA2</option>
                 </select>
             </div>
         </div>
@@ -182,19 +211,27 @@
     <div class="bg-slate-900 border-b border-slate-800 py-2.5 px-4 sm:px-6">
         <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3 text-xs sm:text-sm">
             <!-- Filtros y Opciones -->
-            <div class="flex flex-wrap items-center gap-2">
-                <label class="text-slate-400 font-medium">Fase / Eje:</label>
+            <div class="flex flex-wrap items-center gap-2.5">
+                <div class="flex items-center gap-1.5 bg-slate-950/80 px-2.5 py-1 rounded-lg border border-slate-800">
+                    <span class="text-slate-400 font-medium">Banco:</span>
+                    <span id="activeBankBadge" class="text-xs font-bold text-indigo-300">Business Model Canvas (36 P.)</span>
+                </div>
+
+                <div class="h-4 w-px bg-slate-700 hidden sm:block"></div>
+
+                <label class="text-slate-400 font-medium">Filtro / Bloque:</label>
                 <select id="categoryFilter"
-                    class="bg-slate-800 border border-slate-700 rounded-lg px-2.5 py-1 text-slate-200 text-xs focus:ring-2 focus:ring-indigo-500 focus:outline-none">
-                    <option value="all">Todas las Fases (40 Preguntas)</option>
-                    <option value="cap1">Cap. 1 · Por qué Design Thinking</option>
-                    <option value="cap2">Cap. 2 · Fase Empatizar e IA</option>
-                    <option value="cap3">Cap. 3 · Fase Definir, JTBD y Filtros</option>
-                    <option value="cap4">Cap. 4 · Fase Idear y 3 Lentes</option>
-                    <option value="cap5">Cap. 5 · Fase Prototipar</option>
-                    <option value="cap6">Cap. 6 · Fase Testear y Métricas</option>
-                    <option value="cap7">Cap. 7 · Prototipo al Negocio (Unit Economics)</option>
-                    <option value="cap8_11">Cap. 8-11 · Roadmap, Riesgos y Casos</option>
+                    class="bg-slate-800 border border-slate-700 rounded-lg px-2.5 py-1 text-slate-200 text-xs focus:ring-2 focus:ring-indigo-500 focus:outline-none min-w-[200px]">
+                    <option value="all">Todos los Bloques (36 Preguntas)</option>
+                    <option value="bloque1">Bloque 1 · Segmento de Clientes</option>
+                    <option value="bloque2">Bloque 2 · Propuesta de Valor</option>
+                    <option value="bloque3">Bloque 3 · Canales</option>
+                    <option value="bloque4">Bloque 4 · Relación con Clientes</option>
+                    <option value="bloque5">Bloque 5 · Fuentes de Ingresos</option>
+                    <option value="bloque6">Bloque 6 · Recursos Clave</option>
+                    <option value="bloque7">Bloque 7 · Actividades Clave</option>
+                    <option value="bloque8">Bloque 8 · Socios Clave</option>
+                    <option value="bloque9">Bloque 9 · Estructura de Costos</option>
                     <option value="incorrect">Solo Preguntas Erradas</option>
                     <option value="bookmarked">Marcadas para Duda</option>
                 </select>
@@ -447,16 +484,6 @@
                     <label class="block font-medium text-slate-300 mb-1">Eje Temático / Fase:</label>
                     <select id="newCat"
                         class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-slate-200">
-                        <optgroup label="─── Design Thinking: Libro ───">
-                        <option value="cap1">Cap. 1 · Por qué Design Thinking</option>
-                        <option value="cap2">Cap. 2 · Fase Empatizar e IA</option>
-                        <option value="cap3">Cap. 3 · Fase Definir, JTBD y Filtros</option>
-                        <option value="cap4">Cap. 4 · Fase Idear y 3 Lentes</option>
-                        <option value="cap5">Cap. 5 · Fase Prototipar</option>
-                        <option value="cap6">Cap. 6 · Fase Testear y Métricas</option>
-                        <option value="cap7">Cap. 7 · Prototipo al Negocio (Unit Economics)</option>
-                        <option value="cap8_11">Cap. 8-11 · Roadmap, Riesgos y Casos</option>
-                        </optgroup>
                         <optgroup label="─── Business Model Canvas ───">
                         <option value="bloque1">Bloque 1 · Segmento de Clientes</option>
                         <option value="bloque2">Bloque 2 · Propuesta de Valor</option>
@@ -467,6 +494,32 @@
                         <option value="bloque7">Bloque 7 · Actividades Clave</option>
                         <option value="bloque8">Bloque 8 · Socios Clave</option>
                         <option value="bloque9">Bloque 9 · Estructura de Costos</option>
+                        </optgroup>
+                        <optgroup label="─── Design Thinking: Libro ───">
+                        <option value="cap1">Cap. 1 · Por qué Design Thinking</option>
+                        <option value="cap2">Cap. 2 · Fase Empatizar e IA</option>
+                        <option value="cap3">Cap. 3 · Fase Definir, JTBD y Filtros</option>
+                        <option value="cap4">Cap. 4 · Fase Idear y 3 Lentes</option>
+                        <option value="cap5">Cap. 5 · Fase Prototipar</option>
+                        <option value="cap6">Cap. 6 · Fase Testear y Métricas</option>
+                        <option value="cap7">Cap. 7 · Prototipo al Negocio (Unit Economics)</option>
+                        <option value="cap8_11">Cap. 8-11 · Roadmap, Riesgos y Casos</option>
+                        </optgroup>
+                        <optgroup label="─── Formatos DT PUCE ───">
+                        <option value="fmt1">Formato 1 · Guion de entrevista (The Mom Test)</option>
+                        <option value="fmt2">Formato 2 · Mapa de empatía</option>
+                        <option value="fmt3">Formato 3 · Ficha de persona</option>
+                        <option value="fmt4">Formato 4 · Del hallazgo al insight</option>
+                        <option value="fmt5">Formato 5 · JTBD, POV y Cómo podríamos</option>
+                        <option value="fmt6">Formato 6 · Los cuatro filtros</option>
+                        <option value="fmt7">Formato 7 · Crazy 8s</option>
+                        <option value="fmt8">Formato 8 · SCAMPER</option>
+                        <option value="fmt9">Formato 9 · Matriz impacto-esfuerzo</option>
+                        <option value="fmt10">Formato 10 · Plan Mago de Oz</option>
+                        <option value="fmt11">Formato 11 · Registro de prueba con usuarios</option>
+                        <option value="fmt12">Formato 12 · Lean Canvas</option>
+                        <option value="fmt13">Formato 13 · Cálculo de precio y LTV/CAC</option>
+                        <option value="fmt14">Formato 14 · Registro de riesgos</option>
                         </optgroup>
                     </select>
                 </div>
@@ -632,8 +685,8 @@
     var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",n="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+-$",e={};function t(r,o){if(!e[r]){e[r]={};for(var n=0;n<r.length;n++)e[r][r.charAt(n)]=n}return e[r][o]}var i={compressToBase64:function(r){if(null==r)return"";var n=i._compress(r,6,function(r){return o.charAt(r)});switch(n.length%4){default:case 0:return n;case 1:return n+"===";case 2:return n+"==";case 3:return n+"="}},decompressFromBase64:function(r){return null==r?"":""==r?null:i._decompress(r.length,32,function(n){return t(o,r.charAt(n))})},compressToUTF16:function(o){return null==o?"":i._compress(o,15,function(o){return r(o+32)})+" "},decompressFromUTF16:function(r){return null==r?"":""==r?null:i._decompress(r.length,16384,function(o){return r.charCodeAt(o)-32})},compressToUint8Array:function(r){for(var o=i.compress(r),n=new Uint8Array(2*o.length),e=0,t=o.length;e<t;e++){var s=o.charCodeAt(e);n[2*e]=s>>>8,n[2*e+1]=s%256}return n},decompressFromUint8Array:function(o){if(null==o)return i.decompress(o);for(var n=new Array(o.length/2),e=0,t=n.length;e<t;e++)n[e]=256*o[2*e]+o[2*e+1];var s=[];return n.forEach(function(o){s.push(r(o))}),i.decompress(s.join(""))},compressToEncodedURIComponent:function(r){return null==r?"":i._compress(r,6,function(r){return n.charAt(r)})},decompressFromEncodedURIComponent:function(r){return null==r?"":""==r?null:(r=r.replace(/ /g,"+"),i._decompress(r.length,32,function(o){return t(n,r.charAt(o))}))},compress:function(o){return i._compress(o,16,function(o){return r(o)})},_compress:function(r,o,n){if(null==r)return"";var e,t,i,s={},u={},a="",p="",c="",l=2,f=3,h=2,d=[],m=0,v=0;for(i=0;i<r.length;i+=1)if(a=r.charAt(i),Object.prototype.hasOwnProperty.call(s,a)||(s[a]=f++,u[a]=!0),p=c+a,Object.prototype.hasOwnProperty.call(s,p))c=p;else{if(Object.prototype.hasOwnProperty.call(u,c)){if(c.charCodeAt(0)<256){for(e=0;e<h;e++)m<<=1,v==o-1?(v=0,d.push(n(m)),m=0):v++;for(t=c.charCodeAt(0),e=0;e<8;e++)m=m<<1|1&t,v==o-1?(v=0,d.push(n(m)),m=0):v++,t>>=1}else{for(t=1,e=0;e<h;e++)m=m<<1|t,v==o-1?(v=0,d.push(n(m)),m=0):v++,t=0;for(t=c.charCodeAt(0),e=0;e<16;e++)m=m<<1|1&t,v==o-1?(v=0,d.push(n(m)),m=0):v++,t>>=1}0==--l&&(l=Math.pow(2,h),h++),delete u[c]}else for(t=s[c],e=0;e<h;e++)m=m<<1|1&t,v==o-1?(v=0,d.push(n(m)),m=0):v++,t>>=1;0==--l&&(l=Math.pow(2,h),h++),s[p]=f++,c=String(a)}if(""!==c){if(Object.prototype.hasOwnProperty.call(u,c)){if(c.charCodeAt(0)<256){for(e=0;e<h;e++)m<<=1,v==o-1?(v=0,d.push(n(m)),m=0):v++;for(t=c.charCodeAt(0),e=0;e<8;e++)m=m<<1|1&t,v==o-1?(v=0,d.push(n(m)),m=0):v++,t>>=1}else{for(t=1,e=0;e<h;e++)m=m<<1|t,v==o-1?(v=0,d.push(n(m)),m=0):v++,t=0;for(t=c.charCodeAt(0),e=0;e<16;e++)m=m<<1|1&t,v==o-1?(v=0,d.push(n(m)),m=0):v++,t>>=1}0==--l&&(l=Math.pow(2,h),h++),delete u[c]}else for(t=s[c],e=0;e<h;e++)m=m<<1|1&t,v==o-1?(v=0,d.push(n(m)),m=0):v++,t>>=1;0==--l&&(l=Math.pow(2,h),h++),s[p]=f++,c=String(a)}for(t=2,e=0;e<h;e++)m=m<<1|1&t,v==o-1?(v=0,d.push(n(m)),m=0):v++,t>>=1;for(;;){if(m<<=1,v==o-1){d.push(n(m));break}v++}return d.join("")},decompress:function(r){return null==r?"":""==r?null:i._decompress(r.length,32768,function(o){return r.charCodeAt(o)})},_decompress:function(o,n,e){var t,i,s,u,a,p,c,l=[],f=4,h=4,d=3,m="",v=[],g={val:e(0),position:n,index:1};for(t=0;t<3;t+=1)l[t]=t;for(s=0,a=Math.pow(2,2),p=1;p!=a;)u=g.val&g.position,g.position>>=1,0==g.position&&(g.position=n,g.val=e(g.index++)),s|=(u>0?1:0)*p,p<<=1;switch(s){case 0:for(s=0,a=Math.pow(2,8),p=1;p!=a;)u=g.val&g.position,g.position>>=1,0==g.position&&(g.position=n,g.val=e(g.index++)),s|=(u>0?1:0)*p,p<<=1;c=r(s);break;case 1:for(s=0,a=Math.pow(2,16),p=1;p!=a;)u=g.val&g.position,g.position>>=1,0==g.position&&(g.position=n,g.val=e(g.index++)),s|=(u>0?1:0)*p,p<<=1;c=r(s);break;case 2:return""}for(l[3]=c,i=c,v.push(c);;){if(g.index>o)return"";for(s=0,a=Math.pow(2,d),p=1;p!=a;)u=g.val&g.position,g.position>>=1,0==g.position&&(g.position=n,g.val=e(g.index++)),s|=(u>0?1:0)*p,p<<=1;switch(c=s){case 0:for(s=0,a=Math.pow(2,8),p=1;p!=a;)u=g.val&g.position,g.position>>=1,0==g.position&&(g.position=n,g.val=e(g.index++)),s|=(u>0?1:0)*p,p<<=1;l[h++]=r(s),c=h-1,f--;break;case 1:for(s=0,a=Math.pow(2,16),p=1;p!=a;)u=g.val&g.position,g.position>>=1,0==g.position&&(g.position=n,g.val=e(g.index++)),s|=(u>0?1:0)*p,p<<=1;l[h++]=r(s),c=h-1,f--;break;case 2:return v.join("")}if(0==f&&(f=Math.pow(2,d),d++),l[c])m=l[c];else{if(c!==h)return null;m=i+i.charAt(0)}v.push(m),l[h++]=i+m.charAt(0),i=m,0==--f&&(f=Math.pow(2,d),d++)}}};return i}();"function"==typeof define&&define.amd?define(function(){return LZString}):"undefined"!=typeof module&&null!=module?module.exports=LZString:"undefined"!=typeof angular&&null!=angular&&angular.module("LZString",[]).factory("LZString",function(){return LZString});
     </script>
 
-    <!-- Cargar banco de preguntas de Design Thinking -->
-    <script src="data/banco_preguntas_design_thinking.js"></script>
+    <!-- Cargar banco de preguntas de Design Thinking, Formatos y Business Model Canvas -->
+    <script src="data/banco_preguntas_design_thinking.js?v=20261105_canvas36_v7"></script>
 
     <!-- Script Principal de la Aplicación -->
     <script>
@@ -713,7 +766,7 @@
         let quizData = {};
         let dataBancos = [];
         let activeMateria = localStorage.getItem('ai_quiz_active_materia') || 'RDA2';
-        let activeBank = localStorage.getItem('ai_quiz_active_bank') || 'design_thinking_40';
+        let activeBank = localStorage.getItem('ai_quiz_active_bank') || 'business_model_canvas_36';
 
         // ESTADO DE LA APLICACIÓN
         let currentQuestions = [];
@@ -792,18 +845,71 @@
 
         function buildBankButtons() {
             var select = document.getElementById('bankSelectDropdown');
-            if (!select) return;
-            select.innerHTML = '';
-            dataBancos.forEach(function(b) {
-                var opt = document.createElement('option');
-                opt.value = b.id;
-                opt.textContent = b.titulo;
-                select.appendChild(opt);
-            });
-            select.value = activeBank;
-            select.onchange = function(e) {
-                selectBank(e.target.value);
-            };
+            var container = document.getElementById('bankPillsContainer');
+            
+            if (select) {
+                select.innerHTML = '';
+                dataBancos.forEach(function(b) {
+                    var opt = document.createElement('option');
+                    opt.value = b.id;
+                    opt.textContent = b.titulo;
+                    select.appendChild(opt);
+                });
+                select.value = activeBank;
+                select.onchange = function(e) {
+                    selectBank(e.target.value);
+                };
+            }
+
+            if (container) {
+                container.innerHTML = '';
+                dataBancos.forEach(function(b) {
+                    var btn = document.createElement('button');
+                    btn.type = 'button';
+                    btn.dataset.bankId = b.id;
+                    var qCount = b.preguntas ? b.preguntas.length : 0;
+                    
+                    var icon = '📘';
+                    if (b.id.includes('canvas')) icon = '📊';
+                    else if (b.id.includes('formato')) icon = '📋';
+                    else if (b.id.includes('combinado')) icon = '🚀';
+
+                    var isCurrent = (b.id === activeBank);
+                    btn.className = 'bank-pill px-3.5 py-1.5 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all duration-200 border cursor-pointer ' +
+                        (isCurrent 
+                            ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg shadow-indigo-600/30 scale-[1.02] ring-2 ring-indigo-400/50' 
+                            : 'bg-slate-900 border-slate-700/80 text-slate-300 hover:bg-slate-800 hover:border-slate-500 hover:text-white');
+                    
+                    btn.innerHTML = `<span>${icon}</span> <span>${b.titulo}</span> <span class="px-1.5 py-0.5 rounded-md text-[10px] font-mono ${isCurrent ? 'bg-indigo-800/80 text-indigo-100 font-bold' : 'bg-slate-800 text-slate-400'}">${qCount}</span>`;
+                    
+                    btn.onclick = function() {
+                        selectBank(b.id);
+                    };
+                    container.appendChild(btn);
+                });
+            }
+
+            updateActiveBankVisuals();
+        }
+
+        function updateActiveBankVisuals() {
+            var bObj = dataBancos.find(b => b.id === activeBank);
+            var badge = document.getElementById('activeBankBadge');
+            if (badge && bObj) {
+                badge.textContent = bObj.titulo;
+            }
+            var container = document.getElementById('bankPillsContainer');
+            if (container) {
+                var pills = container.querySelectorAll('.bank-pill');
+                pills.forEach(function(p) {
+                    var isCurrent = (p.dataset.bankId === activeBank);
+                    if (isCurrent) {
+                        p.className = 'bank-pill px-3.5 py-1.5 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all duration-200 border cursor-pointer bg-indigo-600 border-indigo-400 text-white shadow-lg shadow-indigo-600/30 scale-[1.02] ring-2 ring-indigo-400/50';
+                    } else {
+                        p.className = 'bank-pill px-3.5 py-1.5 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all duration-200 border cursor-pointer bg-slate-900 border-slate-700/80 text-slate-300 hover:bg-slate-800 hover:border-slate-500 hover:text-white';
+                    }
+                });
+            }
         }
 
         function populateCategoryDropdown() {
@@ -863,6 +969,7 @@
             } catch(e) {}
             var select = document.getElementById('bankSelectDropdown');
             if (select) select.value = bankName;
+            updateActiveBankVisuals();
             examFinished = false;
             populateCategoryDropdown();
             restoreBankState();
