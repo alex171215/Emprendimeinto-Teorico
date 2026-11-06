@@ -104,10 +104,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 1 — Segmento de Clientes",
           "text": "Una startup de tutorías universitarias escribe en bloque 1: «Todos los estudiantes universitarios de Ecuador». Tiene un presupuesto de 200 dólares para el piloto. Según la lógica del Canvas que enseña el Ing. Rodríguez, ¿qué debe hacer primero?",
           "options": [
-            "a) Lanzar ya, porque un mercado grande justifica el gasto y atraerá inversionistas.",
-            "b) Ampliar el presupuesto antes de acotar el segmento, para no limitar el potencial.",
-            "c) Registrar la marca en Ecuador para proteger el mercado antes de acotarlo.",
-            "d) Reducir el segmento a un grupo accionable: por ejemplo, estudiantes de Ingeniería de la PUCE antes de parciales."
+            "a) Lanzar ya: un mercado grande atrae inversionistas y justifica el presupuesto disponible.",
+            "b) Ampliar el presupuesto antes de acotar el segmento, para no limitar el potencial desde el inicio.",
+            "c) Registrar la marca en Ecuador para proteger el mercado antes de seleccionar el nicho inicial.",
+            "d) Reducir el segmento a un grupo accionable: estudiantes de Ingeniería de la PUCE antes de parciales."
           ],
           "correct": 3,
           "feedback": "Con 200 dólares no se puede llegar a todos los universitarios del país. La clase enseña que el primer segmento debe ser tan concreto que el equipo pueda encontrarlo, hablar con él y servirlo con recursos limitados. «Estudiantes de Ingeniería de la PUCE antes de parciales» permite ir a la facultad, hablar con 10 personas y validar. El mercado grande se conquista después, nicho por nicho."
@@ -118,10 +118,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 2 — Propuesta de Valor",
           "text": "«Fiado Claro» dice en bloque 2: «Una app con inteligencia artificial que lee la foto del cuaderno de fiado y lleva la cuenta de cada vecino automáticamente». El Ing. Rodríguez clasifica el rol de la IA en tres niveles: adorno, ayuda o núcleo. ¿En qué nivel está esta propuesta?",
           "options": [
-            "a) Adorno: si se apaga la IA, igual se puede registrar el fiado en papel.",
-            "b) Ayuda: la IA acelera el registro pero la tienda podría hacerlo con Excel.",
-            "c) Núcleo: sin la IA no existe el producto porque ninguna persona puede leer miles de caligrafías al mismo tiempo y en tiempo real.",
-            "d) Núcleo solo si la IA tiene más del 90 % de precisión en la lectura."
+            "a) Adorno: si se apaga la IA, igual se puede registrar el fiado manualmente en papel o Excel.",
+            "b) Ayuda: la IA acelera el registro, pero la tienda podría hacerlo igualmente con una hoja de cálculo.",
+            "c) Núcleo: sin la IA no existe el producto porque nadie puede leer miles de caligrafías distintas en tiempo real.",
+            "d) Núcleo solo si la IA supera el 90 % de precisión; debajo de ese umbral es apenas una ayuda menor."
           ],
           "correct": 2,
           "feedback": "La IA es núcleo cuando sin ella el producto no existe como se propone. Aquí el diferencial es que la IA lee cualquier letra manuscrita y actualiza el saldo en segundos: eso no se puede reemplazar con Excel ni con un digitador sin perder la promesa (inmediatez, cero errores manuales). Un chatbot añadido a una app ya funcional sería adorno; una IA que hace más rápido lo que igual se haría es ayuda. La IA núcleo es lo que busca ALAS."
@@ -132,10 +132,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 2 — Propuesta de Valor",
           "text": "Cuatro propuestas de valor para una app de tutorías universitarias. ¿Cuál sigue mejor la frase del Canvas: «Ayudamos a [segmento] que [problema], con [solución], a diferencia de [alternativa]»?",
           "options": [
-            "a) «Ayudamos a estudiantes de Ingeniería de la PUCE que no entienden cálculo antes del parcial, con tutorías en 24 horas de un par del mismo curso, a diferencia de buscar en YouTube sin respuesta.»",
-            "b) «La mejor plataforma de aprendizaje del Ecuador, con tutores certificados y precios accesibles.»",
-            "c) «Ayudamos a estudiantes universitarios con dudas, con tutores disponibles, a diferencia de estudiar solos.»",
-            "d) «Conectamos tutores y estudiantes de forma eficiente, usando IA para hacer el match perfecto.»"
+            "a) «Ayudamos a estudiantes de la PUCE que no entienden cálculo antes del parcial, con tutorías de un par en 24 horas, a diferencia de buscar en YouTube sin respuesta.»",
+            "b) «La mejor plataforma de aprendizaje del Ecuador, con tutores certificados y acceso desde cualquier dispositivo a precio accesible.»",
+            "c) «Ayudamos a estudiantes universitarios con dudas de cualquier materia, con tutores disponibles las 24 horas, a diferencia de estudiar completamente solos.»",
+            "d) «Conectamos tutores certificados y estudiantes universitarios de forma eficiente, usando IA para el match ideal según materia y estilo de aprendizaje.»"
           ],
           "correct": 0,
           "feedback": "La frase del Canvas exige cuatro elementos: segmento concreto (Ingeniería PUCE), problema específico (no entender cálculo antes del parcial), solución precisa (tutoría en 24 h de un par) y alternativa real (YouTube sin respuesta). La opción c los cumple todos. Las demás son frases de marketing genéricas que no permiten saber a quién ayudan, en qué situación o qué pierden si no usan el servicio."
@@ -146,10 +146,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 2 — Propuesta de Valor",
           "text": "«Raíces Andinas» entrega canastas de verduras agroecológicas a domicilio. Su propuesta dice: «Comida fresca y sin químicos, en tu puerta cada semana; precio justo para el agricultor; sabes quién cultivó lo que comes». Un competidor lanza exactamente la misma propuesta. Según el Canvas, ¿qué bloque habría fallado en «Raíces Andinas»?",
           "options": [
-            "a) Bloque 9 (costos): si no tiene costos menores, el competidor puede copiarlo y cobrar menos.",
-            "b) Bloque 2 (propuesta de valor): una propuesta que se puede copiar en texto no tiene ventaja real.",
-            "c) Bloque 5 (ingresos): el problema es el precio, no la propuesta.",
-            "d) Bloque 8 (socios clave): si no tiene alianzas exclusivas con productores, cualquiera puede replicar la cadena."
+            "a) Bloque 9 (costos): si no tiene costos menores, el competidor puede copiarlo y cobrar precios más bajos.",
+            "b) Bloque 2 (propuesta de valor): una propuesta que se puede copiar en texto no ofrece ventaja competitiva real.",
+            "c) Bloque 5 (ingresos): el problema es que el precio está mal definido y el competidor puede igualarlo fácilmente.",
+            "d) Bloque 8 (socios clave): sin alianzas exclusivas con productores, cualquiera puede replicar la misma cadena de suministro."
           ],
           "correct": 3,
           "feedback": "La propuesta de valor en el Canvas describe qué se ofrece, pero la sostenibilidad del modelo depende de las barreras en otros bloques. Si «Raíces Andinas» tiene contratos exclusivos con asociaciones de productores (bloque 8: socios clave), un competidor no puede replicar la cadena con los mismos proveedores. La propuesta de valor en texto siempre puede copiarse; la ventaja real está en los recursos y socios difíciles de duplicar."
@@ -188,10 +188,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 3 — Canales",
           "text": "«BiciCampus» usa como canal «puntos de alquiler en la entrada de la universidad y reserva por app». ¿Qué virtud específica tiene este canal para el segmento «estudiantes a menos de 3 km»?",
           "options": [
-            "a) Es digital, lo que reduce costos operativos y permite escalar sin límites.",
-            "b) Es el único canal posible porque el segmento no usa redes sociales.",
-            "c) Permite cobrar sin pasarela de pagos, lo que elimina comisiones bancarias.",
-            "d) Combina presencia física donde el cliente ya pasa (entrada del campus) con reserva digital para reducir fricciones."
+            "a) Es completamente digital, lo que reduce costos operativos y permite escalar sin contratar personal adicional.",
+            "b) Es el único canal viable porque los estudiantes de ese segmento no usan redes sociales convencionales.",
+            "c) Permite cobrar sin pasarela de pagos externa, eliminando comisiones bancarias y simplificando la tesorería.",
+            "d) Combina punto físico donde el cliente ya pasa (entrada del campus) con reserva digital para reducir fricciones."
           ],
           "correct": 3,
           "feedback": "El canal ideal llega al cliente donde ya está y en el momento en que tiene el problema. El estudiante cruza la entrada del campus todos los días; ver las bicicletas físicamente activa el deseo de usarlas. La app de reserva reduce la fricción de tener que hacer fila. Esta combinación (físico + digital) es coherente con el segmento porque no exige que el cliente cambie su ruta ni aprenda un proceso largo."
@@ -202,10 +202,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 3 — Canales",
           "text": "Una startup que vende software de gestión a veterinarias define su canal como «venta directa puerta a puerta». El precio es de 8 dólares al mes. Según el Canvas y la lógica del punto de equilibrio, ¿qué problema tiene este canal?",
           "options": [
-            "a) La venta directa solo funciona para productos físicos, no para software.",
-            "b) La venta directa requiere una fuerza de ventas que no es compatible con startups pequeñas.",
-            "c) El costo de visitar cada veterinaria puede superar los ingresos que genera cada cliente, haciendo el modelo insostenible.",
-            "d) El canal es incorrecto porque las veterinarias prefieren comprar por e-commerce."
+            "a) La venta directa solo funciona para productos físicos; para software SaaS el canal correcto es digital.",
+            "b) La venta directa requiere una fuerza de ventas dedicada, incompatible con el tamaño inicial de una startup.",
+            "c) El costo de visitar cada veterinaria puede superar los ingresos que genera ese cliente, haciendo el modelo insostenible.",
+            "d) El canal es incorrecto porque las veterinarias prefieren comprar software por e-commerce sin intervención de vendedores."
           ],
           "correct": 2,
           "feedback": "El Canvas exige coherencia entre canal e ingresos. Si visitar cada veterinaria cuesta 15 dólares en tiempo y transporte, y el cliente paga solo 8 dólares al mes, el primer mes ya es negativo. El canal solo es sostenible si su costo de adquisición cabe dentro del valor que genera el cliente durante su vida (LTV). La clase enseña el punto de equilibrio: costos fijos ÷ (precio − costo por cliente) = clientes necesarios; el canal afecta el costo por cliente."
@@ -216,10 +216,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 3 — Canales",
           "text": "El Ing. Rodríguez explica: «El canal es la tubería que lleva el agua hasta la casa». Con esa analogía, ¿cuál de estas startups tiene el canal más incoherente con su segmento?",
           "options": [
-            "a) «TutorYa»: plataforma digital de tutorías que usa como canal una oficina en un centro comercial para registrar nuevos tutores.",
-            "b) «AlmuerzoListo»: app de pedidos que usa como canal publicaciones en el grupo de WhatsApp de cada facultad.",
-            "c) «Fiado Claro»: app para tiendas de barrio que usa como canal distribuidores de bebidas que visitan esas tiendas.",
-            "d) «BiciCampus»: alquiler de bicicletas que usa como canal puntos físicos en la entrada del campus."
+            "a) «TutorYa»: plataforma digital de tutorías que usa como canal una oficina física en un centro comercial para registrar tutores.",
+            "b) «AlmuerzoListo»: app de pedidos que usa el grupo de WhatsApp de cada facultad para publicitar sus servicios.",
+            "c) «Fiado Claro»: app para tiendas de barrio que usa distribuidores de bebidas que ya visitan cada tienda semanalmente.",
+            "d) «BiciCampus»: alquiler de bicicletas que posiciona puntos físicos de retiro en la entrada principal del campus."
           ],
           "correct": 0,
           "feedback": "«TutorYa» ofrece un servicio 100 % digital (tutorías en línea), pero usa una oficina física en un centro comercial como canal de captación de tutores. Esto genera un costo fijo alto (arriendo) y un alcance geográfico limitado, incoherente con una plataforma digital que debería captar tutores por redes o campus. El taller señala este caso como ERROR 2 de costos: la oficina no sirve a un canal digital."
@@ -230,10 +230,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 4 — Relación con Clientes",
           "text": "«Fiado Claro» define su relación con clientes como «resumen semanal por WhatsApp de las deudas de los vecinos». Según el Canvas, ¿qué función principal cumple ese elemento?",
           "options": [
-            "a) Es parte del canal, porque WhatsApp es el medio de comunicación.",
-            "b) Es un recurso clave, porque la mensajería tiene costo variable por mensaje.",
+            "a) Es parte del canal, porque WhatsApp es el medio de comunicación entre la startup y el tendero.",
+            "b) Es un recurso clave, porque la mensajería tiene costo variable por mensaje enviado.",
             "c) Es la acción que hace volver al cliente cada semana sin que se lo pidan, generando hábito y retención.",
-            "d) Es la propuesta de valor, porque el resumen es lo que el tendero realmente compra."
+            "d) Es la propuesta de valor, porque el resumen automático de deudas es exactamente lo que el tendero compra."
           ],
           "correct": 2,
           "feedback": "El bloque 4 (Relación con clientes) responde: ¿qué hace que el cliente vuelva? El resumen semanal automático crea un hábito: el tendero espera ese mensaje cada lunes y, si no llega, lo extraña. Eso es retención. No es el canal (WhatsApp puede ser canal, pero la relación es la acción que genera vínculo), ni la propuesta de valor (que es leer el cuaderno y calcular saldos). La clase enseña que la relación es «lo que hace volver cada semana sin pedírselo»."
@@ -258,10 +258,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 4 — Relación con Clientes",
           "text": "«TutorYa» ofrece tutorías y define su relación con clientes como «los estudiantes pueden calificar al tutor después de cada sesión». ¿Qué problema de Canvas tiene esta definición de relación?",
           "options": [
-            "a) Las calificaciones son un recurso clave, no una relación; deben estar en el bloque 6.",
-            "b) Es correcta: la calificación genera confianza y eso es suficiente para retener al cliente.",
-            "c) El problema es técnico: las calificaciones requieren un módulo de software que añade costo.",
-            "d) La calificación es una acción puntual post-servicio; no dice qué hace que el estudiante regrese la próxima vez que necesita una tutoría."
+            "a) Las calificaciones son un recurso clave de datos, no una relación; deberían registrarse en el bloque 6.",
+            "b) Es correcta: la calificación pública genera confianza y esa confianza es suficiente para retener al estudiante.",
+            "c) El problema es técnico: implementar calificaciones requiere un módulo de software que añade costo de desarrollo.",
+            "d) La calificación es una acción puntual post-sesión; no explica qué hace que el estudiante regrese la próxima vez."
           ],
           "correct": 3,
           "feedback": "La Relación con clientes debe responder qué genera que el cliente vuelva, no solo qué pasa después de cada sesión. Calificar al tutor mejora la calidad para el próximo usuario, pero no garantiza que ese mismo estudiante regrese. Una relación más sólida sería, por ejemplo, enviarle un recordatorio antes del siguiente parcial con los tutores disponibles en su área, o mostrarle su historial de mejora. La relación es el vínculo activo, no solo el feedback pasivo."
@@ -272,10 +272,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 4 — Relación con Clientes",
           "text": "Una startup de gestión de inventarios para ferreterías define en bloque 4: «Capacitación gratuita presencial al momento de la venta». Tiene 50 clientes y quiere llegar a 300. ¿Qué ajuste debe hacer en el bloque de relación para escalar?",
           "options": [
-            "a) Sustituir la capacitación presencial por videos tutoriales, base de conocimiento y soporte por chat para que el cliente se autogestione.",
-            "b) Ampliar el equipo de ventas para que más personas puedan capacitar en paralelo.",
-            "c) Cobrar por la capacitación para financiar el escalamiento del equipo.",
-            "d) Eliminar la capacitación: si el software es bueno, el cliente no necesita ayuda."
+            "a) Sustituir la capacitación presencial por videos tutoriales y soporte por chat para que el cliente se autogestione.",
+            "b) Ampliar el equipo de ventas para que más personas capaciten a clientes en paralelo y se cubra la demanda creciente.",
+            "c) Cobrar por la capacitación inicial para generar un ingreso adicional que financie el escalamiento del equipo.",
+            "d) Eliminar la capacitación completamente: si el software tiene buena UX, el cliente no necesita ayuda para usarlo."
           ],
           "correct": 0,
           "feedback": "Para escalar de 50 a 300 clientes sin que los costos crezcan igual, la relación debe pasar de personal a autoservicio. Videos tutoriales, una base de conocimiento y un chatbot de soporte permiten que el cliente aprenda solo, en cualquier momento, sin que el equipo tenga que estar presente. Ampliar el equipo de ventas sí escala los ingresos, pero también los costos, lo que no mejora el margen. La clase describe el escalamiento como «crecer sin que los costos crezcan igual»."
@@ -286,10 +286,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 5 — Fuentes de Ingresos",
           "text": "«TutorYa» cobra 120 dólares al mes por acceso ilimitado a tutorías. Su segmento son estudiantes universitarios. El taller marca esto como un error. ¿Cuál es el diagnóstico más preciso?",
           "options": [
-            "a) El precio es muy bajo; debería cobrar más para financiar a los tutores.",
-            "b) El problema es el modelo, no el precio: debería ser freemium en vez de suscripción.",
-            "c) El error está en el bloque de canales: si mejoran la distribución, el precio puede mantenerse.",
-            "d) 120 dólares al mes supera lo que un estudiante con presupuesto limitado puede pagar; el modelo de ingresos es incoherente con el segmento."
+            "a) El precio es muy bajo; debería subirse para financiar correctamente a los tutores y cubrir los costos.",
+            "b) El problema es el modelo: freemium funcionaría mejor que suscripción mensual para este tipo de servicio.",
+            "c) El error está en el canal de distribución: si mejoran la captación de usuarios, el precio puede mantenerse igual.",
+            "d) 120 dólares al mes supera lo que un estudiante puede pagar; el modelo de ingresos es incoherente con el segmento."
           ],
           "correct": 3,
           "feedback": "El Canvas exige coherencia entre el precio y quién paga. Un estudiante universitario promedio gasta entre 5 y 15 dólares en servicios digitales al mes. 120 dólares mensuales es más que lo que muchos estudiantes gastan en transporte y alimentación juntos. El taller señala esto como ERROR 1 (ingresos): «$120 al mes no lo paga un estudiante con poco presupuesto». La solución es cobro por sesión (6–8 dólares) o paquetes de 5 tutorías antes de exámenes."
@@ -370,10 +370,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 6 — Recursos Clave",
           "text": "Una startup de logística usa una red de 200 repartidores independientes para entregar pedidos en 2 horas. ¿Cómo clasificaría este activo en el Canvas?",
           "options": [
-            "a) Bloque 7 (actividades clave): entregar pedidos es lo que hacen todos los días.",
-            "b) Bloque 8 (socios clave): los repartidores son terceros independientes que proveen el recurso de entrega.",
-            "c) Bloque 3 (canales): los repartidores son el canal por el que el producto llega al cliente.",
-            "d) Bloque 6 (recursos clave): la red de repartidores es el activo humano que hace posible la promesa de entrega en 2 horas."
+            "a) El dominio, el hosting y las cuentas de redes sociales, ya que toda startup digital los necesita para operar.",
+            "b) El equipo fundador y el capital inicial, porque sin personas ni dinero no puede arrancar ningún negocio.",
+            "c) El algoritmo de IA o las bases de datos propias, siempre que sean el elemento que hace diferente a la startup.",
+            "d) Los recursos cuya ausencia haría que la propuesta de valor no se pueda entregar: la IA, los datos o la red de proveedores."
           ],
           "correct": 3,
           "feedback": "La red de repartidores puede aparecer en distintos bloques según cómo se gestione. Si son empleados propios o están integrados en la plataforma como el recurso central de la operación, van en bloque 6 (recursos humanos). Si son empresas externas contratadas (como una empresa de mensajería), van en bloque 8 (socios). Si su función principal es ser el medio por el que el pedido llega al cliente, también se puede mencionar en bloque 3. El contexto (200 repartidores en la red propia de la startup) indica un recurso humano clave."
@@ -384,10 +384,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 6 — Recursos Clave",
           "text": "El Ing. Rodríguez señala que en startups con IA los datos son un recurso clave. ¿Por qué los datos históricos de los clientes son más valiosos que el código de la app?",
           "options": [
-            "a) Porque el código tiene propiedad intelectual que caduca, mientras que los datos son para siempre.",
-            "b) Porque el código se puede reescribir, pero los datos del comportamiento real del cliente no se pueden fabricar; son la barrera de entrada más difícil de replicar.",
-            "c) Porque los datos son más baratos de almacenar que de programar.",
-            "d) Porque los datos permiten cobrar más: los clientes pagan más si saben que la startup tiene mucha información."
+            "a) Los créditos de la API de OpenAI, porque sin ellos la lectura del cuaderno no funciona y el servicio se cae.",
+            "b) La base de datos de caligrafías etiquetadas, porque sin esa data el modelo de IA no puede entrenarse ni funcionar.",
+            "c) El dominio web y el hosting en la nube, porque son los que alojan la app y permiten que el cliente la descargue.",
+            "d) El número de celular del fundador, porque es el canal de soporte principal para las tiendas en caso de fallas."
           ],
           "correct": 1,
           "feedback": "El código de una app puede ser reescrito por un competidor con suficiente dinero. Los datos históricos de comportamiento de clientes reales (cuánto fían, con qué frecuencia pagan, qué productos se mueven más) no se pueden fabricar; requieren tiempo y adopción real. Eso crea una barrera de entrada: mientras más tiempo lleva la startup con sus clientes, más preciso es su modelo de IA y más difícil es que un competidor nuevo lo iguale. Por eso los datos son el recurso más estratégico en modelos de IA."
@@ -398,10 +398,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 7 — Actividades Clave",
           "text": "«Fiado Claro» lista sus actividades clave: (1) mejorar el modelo de reconocimiento de caligrafía; (2) afiliar nuevas tiendas cada semana; (3) diseñar la identidad visual de la marca. ¿Cuál de las tres es menos clave para cumplir la propuesta de valor?",
           "options": [
-            "a) La (1): mejorar el modelo es una tarea técnica que puede tercerizar.",
-            "b) La (2): afiliar tiendas no es una actividad de tecnología.",
-            "c) La (3): el diseño de marca no hace que el fiado se registre mejor ni que más tiendas se afilien.",
-            "d) Ninguna: las tres son igualmente importantes para cualquier startup."
+            "a) Diseñar la identidad de marca: logo, colores, tipografía y tono de voz para las redes sociales.",
+            "b) Redactar el plan de negocios formal y preparar el pitch deck para presentar a inversores en la siguiente ronda.",
+            "c) Entrenar o ajustar el modelo de IA con datos reales para que la lectura de caligrafías sea confiable.",
+            "d) Publicar semanalmente en redes sociales para mantener la presencia digital y atraer nuevos usuarios."
           ],
           "correct": 2,
           "feedback": "Las actividades clave son las que el equipo debe hacer muy bien para que la propuesta de valor funcione. Mejorar el modelo (1) es crítico: si la lectura de caligrafía falla, la promesa se rompe. Afiliar tiendas (2) es crítico: sin más clientes, no hay negocio. El diseño de identidad visual (3) puede ayudar al marketing, pero no afecta directamente la capacidad de leer cuadernos ni de cerrar contratos con tiendas. La analogía del taller: «la mochila de excursión: lleven lo indispensable»."
@@ -412,10 +412,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 7 — Actividades Clave",
           "text": "Una startup de tutorías universitarias identifica sus actividades: (A) hacer el match entre tutor y estudiante vía IA; (B) verificar la calidad académica de los tutores; (C) publicar contenido en Instagram tres veces por semana. ¿Cuál combinación de actividades es más clave para su propuesta?",
           "options": [
-            "a) A y C: el match es el core y las redes generan tráfico.",
-            "b) B y C: sin tutores buenos no hay producto y sin redes no hay clientes.",
-            "c) Solo A: la IA de match es el único diferencial real.",
-            "d) A y B: el match efectivo y la calidad del tutor son lo que hace funcionar la promesa."
+            "a) A y C: el algoritmo de match es el core del producto y las redes sociales generan el tráfico de usuarios.",
+            "b) B y C: sin tutores de buena calidad no hay producto, y sin redes sociales no hay forma de captar clientes.",
+            "c) Solo A: el algoritmo de IA para el match es el único diferencial real que tiene la plataforma.",
+            "d) A y B: el match efectivo entre tutor y estudiante, junto con la calidad del tutor, son lo que cumple la promesa."
           ],
           "correct": 3,
           "feedback": "El match por IA (A) es la actividad tecnológica que conecta a estudiante y tutor en segundos con alta compatibilidad. La verificación de calidad (B) garantiza que el tutor sepa enseñar, que es la promesa central. Sin A, el proceso es lento y manual; sin B, el estudiante puede toparse con tutores incompetentes y no volver. Publicar en Instagram (C) es una actividad de marketing, no de producción del servicio: si falta, el crecimiento baja, pero el servicio sigue funcionando."
@@ -440,10 +440,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 7 — Actividades Clave",
           "text": "El Ing. Rodríguez explica que para escalar, las actividades clave deben poder repetirse igual con 10 o con 100 clientes. ¿Qué significa eso en términos de diseño de actividades?",
           "options": [
-            "a) Que las actividades deben estar documentadas y automatizadas para que no dependan de que un fundador las haga manualmente cada vez.",
-            "b) Que el equipo debe trabajar más horas a medida que crece el número de clientes.",
-            "c) Que se deben contratar más empleados en proporción directa al número de clientes.",
-            "d) Que las actividades solo se automatizan una vez que se superan los 100 clientes."
+            "a) Validar el modelo completo end-to-end: que el cliente pide, la tienda entrega y el cobro funciona sin errores.",
+            "b) Negociar contratos con los bares del campus para garantizar el volumen mínimo de pedidos diarios.",
+            "c) Lanzar la campaña de marketing digital para captar los primeros 500 usuarios antes de la semana de inscripciones.",
+            "d) Revisar semanalmente los KPIs del tablero de control para asegurar que las métricas de retención van en alza."
           ],
           "correct": 0,
           "feedback": "La escalabilidad implica que las actividades no se multiplican linealmente con los clientes. Si el match entre tutor y estudiante lo hace manualmente un fundador, con 10 estudiantes es manejable pero con 100 se colapsa. Si está automatizado por IA con un proceso documentado, funciona igual con 100 que con 1000. La analogía de la clase: «La receta de la abuela: para abrir diez locales, la receta tiene que estar escrita con medidas exactas para que cualquier cocinero la repita igual»."
@@ -454,10 +454,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 8 — Socios Clave",
           "text": "«Fiado Claro» lista como socios: (1) distribuidores de bebidas que visitan las tiendas; (2) proveedor del modelo de IA (API de visión); (3) los propios tenderos que usan la app. ¿Cuál no es un socio clave sino un cliente?",
           "options": [
-            "a) El (1): los distribuidores son competidores potenciales, no socios.",
+            "a) El (1): los distribuidores de bebidas son competidores potenciales en distribución, no socios de la startup.",
             "b) El (3): los tenderos son el segmento de clientes, no socios de la operación.",
-            "c) El (2): el proveedor de IA es un recurso, no un socio.",
-            "d) Todos son socios: cualquiera que interactúe con la startup lo es."
+            "c) El (2): el proveedor de la API de IA es un recurso clave externo, no un socio estratégico de la empresa.",
+            "d) Todos son socios: cualquier persona o empresa que interactúe con la startup debe clasificarse como socio."
           ],
           "correct": 1,
           "feedback": "Los socios clave son organizaciones o personas externas que el equipo necesita para operar pero que no son clientes. Los tenderos son quienes reciben y pagan la propuesta de valor: pertenecen al bloque 1 (Segmento). Los distribuidores de bebidas son el canal de distribución y/o socio porque llegan a las tiendas antes que nadie. El proveedor de la API de IA es el que provee la tecnología central; puede clasificarse como recurso o socio según el nivel de integración."
@@ -468,10 +468,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 8 — Socios Clave",
           "text": "«Raíces Andinas» tiene como socios: asociaciones de pequeños productores, empresa de reparto en moto, pasarela de pagos y ONG de agroecología. ¿Qué criterio define que estos cuatro sean socios clave y no recursos?",
           "options": [
-            "a) Son socios porque firman un contrato formal con la startup.",
-            "b) Son socios porque son los que pagan a la startup por sus servicios.",
-            "c) Son socios porque trabajan de forma gratuita a cambio de visibilidad de marca.",
-            "d) Son socios porque sin ellos la propuesta no se puede entregar, pero son entidades externas que la startup no posee ni controla."
+            "a) Los proveedores de materias primas, ya que sin suministros la empresa no puede fabricar ni entregar el producto.",
+            "b) Los accionistas minoritarios que invierten capital a cambio de participación en la startup.",
+            "c) Los clientes frecuentes que recomiendan el servicio a sus conocidos y actúan como embajadores de la marca.",
+            "d) Distribuidores de bebidas o asociaciones de tenderos que ya tienen la confianza de las tiendas de barrio de Quito."
           ],
           "correct": 3,
           "feedback": "El Canvas diferencia recursos (lo que la startup posee o controla) de socios (lo que necesita pero no posee). Los productores cultivan los alimentos; Raíces no los posee. La empresa de reparto entrega; Raíces no tiene motos propias. La pasarela procesa pagos; Raíces no es banco. Sin ninguno de ellos la propuesta de valor (canasta fresca en tu puerta, precio justo al agricultor) no funciona. Eso los hace socios clave: son indispensables pero externos."
@@ -482,10 +482,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 8 — Socios Clave",
           "text": "Una startup que vende software de gestión de citas a consultorios dentales incluye en bloque 8 a «el Ministerio de Salud». ¿Qué problema tiene esa decisión?",
           "options": [
-            "a) El Ministerio de Salud es un actor regulador, no un socio operativo; incluirlo como socio no dice qué rol concreto cumple.",
-            "b) El Ministerio de Salud es un cliente potencial; debería estar en el bloque 1.",
-            "c) El Ministerio de Salud es un recurso clave porque sus datos de pacientes alimentan el sistema.",
-            "d) No hay problema: cualquier entidad del sector es automáticamente un socio clave."
+            "a) La red de bares aliados en el campus, porque sin ellos no hay quién prepare ni entregue los pedidos.",
+            "b) La app móvil y el sistema de pagos en línea, ya que son la interfaz principal a través de la cual los estudiantes realizan sus pedidos.",
+            "c) El equipo de marketing, porque sin visibilidad en redes el campus no sabrá que el servicio existe.",
+            "d) El capital inicial de los fundadores, porque financia los primeros meses de operación y el desarrollo de la app."
           ],
           "correct": 0,
           "feedback": "Un socio clave debe tener un rol específico y concreto en la operación. «El Ministerio de Salud» es una entidad reguladora que establece normas, pero no participa activamente en entregar la propuesta de valor (gestionar citas). Incluirlo sin especificar el rol genera un Canvas vago. El taller enseña que un socio débil dice «Ministerio de Salud»; un socio fuerte dice «Ministerio de Salud: valida la interoperabilidad de los datos clínicos con el sistema nacional»."
@@ -496,10 +496,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 8 — Socios Clave",
           "text": "El Ing. Rodríguez explica que los socios clave resuelven algo que la startup «no sabe o no puede hacer». Una startup de diagnóstico agrícola no sabe entrenar modelos de IA de visión. ¿Cuál es el socio más estratégico?",
           "options": [
-            "a) Un diseñador gráfico freelance que mejore la interfaz de la app.",
-            "b) Una cámara de comercio que promueva la startup en ferias del sector.",
-            "c) Una universidad con laboratorio de IA que cocrea el modelo como proyecto de investigación.",
-            "d) Una agencia de publicidad que maneje las redes sociales de la startup."
+            "a) Un diseñador gráfico freelance que mejore la interfaz visual y la experiencia de usuario de la app.",
+            "b) Una cámara de comercio local que promueva la startup en ferias del sector y conecte con nuevos clientes.",
+            "c) Una universidad con laboratorio de IA que cocrea el modelo predictivo como proyecto de investigación.",
+            "d) Una agencia de publicidad que gestione las redes sociales y las campañas de contenido de la startup."
           ],
           "correct": 2,
           "feedback": "Si la startup no puede entrenar el modelo de visión, la brecha crítica es de conocimiento técnico. Una universidad con laboratorio de IA llena exactamente esa brecha: tiene datos, investigadores y GPU. Además, la colaboración puede ser a bajo costo si se enmarca como investigación conjunta. Las otras opciones (diseñador, cámara de comercio, agencia) resuelven problemas de comunicación o visibilidad, que son importantes pero no son la brecha que tumba la propuesta de valor."
@@ -510,10 +510,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 9 — Estructura de Costos",
           "text": "«Fiado Claro» tiene estos costos mensuales: servidor cloud 50 dólares, API de IA 0,50 dólares por tienda, sueldo mínimo del equipo 300 dólares. Con 80 tiendas y precio de 5 dólares, ¿cuánto gana o pierde al mes?",
           "options": [
-            "a) Gana 10 dólares: 80 × 5 = 400; costos = 390.",
-            "b) Gana 10 dólares: ingresos 400, costos fijos 350, variables 40. Resultado = 400 − 390 = 10.",
-            "c) Pierde 10 dólares: 80 × 5 = 400; costos fijos 350 + variables 40 = 390. Margen = 10.",
-            "d) No se puede calcular sin conocer el número de transacciones por tienda."
+            "a) Gana 10 dólares: ingresos 80 × 5 = 400; costos totales 390; resultado positivo de 10 dólares.",
+            "b) Gana 10 dólares: ingresos 400, costos fijos 350 más variables 40 suman 390. Resultado = 10.",
+            "c) Pierde 10 dólares: 80 × 5 = 400; costos fijos 350 más variables 40 = 390; el margen es negativo.",
+            "d) No se puede calcular sin conocer el número exacto de transacciones realizadas por cada tienda."
           ],
           "correct": 1,
           "feedback": "Costos fijos: servidor (50) + sueldo (300) = 350 dólares. Costo variable: 0,50 × 80 tiendas = 40 dólares. Total costos: 390. Ingresos: 80 × 5 = 400 dólares. Resultado: 400 − 390 = +10 dólares. La startup gana 10 dólares al mes, con 80 tiendas. El punto de equilibrio era 300 ÷ (5 − 0,50) = 67 tiendas; con 80 ya se supera. La clase exige escribir la cuenta explícita en el lienzo."
@@ -524,10 +524,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 9 — Estructura de Costos",
           "text": "El taller indica que «los costos olvidan la IA» es uno de los cinco errores que bajan la nota. ¿Por qué es importante incluir el costo de la IA en el bloque 9?",
           "options": [
-            "a) Porque la IA es el único costo variable en startups de software.",
-            "b) Porque si el modelo de IA se paga por uso (tokens, llamadas a API), sube con el número de clientes y puede eliminar el margen si no se calcula.",
-            "c) Porque los inversores solo financian startups que muestran el costo de la IA en el Canvas.",
-            "d) Porque sin el costo de la IA no se puede calcular el punto de equilibrio de ninguna empresa."
+            "a) Porque la IA es el único costo variable en startups de software y domina la estructura de costos.",
+            "b) Porque si la IA se paga por uso (tokens, llamadas a API), sube con el número de clientes y puede eliminar el margen.",
+            "c) Porque los inversores solo financian startups que muestran el costo de la IA de forma explícita en el Canvas.",
+            "d) Porque sin el costo de la IA no es posible calcular el punto de equilibrio de ninguna empresa tecnológica."
           ],
           "correct": 1,
           "feedback": "Las APIs de IA (OpenAI, Google Vision, etc.) se pagan por uso: por token generado, por imagen procesada o por llamada. Si la startup tiene 10 clientes, el costo es manejable; con 1000 clientes puede ser un costo mayor que el servidor. Si el Canvas no lo incluye, el punto de equilibrio calculado es incorrecto y el modelo aparenta ser rentable cuando no lo es. El Ing. Rodríguez lo resume: «La IA también cuesta: se paga por uso»."
@@ -538,10 +538,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 9 — Estructura de Costos",
           "text": "Una startup tiene costos fijos de 240 dólares al mes y cobra 12 dólares por cliente. El costo de la IA es de 2 dólares por cliente. El equipo calcula el punto de equilibrio como 240 ÷ 12 = 20 clientes. ¿Qué error cometió?",
           "options": [
-            "a) Ninguno: dividir costos fijos entre el precio es la fórmula correcta.",
-            "b) El error es que no incluyó el IVA en el precio de venta.",
-            "c) Dividió los costos fijos entre el precio bruto y no entre la contribución neta (precio − costo variable). El correcto es 240 ÷ (12 − 2) = 24 clientes.",
-            "d) El error es que los costos fijos deberían incluir también el costo de la IA."
+            "a) Ninguno: dividir costos fijos entre el precio de venta es la fórmula estándar del punto de equilibrio.",
+            "b) El error es que no incluyó el IVA en el precio de venta, lo que distorsiona todo el cálculo del margen.",
+            "c) Usó el precio bruto en vez de la contribución neta; lo correcto es 240 ÷ (12 − 2) = 24 clientes.",
+            "d) Los costos fijos deberían incluir también el costo variable de la IA para que la fórmula sea completa."
           ],
           "correct": 2,
           "feedback": "La fórmula correcta del punto de equilibrio es: costos fijos ÷ (precio − costo variable por cliente). El costo variable de 2 dólares de IA se debe restar al precio antes de dividir: 240 ÷ (12 − 2) = 240 ÷ 10 = 24 clientes. Usando solo el precio (240 ÷ 12 = 20), el equipo subestima cuántos clientes necesita y puede pensar que es rentable antes de serlo. La clase muestra esta fórmula explícita con el ejemplo de Fiado Claro."
@@ -552,10 +552,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 9 — Estructura de Costos",
           "text": "El Ing. Rodríguez compara la estructura de costos con «la mochila de excursión: sumen cuánto cuesta el viaje». Según esa lógica, ¿qué debe incluir el bloque 9 de un Canvas completo?",
           "options": [
-            "a) Los costos fijos (infraestructura, sueldos), los costos variables por cliente (incluyendo IA), y el punto de equilibrio calculado explícitamente.",
-            "b) Solo los costos de tecnología (servidor, dominio, herramientas de IA).",
-            "c) Solo los costos que superen los 100 dólares mensuales, porque los menores son despreciables.",
-            "d) Los costos de los socios clave y de los recursos clave, sin incluir sueldos que se pagan al final."
+            "a) Los costos fijos, los costos variables por cliente (incluyendo IA) y el punto de equilibrio calculado explícitamente.",
+            "b) Solo los costos de tecnología: servidor, dominio y herramientas de IA que se utilizan en la operación diaria.",
+            "c) Solo los costos mensuales que superen los 100 dólares; los menores son despreciables y no afectan el modelo.",
+            "d) Los costos de socios clave y recursos clave, sin incluir sueldos que se pagan al cierre del ejercicio anual."
           ],
           "correct": 0,
           "feedback": "El bloque 9 completo incluye tres elementos: (1) costos fijos (lo que se paga aunque no haya ningún cliente: servidor, sueldos base, arriendo si aplica); (2) costos variables por cliente (lo que sube con cada cliente: IA por uso, materiales, comisión de pasarela); (3) el punto de equilibrio escrito con la cuenta. El taller puntúa con 3 puntos solo si los tres están presentes y la cuenta aparece. «Las cifras pueden ser supuestos, pero escríbanlas entre corchetes y con la cuenta»."
@@ -3580,10 +3580,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 1 — Segmento de Clientes",
           "text": "Una startup de tutorías universitarias escribe en bloque 1: «Todos los estudiantes universitarios de Ecuador». Tiene un presupuesto de 200 dólares para el piloto. Según la lógica del Canvas que enseña el Ing. Rodríguez, ¿qué debe hacer primero?",
           "options": [
-            "a) Lanzar ya, porque un mercado grande justifica el gasto y atraerá inversionistas.",
-            "b) Ampliar el presupuesto antes de acotar el segmento, para no limitar el potencial.",
-            "c) Registrar la marca en Ecuador para proteger el mercado antes de acotarlo.",
-            "d) Reducir el segmento a un grupo accionable: por ejemplo, estudiantes de Ingeniería de la PUCE antes de parciales."
+            "a) Lanzar ya: un mercado grande atrae inversionistas y justifica el presupuesto disponible.",
+            "b) Ampliar el presupuesto antes de acotar el segmento, para no limitar el potencial desde el inicio.",
+            "c) Registrar la marca en Ecuador para proteger el mercado antes de seleccionar el nicho inicial.",
+            "d) Reducir el segmento a un grupo accionable: estudiantes de Ingeniería de la PUCE antes de parciales."
           ],
           "correct": 3,
           "feedback": "Con 200 dólares no se puede llegar a todos los universitarios del país. La clase enseña que el primer segmento debe ser tan concreto que el equipo pueda encontrarlo, hablar con él y servirlo con recursos limitados. «Estudiantes de Ingeniería de la PUCE antes de parciales» permite ir a la facultad, hablar con 10 personas y validar. El mercado grande se conquista después, nicho por nicho."
@@ -3594,10 +3594,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 2 — Propuesta de Valor",
           "text": "«Fiado Claro» dice en bloque 2: «Una app con inteligencia artificial que lee la foto del cuaderno de fiado y lleva la cuenta de cada vecino automáticamente». El Ing. Rodríguez clasifica el rol de la IA en tres niveles: adorno, ayuda o núcleo. ¿En qué nivel está esta propuesta?",
           "options": [
-            "a) Adorno: si se apaga la IA, igual se puede registrar el fiado en papel.",
-            "b) Ayuda: la IA acelera el registro pero la tienda podría hacerlo con Excel.",
-            "c) Núcleo: sin la IA no existe el producto porque ninguna persona puede leer miles de caligrafías al mismo tiempo y en tiempo real.",
-            "d) Núcleo solo si la IA tiene más del 90 % de precisión en la lectura."
+            "a) Adorno: si se apaga la IA, igual se puede registrar el fiado manualmente en papel o Excel.",
+            "b) Ayuda: la IA acelera el registro, pero la tienda podría hacerlo igualmente con una hoja de cálculo.",
+            "c) Núcleo: sin la IA no existe el producto porque nadie puede leer miles de caligrafías distintas en tiempo real.",
+            "d) Núcleo solo si la IA supera el 90 % de precisión; debajo de ese umbral es apenas una ayuda menor."
           ],
           "correct": 2,
           "feedback": "La IA es núcleo cuando sin ella el producto no existe como se propone. Aquí el diferencial es que la IA lee cualquier letra manuscrita y actualiza el saldo en segundos: eso no se puede reemplazar con Excel ni con un digitador sin perder la promesa (inmediatez, cero errores manuales). Un chatbot añadido a una app ya funcional sería adorno; una IA que hace más rápido lo que igual se haría es ayuda. La IA núcleo es lo que busca ALAS."
@@ -3608,10 +3608,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 2 — Propuesta de Valor",
           "text": "Cuatro propuestas de valor para una app de tutorías universitarias. ¿Cuál sigue mejor la frase del Canvas: «Ayudamos a [segmento] que [problema], con [solución], a diferencia de [alternativa]»?",
           "options": [
-            "a) «Ayudamos a estudiantes de Ingeniería de la PUCE que no entienden cálculo antes del parcial, con tutorías en 24 horas de un par del mismo curso, a diferencia de buscar en YouTube sin respuesta.»",
-            "b) «La mejor plataforma de aprendizaje del Ecuador, con tutores certificados y precios accesibles.»",
-            "c) «Ayudamos a estudiantes universitarios con dudas, con tutores disponibles, a diferencia de estudiar solos.»",
-            "d) «Conectamos tutores y estudiantes de forma eficiente, usando IA para hacer el match perfecto.»"
+            "a) «Ayudamos a estudiantes de la PUCE que no entienden cálculo antes del parcial, con tutorías de un par en 24 horas, a diferencia de buscar en YouTube sin respuesta.»",
+            "b) «La mejor plataforma de aprendizaje del Ecuador, con tutores certificados y acceso desde cualquier dispositivo a precio accesible.»",
+            "c) «Ayudamos a estudiantes universitarios con dudas de cualquier materia, con tutores disponibles las 24 horas, a diferencia de estudiar completamente solos.»",
+            "d) «Conectamos tutores certificados y estudiantes universitarios de forma eficiente, usando IA para el match ideal según materia y estilo de aprendizaje.»"
           ],
           "correct": 0,
           "feedback": "La frase del Canvas exige cuatro elementos: segmento concreto (Ingeniería PUCE), problema específico (no entender cálculo antes del parcial), solución precisa (tutoría en 24 h de un par) y alternativa real (YouTube sin respuesta). La opción c los cumple todos. Las demás son frases de marketing genéricas que no permiten saber a quién ayudan, en qué situación o qué pierden si no usan el servicio."
@@ -3622,10 +3622,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 2 — Propuesta de Valor",
           "text": "«Raíces Andinas» entrega canastas de verduras agroecológicas a domicilio. Su propuesta dice: «Comida fresca y sin químicos, en tu puerta cada semana; precio justo para el agricultor; sabes quién cultivó lo que comes». Un competidor lanza exactamente la misma propuesta. Según el Canvas, ¿qué bloque habría fallado en «Raíces Andinas»?",
           "options": [
-            "a) Bloque 9 (costos): si no tiene costos menores, el competidor puede copiarlo y cobrar menos.",
-            "b) Bloque 2 (propuesta de valor): una propuesta que se puede copiar en texto no tiene ventaja real.",
-            "c) Bloque 5 (ingresos): el problema es el precio, no la propuesta.",
-            "d) Bloque 8 (socios clave): si no tiene alianzas exclusivas con productores, cualquiera puede replicar la cadena."
+            "a) Bloque 9 (costos): si no tiene costos menores, el competidor puede copiarlo y cobrar precios más bajos.",
+            "b) Bloque 2 (propuesta de valor): una propuesta que se puede copiar en texto no ofrece ventaja competitiva real.",
+            "c) Bloque 5 (ingresos): el problema es que el precio está mal definido y el competidor puede igualarlo fácilmente.",
+            "d) Bloque 8 (socios clave): sin alianzas exclusivas con productores, cualquiera puede replicar la misma cadena de suministro."
           ],
           "correct": 3,
           "feedback": "La propuesta de valor en el Canvas describe qué se ofrece, pero la sostenibilidad del modelo depende de las barreras en otros bloques. Si «Raíces Andinas» tiene contratos exclusivos con asociaciones de productores (bloque 8: socios clave), un competidor no puede replicar la cadena con los mismos proveedores. La propuesta de valor en texto siempre puede copiarse; la ventaja real está en los recursos y socios difíciles de duplicar."
@@ -3664,10 +3664,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 3 — Canales",
           "text": "«BiciCampus» usa como canal «puntos de alquiler en la entrada de la universidad y reserva por app». ¿Qué virtud específica tiene este canal para el segmento «estudiantes a menos de 3 km»?",
           "options": [
-            "a) Es digital, lo que reduce costos operativos y permite escalar sin límites.",
-            "b) Es el único canal posible porque el segmento no usa redes sociales.",
-            "c) Permite cobrar sin pasarela de pagos, lo que elimina comisiones bancarias.",
-            "d) Combina presencia física donde el cliente ya pasa (entrada del campus) con reserva digital para reducir fricciones."
+            "a) Es completamente digital, lo que reduce costos operativos y permite escalar sin contratar personal adicional.",
+            "b) Es el único canal viable porque los estudiantes de ese segmento no usan redes sociales convencionales.",
+            "c) Permite cobrar sin pasarela de pagos externa, eliminando comisiones bancarias y simplificando la tesorería.",
+            "d) Combina punto físico donde el cliente ya pasa (entrada del campus) con reserva digital para reducir fricciones."
           ],
           "correct": 3,
           "feedback": "El canal ideal llega al cliente donde ya está y en el momento en que tiene el problema. El estudiante cruza la entrada del campus todos los días; ver las bicicletas físicamente activa el deseo de usarlas. La app de reserva reduce la fricción de tener que hacer fila. Esta combinación (físico + digital) es coherente con el segmento porque no exige que el cliente cambie su ruta ni aprenda un proceso largo."
@@ -3678,10 +3678,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 3 — Canales",
           "text": "Una startup que vende software de gestión a veterinarias define su canal como «venta directa puerta a puerta». El precio es de 8 dólares al mes. Según el Canvas y la lógica del punto de equilibrio, ¿qué problema tiene este canal?",
           "options": [
-            "a) La venta directa solo funciona para productos físicos, no para software.",
-            "b) La venta directa requiere una fuerza de ventas que no es compatible con startups pequeñas.",
-            "c) El costo de visitar cada veterinaria puede superar los ingresos que genera cada cliente, haciendo el modelo insostenible.",
-            "d) El canal es incorrecto porque las veterinarias prefieren comprar por e-commerce."
+            "a) La venta directa solo funciona para productos físicos; para software SaaS el canal correcto es digital.",
+            "b) La venta directa requiere una fuerza de ventas dedicada, incompatible con el tamaño inicial de una startup.",
+            "c) El costo de visitar cada veterinaria puede superar los ingresos que genera ese cliente, haciendo el modelo insostenible.",
+            "d) El canal es incorrecto porque las veterinarias prefieren comprar software por e-commerce sin intervención de vendedores."
           ],
           "correct": 2,
           "feedback": "El Canvas exige coherencia entre canal e ingresos. Si visitar cada veterinaria cuesta 15 dólares en tiempo y transporte, y el cliente paga solo 8 dólares al mes, el primer mes ya es negativo. El canal solo es sostenible si su costo de adquisición cabe dentro del valor que genera el cliente durante su vida (LTV). La clase enseña el punto de equilibrio: costos fijos ÷ (precio − costo por cliente) = clientes necesarios; el canal afecta el costo por cliente."
@@ -3692,10 +3692,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 3 — Canales",
           "text": "El Ing. Rodríguez explica: «El canal es la tubería que lleva el agua hasta la casa». Con esa analogía, ¿cuál de estas startups tiene el canal más incoherente con su segmento?",
           "options": [
-            "a) «TutorYa»: plataforma digital de tutorías que usa como canal una oficina en un centro comercial para registrar nuevos tutores.",
-            "b) «AlmuerzoListo»: app de pedidos que usa como canal publicaciones en el grupo de WhatsApp de cada facultad.",
-            "c) «Fiado Claro»: app para tiendas de barrio que usa como canal distribuidores de bebidas que visitan esas tiendas.",
-            "d) «BiciCampus»: alquiler de bicicletas que usa como canal puntos físicos en la entrada del campus."
+            "a) «TutorYa»: plataforma digital de tutorías que usa como canal una oficina física en un centro comercial para registrar tutores.",
+            "b) «AlmuerzoListo»: app de pedidos que usa el grupo de WhatsApp de cada facultad para publicitar sus servicios.",
+            "c) «Fiado Claro»: app para tiendas de barrio que usa distribuidores de bebidas que ya visitan cada tienda semanalmente.",
+            "d) «BiciCampus»: alquiler de bicicletas que posiciona puntos físicos de retiro en la entrada principal del campus."
           ],
           "correct": 0,
           "feedback": "«TutorYa» ofrece un servicio 100 % digital (tutorías en línea), pero usa una oficina física en un centro comercial como canal de captación de tutores. Esto genera un costo fijo alto (arriendo) y un alcance geográfico limitado, incoherente con una plataforma digital que debería captar tutores por redes o campus. El taller señala este caso como ERROR 2 de costos: la oficina no sirve a un canal digital."
@@ -3706,10 +3706,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 4 — Relación con Clientes",
           "text": "«Fiado Claro» define su relación con clientes como «resumen semanal por WhatsApp de las deudas de los vecinos». Según el Canvas, ¿qué función principal cumple ese elemento?",
           "options": [
-            "a) Es parte del canal, porque WhatsApp es el medio de comunicación.",
-            "b) Es un recurso clave, porque la mensajería tiene costo variable por mensaje.",
+            "a) Es parte del canal, porque WhatsApp es el medio de comunicación entre la startup y el tendero.",
+            "b) Es un recurso clave, porque la mensajería tiene costo variable por mensaje enviado.",
             "c) Es la acción que hace volver al cliente cada semana sin que se lo pidan, generando hábito y retención.",
-            "d) Es la propuesta de valor, porque el resumen es lo que el tendero realmente compra."
+            "d) Es la propuesta de valor, porque el resumen automático de deudas es exactamente lo que el tendero compra."
           ],
           "correct": 2,
           "feedback": "El bloque 4 (Relación con clientes) responde: ¿qué hace que el cliente vuelva? El resumen semanal automático crea un hábito: el tendero espera ese mensaje cada lunes y, si no llega, lo extraña. Eso es retención. No es el canal (WhatsApp puede ser canal, pero la relación es la acción que genera vínculo), ni la propuesta de valor (que es leer el cuaderno y calcular saldos). La clase enseña que la relación es «lo que hace volver cada semana sin pedírselo»."
@@ -3734,10 +3734,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 4 — Relación con Clientes",
           "text": "«TutorYa» ofrece tutorías y define su relación con clientes como «los estudiantes pueden calificar al tutor después de cada sesión». ¿Qué problema de Canvas tiene esta definición de relación?",
           "options": [
-            "a) Las calificaciones son un recurso clave, no una relación; deben estar en el bloque 6.",
-            "b) Es correcta: la calificación genera confianza y eso es suficiente para retener al cliente.",
-            "c) El problema es técnico: las calificaciones requieren un módulo de software que añade costo.",
-            "d) La calificación es una acción puntual post-servicio; no dice qué hace que el estudiante regrese la próxima vez que necesita una tutoría."
+            "a) Las calificaciones son un recurso clave de datos, no una relación; deberían registrarse en el bloque 6.",
+            "b) Es correcta: la calificación pública genera confianza y esa confianza es suficiente para retener al estudiante.",
+            "c) El problema es técnico: implementar calificaciones requiere un módulo de software que añade costo de desarrollo.",
+            "d) La calificación es una acción puntual post-sesión; no explica qué hace que el estudiante regrese la próxima vez."
           ],
           "correct": 3,
           "feedback": "La Relación con clientes debe responder qué genera que el cliente vuelva, no solo qué pasa después de cada sesión. Calificar al tutor mejora la calidad para el próximo usuario, pero no garantiza que ese mismo estudiante regrese. Una relación más sólida sería, por ejemplo, enviarle un recordatorio antes del siguiente parcial con los tutores disponibles en su área, o mostrarle su historial de mejora. La relación es el vínculo activo, no solo el feedback pasivo."
@@ -3748,10 +3748,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 4 — Relación con Clientes",
           "text": "Una startup de gestión de inventarios para ferreterías define en bloque 4: «Capacitación gratuita presencial al momento de la venta». Tiene 50 clientes y quiere llegar a 300. ¿Qué ajuste debe hacer en el bloque de relación para escalar?",
           "options": [
-            "a) Sustituir la capacitación presencial por videos tutoriales, base de conocimiento y soporte por chat para que el cliente se autogestione.",
-            "b) Ampliar el equipo de ventas para que más personas puedan capacitar en paralelo.",
-            "c) Cobrar por la capacitación para financiar el escalamiento del equipo.",
-            "d) Eliminar la capacitación: si el software es bueno, el cliente no necesita ayuda."
+            "a) Sustituir la capacitación presencial por videos tutoriales y soporte por chat para que el cliente se autogestione.",
+            "b) Ampliar el equipo de ventas para que más personas capaciten a clientes en paralelo y se cubra la demanda creciente.",
+            "c) Cobrar por la capacitación inicial para generar un ingreso adicional que financie el escalamiento del equipo.",
+            "d) Eliminar la capacitación completamente: si el software tiene buena UX, el cliente no necesita ayuda para usarlo."
           ],
           "correct": 0,
           "feedback": "Para escalar de 50 a 300 clientes sin que los costos crezcan igual, la relación debe pasar de personal a autoservicio. Videos tutoriales, una base de conocimiento y un chatbot de soporte permiten que el cliente aprenda solo, en cualquier momento, sin que el equipo tenga que estar presente. Ampliar el equipo de ventas sí escala los ingresos, pero también los costos, lo que no mejora el margen. La clase describe el escalamiento como «crecer sin que los costos crezcan igual»."
@@ -3762,10 +3762,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 5 — Fuentes de Ingresos",
           "text": "«TutorYa» cobra 120 dólares al mes por acceso ilimitado a tutorías. Su segmento son estudiantes universitarios. El taller marca esto como un error. ¿Cuál es el diagnóstico más preciso?",
           "options": [
-            "a) El precio es muy bajo; debería cobrar más para financiar a los tutores.",
-            "b) El problema es el modelo, no el precio: debería ser freemium en vez de suscripción.",
-            "c) El error está en el bloque de canales: si mejoran la distribución, el precio puede mantenerse.",
-            "d) 120 dólares al mes supera lo que un estudiante con presupuesto limitado puede pagar; el modelo de ingresos es incoherente con el segmento."
+            "a) El precio es muy bajo; debería subirse para financiar correctamente a los tutores y cubrir los costos.",
+            "b) El problema es el modelo: freemium funcionaría mejor que suscripción mensual para este tipo de servicio.",
+            "c) El error está en el canal de distribución: si mejoran la captación de usuarios, el precio puede mantenerse igual.",
+            "d) 120 dólares al mes supera lo que un estudiante puede pagar; el modelo de ingresos es incoherente con el segmento."
           ],
           "correct": 3,
           "feedback": "El Canvas exige coherencia entre el precio y quién paga. Un estudiante universitario promedio gasta entre 5 y 15 dólares en servicios digitales al mes. 120 dólares mensuales es más que lo que muchos estudiantes gastan en transporte y alimentación juntos. El taller señala esto como ERROR 1 (ingresos): «$120 al mes no lo paga un estudiante con poco presupuesto». La solución es cobro por sesión (6–8 dólares) o paquetes de 5 tutorías antes de exámenes."
@@ -3846,10 +3846,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 6 — Recursos Clave",
           "text": "Una startup de logística usa una red de 200 repartidores independientes para entregar pedidos en 2 horas. ¿Cómo clasificaría este activo en el Canvas?",
           "options": [
-            "a) Bloque 7 (actividades clave): entregar pedidos es lo que hacen todos los días.",
-            "b) Bloque 8 (socios clave): los repartidores son terceros independientes que proveen el recurso de entrega.",
-            "c) Bloque 3 (canales): los repartidores son el canal por el que el producto llega al cliente.",
-            "d) Bloque 6 (recursos clave): la red de repartidores es el activo humano que hace posible la promesa de entrega en 2 horas."
+            "a) El dominio, el hosting y las cuentas de redes sociales, ya que toda startup digital los necesita para operar.",
+            "b) El equipo fundador y el capital inicial, porque sin personas ni dinero no puede arrancar ningún negocio.",
+            "c) El algoritmo de IA o las bases de datos propias, siempre que sean el elemento que hace diferente a la startup.",
+            "d) Los recursos cuya ausencia haría que la propuesta de valor no se pueda entregar: la IA, los datos o la red de proveedores."
           ],
           "correct": 3,
           "feedback": "La red de repartidores puede aparecer en distintos bloques según cómo se gestione. Si son empleados propios o están integrados en la plataforma como el recurso central de la operación, van en bloque 6 (recursos humanos). Si son empresas externas contratadas (como una empresa de mensajería), van en bloque 8 (socios). Si su función principal es ser el medio por el que el pedido llega al cliente, también se puede mencionar en bloque 3. El contexto (200 repartidores en la red propia de la startup) indica un recurso humano clave."
@@ -3860,10 +3860,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 6 — Recursos Clave",
           "text": "El Ing. Rodríguez señala que en startups con IA los datos son un recurso clave. ¿Por qué los datos históricos de los clientes son más valiosos que el código de la app?",
           "options": [
-            "a) Porque el código tiene propiedad intelectual que caduca, mientras que los datos son para siempre.",
-            "b) Porque el código se puede reescribir, pero los datos del comportamiento real del cliente no se pueden fabricar; son la barrera de entrada más difícil de replicar.",
-            "c) Porque los datos son más baratos de almacenar que de programar.",
-            "d) Porque los datos permiten cobrar más: los clientes pagan más si saben que la startup tiene mucha información."
+            "a) Los créditos de la API de OpenAI, porque sin ellos la lectura del cuaderno no funciona y el servicio se cae.",
+            "b) La base de datos de caligrafías etiquetadas, porque sin esa data el modelo de IA no puede entrenarse ni funcionar.",
+            "c) El dominio web y el hosting en la nube, porque son los que alojan la app y permiten que el cliente la descargue.",
+            "d) El número de celular del fundador, porque es el canal de soporte principal para las tiendas en caso de fallas."
           ],
           "correct": 1,
           "feedback": "El código de una app puede ser reescrito por un competidor con suficiente dinero. Los datos históricos de comportamiento de clientes reales (cuánto fían, con qué frecuencia pagan, qué productos se mueven más) no se pueden fabricar; requieren tiempo y adopción real. Eso crea una barrera de entrada: mientras más tiempo lleva la startup con sus clientes, más preciso es su modelo de IA y más difícil es que un competidor nuevo lo iguale. Por eso los datos son el recurso más estratégico en modelos de IA."
@@ -3874,10 +3874,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 7 — Actividades Clave",
           "text": "«Fiado Claro» lista sus actividades clave: (1) mejorar el modelo de reconocimiento de caligrafía; (2) afiliar nuevas tiendas cada semana; (3) diseñar la identidad visual de la marca. ¿Cuál de las tres es menos clave para cumplir la propuesta de valor?",
           "options": [
-            "a) La (1): mejorar el modelo es una tarea técnica que puede tercerizar.",
-            "b) La (2): afiliar tiendas no es una actividad de tecnología.",
-            "c) La (3): el diseño de marca no hace que el fiado se registre mejor ni que más tiendas se afilien.",
-            "d) Ninguna: las tres son igualmente importantes para cualquier startup."
+            "a) Diseñar la identidad de marca: logo, colores, tipografía y tono de voz para las redes sociales.",
+            "b) Redactar el plan de negocios formal y preparar el pitch deck para presentar a inversores en la siguiente ronda.",
+            "c) Entrenar o ajustar el modelo de IA con datos reales para que la lectura de caligrafías sea confiable.",
+            "d) Publicar semanalmente en redes sociales para mantener la presencia digital y atraer nuevos usuarios."
           ],
           "correct": 2,
           "feedback": "Las actividades clave son las que el equipo debe hacer muy bien para que la propuesta de valor funcione. Mejorar el modelo (1) es crítico: si la lectura de caligrafía falla, la promesa se rompe. Afiliar tiendas (2) es crítico: sin más clientes, no hay negocio. El diseño de identidad visual (3) puede ayudar al marketing, pero no afecta directamente la capacidad de leer cuadernos ni de cerrar contratos con tiendas. La analogía del taller: «la mochila de excursión: lleven lo indispensable»."
@@ -3888,10 +3888,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 7 — Actividades Clave",
           "text": "Una startup de tutorías universitarias identifica sus actividades: (A) hacer el match entre tutor y estudiante vía IA; (B) verificar la calidad académica de los tutores; (C) publicar contenido en Instagram tres veces por semana. ¿Cuál combinación de actividades es más clave para su propuesta?",
           "options": [
-            "a) A y C: el match es el core y las redes generan tráfico.",
-            "b) B y C: sin tutores buenos no hay producto y sin redes no hay clientes.",
-            "c) Solo A: la IA de match es el único diferencial real.",
-            "d) A y B: el match efectivo y la calidad del tutor son lo que hace funcionar la promesa."
+            "a) A y C: el algoritmo de match es el core del producto y las redes sociales generan el tráfico de usuarios.",
+            "b) B y C: sin tutores de buena calidad no hay producto, y sin redes sociales no hay forma de captar clientes.",
+            "c) Solo A: el algoritmo de IA para el match es el único diferencial real que tiene la plataforma.",
+            "d) A y B: el match efectivo entre tutor y estudiante, junto con la calidad del tutor, son lo que cumple la promesa."
           ],
           "correct": 3,
           "feedback": "El match por IA (A) es la actividad tecnológica que conecta a estudiante y tutor en segundos con alta compatibilidad. La verificación de calidad (B) garantiza que el tutor sepa enseñar, que es la promesa central. Sin A, el proceso es lento y manual; sin B, el estudiante puede toparse con tutores incompetentes y no volver. Publicar en Instagram (C) es una actividad de marketing, no de producción del servicio: si falta, el crecimiento baja, pero el servicio sigue funcionando."
@@ -3916,10 +3916,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 7 — Actividades Clave",
           "text": "El Ing. Rodríguez explica que para escalar, las actividades clave deben poder repetirse igual con 10 o con 100 clientes. ¿Qué significa eso en términos de diseño de actividades?",
           "options": [
-            "a) Que las actividades deben estar documentadas y automatizadas para que no dependan de que un fundador las haga manualmente cada vez.",
-            "b) Que el equipo debe trabajar más horas a medida que crece el número de clientes.",
-            "c) Que se deben contratar más empleados en proporción directa al número de clientes.",
-            "d) Que las actividades solo se automatizan una vez que se superan los 100 clientes."
+            "a) Validar el modelo completo end-to-end: que el cliente pide, la tienda entrega y el cobro funciona sin errores.",
+            "b) Negociar contratos con los bares del campus para garantizar el volumen mínimo de pedidos diarios.",
+            "c) Lanzar la campaña de marketing digital para captar los primeros 500 usuarios antes de la semana de inscripciones.",
+            "d) Revisar semanalmente los KPIs del tablero de control para asegurar que las métricas de retención van en alza."
           ],
           "correct": 0,
           "feedback": "La escalabilidad implica que las actividades no se multiplican linealmente con los clientes. Si el match entre tutor y estudiante lo hace manualmente un fundador, con 10 estudiantes es manejable pero con 100 se colapsa. Si está automatizado por IA con un proceso documentado, funciona igual con 100 que con 1000. La analogía de la clase: «La receta de la abuela: para abrir diez locales, la receta tiene que estar escrita con medidas exactas para que cualquier cocinero la repita igual»."
@@ -3930,10 +3930,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 8 — Socios Clave",
           "text": "«Fiado Claro» lista como socios: (1) distribuidores de bebidas que visitan las tiendas; (2) proveedor del modelo de IA (API de visión); (3) los propios tenderos que usan la app. ¿Cuál no es un socio clave sino un cliente?",
           "options": [
-            "a) El (1): los distribuidores son competidores potenciales, no socios.",
+            "a) El (1): los distribuidores de bebidas son competidores potenciales en distribución, no socios de la startup.",
             "b) El (3): los tenderos son el segmento de clientes, no socios de la operación.",
-            "c) El (2): el proveedor de IA es un recurso, no un socio.",
-            "d) Todos son socios: cualquiera que interactúe con la startup lo es."
+            "c) El (2): el proveedor de la API de IA es un recurso clave externo, no un socio estratégico de la empresa.",
+            "d) Todos son socios: cualquier persona o empresa que interactúe con la startup debe clasificarse como socio."
           ],
           "correct": 1,
           "feedback": "Los socios clave son organizaciones o personas externas que el equipo necesita para operar pero que no son clientes. Los tenderos son quienes reciben y pagan la propuesta de valor: pertenecen al bloque 1 (Segmento). Los distribuidores de bebidas son el canal de distribución y/o socio porque llegan a las tiendas antes que nadie. El proveedor de la API de IA es el que provee la tecnología central; puede clasificarse como recurso o socio según el nivel de integración."
@@ -3944,10 +3944,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 8 — Socios Clave",
           "text": "«Raíces Andinas» tiene como socios: asociaciones de pequeños productores, empresa de reparto en moto, pasarela de pagos y ONG de agroecología. ¿Qué criterio define que estos cuatro sean socios clave y no recursos?",
           "options": [
-            "a) Son socios porque firman un contrato formal con la startup.",
-            "b) Son socios porque son los que pagan a la startup por sus servicios.",
-            "c) Son socios porque trabajan de forma gratuita a cambio de visibilidad de marca.",
-            "d) Son socios porque sin ellos la propuesta no se puede entregar, pero son entidades externas que la startup no posee ni controla."
+            "a) Los proveedores de materias primas, ya que sin suministros la empresa no puede fabricar ni entregar el producto.",
+            "b) Los accionistas minoritarios que invierten capital a cambio de participación en la startup.",
+            "c) Los clientes frecuentes que recomiendan el servicio a sus conocidos y actúan como embajadores de la marca.",
+            "d) Distribuidores de bebidas o asociaciones de tenderos que ya tienen la confianza de las tiendas de barrio de Quito."
           ],
           "correct": 3,
           "feedback": "El Canvas diferencia recursos (lo que la startup posee o controla) de socios (lo que necesita pero no posee). Los productores cultivan los alimentos; Raíces no los posee. La empresa de reparto entrega; Raíces no tiene motos propias. La pasarela procesa pagos; Raíces no es banco. Sin ninguno de ellos la propuesta de valor (canasta fresca en tu puerta, precio justo al agricultor) no funciona. Eso los hace socios clave: son indispensables pero externos."
@@ -3958,10 +3958,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 8 — Socios Clave",
           "text": "Una startup que vende software de gestión de citas a consultorios dentales incluye en bloque 8 a «el Ministerio de Salud». ¿Qué problema tiene esa decisión?",
           "options": [
-            "a) El Ministerio de Salud es un actor regulador, no un socio operativo; incluirlo como socio no dice qué rol concreto cumple.",
-            "b) El Ministerio de Salud es un cliente potencial; debería estar en el bloque 1.",
-            "c) El Ministerio de Salud es un recurso clave porque sus datos de pacientes alimentan el sistema.",
-            "d) No hay problema: cualquier entidad del sector es automáticamente un socio clave."
+            "a) La red de bares aliados en el campus, porque sin ellos no hay quién prepare ni entregue los pedidos.",
+            "b) La app móvil y el sistema de pagos en línea, ya que son la interfaz principal a través de la cual los estudiantes realizan sus pedidos.",
+            "c) El equipo de marketing, porque sin visibilidad en redes el campus no sabrá que el servicio existe.",
+            "d) El capital inicial de los fundadores, porque financia los primeros meses de operación y el desarrollo de la app."
           ],
           "correct": 0,
           "feedback": "Un socio clave debe tener un rol específico y concreto en la operación. «El Ministerio de Salud» es una entidad reguladora que establece normas, pero no participa activamente en entregar la propuesta de valor (gestionar citas). Incluirlo sin especificar el rol genera un Canvas vago. El taller enseña que un socio débil dice «Ministerio de Salud»; un socio fuerte dice «Ministerio de Salud: valida la interoperabilidad de los datos clínicos con el sistema nacional»."
@@ -3972,10 +3972,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 8 — Socios Clave",
           "text": "El Ing. Rodríguez explica que los socios clave resuelven algo que la startup «no sabe o no puede hacer». Una startup de diagnóstico agrícola no sabe entrenar modelos de IA de visión. ¿Cuál es el socio más estratégico?",
           "options": [
-            "a) Un diseñador gráfico freelance que mejore la interfaz de la app.",
-            "b) Una cámara de comercio que promueva la startup en ferias del sector.",
-            "c) Una universidad con laboratorio de IA que cocrea el modelo como proyecto de investigación.",
-            "d) Una agencia de publicidad que maneje las redes sociales de la startup."
+            "a) Un diseñador gráfico freelance que mejore la interfaz visual y la experiencia de usuario de la app.",
+            "b) Una cámara de comercio local que promueva la startup en ferias del sector y conecte con nuevos clientes.",
+            "c) Una universidad con laboratorio de IA que cocrea el modelo predictivo como proyecto de investigación.",
+            "d) Una agencia de publicidad que gestione las redes sociales y las campañas de contenido de la startup."
           ],
           "correct": 2,
           "feedback": "Si la startup no puede entrenar el modelo de visión, la brecha crítica es de conocimiento técnico. Una universidad con laboratorio de IA llena exactamente esa brecha: tiene datos, investigadores y GPU. Además, la colaboración puede ser a bajo costo si se enmarca como investigación conjunta. Las otras opciones (diseñador, cámara de comercio, agencia) resuelven problemas de comunicación o visibilidad, que son importantes pero no son la brecha que tumba la propuesta de valor."
@@ -3986,10 +3986,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 9 — Estructura de Costos",
           "text": "«Fiado Claro» tiene estos costos mensuales: servidor cloud 50 dólares, API de IA 0,50 dólares por tienda, sueldo mínimo del equipo 300 dólares. Con 80 tiendas y precio de 5 dólares, ¿cuánto gana o pierde al mes?",
           "options": [
-            "a) Gana 10 dólares: 80 × 5 = 400; costos = 390.",
-            "b) Gana 10 dólares: ingresos 400, costos fijos 350, variables 40. Resultado = 400 − 390 = 10.",
-            "c) Pierde 10 dólares: 80 × 5 = 400; costos fijos 350 + variables 40 = 390. Margen = 10.",
-            "d) No se puede calcular sin conocer el número de transacciones por tienda."
+            "a) Gana 10 dólares: ingresos 80 × 5 = 400; costos totales 390; resultado positivo de 10 dólares.",
+            "b) Gana 10 dólares: ingresos 400, costos fijos 350 más variables 40 suman 390. Resultado = 10.",
+            "c) Pierde 10 dólares: 80 × 5 = 400; costos fijos 350 más variables 40 = 390; el margen es negativo.",
+            "d) No se puede calcular sin conocer el número exacto de transacciones realizadas por cada tienda."
           ],
           "correct": 1,
           "feedback": "Costos fijos: servidor (50) + sueldo (300) = 350 dólares. Costo variable: 0,50 × 80 tiendas = 40 dólares. Total costos: 390. Ingresos: 80 × 5 = 400 dólares. Resultado: 400 − 390 = +10 dólares. La startup gana 10 dólares al mes, con 80 tiendas. El punto de equilibrio era 300 ÷ (5 − 0,50) = 67 tiendas; con 80 ya se supera. La clase exige escribir la cuenta explícita en el lienzo."
@@ -4000,10 +4000,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 9 — Estructura de Costos",
           "text": "El taller indica que «los costos olvidan la IA» es uno de los cinco errores que bajan la nota. ¿Por qué es importante incluir el costo de la IA en el bloque 9?",
           "options": [
-            "a) Porque la IA es el único costo variable en startups de software.",
-            "b) Porque si el modelo de IA se paga por uso (tokens, llamadas a API), sube con el número de clientes y puede eliminar el margen si no se calcula.",
-            "c) Porque los inversores solo financian startups que muestran el costo de la IA en el Canvas.",
-            "d) Porque sin el costo de la IA no se puede calcular el punto de equilibrio de ninguna empresa."
+            "a) Porque la IA es el único costo variable en startups de software y domina la estructura de costos.",
+            "b) Porque si la IA se paga por uso (tokens, llamadas a API), sube con el número de clientes y puede eliminar el margen.",
+            "c) Porque los inversores solo financian startups que muestran el costo de la IA de forma explícita en el Canvas.",
+            "d) Porque sin el costo de la IA no es posible calcular el punto de equilibrio de ninguna empresa tecnológica."
           ],
           "correct": 1,
           "feedback": "Las APIs de IA (OpenAI, Google Vision, etc.) se pagan por uso: por token generado, por imagen procesada o por llamada. Si la startup tiene 10 clientes, el costo es manejable; con 1000 clientes puede ser un costo mayor que el servidor. Si el Canvas no lo incluye, el punto de equilibrio calculado es incorrecto y el modelo aparenta ser rentable cuando no lo es. El Ing. Rodríguez lo resume: «La IA también cuesta: se paga por uso»."
@@ -4014,10 +4014,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 9 — Estructura de Costos",
           "text": "Una startup tiene costos fijos de 240 dólares al mes y cobra 12 dólares por cliente. El costo de la IA es de 2 dólares por cliente. El equipo calcula el punto de equilibrio como 240 ÷ 12 = 20 clientes. ¿Qué error cometió?",
           "options": [
-            "a) Ninguno: dividir costos fijos entre el precio es la fórmula correcta.",
-            "b) El error es que no incluyó el IVA en el precio de venta.",
-            "c) Dividió los costos fijos entre el precio bruto y no entre la contribución neta (precio − costo variable). El correcto es 240 ÷ (12 − 2) = 24 clientes.",
-            "d) El error es que los costos fijos deberían incluir también el costo de la IA."
+            "a) Ninguno: dividir costos fijos entre el precio de venta es la fórmula estándar del punto de equilibrio.",
+            "b) El error es que no incluyó el IVA en el precio de venta, lo que distorsiona todo el cálculo del margen.",
+            "c) Usó el precio bruto en vez de la contribución neta; lo correcto es 240 ÷ (12 − 2) = 24 clientes.",
+            "d) Los costos fijos deberían incluir también el costo variable de la IA para que la fórmula sea completa."
           ],
           "correct": 2,
           "feedback": "La fórmula correcta del punto de equilibrio es: costos fijos ÷ (precio − costo variable por cliente). El costo variable de 2 dólares de IA se debe restar al precio antes de dividir: 240 ÷ (12 − 2) = 240 ÷ 10 = 24 clientes. Usando solo el precio (240 ÷ 12 = 20), el equipo subestima cuántos clientes necesita y puede pensar que es rentable antes de serlo. La clase muestra esta fórmula explícita con el ejemplo de Fiado Claro."
@@ -4028,10 +4028,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 9 — Estructura de Costos",
           "text": "El Ing. Rodríguez compara la estructura de costos con «la mochila de excursión: sumen cuánto cuesta el viaje». Según esa lógica, ¿qué debe incluir el bloque 9 de un Canvas completo?",
           "options": [
-            "a) Los costos fijos (infraestructura, sueldos), los costos variables por cliente (incluyendo IA), y el punto de equilibrio calculado explícitamente.",
-            "b) Solo los costos de tecnología (servidor, dominio, herramientas de IA).",
-            "c) Solo los costos que superen los 100 dólares mensuales, porque los menores son despreciables.",
-            "d) Los costos de los socios clave y de los recursos clave, sin incluir sueldos que se pagan al final."
+            "a) Los costos fijos, los costos variables por cliente (incluyendo IA) y el punto de equilibrio calculado explícitamente.",
+            "b) Solo los costos de tecnología: servidor, dominio y herramientas de IA que se utilizan en la operación diaria.",
+            "c) Solo los costos mensuales que superen los 100 dólares; los menores son despreciables y no afectan el modelo.",
+            "d) Los costos de socios clave y recursos clave, sin incluir sueldos que se pagan al cierre del ejercicio anual."
           ],
           "correct": 0,
           "feedback": "El bloque 9 completo incluye tres elementos: (1) costos fijos (lo que se paga aunque no haya ningún cliente: servidor, sueldos base, arriendo si aplica); (2) costos variables por cliente (lo que sube con cada cliente: IA por uso, materiales, comisión de pasarela); (3) el punto de equilibrio escrito con la cuenta. El taller puntúa con 3 puntos solo si los tres están presentes y la cuenta aparece. «Las cifras pueden ser supuestos, pero escríbanlas entre corchetes y con la cuenta»."
