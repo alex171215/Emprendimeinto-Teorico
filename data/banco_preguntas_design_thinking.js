@@ -138,7 +138,7 @@ window.QUIZ_DATA = {
             "«Conectamos tutores certificados y estudiantes universitarios usando IA para el match ideal según materia y estilo de aprendizaje.»"
           ],
           "correct": 0,
-          "feedback": "La frase del Canvas exige cuatro elementos: segmento concreto (Ingeniería PUCE), problema específico (no entender cálculo antes del parcial), solución precisa (tutoría en 24 h de un par) y alternativa real (YouTube sin respuesta). La opción c los cumple todos. Las demás son frases de marketing genéricas que no permiten saber a quién ayudan, en qué situación o qué pierden si no usan el servicio."
+          "feedback": "La frase del Canvas exige cuatro elementos: segmento concreto (estudiantes PUCE), problema específico (no entender cálculo), solución precisa (tutoría en 24 h de un par) y alternativa real (YouTube sin respuesta). Esta formulación los cumple todos. Las demás son frases de marketing genéricas que no permiten saber a quién ayudan, en qué situación o qué pierden si no usan el servicio."
         },
         {
           "id": "BMC.07",
@@ -315,12 +315,12 @@ window.QUIZ_DATA = {
           "text": "Una startup de control de inventarios para ferreterías cobra 15 dólares por ferretería al mes. El costo de IA por ferretería es de 3 dólares. Los costos fijos (servidor, sueldos mínimos) son 180 dólares al mes. ¿Cuántas ferreterías necesita para no perder dinero?",
           "options": [
             "12 ferreterías",
-            "15 ferreterías",
             "18 ferreterías",
+            "15 ferreterías",
             "60 ferreterías — punto de equilibrio sin descontar costo variable de la IA"
           ],
           "correct": 2,
-          "feedback": "La fórmula del punto de equilibrio es: costos fijos ÷ (precio − costo variable por cliente) = clientes necesarios. Aquí: 180 ÷ (15 − 3) = 180 ÷ 12 = 15 ferreterías. Con 15 ferreterías los ingresos (225) cubren exactamente los costos fijos (180) más los costos variables (45). La respuesta c (18) es un error frecuente al dividir costos totales estimados por el precio sin descontar el costo variable. La clase enseña a escribir la cuenta explícita en el lienzo."
+          "feedback": "La fórmula del punto de equilibrio es: costos fijos ÷ (precio − costo variable por cliente) = clientes necesarios. Aquí: 180 ÷ (15 − 3) = 180 ÷ 12 = 15 ferreterías. Con 15 ferreterías los ingresos (225) cubren exactamente los costos fijos (180) más los costos variables (45). El cálculo de 18 ferreterías es un error frecuente al dividir costos totales estimados por el precio sin descontar el costo variable. La clase enseña a escribir la cuenta explícita en el lienzo."
         },
         {
           "id": "BMC.20",
@@ -792,7 +792,7 @@ window.QUIZ_DATA = {
             "«Cuando cierro el local cada noche, quiero saber en dos minutos cuánto gané y qué comprar mañana, para no perder plata ni tirar comida.»"
           ],
           "correct": 3,
-          "feedback": "El libro muestra la fórmula de JTBD: 'Cuando [situación], quiero [motivación], para [resultado esperado].' La opción A respeta las tres partes: la situación (cerrar el local cada noche), la motivación (saber cuánto ganó y qué comprar) y el resultado esperado (no perder plata ni tirar comida). Las otras opciones nombran tecnología o herramientas, no el trabajo del usuario."
+          "feedback": "El libro muestra la fórmula de JTBD: 'Cuando [situación], quiero [motivación], para [resultado esperado]'. Esta formulación cumple exactamente la estructura: define la situación ('cuando cierro el local'), la motivación ('quiero saber en dos minutos cuánto gané') y el resultado esperado ('para no perder plata ni tirar comida'). No menciona tecnología ni soluciones técnicas; se enfoca en el progreso que el usuario busca."
         },
         {
           "id": "DT.14",
@@ -904,7 +904,7 @@ window.QUIZ_DATA = {
             "El principio de métricas: solo cuenta la tasa de error, no la opinión del usuario."
           ],
           "correct": 0,
-          "feedback": "El libro lo dice con precisión: 'La prueba no evalúa al usuario, evalúa tu idea. Si alguien se confunde, el prototipo falló, no la persona.' Este principio evita que el equipo culpe a los usuarios de 'no entender' y los obliga a mejorar el diseño. La opción A (neutralidad) es real pero no captura el principio específico del libro."
+          "feedback": "El libro lo dice con precisión: 'La prueba no evalúa al usuario, evalúa tu idea. Si alguien se confunde, el error es del diseño, no del usuario.' Esta opción es la que refleja este principio pedagógico. Culpar al usuario de 'no ser el perfil' o 'no entender' invalida el aprendizaje de la prueba."
         },
         {
           "id": "DT.22",
@@ -1002,7 +1002,7 @@ window.QUIZ_DATA = {
             "LTV = $200; LTV/CAC = 5. Es suficiente para cualquier modelo SaaS en la región."
           ],
           "correct": 0,
-          "feedback": "El libro calcula exactamente: LTV = $15 × 0,80 ÷ 0,05 = $240. CAC = $40. LTV/CAC = 6. Y dice: 'la referencia habitual es que sea mayor a 3.' Si LTV/CAC es menor a 1, el negocio pierde dinero con cada cliente nuevo. La opción B reproduce el cálculo exacto del libro con los datos del caso de Rosa."
+          "feedback": "El libro calcula exactamente: LTV = $15 × 0,80 ÷ 0,05 = $240. CAC = $40. LTV/CAC = 6. Y dice: 'la regla de oro es LTV/CAC > 3'. Esta respuesta tiene los dos valores correctos y la conclusión correcta. Un ratio de 6 es excelente para una startup."
         },
         {
           "id": "DT.29",
@@ -1016,7 +1016,7 @@ window.QUIZ_DATA = {
             "El negocio necesita más datos: con solo una métrica no se puede calificar la viabilidad."
           ],
           "correct": 1,
-          "feedback": "LTV = $30 × 0,60 ÷ 0,20 = $90. LTV/CAC = $90 ÷ $35 = 2,57. El libro establece que la referencia es mayor a 3. La opción A llega al mismo número pero concluye que 'mejorará con escala', lo cual no es la conclusión del libro (si el modelo ya pierde con cada cliente, escalar amplifica la pérdida). La opción C confunde precio mensual con valor de vida."
+          "feedback": "LTV = $30 × 0,60 ÷ 0,20 = $90. LTV/CAC = $90 ÷ $35 = 2,57. El libro establece que la referencia es mayor a 3: por debajo, cada cliente cuesta más de lo que rinde. Esta opción identifica correctamente que el ratio 2,57 es inviable con CAC de $35: el negocio quema caja y no sobrevive."
         },
         {
           "id": "DT.30",
@@ -1072,7 +1072,7 @@ window.QUIZ_DATA = {
             "Rango: $60 a $120. El precio correcto multiplica el costo por 10 para startups tecnológicas."
           ],
           "correct": 2,
-          "feedback": "Siguiendo la fórmula del libro: valor mensual = (8h × 4 semanas × $5) + $200 = $160 + $200 = $360. Rango = 10 % a 20 % = $36 a $72. El precio mínimo por costo = $6 ÷ 0,30 = $20. El precio final debería estar entre $36 y $72, sobre el piso de $20. La opción C ignora el valor del tiempo, que es parte explícita del cálculo del libro."
+          "feedback": "Siguiendo la fórmula del libro: valor mensual = (8h × 4 semanas × $5) + $200 = $160 + $200 = $360. Rango de precio justo = 10 % a 20 % = $36 a $72. Esta opción aplica correctamente las dos partes de la fórmula: calcula el valor total mensual generado y extrae el rango del 10 % al 20 %."
         },
         {
           "id": "DT.34",
@@ -1778,7 +1778,7 @@ window.QUIZ_DATA = {
             "No es un Mago de Oz: si el trabajo de atras requiere programacion ya es un MVP tecnico no simulacion manual."
           ],
           "correct": 3,
-          "feedback": "En un Mago de Oz el equipo hace el trabajo a mano; el usuario cree que hay un sistema automatico. Si hay codigo deja de ser Mago de Oz y pasa a ser MVP. En el ejemplo de Rosa detras significa: el equipo recibe la foto abre Claude manualmente y escribe la respuesta a mano."
+          "feedback": "En un Mago de Oz el equipo hace el trabajo a mano; el usuario cree que hay un sistema automatico. Si el cliente sabe que lo atiende una persona, es atencion al cliente manual, a diferencia de un Mago de Oz real donde la interfaz simula total automatizacion."
         },
         {
           "id": "F10.03",
@@ -1946,7 +1946,7 @@ window.QUIZ_DATA = {
             "480 dolares: precio anual 600 por margen bruto 80 por ciento sin dividir para la cancelacion mensual acumulada."
           ],
           "correct": 2,
-          "feedback": "Formula del Formato 13: LTV igual Precio por margen bruto dividido cancelacion mensual. Margen bruto igual 50 menos 10 dividido 50 igual 0.80. LTV igual 50 por 0.80 dividido 0.05 igual 800. La opcion B omite el margen 50 dividido 0.05 igual 1000 sobreestimando el LTV al ignorar el costo por cliente."
+          "feedback": "Formula del Formato 13: LTV igual Precio por margen bruto dividido cancelacion mensual. Margen bruto: 50 menos 10 igual 40. LTV igual 40 dividido 0.05 igual 800 dolares. El cálculo correcto deduce el margen bruto real antes de dividir."
         },
         {
           "id": "F13.03",
@@ -2368,7 +2368,7 @@ window.QUIZ_DATA = {
             "«Cuando cierro el local cada noche, quiero saber en dos minutos cuánto gané y qué comprar mañana, para no perder plata ni tirar comida.»"
           ],
           "correct": 3,
-          "feedback": "El libro muestra la fórmula de JTBD: 'Cuando [situación], quiero [motivación], para [resultado esperado].' La opción A respeta las tres partes: la situación (cerrar el local cada noche), la motivación (saber cuánto ganó y qué comprar) y el resultado esperado (no perder plata ni tirar comida). Las otras opciones nombran tecnología o herramientas, no el trabajo del usuario."
+          "feedback": "El libro muestra la fórmula de JTBD: 'Cuando [situación], quiero [motivación], para [resultado esperado]'. Esta formulación cumple exactamente la estructura: define la situación ('cuando cierro el local'), la motivación ('quiero saber en dos minutos cuánto gané') y el resultado esperado ('para no perder plata ni tirar comida'). No menciona tecnología ni soluciones técnicas; se enfoca en el progreso que el usuario busca."
         },
         {
           "id": "DT.14",
@@ -2480,7 +2480,7 @@ window.QUIZ_DATA = {
             "El principio de métricas: solo cuenta la tasa de error, no la opinión del usuario."
           ],
           "correct": 0,
-          "feedback": "El libro lo dice con precisión: 'La prueba no evalúa al usuario, evalúa tu idea. Si alguien se confunde, el prototipo falló, no la persona.' Este principio evita que el equipo culpe a los usuarios de 'no entender' y los obliga a mejorar el diseño. La opción A (neutralidad) es real pero no captura el principio específico del libro."
+          "feedback": "El libro lo dice con precisión: 'La prueba no evalúa al usuario, evalúa tu idea. Si alguien se confunde, el error es del diseño, no del usuario.' Esta opción es la que refleja este principio pedagógico. Culpar al usuario de 'no ser el perfil' o 'no entender' invalida el aprendizaje de la prueba."
         },
         {
           "id": "DT.22",
@@ -2578,7 +2578,7 @@ window.QUIZ_DATA = {
             "LTV = $200; LTV/CAC = 5. Es suficiente para cualquier modelo SaaS en la región."
           ],
           "correct": 0,
-          "feedback": "El libro calcula exactamente: LTV = $15 × 0,80 ÷ 0,05 = $240. CAC = $40. LTV/CAC = 6. Y dice: 'la referencia habitual es que sea mayor a 3.' Si LTV/CAC es menor a 1, el negocio pierde dinero con cada cliente nuevo. La opción B reproduce el cálculo exacto del libro con los datos del caso de Rosa."
+          "feedback": "El libro calcula exactamente: LTV = $15 × 0,80 ÷ 0,05 = $240. CAC = $40. LTV/CAC = 6. Y dice: 'la regla de oro es LTV/CAC > 3'. Esta respuesta tiene los dos valores correctos y la conclusión correcta. Un ratio de 6 es excelente para una startup."
         },
         {
           "id": "DT.29",
@@ -2592,7 +2592,7 @@ window.QUIZ_DATA = {
             "El negocio necesita más datos: con solo una métrica no se puede calificar la viabilidad."
           ],
           "correct": 1,
-          "feedback": "LTV = $30 × 0,60 ÷ 0,20 = $90. LTV/CAC = $90 ÷ $35 = 2,57. El libro establece que la referencia es mayor a 3. La opción A llega al mismo número pero concluye que 'mejorará con escala', lo cual no es la conclusión del libro (si el modelo ya pierde con cada cliente, escalar amplifica la pérdida). La opción C confunde precio mensual con valor de vida."
+          "feedback": "LTV = $30 × 0,60 ÷ 0,20 = $90. LTV/CAC = $90 ÷ $35 = 2,57. El libro establece que la referencia es mayor a 3: por debajo, cada cliente cuesta más de lo que rinde. Esta opción identifica correctamente que el ratio 2,57 es inviable con CAC de $35: el negocio quema caja y no sobrevive."
         },
         {
           "id": "DT.30",
@@ -2648,7 +2648,7 @@ window.QUIZ_DATA = {
             "Rango: $60 a $120. El precio correcto multiplica el costo por 10 para startups tecnológicas."
           ],
           "correct": 2,
-          "feedback": "Siguiendo la fórmula del libro: valor mensual = (8h × 4 semanas × $5) + $200 = $160 + $200 = $360. Rango = 10 % a 20 % = $36 a $72. El precio mínimo por costo = $6 ÷ 0,30 = $20. El precio final debería estar entre $36 y $72, sobre el piso de $20. La opción C ignora el valor del tiempo, que es parte explícita del cálculo del libro."
+          "feedback": "Siguiendo la fórmula del libro: valor mensual = (8h × 4 semanas × $5) + $200 = $160 + $200 = $360. Rango de precio justo = 10 % a 20 % = $36 a $72. Esta opción aplica correctamente las dos partes de la fórmula: calcula el valor total mensual generado y extrae el rango del 10 % al 20 %."
         },
         {
           "id": "DT.34",
@@ -3278,7 +3278,7 @@ window.QUIZ_DATA = {
             "No es un Mago de Oz: si el trabajo de atras requiere programacion ya es un MVP tecnico no simulacion manual."
           ],
           "correct": 3,
-          "feedback": "En un Mago de Oz el equipo hace el trabajo a mano; el usuario cree que hay un sistema automatico. Si hay codigo deja de ser Mago de Oz y pasa a ser MVP. En el ejemplo de Rosa detras significa: el equipo recibe la foto abre Claude manualmente y escribe la respuesta a mano."
+          "feedback": "En un Mago de Oz el equipo hace el trabajo a mano; el usuario cree que hay un sistema automatico. Si el cliente sabe que lo atiende una persona, es atencion al cliente manual, a diferencia de un Mago de Oz real donde la interfaz simula total automatizacion."
         },
         {
           "id": "F10.03",
@@ -3446,7 +3446,7 @@ window.QUIZ_DATA = {
             "480 dolares: precio anual 600 por margen bruto 80 por ciento sin dividir para la cancelacion mensual acumulada."
           ],
           "correct": 2,
-          "feedback": "Formula del Formato 13: LTV igual Precio por margen bruto dividido cancelacion mensual. Margen bruto igual 50 menos 10 dividido 50 igual 0.80. LTV igual 50 por 0.80 dividido 0.05 igual 800. La opcion B omite el margen 50 dividido 0.05 igual 1000 sobreestimando el LTV al ignorar el costo por cliente."
+          "feedback": "Formula del Formato 13: LTV igual Precio por margen bruto dividido cancelacion mensual. Margen bruto: 50 menos 10 igual 40. LTV igual 40 dividido 0.05 igual 800 dolares. El cálculo correcto deduce el margen bruto real antes de dividir."
         },
         {
           "id": "F13.03",
@@ -3614,7 +3614,7 @@ window.QUIZ_DATA = {
             "«Conectamos tutores certificados y estudiantes universitarios usando IA para el match ideal según materia y estilo de aprendizaje.»"
           ],
           "correct": 0,
-          "feedback": "La frase del Canvas exige cuatro elementos: segmento concreto (Ingeniería PUCE), problema específico (no entender cálculo antes del parcial), solución precisa (tutoría en 24 h de un par) y alternativa real (YouTube sin respuesta). La opción c los cumple todos. Las demás son frases de marketing genéricas que no permiten saber a quién ayudan, en qué situación o qué pierden si no usan el servicio."
+          "feedback": "La frase del Canvas exige cuatro elementos: segmento concreto (estudiantes PUCE), problema específico (no entender cálculo), solución precisa (tutoría en 24 h de un par) y alternativa real (YouTube sin respuesta). Esta formulación los cumple todos. Las demás son frases de marketing genéricas que no permiten saber a quién ayudan, en qué situación o qué pierden si no usan el servicio."
         },
         {
           "id": "BMC.07",
@@ -3791,12 +3791,12 @@ window.QUIZ_DATA = {
           "text": "Una startup de control de inventarios para ferreterías cobra 15 dólares por ferretería al mes. El costo de IA por ferretería es de 3 dólares. Los costos fijos (servidor, sueldos mínimos) son 180 dólares al mes. ¿Cuántas ferreterías necesita para no perder dinero?",
           "options": [
             "12 ferreterías",
-            "15 ferreterías",
             "18 ferreterías",
+            "15 ferreterías",
             "60 ferreterías — punto de equilibrio sin descontar costo variable de la IA"
           ],
           "correct": 2,
-          "feedback": "La fórmula del punto de equilibrio es: costos fijos ÷ (precio − costo variable por cliente) = clientes necesarios. Aquí: 180 ÷ (15 − 3) = 180 ÷ 12 = 15 ferreterías. Con 15 ferreterías los ingresos (225) cubren exactamente los costos fijos (180) más los costos variables (45). La respuesta c (18) es un error frecuente al dividir costos totales estimados por el precio sin descontar el costo variable. La clase enseña a escribir la cuenta explícita en el lienzo."
+          "feedback": "La fórmula del punto de equilibrio es: costos fijos ÷ (precio − costo variable por cliente) = clientes necesarios. Aquí: 180 ÷ (15 − 3) = 180 ÷ 12 = 15 ferreterías. Con 15 ferreterías los ingresos (225) cubren exactamente los costos fijos (180) más los costos variables (45). El cálculo de 18 ferreterías es un error frecuente al dividir costos totales estimados por el precio sin descontar el costo variable. La clase enseña a escribir la cuenta explícita en el lienzo."
         },
         {
           "id": "BMC.20",

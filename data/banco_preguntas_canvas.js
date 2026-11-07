@@ -136,7 +136,7 @@ window.QUIZ_DATA_CANVAS = {
         "«Conectamos tutores certificados y estudiantes universitarios usando IA para el match ideal según materia y estilo de aprendizaje.»"
       ],
       "correct": 0,
-      "feedback": "La frase del Canvas exige cuatro elementos: segmento concreto (Ingeniería PUCE), problema específico (no entender cálculo antes del parcial), solución precisa (tutoría en 24 h de un par) y alternativa real (YouTube sin respuesta). La opción c los cumple todos. Las demás son frases de marketing genéricas que no permiten saber a quién ayudan, en qué situación o qué pierden si no usan el servicio."
+      "feedback": "La frase del Canvas exige cuatro elementos: segmento concreto (estudiantes PUCE), problema específico (no entender cálculo), solución precisa (tutoría en 24 h de un par) y alternativa real (YouTube sin respuesta). Esta formulación los cumple todos. Las demás son frases de marketing genéricas que no permiten saber a quién ayudan, en qué situación o qué pierden si no usan el servicio."
     },
     {
       "id": "BMC.07",
@@ -313,12 +313,12 @@ window.QUIZ_DATA_CANVAS = {
       "text": "Una startup de control de inventarios para ferreterías cobra 15 dólares por ferretería al mes. El costo de IA por ferretería es de 3 dólares. Los costos fijos (servidor, sueldos mínimos) son 180 dólares al mes. ¿Cuántas ferreterías necesita para no perder dinero?",
       "options": [
         "12 ferreterías",
-        "15 ferreterías",
         "18 ferreterías",
+        "15 ferreterías",
         "60 ferreterías — punto de equilibrio sin descontar costo variable de la IA"
       ],
       "correct": 2,
-      "feedback": "La fórmula del punto de equilibrio es: costos fijos ÷ (precio − costo variable por cliente) = clientes necesarios. Aquí: 180 ÷ (15 − 3) = 180 ÷ 12 = 15 ferreterías. Con 15 ferreterías los ingresos (225) cubren exactamente los costos fijos (180) más los costos variables (45). La respuesta c (18) es un error frecuente al dividir costos totales estimados por el precio sin descontar el costo variable. La clase enseña a escribir la cuenta explícita en el lienzo."
+      "feedback": "La fórmula del punto de equilibrio es: costos fijos ÷ (precio − costo variable por cliente) = clientes necesarios. Aquí: 180 ÷ (15 − 3) = 180 ÷ 12 = 15 ferreterías. Con 15 ferreterías los ingresos (225) cubren exactamente los costos fijos (180) más los costos variables (45). El cálculo de 18 ferreterías es un error frecuente al dividir costos totales estimados por el precio sin descontar el costo variable. La clase enseña a escribir la cuenta explícita en el lienzo."
     },
     {
       "id": "BMC.20",
