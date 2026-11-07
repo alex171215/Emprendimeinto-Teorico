@@ -686,7 +686,7 @@
     </script>
 
     <!-- Cargar banco de preguntas de Design Thinking, Formatos y Business Model Canvas -->
-    <script src="data/banco_preguntas_design_thinking.js?v=20261106_no_length_bias_v10"></script>
+    <script src="data/banco_preguntas_design_thinking.js?v=20261106_antipattern_shuffle_v11"></script>
 
     <!-- Script Principal de la Aplicación -->
     <script>
@@ -1327,7 +1327,7 @@
 
                 const textSpan = document.createElement('span');
                 textSpan.className = 'flex-1 leading-relaxed';
-                textSpan.textContent = optText;
+                textSpan.textContent = (optText || '').replace(/^[a-d]\)\s*/i, '');
 
                 optBtn.appendChild(badge);
                 optBtn.appendChild(textSpan);
@@ -1479,26 +1479,130 @@
             return array;
         }
 
+        // Genera una secuencia de posiciones de respuesta correcta (0, 1, 2, 3)
+        // equilibrada y SIN patrones repetitivos (sin tríos seguidos, sin ciclos A-B-A-B ni A-B-C-A-B-C)
+        function generateAntiPatternDistribution(n) {
+            const k = 4;
+            const baseCount = Math.floor(n / k);
+            const remainder = n % k;
+            
+            const targetCounts = {};
+            for (let i = 0; i < k; i++) {
+                targetCounts[i] = baseCount + (i < remainder ? 1 : 0);
+            }
+            
+            const seq = [];
+            const currentCounts = { 0: 0, 1: 0, 2: 0, 3: 0 };
+            
+            function isValid(cand, i) {
+                // No más de 2 respuestas consecutivas iguales (evita 111, 222, etc.)
+                if (i >= 2 && seq[i - 1] === cand && seq[i - 2] === cand) return false;
+                // No ciclos repetidos de 2 (evita A, B, A, B o 1, 2, 1, 2)
+                if (i >= 3 && cand === seq[i - 2] && seq[i - 1] === seq[i - 3]) return false;
+                // No ciclos repetidos de 3 (evita A, B, C, A, B, C)
+                if (i >= 5 && cand === seq[i - 3] && seq[i - 1] === seq[i - 4] && seq[i - 2] === seq[i - 5]) return false;
+                // No ciclos repetidos de 4
+                if (i >= 7 && cand === seq[i - 4] && seq[i - 1] === seq[i - 5] && seq[i - 2] === seq[i - 6] && seq[i - 3] === seq[i - 7]) return false;
+                return true;
+            }
+            
+            function solve(idx) {
+                if (idx === n) return true;
+                const candidates = [];
+                for (let v = 0; v < k; v++) {
+                    if (currentCounts[v] < targetCounts[v]) {
+                        candidates.push(v);
+                    }
+                }
+                for (let i = candidates.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [candidates[i], candidates[j]] = [candidates[j], candidates[i]];
+                }
+                for (const cand of candidates) {
+                    if (isValid(cand, idx)) {
+                        seq.push(cand);
+                        currentCounts[cand]++;
+                        if (solve(idx + 1)) return true;
+                        currentCounts[cand]--;
+                        seq.pop();
+                    }
+                }
+                return false;
+            }
+            
+            if (!solve(0)) {
+                const fallback = [];
+                for (let v = 0; v < k; v++) {
+                    for (let c = 0; c < targetCounts[v]; c++) fallback.push(v);
+                }
+                return shuffleArray(fallback);
+            }
+            return seq;
+        }
+
         function shuffleQuestionsAndOptions() {
+            if (!currentQuestions || currentQuestions.length === 0) return;
+
+            // 1. Barajar el orden de las preguntas
             currentQuestions = shuffleArray([...currentQuestions]);
-            currentQuestions.forEach(q => {
-                const optionsWithIndices = q.options.map((opt, idx) => ({
-                    text: opt,
-                    isCorrect: idx === q.correct
-                }));
-                shuffleArray(optionsWithIndices);
-                q.options = optionsWithIndices.map(o => o.text);
-                q.correct = optionsWithIndices.findIndex(o => o.isCorrect);
+
+            // Actualizar también el banco activo subyacente para que al cambiar de categoría o filtro no se pierda el nuevo orden
+            const activeB = dataBancos.find(b => b.id === activeBank);
+            if (activeB && activeB.preguntas) {
+                const currentSet = new Set(currentQuestions.map(q => q.id));
+                const remaining = activeB.preguntas.filter(q => !currentSet.has(q.id));
+                activeB.preguntas = [...currentQuestions, ...remaining];
+            }
+
+            // 2. Barajar opciones de cada pregunta garantizando distribución anti-patrón
+            const targetPositions = generateAntiPatternDistribution(currentQuestions.length);
+
+            currentQuestions.forEach((q, qIdx) => {
+                const targetPos = targetPositions[qIdx];
+                const oldCorrect = (q.correct !== undefined && q.correct >= 0 && q.correct < q.options.length) ? q.correct : 0;
+                
+                // Texto de la respuesta correcta original (limpiando cualquier prefijo residual 'a) ', 'b) ')
+                const correctText = (q.options[oldCorrect] || '').replace(/^[a-d]\)\s*/i, '').trim();
+                
+                // Textos de las distractoras
+                const distractors = [];
+                q.options.forEach((opt, idx) => {
+                    if (idx !== oldCorrect) {
+                        distractors.push(opt.replace(/^[a-d]\)\s*/i, '').trim());
+                    }
+                });
+                shuffleArray(distractors);
+
+                // Armar nuevo arreglo de opciones con la correcta en targetPos
+                const newOptions = [];
+                let distIdx = 0;
+                for (let pos = 0; pos < 4; pos++) {
+                    if (pos === targetPos) {
+                        newOptions.push(correctText);
+                    } else {
+                        newOptions.push(distractors[distIdx] || '');
+                        distIdx++;
+                    }
+                }
+
+                q.options = newOptions;
+                q.correct = targetPos;
             });
+
+            // 3. Reiniciar respuestas del usuario para poder rendir de nuevo
             currentQuestions.forEach(q => {
                 delete userAnswers[q.id];
             });
+
+            // NOTA: Las marcas de duda (bookmarked) se conservan intactas en el Set 'bookmarked'
+            // Cada pregunta mantiene su bookmark por su id único 'q.id', sin perderse al cambiar de lugar.
+
             currentIndex = 0;
             examFinished = false;
             saveState();
             renderGrid();
             renderCurrentQuestion();
-            showToast("¡Barajado aleatorio listo! Respuestas de esta lista reiniciadas.");
+            showToast("¡Preguntas y opciones barajadas! Orden aleatorio sin patrones y marcas de duda conservadas.");
         }
 
         shuffleAllBtn.addEventListener('click', () => {

@@ -4,17 +4,559 @@ window.QUIZ_DATA_CANVAS = {
   "id": "business_model_canvas_36",
   "titulo": "Business Model Canvas PUCE (36 Preguntas)",
   "categorias": [
-    { "value": "all", "label": "Todos los Bloques (36 Preguntas)" },
-    { "value": "bloque1", "label": "Bloque 1 — Segmento de Clientes" },
-    { "value": "bloque2", "label": "Bloque 2 — Propuesta de Valor" },
-    { "value": "bloque3", "label": "Bloque 3 — Canales" },
-    { "value": "bloque4", "label": "Bloque 4 — Relación con Clientes" },
-    { "value": "bloque5", "label": "Bloque 5 — Fuentes de Ingresos" },
-    { "value": "bloque6", "label": "Bloque 6 — Recursos Clave" },
-    { "value": "bloque7", "label": "Bloque 7 — Actividades Clave" },
-    { "value": "bloque8", "label": "Bloque 8 — Socios Clave" },
-    { "value": "bloque9", "label": "Bloque 9 — Estructura de Costos" },
-    { "value": "incorrect", "label": "Solo Preguntas Erradas" },
-    { "value": "bookmarked", "label": "Solo Preguntas Marcadas (Dudas)" }
+    {
+      "value": "all",
+      "label": "Todos los Bloques (36 Preguntas)"
+    },
+    {
+      "value": "bloque1",
+      "label": "Bloque 1 — Segmento de Clientes"
+    },
+    {
+      "value": "bloque2",
+      "label": "Bloque 2 — Propuesta de Valor"
+    },
+    {
+      "value": "bloque3",
+      "label": "Bloque 3 — Canales"
+    },
+    {
+      "value": "bloque4",
+      "label": "Bloque 4 — Relación con Clientes"
+    },
+    {
+      "value": "bloque5",
+      "label": "Bloque 5 — Fuentes de Ingresos"
+    },
+    {
+      "value": "bloque6",
+      "label": "Bloque 6 — Recursos Clave"
+    },
+    {
+      "value": "bloque7",
+      "label": "Bloque 7 — Actividades Clave"
+    },
+    {
+      "value": "bloque8",
+      "label": "Bloque 8 — Socios Clave"
+    },
+    {
+      "value": "bloque9",
+      "label": "Bloque 9 — Estructura de Costos"
+    },
+    {
+      "value": "incorrect",
+      "label": "Solo Preguntas Erradas"
+    },
+    {
+      "value": "bookmarked",
+      "label": "Solo Preguntas Marcadas (Dudas)"
+    }
+  ],
+  "preguntas": [
+    {
+      "id": "BMC.01",
+      "category": "bloque1",
+      "categoryName": "Bloque 1 — Segmento de Clientes",
+      "text": "El equipo de «Fiado Claro» escribe en su bloque de Segmento: «Pequeños comerciantes de 30 a 60 años de Ecuador». Según la clase, ¿qué diagnóstico es correcto?",
+      "options": [
+        "Es válido: la edad delimita al cliente y ecuatoriano indica el mercado geográfico.",
+        "Es demasiado estrecho: hay que ampliar a toda Latinoamérica para crecer como startup.",
+        "Falta solo añadir el género y la zona de residencia; con eso el segmento ya sirve para buscar clientes.",
+        "Es demográfico pero no accionable: no dice dónde encontrarlos ni qué conducta tienen."
+      ],
+      "correct": 3,
+      "feedback": "El Canvas distingue segmento demográfico de segmento accionable. «Comerciantes de 30-60 años» dice quiénes son, pero no dónde están ni qué conducta tienen. Un segmento accionable como «tiendas de barrio de Quito que fían y lo anotan en cuaderno» sí permite salir a buscarlos mañana. La edad y la geografía amplia no reemplazan el comportamiento observable."
+    },
+    {
+      "id": "BMC.02",
+      "category": "bloque1",
+      "categoryName": "Bloque 1 — Segmento de Clientes",
+      "text": "«BiciCampus» ofrece alquiler de bicicletas eléctricas en la universidad. En su bloque 1 el equipo escribe: «Estudiantes que viven a menos de 3 km del campus y que hoy llegan en taxi». ¿Qué afirmación es la más correcta sobre ese segmento?",
+      "options": [
+        "Es accionable: combina dónde están, qué hacen hoy y un dolor concreto (pagar taxi).",
+        "Es demográfico; debería indicar la edad del estudiante para ser útil.",
+        "Es correcto para usuario, pero falta indicar quién paga si el padre cubre los gastos.",
+        "Es demasiado estrecho: limitar a 3 km excluye a la mayoría del mercado potencial."
+      ],
+      "correct": 0,
+      "feedback": "El segmento «estudiantes a menos de 3 km que hoy llegan en taxi» es accionable porque indica dónde viven, qué conducta tienen y qué alternativa usan hoy. Permite salir y encontrarlos. La distinción usuario/pagador es válida en otros casos, pero aquí el estudiante mismo paga el taxi, así que no hay brecha. La clase enseña que un segmento estrecho y real es mejor que uno amplio y vago."
+    },
+    {
+      "id": "BMC.03",
+      "category": "bloque1",
+      "categoryName": "Bloque 1 — Segmento de Clientes",
+      "text": "«AlmuerzoListo» es una app de pedidos anticipados en el campus. El equipo identifica dos perfiles: (A) el estudiante que usa la app para pedir; (B) los bares del campus que reciben y preparan los pedidos. Según el Canvas, ¿cómo se clasifican correctamente?",
+      "options": [
+        "A es el pagador y B es el usuario; ambos van en el bloque 1.",
+        "Ambos son segmentos distintos; hay que llenar dos lienzos independientes.",
+        "A es cliente (usuario y pagador); B es socio clave, no segmento.",
+        "B es el segmento porque sin el bar no hay producto; A es solo usuario final."
+      ],
+      "correct": 2,
+      "feedback": "En el Canvas, el Segmento de Clientes agrupa a quienes reciben y pagan la propuesta de valor. El estudiante es quien paga y usa el servicio, por lo que va en el bloque 1. Los bares son socios o canales: hacen posible el servicio pero no son los destinatarios de la propuesta. Mezclar socios con clientes en el bloque 1 es uno de los cinco errores que destaca el taller."
+    },
+    {
+      "id": "BMC.04",
+      "category": "bloque1",
+      "categoryName": "Bloque 1 — Segmento de Clientes",
+      "text": "Una startup de tutorías universitarias escribe en bloque 1: «Todos los estudiantes universitarios de Ecuador». Tiene un presupuesto de 200 dólares para el piloto. Según la lógica del Canvas que enseña el Ing. Rodríguez, ¿qué debe hacer primero?",
+      "options": [
+        "Lanzar ya: un mercado grande atrae inversionistas y justifica el presupuesto disponible.",
+        "Ampliar el presupuesto antes de acotar el segmento, para no limitar el potencial del negocio.",
+        "Registrar la marca en Ecuador para proteger el mercado antes de seleccionar el nicho inicial.",
+        "Acotar a un grupo concreto: por ejemplo, estudiantes de Ingeniería PUCE antes de parciales."
+      ],
+      "correct": 3,
+      "feedback": "Con 200 dólares no se puede llegar a todos los universitarios del país. La clase enseña que el primer segmento debe ser tan concreto que el equipo pueda encontrarlo, hablar con él y servirlo con recursos limitados. «Estudiantes de Ingeniería de la PUCE antes de parciales» permite ir a la facultad, hablar con 10 personas y validar. El mercado grande se conquista después, nicho por nicho."
+    },
+    {
+      "id": "BMC.05",
+      "category": "bloque2",
+      "categoryName": "Bloque 2 — Propuesta de Valor",
+      "text": "«Fiado Claro» dice en bloque 2: «Una app con inteligencia artificial que lee la foto del cuaderno de fiado y lleva la cuenta de cada vecino automáticamente». El Ing. Rodríguez clasifica el rol de la IA en tres niveles: adorno, ayuda o núcleo. ¿En qué nivel está esta propuesta?",
+      "options": [
+        "Adorno: si se apaga la IA, igual se puede registrar el fiado manualmente en papel o Excel.",
+        "Ayuda: la IA acelera el registro, pero la tienda podría igualmente llevar la cuenta con una hoja de cálculo.",
+        "Núcleo: sin la IA nadie puede leer miles de caligrafías distintas en tiempo real.",
+        "Núcleo solo si la IA supera el 90 % de precisión; debajo de ese umbral es apenas una ayuda menor."
+      ],
+      "correct": 2,
+      "feedback": "La IA es núcleo cuando sin ella el producto no existe como se propone. Aquí el diferencial es que la IA lee cualquier letra manuscrita y actualiza el saldo en segundos: eso no se puede reemplazar con Excel ni con un digitador sin perder la promesa (inmediatez, cero errores manuales). Un chatbot añadido a una app ya funcional sería adorno; una IA que hace más rápido lo que igual se haría es ayuda. La IA núcleo es lo que busca ALAS."
+    },
+    {
+      "id": "BMC.06",
+      "category": "bloque2",
+      "categoryName": "Bloque 2 — Propuesta de Valor",
+      "text": "Cuatro propuestas de valor para una app de tutorías universitarias. ¿Cuál sigue mejor la frase del Canvas: «Ayudamos a [segmento] que [problema], con [solución], a diferencia de [alternativa]»?",
+      "options": [
+        "«Ayudamos a estudiantes PUCE que no entienden cálculo, con tutorías de un par en 24 horas, a diferencia de buscar en YouTube.»",
+        "«La mejor plataforma de aprendizaje del Ecuador, con tutores certificados y acceso desde cualquier dispositivo a precio accesible.»",
+        "«Ayudamos a estudiantes universitarios con dudas de cualquier materia, con tutores disponibles las 24 horas, a diferencia de estudiar completamente solos.»",
+        "«Conectamos tutores certificados y estudiantes universitarios usando IA para el match ideal según materia y estilo de aprendizaje.»"
+      ],
+      "correct": 0,
+      "feedback": "La frase del Canvas exige cuatro elementos: segmento concreto (Ingeniería PUCE), problema específico (no entender cálculo antes del parcial), solución precisa (tutoría en 24 h de un par) y alternativa real (YouTube sin respuesta). La opción c los cumple todos. Las demás son frases de marketing genéricas que no permiten saber a quién ayudan, en qué situación o qué pierden si no usan el servicio."
+    },
+    {
+      "id": "BMC.07",
+      "category": "bloque2",
+      "categoryName": "Bloque 2 — Propuesta de Valor",
+      "text": "«Raíces Andinas» entrega canastas de verduras agroecológicas a domicilio. Su propuesta dice: «Comida fresca y sin químicos, en tu puerta cada semana; precio justo para el agricultor; sabes quién cultivó lo que comes». Un competidor lanza exactamente la misma propuesta. Según el Canvas, ¿qué bloque habría fallado en «Raíces Andinas»?",
+      "options": [
+        "Bloque 9 (costos): si no tiene costos menores, el competidor puede copiarlo y cobrar precios más bajos.",
+        "Bloque 2 (propuesta de valor): una propuesta que se puede copiar en texto no ofrece ventaja competitiva real.",
+        "Bloque 5 (ingresos): el precio está mal definido y cualquier competidor con más capital puede igualarlo fácilmente.",
+        "Bloque 8 (socios clave): sin acuerdos exclusivos con productores, cualquiera replica la cadena."
+      ],
+      "correct": 3,
+      "feedback": "La propuesta de valor en el Canvas describe qué se ofrece, pero la sostenibilidad del modelo depende de las barreras en otros bloques. Si «Raíces Andinas» tiene contratos exclusivos con asociaciones de productores (bloque 8: socios clave), un competidor no puede replicar la cadena con los mismos proveedores. La propuesta de valor en texto siempre puede copiarse; la ventaja real está en los recursos y socios difíciles de duplicar."
+    },
+    {
+      "id": "BMC.08",
+      "category": "bloque2",
+      "categoryName": "Bloque 2 — Propuesta de Valor",
+      "text": "El taller indica que un Canvas con la IA como «adorno» baja la nota. ¿Cuál de estas startups tiene la IA como adorno?",
+      "options": [
+        "Una app que usa IA para leer las fotos de cuadernos de fiado y calcular saldos en tiempo real.",
+        "Una plataforma de pedidos de almuerzo que añade un chatbot de «¿en qué te ayudo?» en el menú.",
+        "Un sistema de diagnóstico de enfermedades de plantas que analiza la foto de la hoja y recomienda el tratamiento.",
+        "Una herramienta que genera rutas de entrega optimizadas en tiempo real según el tráfico y los pedidos activos."
+      ],
+      "correct": 1,
+      "feedback": "Un chatbot que responde «¿en qué te ayudo?» en un menú de pedidos no cambia la propuesta central: el cliente igualmente elige y paga el almuerzo sin el chatbot. Si se apaga la IA, el producto funciona igual. Eso es adorno. Las otras opciones tienen la IA en el núcleo: sin el modelo de visión computacional no hay diagnóstico de plantas ni lectura del cuaderno, y sin la IA de optimización las rutas serían manuales y lentas."
+    },
+    {
+      "id": "BMC.09",
+      "category": "bloque3",
+      "categoryName": "Bloque 3 — Canales",
+      "text": "«Fiado Claro» define su canal como «redes sociales». El taller advierte que ese canal es débil. ¿Cuál sería una versión accionable y coherente con el segmento «tiendas de barrio de Quito que fían»?",
+      "options": [
+        "Los distribuidores de bebidas que ya visitan cada tienda semanalmente.",
+        "Instagram y TikTok con anuncios segmentados por edad y ciudad de residencia.",
+        "Una página web con formulario de registro en línea y video de demostración del producto.",
+        "Volantes repartidos en ferias de emprendimiento y mercados populares de Quito."
+      ],
+      "correct": 0,
+      "feedback": "El canal debe llegar al segmento donde este ya está. Los distribuidores de bebidas (Coca-Cola, cervecerías) visitan personalmente cada tienda de barrio cada semana para surtirla. Ese contacto ya existe, ya tiene confianza y llega exactamente al segmento. «Redes sociales» es vago y no garantiza llegar al tendero que usa cuaderno, que probablemente no ve anuncios de apps. Un canal concreto dice quién, cómo y cuándo llega al cliente."
+    },
+    {
+      "id": "BMC.10",
+      "category": "bloque3",
+      "categoryName": "Bloque 3 — Canales",
+      "text": "«BiciCampus» usa como canal «puntos de alquiler en la entrada de la universidad y reserva por app». ¿Qué virtud específica tiene este canal para el segmento «estudiantes a menos de 3 km»?",
+      "options": [
+        "Es completamente digital, lo que reduce costos operativos y permite escalar sin contratar personal adicional.",
+        "Es el único canal viable porque los estudiantes de ese segmento no usan redes sociales convencionales.",
+        "Permite cobrar sin pasarela de pagos externa, eliminando comisiones bancarias y simplificando la tesorería.",
+        "Combina punto físico en la entrada del campus con reserva digital para reducir fricciones al cliente."
+      ],
+      "correct": 3,
+      "feedback": "El canal ideal llega al cliente donde ya está y en el momento en que tiene el problema. El estudiante cruza la entrada del campus todos los días; ver las bicicletas físicamente activa el deseo de usarlas. La app de reserva reduce la fricción de tener que hacer fila. Esta combinación (físico + digital) es coherente con el segmento porque no exige que el cliente cambie su ruta ni aprenda un proceso largo."
+    },
+    {
+      "id": "BMC.11",
+      "category": "bloque3",
+      "categoryName": "Bloque 3 — Canales",
+      "text": "Una startup que vende software de gestión a veterinarias define su canal como «venta directa puerta a puerta». El precio es de 8 dólares al mes. Según el Canvas y la lógica del punto de equilibrio, ¿qué problema tiene este canal?",
+      "options": [
+        "La venta directa solo funciona para productos físicos; para software SaaS el canal correcto es digital.",
+        "La venta directa requiere una fuerza de ventas dedicada, incompatible con el tamaño inicial de una startup.",
+        "El costo de visitar cada veterinaria puede superar los ingresos que genera ese cliente, haciendo el modelo insostenible.",
+        "El canal es incorrecto: las veterinarias prefieren contratar software por e-commerce sin intervención de vendedores externos."
+      ],
+      "correct": 2,
+      "feedback": "El Canvas exige coherencia entre canal e ingresos. Si visitar cada veterinaria cuesta 15 dólares en tiempo y transporte, y el cliente paga solo 8 dólares al mes, el primer mes ya es negativo. El canal solo es sostenible si su costo de adquisición cabe dentro del valor que genera el cliente durante su vida (LTV). La clase enseña el punto de equilibrio: costos fijos ÷ (precio − costo por cliente) = clientes necesarios; el canal afecta el costo por cliente."
+    },
+    {
+      "id": "BMC.12",
+      "category": "bloque3",
+      "categoryName": "Bloque 3 — Canales",
+      "text": "El Ing. Rodríguez explica: «El canal es la tubería que lleva el agua hasta la casa». Con esa analogía, ¿cuál de estas startups tiene el canal más incoherente con su segmento?",
+      "options": [
+        "«TutorYa»: plataforma digital que usa una oficina en un centro comercial para registrar nuevos tutores.",
+        "«AlmuerzoListo»: app de pedidos que usa el grupo de WhatsApp de cada facultad para publicitar sus servicios.",
+        "«Fiado Claro»: app para tiendas de barrio que usa distribuidores de bebidas que ya visitan cada tienda semanalmente.",
+        "«BiciCampus»: alquiler de bicicletas que posiciona puntos físicos de retiro en la entrada principal del campus."
+      ],
+      "correct": 0,
+      "feedback": "«TutorYa» ofrece un servicio 100 % digital (tutorías en línea), pero usa una oficina física en un centro comercial como canal de captación de tutores. Esto genera un costo fijo alto (arriendo) y un alcance geográfico limitado, incoherente con una plataforma digital que debería captar tutores por redes o campus. El taller señala este caso como ERROR 2 de costos: la oficina no sirve a un canal digital."
+    },
+    {
+      "id": "BMC.13",
+      "category": "bloque4",
+      "categoryName": "Bloque 4 — Relación con Clientes",
+      "text": "«Fiado Claro» define su relación con clientes como «resumen semanal por WhatsApp de las deudas de los vecinos». Según el Canvas, ¿qué función principal cumple ese elemento?",
+      "options": [
+        "Es parte del canal, porque WhatsApp es el medio de comunicación entre la startup y el tendero.",
+        "Es un recurso clave, porque la mensajería tiene costo variable por mensaje enviado.",
+        "Es la acción que hace volver al cliente cada semana sin que se lo pidan, generando hábito y retención.",
+        "Es la propuesta de valor, porque el resumen automático de deudas es exactamente lo que el tendero compra."
+      ],
+      "correct": 2,
+      "feedback": "El bloque 4 (Relación con clientes) responde: ¿qué hace que el cliente vuelva? El resumen semanal automático crea un hábito: el tendero espera ese mensaje cada lunes y, si no llega, lo extraña. Eso es retención. No es el canal (WhatsApp puede ser canal, pero la relación es la acción que genera vínculo), ni la propuesta de valor (que es leer el cuaderno y calcular saldos). La clase enseña que la relación es «lo que hace volver cada semana sin pedírselo»."
+    },
+    {
+      "id": "BMC.14",
+      "category": "bloque4",
+      "categoryName": "Bloque 4 — Relación con Clientes",
+      "text": "El taller señala que la escalabilidad requiere que «el servicio funciona igual con 10 que con 100 usuarios». ¿Qué tipo de relación con clientes es más escalable para una startup de software?",
+      "options": [
+        "Atención personal de un fundador que llama a cada cliente cada semana para revisar su cuenta.",
+        "Comunidad de usuarios donde los propios clientes se ayudan entre sí en un foro.",
+        "Un ejecutivo de cuenta asignado a cada cliente para resolver dudas 24/7.",
+        "Visitas presenciales mensuales del equipo para capacitar a cada cliente nuevo."
+      ],
+      "correct": 1,
+      "feedback": "La escalabilidad en el Canvas implica que el modelo de relación no crezca en costos al mismo ritmo que los clientes. Una comunidad de usuarios (foro, grupo) donde los mismos clientes resuelven dudas de los nuevos escala sin costo adicional. Las opciones a, c y d requieren más personas (y más costos) por cada cliente adicional, lo que no escala. La clase muestra que las tres señales de escalabilidad son: retención sin pedirlo, CAC menor al LTV y servicio igual con 10 o 100 usuarios."
+    },
+    {
+      "id": "BMC.15",
+      "category": "bloque4",
+      "categoryName": "Bloque 4 — Relación con Clientes",
+      "text": "«TutorYa» ofrece tutorías y define su relación con clientes como «los estudiantes pueden calificar al tutor después de cada sesión». ¿Qué problema de Canvas tiene esta definición de relación?",
+      "options": [
+        "Las calificaciones son un recurso clave de datos, no una relación; deberían registrarse en el bloque 6.",
+        "Es correcta: la calificación pública genera confianza y esa confianza es suficiente para retener al estudiante.",
+        "El problema es técnico: implementar calificaciones requiere un módulo de software que añade costo de desarrollo.",
+        "La calificación es puntual; no explica qué hace que el estudiante regrese la próxima vez que necesita tutoría."
+      ],
+      "correct": 3,
+      "feedback": "La Relación con clientes debe responder qué genera que el cliente vuelva, no solo qué pasa después de cada sesión. Calificar al tutor mejora la calidad para el próximo usuario, pero no garantiza que ese mismo estudiante regrese. Una relación más sólida sería, por ejemplo, enviarle un recordatorio antes del siguiente parcial con los tutores disponibles en su área, o mostrarle su historial de mejora. La relación es el vínculo activo, no solo el feedback pasivo."
+    },
+    {
+      "id": "BMC.16",
+      "category": "bloque4",
+      "categoryName": "Bloque 4 — Relación con Clientes",
+      "text": "Una startup de gestión de inventarios para ferreterías define en bloque 4: «Capacitación gratuita presencial al momento de la venta». Tiene 50 clientes y quiere llegar a 300. ¿Qué ajuste debe hacer en el bloque de relación para escalar?",
+      "options": [
+        "Sustituir la capacitación presencial por videos tutoriales y soporte por chat para que el cliente se autogestione.",
+        "Ampliar el equipo de ventas para que más personas capaciten a clientes en paralelo y se cubra la demanda creciente.",
+        "Cobrar por la capacitación inicial para generar un ingreso adicional que financie el escalamiento del equipo.",
+        "Eliminar la capacitación completamente: si el software tiene buena UX, el cliente no necesita ayuda para usarlo."
+      ],
+      "correct": 0,
+      "feedback": "Para escalar de 50 a 300 clientes sin que los costos crezcan igual, la relación debe pasar de personal a autoservicio. Videos tutoriales, una base de conocimiento y un chatbot de soporte permiten que el cliente aprenda solo, en cualquier momento, sin que el equipo tenga que estar presente. Ampliar el equipo de ventas sí escala los ingresos, pero también los costos, lo que no mejora el margen. La clase describe el escalamiento como «crecer sin que los costos crezcan igual»."
+    },
+    {
+      "id": "BMC.17",
+      "category": "bloque5",
+      "categoryName": "Bloque 5 — Fuentes de Ingresos",
+      "text": "«TutorYa» cobra 120 dólares al mes por acceso ilimitado a tutorías. Su segmento son estudiantes universitarios. El taller marca esto como un error. ¿Cuál es el diagnóstico más preciso?",
+      "options": [
+        "El precio es muy bajo; debería subirse para financiar correctamente a los tutores y cubrir los costos.",
+        "El problema es el modelo: freemium funcionaría mejor que suscripción mensual para este tipo de servicio.",
+        "El error está en el canal de distribución: si mejoran la captación de usuarios, el precio puede mantenerse igual.",
+        "120 dólares al mes supera lo que un estudiante puede pagar; es incoherente con el segmento."
+      ],
+      "correct": 3,
+      "feedback": "El Canvas exige coherencia entre el precio y quién paga. Un estudiante universitario promedio gasta entre 5 y 15 dólares en servicios digitales al mes. 120 dólares mensuales es más que lo que muchos estudiantes gastan en transporte y alimentación juntos. El taller señala esto como ERROR 1 (ingresos): «$120 al mes no lo paga un estudiante con poco presupuesto». La solución es cobro por sesión (6–8 dólares) o paquetes de 5 tutorías antes de exámenes."
+    },
+    {
+      "id": "BMC.18",
+      "category": "bloque5",
+      "categoryName": "Bloque 5 — Fuentes de Ingresos",
+      "text": "«Fiado Claro» define su modelo de ingresos: «Gratis hasta 20 vecinos en el fiado; desde el vecino 21 en adelante, 5 dólares al mes». ¿Qué lógica de modelo de ingresos aplica?",
+      "options": [
+        "Pago único: el tendero compra una licencia y ya no paga más.",
+        "Freemium: la versión básica es gratuita y la versión con más capacidad tiene costo.",
+        "Publicidad: el modelo se financia con anuncios de proveedores dentro de la app.",
+        "Comisión por transacción: cada vez que se registra un pago de fiado, se cobra un porcentaje."
+      ],
+      "correct": 1,
+      "feedback": "El modelo freemium ofrece una versión gratuita funcional (hasta 20 vecinos) para que el tendero adopte el hábito, y una versión de pago cuando el volumen justifica el costo. Es la estrategia de «gratis hasta que necesitas más». Este modelo reduce la barrera de entrada y permite validar que el tendero realmente usa la app antes de cobrar. La clase muestra este esquema exacto como ejemplo de Fiado Claro."
+    },
+    {
+      "id": "BMC.19",
+      "category": "bloque5",
+      "categoryName": "Bloque 5 — Fuentes de Ingresos",
+      "text": "Una startup de control de inventarios para ferreterías cobra 15 dólares por ferretería al mes. El costo de IA por ferretería es de 3 dólares. Los costos fijos (servidor, sueldos mínimos) son 180 dólares al mes. ¿Cuántas ferreterías necesita para no perder dinero?",
+      "options": [
+        "12 ferreterías",
+        "15 ferreterías",
+        "18 ferreterías",
+        "60 ferreterías — punto de equilibrio sin descontar costo variable de la IA"
+      ],
+      "correct": 2,
+      "feedback": "La fórmula del punto de equilibrio es: costos fijos ÷ (precio − costo variable por cliente) = clientes necesarios. Aquí: 180 ÷ (15 − 3) = 180 ÷ 12 = 15 ferreterías. Con 15 ferreterías los ingresos (225) cubren exactamente los costos fijos (180) más los costos variables (45). La respuesta c (18) es un error frecuente al dividir costos totales estimados por el precio sin descontar el costo variable. La clase enseña a escribir la cuenta explícita en el lienzo."
+    },
+    {
+      "id": "BMC.20",
+      "category": "bloque5",
+      "categoryName": "Bloque 5 — Fuentes de Ingresos",
+      "text": "«Raíces Andinas» vende canastas a 25 dólares. Paga 14 dólares a los productores y 4 dólares de reparto. ¿Qué margen deja cada canasta antes de descontar costos fijos, y qué nombre recibe ese número en el Canvas?",
+      "options": [
+        "7 dólares; se llama margen bruto o contribución por unidad.",
+        "7 dólares; se llama beneficio neto.",
+        "11 dólares; se llama margen bruto porque solo se restan los costos de producción.",
+        "25 dólares; los costos fijos son el único gasto real de un negocio digital."
+      ],
+      "correct": 0,
+      "feedback": "El margen bruto (o contribución unitaria) es el precio menos los costos variables directos de entregar ese producto o servicio. Aquí: 25 − 14 − 4 = 7 dólares por canasta. Este número es la «contribución» que cada canasta hace para cubrir los costos fijos. El beneficio neto solo se calcula restando también los costos fijos al total de contribuciones. La clase muestra este cálculo en el ejemplo de Raíces Andinas."
+    },
+    {
+      "id": "BMC.21",
+      "category": "bloque6",
+      "categoryName": "Bloque 6 — Recursos Clave",
+      "text": "«Fiado Claro» lista como recursos clave: (1) el modelo de IA entrenado para leer caligrafía manuscrita; (2) la base de datos de las deudas de cada tienda; (3) las bicicletas del sistema BiciCampus. ¿Cuál de los tres NO pertenece a «Fiado Claro»?",
+      "options": [
+        "El (1) y el (3): el modelo de IA es un costo, no un recurso.",
+        "Solo el (3): las bicicletas son el recurso de otra startup.",
+        "El (2): los datos de las tiendas son un activo del cliente, no de la startup.",
+        "Ninguno: los tres son válidos para cualquier startup de tecnología."
+      ],
+      "correct": 1,
+      "feedback": "Las bicicletas son el recurso físico central de BiciCampus, no de Fiado Claro. Para Fiado Claro, el modelo de IA entrenado (1) es el recurso tecnológico que hace posible la propuesta de valor, y la base de datos de deudas (2) es el activo de datos que genera el efecto de red y la barrera de salida. Incluir recursos de otras startups en el bloque 6 es un error común de Canvas que el taller advierte: cada recurso debe responder a «¿qué necesitamos tener para cumplir la promesa?»"
+    },
+    {
+      "id": "BMC.22",
+      "category": "bloque6",
+      "categoryName": "Bloque 6 — Recursos Clave",
+      "text": "El taller describe los recursos clave con la analogía de «la mochila de excursión: lleven solo lo indispensable». Una startup de diagnóstico de enfermedades de plantas por foto lista sus recursos: (A) modelo de visión computacional entrenado con 50 000 imágenes de hojas; (B) app móvil con interfaz de cámara; (C) oficina en Quito con sala de reuniones. ¿Cuál NO es indispensable para cumplir la propuesta?",
+      "options": [
+        "El modelo de visión (A): si no hay modelo, no hay diagnóstico.",
+        "La app móvil (B): si no hay app, el agricultor no puede tomar la foto.",
+        "La oficina con sala de reuniones (C): el diagnóstico funciona igual sin ella.",
+        "Todos son indispensables: una startup no puede prescindir de ninguno de sus activos."
+      ],
+      "correct": 2,
+      "feedback": "El modelo de IA (A) y la app (B) son indispensables: sin el modelo no hay diagnóstico, y sin la app el agricultor no puede usar el servicio. La oficina con sala de reuniones (C) es un costo fijo que no contribuye directamente a cumplir la promesa de «diagnosticar con una foto». Para una startup digital temprana, una oficina física es una carga sin retorno. Los recursos clave son los que, si faltan, el producto no puede entregarse."
+    },
+    {
+      "id": "BMC.23",
+      "category": "bloque6",
+      "categoryName": "Bloque 6 — Recursos Clave",
+      "text": "Una startup de logística usa una red de 200 repartidores independientes para entregar pedidos en 2 horas. ¿Cómo clasificaría este activo en el Canvas?",
+      "options": [
+        "El dominio, el hosting y las cuentas de redes sociales, ya que toda startup digital los necesita para operar.",
+        "El equipo fundador y el capital inicial, porque sin personas ni dinero no puede arrancar ningún negocio.",
+        "El algoritmo de IA o las bases de datos propias, siempre que sean el elemento que hace diferente a la startup.",
+        "Los recursos sin los cuales la propuesta de valor no se puede entregar: IA, datos o red de proveedores."
+      ],
+      "correct": 3,
+      "feedback": "La red de repartidores puede aparecer en distintos bloques según cómo se gestione. Si son empleados propios o están integrados en la plataforma como el recurso central de la operación, van en bloque 6 (recursos humanos). Si son empresas externas contratadas (como una empresa de mensajería), van en bloque 8 (socios). Si su función principal es ser el medio por el que el pedido llega al cliente, también se puede mencionar en bloque 3. El contexto (200 repartidores en la red propia de la startup) indica un recurso humano clave."
+    },
+    {
+      "id": "BMC.24",
+      "category": "bloque6",
+      "categoryName": "Bloque 6 — Recursos Clave",
+      "text": "El Ing. Rodríguez señala que en startups con IA los datos son un recurso clave. ¿Por qué los datos históricos de los clientes son más valiosos que el código de la app?",
+      "options": [
+        "Los créditos de la API de OpenAI, porque sin ellos la lectura del cuaderno no funciona y el servicio se cae.",
+        "La base de datos de caligrafías etiquetadas, porque sin esa data el modelo de IA no puede funcionar.",
+        "El dominio web y el hosting en la nube, porque son los que alojan la app y permiten que el cliente la descargue.",
+        "El número de celular del fundador, porque es el canal de soporte principal para las tiendas en caso de fallas."
+      ],
+      "correct": 1,
+      "feedback": "El código de una app puede ser reescrito por un competidor con suficiente dinero. Los datos históricos de comportamiento de clientes reales (cuánto fían, con qué frecuencia pagan, qué productos se mueven más) no se pueden fabricar; requieren tiempo y adopción real. Eso crea una barrera de entrada: mientras más tiempo lleva la startup con sus clientes, más preciso es su modelo de IA y más difícil es que un competidor nuevo lo iguale. Por eso los datos son el recurso más estratégico en modelos de IA."
+    },
+    {
+      "id": "BMC.25",
+      "category": "bloque7",
+      "categoryName": "Bloque 7 — Actividades Clave",
+      "text": "«Fiado Claro» lista sus actividades clave: (1) mejorar el modelo de reconocimiento de caligrafía; (2) afiliar nuevas tiendas cada semana; (3) diseñar la identidad visual de la marca. ¿Cuál de las tres es menos clave para cumplir la propuesta de valor?",
+      "options": [
+        "Diseñar la identidad de marca: logo, colores, tipografía y tono de voz para las redes sociales.",
+        "Redactar el plan de negocios formal y preparar el pitch deck para presentar a inversores en la siguiente ronda.",
+        "Entrenar o ajustar el modelo de IA con datos reales para que la lectura de caligrafías sea confiable.",
+        "Publicar semanalmente en redes sociales para mantener la presencia digital y atraer nuevos usuarios."
+      ],
+      "correct": 2,
+      "feedback": "Las actividades clave son las que el equipo debe hacer muy bien para que la propuesta de valor funcione. Mejorar el modelo (1) es crítico: si la lectura de caligrafía falla, la promesa se rompe. Afiliar tiendas (2) es crítico: sin más clientes, no hay negocio. El diseño de identidad visual (3) puede ayudar al marketing, pero no afecta directamente la capacidad de leer cuadernos ni de cerrar contratos con tiendas. La analogía del taller: «la mochila de excursión: lleven lo indispensable»."
+    },
+    {
+      "id": "BMC.26",
+      "category": "bloque7",
+      "categoryName": "Bloque 7 — Actividades Clave",
+      "text": "Una startup de tutorías universitarias identifica sus actividades: (A) hacer el match entre tutor y estudiante vía IA; (B) verificar la calidad académica de los tutores; (C) publicar contenido en Instagram tres veces por semana. ¿Cuál combinación de actividades es más clave para su propuesta?",
+      "options": [
+        "A y C: el algoritmo de match es el core del producto y las redes sociales generan el tráfico de usuarios.",
+        "B y C: sin tutores de buena calidad no hay producto, y sin redes sociales no hay forma de captar clientes.",
+        "Solo A: el algoritmo de IA para el match es el único diferencial real que tiene la plataforma.",
+        "A y B: el match efectivo y la calidad del tutor son lo que cumple la promesa de valor."
+      ],
+      "correct": 3,
+      "feedback": "El match por IA (A) es la actividad tecnológica que conecta a estudiante y tutor en segundos con alta compatibilidad. La verificación de calidad (B) garantiza que el tutor sepa enseñar, que es la promesa central. Sin A, el proceso es lento y manual; sin B, el estudiante puede toparse con tutores incompetentes y no volver. Publicar en Instagram (C) es una actividad de marketing, no de producción del servicio: si falta, el crecimiento baja, pero el servicio sigue funcionando."
+    },
+    {
+      "id": "BMC.27",
+      "category": "bloque7",
+      "categoryName": "Bloque 7 — Actividades Clave",
+      "text": "El taller dice que las actividades clave son «lo que el equipo debe hacer cada semana para cumplir la promesa». ¿Cuál de estas startups tiene una actividad clave mal clasificada?",
+      "options": [
+        "«Raíces Andinas» lista «compra y control de calidad de las canastas» como actividad clave.",
+        "«Fiado Claro» lista «negociar alianzas con proveedores de crédito externos» como actividad clave.",
+        "«BiciCampus» lista «mantenimiento y recarga de las bicicletas eléctricas» como actividad clave.",
+        "«AlmuerzoListo» lista «coordinar con los bares la disponibilidad del menú cada mañana» como actividad clave."
+      ],
+      "correct": 1,
+      "feedback": "«Fiado Claro» es una app de control de fiado para tiendas de barrio. Negociar alianzas con proveedores de crédito externo puede ser una idea de expansión futura, pero no es lo que el equipo hace cada semana para que la tienda pueda registrar el fiado. Las otras tres son claramente actividades operativas sin las cuales el producto falla: sin control de calidad no hay canasta fresca (Raíces), sin mantenimiento las bicicletas se quedan sin batería (BiciCampus) y sin coordinar el menú los pedidos anticipados no sirven (AlmuerzoListo)."
+    },
+    {
+      "id": "BMC.28",
+      "category": "bloque7",
+      "categoryName": "Bloque 7 — Actividades Clave",
+      "text": "El Ing. Rodríguez explica que para escalar, las actividades clave deben poder repetirse igual con 10 o con 100 clientes. ¿Qué significa eso en términos de diseño de actividades?",
+      "options": [
+        "Validar el modelo completo end-to-end: que el cliente pide, la tienda entrega y el cobro funciona sin errores.",
+        "Negociar contratos con los bares del campus para garantizar el volumen mínimo de pedidos diarios.",
+        "Lanzar la campaña de marketing digital para captar los primeros 500 usuarios antes de la semana de inscripciones.",
+        "Revisar semanalmente los KPIs del tablero de control para asegurar que las métricas de retención van en alza."
+      ],
+      "correct": 0,
+      "feedback": "La escalabilidad implica que las actividades no se multiplican linealmente con los clientes. Si el match entre tutor y estudiante lo hace manualmente un fundador, con 10 estudiantes es manejable pero con 100 se colapsa. Si está automatizado por IA con un proceso documentado, funciona igual con 100 que con 1000. La analogía de la clase: «La receta de la abuela: para abrir diez locales, la receta tiene que estar escrita con medidas exactas para que cualquier cocinero la repita igual»."
+    },
+    {
+      "id": "BMC.29",
+      "category": "bloque8",
+      "categoryName": "Bloque 8 — Socios Clave",
+      "text": "«Fiado Claro» lista como socios: (1) distribuidores de bebidas que visitan las tiendas; (2) proveedor del modelo de IA (API de visión); (3) los propios tenderos que usan la app. ¿Cuál no es un socio clave sino un cliente?",
+      "options": [
+        "El (1): los distribuidores de bebidas son competidores potenciales en distribución, no socios de la startup.",
+        "El (3): los tenderos son el segmento de clientes, no socios de la operación.",
+        "El (2): el proveedor de la API de IA es un recurso clave externo, no un socio estratégico de la empresa.",
+        "Todos son socios: cualquier persona o empresa que interactúe con la startup debe clasificarse como socio."
+      ],
+      "correct": 1,
+      "feedback": "Los socios clave son organizaciones o personas externas que el equipo necesita para operar pero que no son clientes. Los tenderos son quienes reciben y pagan la propuesta de valor: pertenecen al bloque 1 (Segmento). Los distribuidores de bebidas son el canal de distribución y/o socio porque llegan a las tiendas antes que nadie. El proveedor de la API de IA es el que provee la tecnología central; puede clasificarse como recurso o socio según el nivel de integración."
+    },
+    {
+      "id": "BMC.30",
+      "category": "bloque8",
+      "categoryName": "Bloque 8 — Socios Clave",
+      "text": "«Raíces Andinas» tiene como socios: asociaciones de pequeños productores, empresa de reparto en moto, pasarela de pagos y ONG de agroecología. ¿Qué criterio define que estos cuatro sean socios clave y no recursos?",
+      "options": [
+        "Los proveedores de materias primas, ya que sin suministros la empresa no puede fabricar ni entregar el producto.",
+        "Los accionistas minoritarios que invierten capital a cambio de una participación en la empresa.",
+        "Los clientes frecuentes que recomiendan el servicio y actúan como embajadores de la marca en su red.",
+        "Distribuidores de bebidas o asociaciones de tenderos con confianza establecida en las tiendas de Quito."
+      ],
+      "correct": 3,
+      "feedback": "El Canvas diferencia recursos (lo que la startup posee o controla) de socios (lo que necesita pero no posee). Los productores cultivan los alimentos; Raíces no los posee. La empresa de reparto entrega; Raíces no tiene motos propias. La pasarela procesa pagos; Raíces no es banco. Sin ninguno de ellos la propuesta de valor (canasta fresca en tu puerta, precio justo al agricultor) no funciona. Eso los hace socios clave: son indispensables pero externos."
+    },
+    {
+      "id": "BMC.31",
+      "category": "bloque8",
+      "categoryName": "Bloque 8 — Socios Clave",
+      "text": "Una startup que vende software de gestión de citas a consultorios dentales incluye en bloque 8 a «el Ministerio de Salud». ¿Qué problema tiene esa decisión?",
+      "options": [
+        "La red de bares aliados en el campus, porque sin ellos no hay quién prepare ni entregue los pedidos.",
+        "La app móvil y el sistema de pagos en línea, ya que son la interfaz principal a través de la cual los estudiantes realizan sus pedidos.",
+        "El equipo de marketing, porque sin visibilidad en redes el campus no sabrá que el servicio existe.",
+        "El capital inicial de los fundadores, porque financia los primeros meses de operación y el desarrollo de la app."
+      ],
+      "correct": 0,
+      "feedback": "Un socio clave debe tener un rol específico y concreto en la operación. «El Ministerio de Salud» es una entidad reguladora que establece normas, pero no participa activamente en entregar la propuesta de valor (gestionar citas). Incluirlo sin especificar el rol genera un Canvas vago. El taller enseña que un socio débil dice «Ministerio de Salud»; un socio fuerte dice «Ministerio de Salud: valida la interoperabilidad de los datos clínicos con el sistema nacional»."
+    },
+    {
+      "id": "BMC.32",
+      "category": "bloque8",
+      "categoryName": "Bloque 8 — Socios Clave",
+      "text": "El Ing. Rodríguez explica que los socios clave resuelven algo que la startup «no sabe o no puede hacer». Una startup de diagnóstico agrícola no sabe entrenar modelos de IA de visión. ¿Cuál es el socio más estratégico?",
+      "options": [
+        "Un diseñador gráfico freelance que mejore la interfaz visual y la experiencia de usuario de la app.",
+        "Una cámara de comercio local que promueva la startup en ferias del sector y conecte con nuevos clientes.",
+        "Una universidad con laboratorio de IA que cocrea el modelo predictivo como proyecto de investigación.",
+        "Una agencia de publicidad que gestione las redes sociales y las campañas de contenido de la startup."
+      ],
+      "correct": 2,
+      "feedback": "Si la startup no puede entrenar el modelo de visión, la brecha crítica es de conocimiento técnico. Una universidad con laboratorio de IA llena exactamente esa brecha: tiene datos, investigadores y GPU. Además, la colaboración puede ser a bajo costo si se enmarca como investigación conjunta. Las otras opciones (diseñador, cámara de comercio, agencia) resuelven problemas de comunicación o visibilidad, que son importantes pero no son la brecha que tumba la propuesta de valor."
+    },
+    {
+      "id": "BMC.33",
+      "category": "bloque9",
+      "categoryName": "Bloque 9 — Estructura de Costos",
+      "text": "«Fiado Claro» tiene estos costos mensuales: servidor cloud 50 dólares, API de IA 0,50 dólares por tienda, sueldo mínimo del equipo 300 dólares. Con 80 tiendas y precio de 5 dólares, ¿cuánto gana o pierde al mes?",
+      "options": [
+        "Gana 10 dólares: ingresos 80 × 5 = 400; costos totales 390; resultado positivo de 10 dólares.",
+        "Gana 10 dólares: ingresos 400, costos fijos 350 más variables 40 suman 390. Resultado = 10.",
+        "Pierde 10 dólares: 80 × 5 = 400; costos fijos 350 más variables 40 = 390; el margen es negativo.",
+        "No se puede calcular sin conocer el número exacto de transacciones realizadas por cada tienda."
+      ],
+      "correct": 1,
+      "feedback": "Costos fijos: servidor (50) + sueldo (300) = 350 dólares. Costo variable: 0,50 × 80 tiendas = 40 dólares. Total costos: 390. Ingresos: 80 × 5 = 400 dólares. Resultado: 400 − 390 = +10 dólares. La startup gana 10 dólares al mes, con 80 tiendas. El punto de equilibrio era 300 ÷ (5 − 0,50) = 67 tiendas; con 80 ya se supera. La clase exige escribir la cuenta explícita en el lienzo."
+    },
+    {
+      "id": "BMC.34",
+      "category": "bloque9",
+      "categoryName": "Bloque 9 — Estructura de Costos",
+      "text": "El taller indica que «los costos olvidan la IA» es uno de los cinco errores que bajan la nota. ¿Por qué es importante incluir el costo de la IA en el bloque 9?",
+      "options": [
+        "Porque la IA es el único costo variable en startups de software y domina la estructura de costos.",
+        "Porque si la IA se paga por uso (tokens o API), crece con los clientes y puede eliminar el margen.",
+        "Porque los inversores solo financian startups que muestran el costo de la IA de forma explícita en el Canvas.",
+        "Porque sin el costo de la IA no es posible calcular el punto de equilibrio de ninguna empresa tecnológica."
+      ],
+      "correct": 1,
+      "feedback": "Las APIs de IA (OpenAI, Google Vision, etc.) se pagan por uso: por token generado, por imagen procesada o por llamada. Si la startup tiene 10 clientes, el costo es manejable; con 1000 clientes puede ser un costo mayor que el servidor. Si el Canvas no lo incluye, el punto de equilibrio calculado es incorrecto y el modelo aparenta ser rentable cuando no lo es. El Ing. Rodríguez lo resume: «La IA también cuesta: se paga por uso»."
+    },
+    {
+      "id": "BMC.35",
+      "category": "bloque9",
+      "categoryName": "Bloque 9 — Estructura de Costos",
+      "text": "Una startup tiene costos fijos de 240 dólares al mes y cobra 12 dólares por cliente. El costo de la IA es de 2 dólares por cliente. El equipo calcula el punto de equilibrio como 240 ÷ 12 = 20 clientes. ¿Qué error cometió?",
+      "options": [
+        "Ninguno: dividir costos fijos entre el precio de venta es la fórmula estándar del punto de equilibrio.",
+        "El error es que no incluyó el IVA en el precio de venta, lo que distorsiona todo el cálculo del margen.",
+        "Usó el precio bruto en vez de la contribución neta; lo correcto es 240 ÷ (12 − 2) = 24 clientes.",
+        "Los costos fijos deberían incluir también el costo variable de la IA para que la fórmula sea completa."
+      ],
+      "correct": 2,
+      "feedback": "La fórmula correcta del punto de equilibrio es: costos fijos ÷ (precio − costo variable por cliente). El costo variable de 2 dólares de IA se debe restar al precio antes de dividir: 240 ÷ (12 − 2) = 240 ÷ 10 = 24 clientes. Usando solo el precio (240 ÷ 12 = 20), el equipo subestima cuántos clientes necesita y puede pensar que es rentable antes de serlo. La clase muestra esta fórmula explícita con el ejemplo de Fiado Claro."
+    },
+    {
+      "id": "BMC.36",
+      "category": "bloque9",
+      "categoryName": "Bloque 9 — Estructura de Costos",
+      "text": "El Ing. Rodríguez compara la estructura de costos con «la mochila de excursión: sumen cuánto cuesta el viaje». Según esa lógica, ¿qué debe incluir el bloque 9 de un Canvas completo?",
+      "options": [
+        "Costos fijos, costos variables por cliente (incluyendo IA) y punto de equilibrio calculado explícitamente.",
+        "Solo los costos de tecnología: servidor, dominio y herramientas de IA que se utilizan en la operación diaria.",
+        "Solo los costos mensuales que superen los 100 dólares; los menores son despreciables y no afectan el modelo.",
+        "Los costos de socios clave y recursos clave, sin incluir sueldos que se pagan al cierre del ejercicio anual."
+      ],
+      "correct": 0,
+      "feedback": "El bloque 9 completo incluye tres elementos: (1) costos fijos (lo que se paga aunque no haya ningún cliente: servidor, sueldos base, arriendo si aplica); (2) costos variables por cliente (lo que sube con cada cliente: IA por uso, materiales, comisión de pasarela); (3) el punto de equilibrio escrito con la cuenta. El taller puntúa con 3 puntos solo si los tres están presentes y la cuenta aparece. «Las cifras pueden ser supuestos, pero escríbanlas entre corchetes y con la cuenta»."
+    }
   ]
 };

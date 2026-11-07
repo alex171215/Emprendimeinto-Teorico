@@ -62,10 +62,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 1 — Segmento de Clientes",
           "text": "El equipo de «Fiado Claro» escribe en su bloque de Segmento: «Pequeños comerciantes de 30 a 60 años de Ecuador». Según la clase, ¿qué diagnóstico es correcto?",
           "options": [
-            "a) Es válido: la edad delimita al cliente y ecuatoriano indica el mercado geográfico.",
-            "b) Es demasiado estrecho: hay que ampliar a toda Latinoamérica para crecer como startup.",
-            "c) Falta solo añadir el género y la zona de residencia; con eso el segmento ya sirve para buscar clientes.",
-            "d) Es demográfico pero no accionable: no dice dónde encontrarlos ni qué conducta tienen."
+            "Es válido: la edad delimita al cliente y ecuatoriano indica el mercado geográfico.",
+            "Es demasiado estrecho: hay que ampliar a toda Latinoamérica para crecer como startup.",
+            "Falta solo añadir el género y la zona de residencia; con eso el segmento ya sirve para buscar clientes.",
+            "Es demográfico pero no accionable: no dice dónde encontrarlos ni qué conducta tienen."
           ],
           "correct": 3,
           "feedback": "El Canvas distingue segmento demográfico de segmento accionable. «Comerciantes de 30-60 años» dice quiénes son, pero no dónde están ni qué conducta tienen. Un segmento accionable como «tiendas de barrio de Quito que fían y lo anotan en cuaderno» sí permite salir a buscarlos mañana. La edad y la geografía amplia no reemplazan el comportamiento observable."
@@ -76,10 +76,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 1 — Segmento de Clientes",
           "text": "«BiciCampus» ofrece alquiler de bicicletas eléctricas en la universidad. En su bloque 1 el equipo escribe: «Estudiantes que viven a menos de 3 km del campus y que hoy llegan en taxi». ¿Qué afirmación es la más correcta sobre ese segmento?",
           "options": [
-            "a) Es accionable: combina dónde están, qué hacen hoy y un dolor concreto (pagar taxi).",
-            "b) Es demográfico; debería indicar la edad del estudiante para ser útil.",
-            "c) Es correcto para usuario, pero falta indicar quién paga si el padre cubre los gastos.",
-            "d) Es demasiado estrecho: limitar a 3 km excluye a la mayoría del mercado potencial."
+            "Es accionable: combina dónde están, qué hacen hoy y un dolor concreto (pagar taxi).",
+            "Es demográfico; debería indicar la edad del estudiante para ser útil.",
+            "Es correcto para usuario, pero falta indicar quién paga si el padre cubre los gastos.",
+            "Es demasiado estrecho: limitar a 3 km excluye a la mayoría del mercado potencial."
           ],
           "correct": 0,
           "feedback": "El segmento «estudiantes a menos de 3 km que hoy llegan en taxi» es accionable porque indica dónde viven, qué conducta tienen y qué alternativa usan hoy. Permite salir y encontrarlos. La distinción usuario/pagador es válida en otros casos, pero aquí el estudiante mismo paga el taxi, así que no hay brecha. La clase enseña que un segmento estrecho y real es mejor que uno amplio y vago."
@@ -90,10 +90,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 1 — Segmento de Clientes",
           "text": "«AlmuerzoListo» es una app de pedidos anticipados en el campus. El equipo identifica dos perfiles: (A) el estudiante que usa la app para pedir; (B) los bares del campus que reciben y preparan los pedidos. Según el Canvas, ¿cómo se clasifican correctamente?",
           "options": [
-            "a) A es el pagador y B es el usuario; ambos van en el bloque 1.",
-            "b) Ambos son segmentos distintos; hay que llenar dos lienzos independientes.",
-            "c) A es cliente (usuario y pagador); B es socio clave, no segmento.",
-            "d) B es el segmento porque sin el bar no hay producto; A es solo usuario final."
+            "A es el pagador y B es el usuario; ambos van en el bloque 1.",
+            "Ambos son segmentos distintos; hay que llenar dos lienzos independientes.",
+            "A es cliente (usuario y pagador); B es socio clave, no segmento.",
+            "B es el segmento porque sin el bar no hay producto; A es solo usuario final."
           ],
           "correct": 2,
           "feedback": "En el Canvas, el Segmento de Clientes agrupa a quienes reciben y pagan la propuesta de valor. El estudiante es quien paga y usa el servicio, por lo que va en el bloque 1. Los bares son socios o canales: hacen posible el servicio pero no son los destinatarios de la propuesta. Mezclar socios con clientes en el bloque 1 es uno de los cinco errores que destaca el taller."
@@ -104,10 +104,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 1 — Segmento de Clientes",
           "text": "Una startup de tutorías universitarias escribe en bloque 1: «Todos los estudiantes universitarios de Ecuador». Tiene un presupuesto de 200 dólares para el piloto. Según la lógica del Canvas que enseña el Ing. Rodríguez, ¿qué debe hacer primero?",
           "options": [
-            "a) Lanzar ya: un mercado grande atrae inversionistas y justifica el presupuesto disponible.",
-            "b) Ampliar el presupuesto antes de acotar el segmento, para no limitar el potencial del negocio.",
-            "c) Registrar la marca en Ecuador para proteger el mercado antes de seleccionar el nicho inicial.",
-            "d) Acotar a un grupo concreto: por ejemplo, estudiantes de Ingeniería PUCE antes de parciales."
+            "Lanzar ya: un mercado grande atrae inversionistas y justifica el presupuesto disponible.",
+            "Ampliar el presupuesto antes de acotar el segmento, para no limitar el potencial del negocio.",
+            "Registrar la marca en Ecuador para proteger el mercado antes de seleccionar el nicho inicial.",
+            "Acotar a un grupo concreto: por ejemplo, estudiantes de Ingeniería PUCE antes de parciales."
           ],
           "correct": 3,
           "feedback": "Con 200 dólares no se puede llegar a todos los universitarios del país. La clase enseña que el primer segmento debe ser tan concreto que el equipo pueda encontrarlo, hablar con él y servirlo con recursos limitados. «Estudiantes de Ingeniería de la PUCE antes de parciales» permite ir a la facultad, hablar con 10 personas y validar. El mercado grande se conquista después, nicho por nicho."
@@ -118,10 +118,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 2 — Propuesta de Valor",
           "text": "«Fiado Claro» dice en bloque 2: «Una app con inteligencia artificial que lee la foto del cuaderno de fiado y lleva la cuenta de cada vecino automáticamente». El Ing. Rodríguez clasifica el rol de la IA en tres niveles: adorno, ayuda o núcleo. ¿En qué nivel está esta propuesta?",
           "options": [
-            "a) Adorno: si se apaga la IA, igual se puede registrar el fiado manualmente en papel o Excel.",
-            "b) Ayuda: la IA acelera el registro, pero la tienda podría igualmente llevar la cuenta con una hoja de cálculo.",
-            "c) Núcleo: sin la IA nadie puede leer miles de caligrafías distintas en tiempo real.",
-            "d) Núcleo solo si la IA supera el 90 % de precisión; debajo de ese umbral es apenas una ayuda menor."
+            "Adorno: si se apaga la IA, igual se puede registrar el fiado manualmente en papel o Excel.",
+            "Ayuda: la IA acelera el registro, pero la tienda podría igualmente llevar la cuenta con una hoja de cálculo.",
+            "Núcleo: sin la IA nadie puede leer miles de caligrafías distintas en tiempo real.",
+            "Núcleo solo si la IA supera el 90 % de precisión; debajo de ese umbral es apenas una ayuda menor."
           ],
           "correct": 2,
           "feedback": "La IA es núcleo cuando sin ella el producto no existe como se propone. Aquí el diferencial es que la IA lee cualquier letra manuscrita y actualiza el saldo en segundos: eso no se puede reemplazar con Excel ni con un digitador sin perder la promesa (inmediatez, cero errores manuales). Un chatbot añadido a una app ya funcional sería adorno; una IA que hace más rápido lo que igual se haría es ayuda. La IA núcleo es lo que busca ALAS."
@@ -132,10 +132,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 2 — Propuesta de Valor",
           "text": "Cuatro propuestas de valor para una app de tutorías universitarias. ¿Cuál sigue mejor la frase del Canvas: «Ayudamos a [segmento] que [problema], con [solución], a diferencia de [alternativa]»?",
           "options": [
-            "a) «Ayudamos a estudiantes PUCE que no entienden cálculo, con tutorías de un par en 24 horas, a diferencia de buscar en YouTube.»",
-            "b) «La mejor plataforma de aprendizaje del Ecuador, con tutores certificados y acceso desde cualquier dispositivo a precio accesible.»",
-            "c) «Ayudamos a estudiantes universitarios con dudas de cualquier materia, con tutores disponibles las 24 horas, a diferencia de estudiar completamente solos.»",
-            "d) «Conectamos tutores certificados y estudiantes universitarios usando IA para el match ideal según materia y estilo de aprendizaje.»"
+            "«Ayudamos a estudiantes PUCE que no entienden cálculo, con tutorías de un par en 24 horas, a diferencia de buscar en YouTube.»",
+            "«La mejor plataforma de aprendizaje del Ecuador, con tutores certificados y acceso desde cualquier dispositivo a precio accesible.»",
+            "«Ayudamos a estudiantes universitarios con dudas de cualquier materia, con tutores disponibles las 24 horas, a diferencia de estudiar completamente solos.»",
+            "«Conectamos tutores certificados y estudiantes universitarios usando IA para el match ideal según materia y estilo de aprendizaje.»"
           ],
           "correct": 0,
           "feedback": "La frase del Canvas exige cuatro elementos: segmento concreto (Ingeniería PUCE), problema específico (no entender cálculo antes del parcial), solución precisa (tutoría en 24 h de un par) y alternativa real (YouTube sin respuesta). La opción c los cumple todos. Las demás son frases de marketing genéricas que no permiten saber a quién ayudan, en qué situación o qué pierden si no usan el servicio."
@@ -146,10 +146,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 2 — Propuesta de Valor",
           "text": "«Raíces Andinas» entrega canastas de verduras agroecológicas a domicilio. Su propuesta dice: «Comida fresca y sin químicos, en tu puerta cada semana; precio justo para el agricultor; sabes quién cultivó lo que comes». Un competidor lanza exactamente la misma propuesta. Según el Canvas, ¿qué bloque habría fallado en «Raíces Andinas»?",
           "options": [
-            "a) Bloque 9 (costos): si no tiene costos menores, el competidor puede copiarlo y cobrar precios más bajos.",
-            "b) Bloque 2 (propuesta de valor): una propuesta que se puede copiar en texto no ofrece ventaja competitiva real.",
-            "c) Bloque 5 (ingresos): el precio está mal definido y cualquier competidor con más capital puede igualarlo fácilmente.",
-            "d) Bloque 8 (socios clave): sin acuerdos exclusivos con productores, cualquiera replica la cadena."
+            "Bloque 9 (costos): si no tiene costos menores, el competidor puede copiarlo y cobrar precios más bajos.",
+            "Bloque 2 (propuesta de valor): una propuesta que se puede copiar en texto no ofrece ventaja competitiva real.",
+            "Bloque 5 (ingresos): el precio está mal definido y cualquier competidor con más capital puede igualarlo fácilmente.",
+            "Bloque 8 (socios clave): sin acuerdos exclusivos con productores, cualquiera replica la cadena."
           ],
           "correct": 3,
           "feedback": "La propuesta de valor en el Canvas describe qué se ofrece, pero la sostenibilidad del modelo depende de las barreras en otros bloques. Si «Raíces Andinas» tiene contratos exclusivos con asociaciones de productores (bloque 8: socios clave), un competidor no puede replicar la cadena con los mismos proveedores. La propuesta de valor en texto siempre puede copiarse; la ventaja real está en los recursos y socios difíciles de duplicar."
@@ -160,10 +160,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 2 — Propuesta de Valor",
           "text": "El taller indica que un Canvas con la IA como «adorno» baja la nota. ¿Cuál de estas startups tiene la IA como adorno?",
           "options": [
-            "a) Una app que usa IA para leer las fotos de cuadernos de fiado y calcular saldos en tiempo real.",
-            "b) Una plataforma de pedidos de almuerzo que añade un chatbot de «¿en qué te ayudo?» en el menú.",
-            "c) Un sistema de diagnóstico de enfermedades de plantas que analiza la foto de la hoja y recomienda el tratamiento.",
-            "d) Una herramienta que genera rutas de entrega optimizadas en tiempo real según el tráfico y los pedidos activos."
+            "Una app que usa IA para leer las fotos de cuadernos de fiado y calcular saldos en tiempo real.",
+            "Una plataforma de pedidos de almuerzo que añade un chatbot de «¿en qué te ayudo?» en el menú.",
+            "Un sistema de diagnóstico de enfermedades de plantas que analiza la foto de la hoja y recomienda el tratamiento.",
+            "Una herramienta que genera rutas de entrega optimizadas en tiempo real según el tráfico y los pedidos activos."
           ],
           "correct": 1,
           "feedback": "Un chatbot que responde «¿en qué te ayudo?» en un menú de pedidos no cambia la propuesta central: el cliente igualmente elige y paga el almuerzo sin el chatbot. Si se apaga la IA, el producto funciona igual. Eso es adorno. Las otras opciones tienen la IA en el núcleo: sin el modelo de visión computacional no hay diagnóstico de plantas ni lectura del cuaderno, y sin la IA de optimización las rutas serían manuales y lentas."
@@ -174,10 +174,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 3 — Canales",
           "text": "«Fiado Claro» define su canal como «redes sociales». El taller advierte que ese canal es débil. ¿Cuál sería una versión accionable y coherente con el segmento «tiendas de barrio de Quito que fían»?",
           "options": [
-            "a) Los distribuidores de bebidas que ya visitan cada tienda semanalmente.",
-            "b) Instagram y TikTok con anuncios segmentados por edad y ciudad de residencia.",
-            "c) Una página web con formulario de registro en línea y video de demostración del producto.",
-            "d) Volantes repartidos en ferias de emprendimiento y mercados populares de Quito."
+            "Los distribuidores de bebidas que ya visitan cada tienda semanalmente.",
+            "Instagram y TikTok con anuncios segmentados por edad y ciudad de residencia.",
+            "Una página web con formulario de registro en línea y video de demostración del producto.",
+            "Volantes repartidos en ferias de emprendimiento y mercados populares de Quito."
           ],
           "correct": 0,
           "feedback": "El canal debe llegar al segmento donde este ya está. Los distribuidores de bebidas (Coca-Cola, cervecerías) visitan personalmente cada tienda de barrio cada semana para surtirla. Ese contacto ya existe, ya tiene confianza y llega exactamente al segmento. «Redes sociales» es vago y no garantiza llegar al tendero que usa cuaderno, que probablemente no ve anuncios de apps. Un canal concreto dice quién, cómo y cuándo llega al cliente."
@@ -188,10 +188,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 3 — Canales",
           "text": "«BiciCampus» usa como canal «puntos de alquiler en la entrada de la universidad y reserva por app». ¿Qué virtud específica tiene este canal para el segmento «estudiantes a menos de 3 km»?",
           "options": [
-            "a) Es completamente digital, lo que reduce costos operativos y permite escalar sin contratar personal adicional.",
-            "b) Es el único canal viable porque los estudiantes de ese segmento no usan redes sociales convencionales.",
-            "c) Permite cobrar sin pasarela de pagos externa, eliminando comisiones bancarias y simplificando la tesorería.",
-            "d) Combina punto físico en la entrada del campus con reserva digital para reducir fricciones al cliente."
+            "Es completamente digital, lo que reduce costos operativos y permite escalar sin contratar personal adicional.",
+            "Es el único canal viable porque los estudiantes de ese segmento no usan redes sociales convencionales.",
+            "Permite cobrar sin pasarela de pagos externa, eliminando comisiones bancarias y simplificando la tesorería.",
+            "Combina punto físico en la entrada del campus con reserva digital para reducir fricciones al cliente."
           ],
           "correct": 3,
           "feedback": "El canal ideal llega al cliente donde ya está y en el momento en que tiene el problema. El estudiante cruza la entrada del campus todos los días; ver las bicicletas físicamente activa el deseo de usarlas. La app de reserva reduce la fricción de tener que hacer fila. Esta combinación (físico + digital) es coherente con el segmento porque no exige que el cliente cambie su ruta ni aprenda un proceso largo."
@@ -202,10 +202,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 3 — Canales",
           "text": "Una startup que vende software de gestión a veterinarias define su canal como «venta directa puerta a puerta». El precio es de 8 dólares al mes. Según el Canvas y la lógica del punto de equilibrio, ¿qué problema tiene este canal?",
           "options": [
-            "a) La venta directa solo funciona para productos físicos; para software SaaS el canal correcto es digital.",
-            "b) La venta directa requiere una fuerza de ventas dedicada, incompatible con el tamaño inicial de una startup.",
-            "c) El costo de visitar cada veterinaria puede superar los ingresos que genera ese cliente, haciendo el modelo insostenible.",
-            "d) El canal es incorrecto: las veterinarias prefieren contratar software por e-commerce sin intervención de vendedores externos."
+            "La venta directa solo funciona para productos físicos; para software SaaS el canal correcto es digital.",
+            "La venta directa requiere una fuerza de ventas dedicada, incompatible con el tamaño inicial de una startup.",
+            "El costo de visitar cada veterinaria puede superar los ingresos que genera ese cliente, haciendo el modelo insostenible.",
+            "El canal es incorrecto: las veterinarias prefieren contratar software por e-commerce sin intervención de vendedores externos."
           ],
           "correct": 2,
           "feedback": "El Canvas exige coherencia entre canal e ingresos. Si visitar cada veterinaria cuesta 15 dólares en tiempo y transporte, y el cliente paga solo 8 dólares al mes, el primer mes ya es negativo. El canal solo es sostenible si su costo de adquisición cabe dentro del valor que genera el cliente durante su vida (LTV). La clase enseña el punto de equilibrio: costos fijos ÷ (precio − costo por cliente) = clientes necesarios; el canal afecta el costo por cliente."
@@ -216,10 +216,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 3 — Canales",
           "text": "El Ing. Rodríguez explica: «El canal es la tubería que lleva el agua hasta la casa». Con esa analogía, ¿cuál de estas startups tiene el canal más incoherente con su segmento?",
           "options": [
-            "a) «TutorYa»: plataforma digital que usa una oficina en un centro comercial para registrar nuevos tutores.",
-            "b) «AlmuerzoListo»: app de pedidos que usa el grupo de WhatsApp de cada facultad para publicitar sus servicios.",
-            "c) «Fiado Claro»: app para tiendas de barrio que usa distribuidores de bebidas que ya visitan cada tienda semanalmente.",
-            "d) «BiciCampus»: alquiler de bicicletas que posiciona puntos físicos de retiro en la entrada principal del campus."
+            "«TutorYa»: plataforma digital que usa una oficina en un centro comercial para registrar nuevos tutores.",
+            "«AlmuerzoListo»: app de pedidos que usa el grupo de WhatsApp de cada facultad para publicitar sus servicios.",
+            "«Fiado Claro»: app para tiendas de barrio que usa distribuidores de bebidas que ya visitan cada tienda semanalmente.",
+            "«BiciCampus»: alquiler de bicicletas que posiciona puntos físicos de retiro en la entrada principal del campus."
           ],
           "correct": 0,
           "feedback": "«TutorYa» ofrece un servicio 100 % digital (tutorías en línea), pero usa una oficina física en un centro comercial como canal de captación de tutores. Esto genera un costo fijo alto (arriendo) y un alcance geográfico limitado, incoherente con una plataforma digital que debería captar tutores por redes o campus. El taller señala este caso como ERROR 2 de costos: la oficina no sirve a un canal digital."
@@ -230,10 +230,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 4 — Relación con Clientes",
           "text": "«Fiado Claro» define su relación con clientes como «resumen semanal por WhatsApp de las deudas de los vecinos». Según el Canvas, ¿qué función principal cumple ese elemento?",
           "options": [
-            "a) Es parte del canal, porque WhatsApp es el medio de comunicación entre la startup y el tendero.",
-            "b) Es un recurso clave, porque la mensajería tiene costo variable por mensaje enviado.",
-            "c) Es la acción que hace volver al cliente cada semana sin que se lo pidan, generando hábito y retención.",
-            "d) Es la propuesta de valor, porque el resumen automático de deudas es exactamente lo que el tendero compra."
+            "Es parte del canal, porque WhatsApp es el medio de comunicación entre la startup y el tendero.",
+            "Es un recurso clave, porque la mensajería tiene costo variable por mensaje enviado.",
+            "Es la acción que hace volver al cliente cada semana sin que se lo pidan, generando hábito y retención.",
+            "Es la propuesta de valor, porque el resumen automático de deudas es exactamente lo que el tendero compra."
           ],
           "correct": 2,
           "feedback": "El bloque 4 (Relación con clientes) responde: ¿qué hace que el cliente vuelva? El resumen semanal automático crea un hábito: el tendero espera ese mensaje cada lunes y, si no llega, lo extraña. Eso es retención. No es el canal (WhatsApp puede ser canal, pero la relación es la acción que genera vínculo), ni la propuesta de valor (que es leer el cuaderno y calcular saldos). La clase enseña que la relación es «lo que hace volver cada semana sin pedírselo»."
@@ -244,10 +244,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 4 — Relación con Clientes",
           "text": "El taller señala que la escalabilidad requiere que «el servicio funciona igual con 10 que con 100 usuarios». ¿Qué tipo de relación con clientes es más escalable para una startup de software?",
           "options": [
-            "a) Atención personal de un fundador que llama a cada cliente cada semana para revisar su cuenta.",
-            "b) Comunidad de usuarios donde los propios clientes se ayudan entre sí en un foro.",
-            "c) Un ejecutivo de cuenta asignado a cada cliente para resolver dudas 24/7.",
-            "d) Visitas presenciales mensuales del equipo para capacitar a cada cliente nuevo."
+            "Atención personal de un fundador que llama a cada cliente cada semana para revisar su cuenta.",
+            "Comunidad de usuarios donde los propios clientes se ayudan entre sí en un foro.",
+            "Un ejecutivo de cuenta asignado a cada cliente para resolver dudas 24/7.",
+            "Visitas presenciales mensuales del equipo para capacitar a cada cliente nuevo."
           ],
           "correct": 1,
           "feedback": "La escalabilidad en el Canvas implica que el modelo de relación no crezca en costos al mismo ritmo que los clientes. Una comunidad de usuarios (foro, grupo) donde los mismos clientes resuelven dudas de los nuevos escala sin costo adicional. Las opciones a, c y d requieren más personas (y más costos) por cada cliente adicional, lo que no escala. La clase muestra que las tres señales de escalabilidad son: retención sin pedirlo, CAC menor al LTV y servicio igual con 10 o 100 usuarios."
@@ -258,10 +258,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 4 — Relación con Clientes",
           "text": "«TutorYa» ofrece tutorías y define su relación con clientes como «los estudiantes pueden calificar al tutor después de cada sesión». ¿Qué problema de Canvas tiene esta definición de relación?",
           "options": [
-            "a) Las calificaciones son un recurso clave de datos, no una relación; deberían registrarse en el bloque 6.",
-            "b) Es correcta: la calificación pública genera confianza y esa confianza es suficiente para retener al estudiante.",
-            "c) El problema es técnico: implementar calificaciones requiere un módulo de software que añade costo de desarrollo.",
-            "d) La calificación es puntual; no explica qué hace que el estudiante regrese la próxima vez que necesita tutoría."
+            "Las calificaciones son un recurso clave de datos, no una relación; deberían registrarse en el bloque 6.",
+            "Es correcta: la calificación pública genera confianza y esa confianza es suficiente para retener al estudiante.",
+            "El problema es técnico: implementar calificaciones requiere un módulo de software que añade costo de desarrollo.",
+            "La calificación es puntual; no explica qué hace que el estudiante regrese la próxima vez que necesita tutoría."
           ],
           "correct": 3,
           "feedback": "La Relación con clientes debe responder qué genera que el cliente vuelva, no solo qué pasa después de cada sesión. Calificar al tutor mejora la calidad para el próximo usuario, pero no garantiza que ese mismo estudiante regrese. Una relación más sólida sería, por ejemplo, enviarle un recordatorio antes del siguiente parcial con los tutores disponibles en su área, o mostrarle su historial de mejora. La relación es el vínculo activo, no solo el feedback pasivo."
@@ -272,10 +272,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 4 — Relación con Clientes",
           "text": "Una startup de gestión de inventarios para ferreterías define en bloque 4: «Capacitación gratuita presencial al momento de la venta». Tiene 50 clientes y quiere llegar a 300. ¿Qué ajuste debe hacer en el bloque de relación para escalar?",
           "options": [
-            "a) Sustituir la capacitación presencial por videos tutoriales y soporte por chat para que el cliente se autogestione.",
-            "b) Ampliar el equipo de ventas para que más personas capaciten a clientes en paralelo y se cubra la demanda creciente.",
-            "c) Cobrar por la capacitación inicial para generar un ingreso adicional que financie el escalamiento del equipo.",
-            "d) Eliminar la capacitación completamente: si el software tiene buena UX, el cliente no necesita ayuda para usarlo."
+            "Sustituir la capacitación presencial por videos tutoriales y soporte por chat para que el cliente se autogestione.",
+            "Ampliar el equipo de ventas para que más personas capaciten a clientes en paralelo y se cubra la demanda creciente.",
+            "Cobrar por la capacitación inicial para generar un ingreso adicional que financie el escalamiento del equipo.",
+            "Eliminar la capacitación completamente: si el software tiene buena UX, el cliente no necesita ayuda para usarlo."
           ],
           "correct": 0,
           "feedback": "Para escalar de 50 a 300 clientes sin que los costos crezcan igual, la relación debe pasar de personal a autoservicio. Videos tutoriales, una base de conocimiento y un chatbot de soporte permiten que el cliente aprenda solo, en cualquier momento, sin que el equipo tenga que estar presente. Ampliar el equipo de ventas sí escala los ingresos, pero también los costos, lo que no mejora el margen. La clase describe el escalamiento como «crecer sin que los costos crezcan igual»."
@@ -286,10 +286,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 5 — Fuentes de Ingresos",
           "text": "«TutorYa» cobra 120 dólares al mes por acceso ilimitado a tutorías. Su segmento son estudiantes universitarios. El taller marca esto como un error. ¿Cuál es el diagnóstico más preciso?",
           "options": [
-            "a) El precio es muy bajo; debería subirse para financiar correctamente a los tutores y cubrir los costos.",
-            "b) El problema es el modelo: freemium funcionaría mejor que suscripción mensual para este tipo de servicio.",
-            "c) El error está en el canal de distribución: si mejoran la captación de usuarios, el precio puede mantenerse igual.",
-            "d) 120 dólares al mes supera lo que un estudiante puede pagar; es incoherente con el segmento."
+            "El precio es muy bajo; debería subirse para financiar correctamente a los tutores y cubrir los costos.",
+            "El problema es el modelo: freemium funcionaría mejor que suscripción mensual para este tipo de servicio.",
+            "El error está en el canal de distribución: si mejoran la captación de usuarios, el precio puede mantenerse igual.",
+            "120 dólares al mes supera lo que un estudiante puede pagar; es incoherente con el segmento."
           ],
           "correct": 3,
           "feedback": "El Canvas exige coherencia entre el precio y quién paga. Un estudiante universitario promedio gasta entre 5 y 15 dólares en servicios digitales al mes. 120 dólares mensuales es más que lo que muchos estudiantes gastan en transporte y alimentación juntos. El taller señala esto como ERROR 1 (ingresos): «$120 al mes no lo paga un estudiante con poco presupuesto». La solución es cobro por sesión (6–8 dólares) o paquetes de 5 tutorías antes de exámenes."
@@ -300,10 +300,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 5 — Fuentes de Ingresos",
           "text": "«Fiado Claro» define su modelo de ingresos: «Gratis hasta 20 vecinos en el fiado; desde el vecino 21 en adelante, 5 dólares al mes». ¿Qué lógica de modelo de ingresos aplica?",
           "options": [
-            "a) Pago único: el tendero compra una licencia y ya no paga más.",
-            "b) Freemium: la versión básica es gratuita y la versión con más capacidad tiene costo.",
-            "c) Publicidad: el modelo se financia con anuncios de proveedores dentro de la app.",
-            "d) Comisión por transacción: cada vez que se registra un pago de fiado, se cobra un porcentaje."
+            "Pago único: el tendero compra una licencia y ya no paga más.",
+            "Freemium: la versión básica es gratuita y la versión con más capacidad tiene costo.",
+            "Publicidad: el modelo se financia con anuncios de proveedores dentro de la app.",
+            "Comisión por transacción: cada vez que se registra un pago de fiado, se cobra un porcentaje."
           ],
           "correct": 1,
           "feedback": "El modelo freemium ofrece una versión gratuita funcional (hasta 20 vecinos) para que el tendero adopte el hábito, y una versión de pago cuando el volumen justifica el costo. Es la estrategia de «gratis hasta que necesitas más». Este modelo reduce la barrera de entrada y permite validar que el tendero realmente usa la app antes de cobrar. La clase muestra este esquema exacto como ejemplo de Fiado Claro."
@@ -314,10 +314,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 5 — Fuentes de Ingresos",
           "text": "Una startup de control de inventarios para ferreterías cobra 15 dólares por ferretería al mes. El costo de IA por ferretería es de 3 dólares. Los costos fijos (servidor, sueldos mínimos) son 180 dólares al mes. ¿Cuántas ferreterías necesita para no perder dinero?",
           "options": [
-            "a) 12 ferreterías",
-            "b) 15 ferreterías",
-            "c) 18 ferreterías",
-            "d) 60 ferreterías — punto de equilibrio sin descontar costo variable de la IA"
+            "12 ferreterías",
+            "15 ferreterías",
+            "18 ferreterías",
+            "60 ferreterías — punto de equilibrio sin descontar costo variable de la IA"
           ],
           "correct": 2,
           "feedback": "La fórmula del punto de equilibrio es: costos fijos ÷ (precio − costo variable por cliente) = clientes necesarios. Aquí: 180 ÷ (15 − 3) = 180 ÷ 12 = 15 ferreterías. Con 15 ferreterías los ingresos (225) cubren exactamente los costos fijos (180) más los costos variables (45). La respuesta c (18) es un error frecuente al dividir costos totales estimados por el precio sin descontar el costo variable. La clase enseña a escribir la cuenta explícita en el lienzo."
@@ -328,10 +328,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 5 — Fuentes de Ingresos",
           "text": "«Raíces Andinas» vende canastas a 25 dólares. Paga 14 dólares a los productores y 4 dólares de reparto. ¿Qué margen deja cada canasta antes de descontar costos fijos, y qué nombre recibe ese número en el Canvas?",
           "options": [
-            "a) 7 dólares; se llama margen bruto o contribución por unidad.",
-            "b) 7 dólares; se llama beneficio neto.",
-            "c) 11 dólares; se llama margen bruto porque solo se restan los costos de producción.",
-            "d) 25 dólares; los costos fijos son el único gasto real de un negocio digital."
+            "7 dólares; se llama margen bruto o contribución por unidad.",
+            "7 dólares; se llama beneficio neto.",
+            "11 dólares; se llama margen bruto porque solo se restan los costos de producción.",
+            "25 dólares; los costos fijos son el único gasto real de un negocio digital."
           ],
           "correct": 0,
           "feedback": "El margen bruto (o contribución unitaria) es el precio menos los costos variables directos de entregar ese producto o servicio. Aquí: 25 − 14 − 4 = 7 dólares por canasta. Este número es la «contribución» que cada canasta hace para cubrir los costos fijos. El beneficio neto solo se calcula restando también los costos fijos al total de contribuciones. La clase muestra este cálculo en el ejemplo de Raíces Andinas."
@@ -342,10 +342,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 6 — Recursos Clave",
           "text": "«Fiado Claro» lista como recursos clave: (1) el modelo de IA entrenado para leer caligrafía manuscrita; (2) la base de datos de las deudas de cada tienda; (3) las bicicletas del sistema BiciCampus. ¿Cuál de los tres NO pertenece a «Fiado Claro»?",
           "options": [
-            "a) El (1) y el (3): el modelo de IA es un costo, no un recurso.",
-            "b) Solo el (3): las bicicletas son el recurso de otra startup.",
-            "c) El (2): los datos de las tiendas son un activo del cliente, no de la startup.",
-            "d) Ninguno: los tres son válidos para cualquier startup de tecnología."
+            "El (1) y el (3): el modelo de IA es un costo, no un recurso.",
+            "Solo el (3): las bicicletas son el recurso de otra startup.",
+            "El (2): los datos de las tiendas son un activo del cliente, no de la startup.",
+            "Ninguno: los tres son válidos para cualquier startup de tecnología."
           ],
           "correct": 1,
           "feedback": "Las bicicletas son el recurso físico central de BiciCampus, no de Fiado Claro. Para Fiado Claro, el modelo de IA entrenado (1) es el recurso tecnológico que hace posible la propuesta de valor, y la base de datos de deudas (2) es el activo de datos que genera el efecto de red y la barrera de salida. Incluir recursos de otras startups en el bloque 6 es un error común de Canvas que el taller advierte: cada recurso debe responder a «¿qué necesitamos tener para cumplir la promesa?»"
@@ -356,10 +356,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 6 — Recursos Clave",
           "text": "El taller describe los recursos clave con la analogía de «la mochila de excursión: lleven solo lo indispensable». Una startup de diagnóstico de enfermedades de plantas por foto lista sus recursos: (A) modelo de visión computacional entrenado con 50 000 imágenes de hojas; (B) app móvil con interfaz de cámara; (C) oficina en Quito con sala de reuniones. ¿Cuál NO es indispensable para cumplir la propuesta?",
           "options": [
-            "a) El modelo de visión (A): si no hay modelo, no hay diagnóstico.",
-            "b) La app móvil (B): si no hay app, el agricultor no puede tomar la foto.",
-            "c) La oficina con sala de reuniones (C): el diagnóstico funciona igual sin ella.",
-            "d) Todos son indispensables: una startup no puede prescindir de ninguno de sus activos."
+            "El modelo de visión (A): si no hay modelo, no hay diagnóstico.",
+            "La app móvil (B): si no hay app, el agricultor no puede tomar la foto.",
+            "La oficina con sala de reuniones (C): el diagnóstico funciona igual sin ella.",
+            "Todos son indispensables: una startup no puede prescindir de ninguno de sus activos."
           ],
           "correct": 2,
           "feedback": "El modelo de IA (A) y la app (B) son indispensables: sin el modelo no hay diagnóstico, y sin la app el agricultor no puede usar el servicio. La oficina con sala de reuniones (C) es un costo fijo que no contribuye directamente a cumplir la promesa de «diagnosticar con una foto». Para una startup digital temprana, una oficina física es una carga sin retorno. Los recursos clave son los que, si faltan, el producto no puede entregarse."
@@ -370,10 +370,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 6 — Recursos Clave",
           "text": "Una startup de logística usa una red de 200 repartidores independientes para entregar pedidos en 2 horas. ¿Cómo clasificaría este activo en el Canvas?",
           "options": [
-            "a) El dominio, el hosting y las cuentas de redes sociales, ya que toda startup digital los necesita para operar.",
-            "b) El equipo fundador y el capital inicial, porque sin personas ni dinero no puede arrancar ningún negocio.",
-            "c) El algoritmo de IA o las bases de datos propias, siempre que sean el elemento que hace diferente a la startup.",
-            "d) Los recursos sin los cuales la propuesta de valor no se puede entregar: IA, datos o red de proveedores."
+            "El dominio, el hosting y las cuentas de redes sociales, ya que toda startup digital los necesita para operar.",
+            "El equipo fundador y el capital inicial, porque sin personas ni dinero no puede arrancar ningún negocio.",
+            "El algoritmo de IA o las bases de datos propias, siempre que sean el elemento que hace diferente a la startup.",
+            "Los recursos sin los cuales la propuesta de valor no se puede entregar: IA, datos o red de proveedores."
           ],
           "correct": 3,
           "feedback": "La red de repartidores puede aparecer en distintos bloques según cómo se gestione. Si son empleados propios o están integrados en la plataforma como el recurso central de la operación, van en bloque 6 (recursos humanos). Si son empresas externas contratadas (como una empresa de mensajería), van en bloque 8 (socios). Si su función principal es ser el medio por el que el pedido llega al cliente, también se puede mencionar en bloque 3. El contexto (200 repartidores en la red propia de la startup) indica un recurso humano clave."
@@ -384,10 +384,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 6 — Recursos Clave",
           "text": "El Ing. Rodríguez señala que en startups con IA los datos son un recurso clave. ¿Por qué los datos históricos de los clientes son más valiosos que el código de la app?",
           "options": [
-            "a) Los créditos de la API de OpenAI, porque sin ellos la lectura del cuaderno no funciona y el servicio se cae.",
-            "b) La base de datos de caligrafías etiquetadas, porque sin esa data el modelo de IA no puede funcionar.",
-            "c) El dominio web y el hosting en la nube, porque son los que alojan la app y permiten que el cliente la descargue.",
-            "d) El número de celular del fundador, porque es el canal de soporte principal para las tiendas en caso de fallas."
+            "Los créditos de la API de OpenAI, porque sin ellos la lectura del cuaderno no funciona y el servicio se cae.",
+            "La base de datos de caligrafías etiquetadas, porque sin esa data el modelo de IA no puede funcionar.",
+            "El dominio web y el hosting en la nube, porque son los que alojan la app y permiten que el cliente la descargue.",
+            "El número de celular del fundador, porque es el canal de soporte principal para las tiendas en caso de fallas."
           ],
           "correct": 1,
           "feedback": "El código de una app puede ser reescrito por un competidor con suficiente dinero. Los datos históricos de comportamiento de clientes reales (cuánto fían, con qué frecuencia pagan, qué productos se mueven más) no se pueden fabricar; requieren tiempo y adopción real. Eso crea una barrera de entrada: mientras más tiempo lleva la startup con sus clientes, más preciso es su modelo de IA y más difícil es que un competidor nuevo lo iguale. Por eso los datos son el recurso más estratégico en modelos de IA."
@@ -398,10 +398,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 7 — Actividades Clave",
           "text": "«Fiado Claro» lista sus actividades clave: (1) mejorar el modelo de reconocimiento de caligrafía; (2) afiliar nuevas tiendas cada semana; (3) diseñar la identidad visual de la marca. ¿Cuál de las tres es menos clave para cumplir la propuesta de valor?",
           "options": [
-            "a) Diseñar la identidad de marca: logo, colores, tipografía y tono de voz para las redes sociales.",
-            "b) Redactar el plan de negocios formal y preparar el pitch deck para presentar a inversores en la siguiente ronda.",
-            "c) Entrenar o ajustar el modelo de IA con datos reales para que la lectura de caligrafías sea confiable.",
-            "d) Publicar semanalmente en redes sociales para mantener la presencia digital y atraer nuevos usuarios."
+            "Diseñar la identidad de marca: logo, colores, tipografía y tono de voz para las redes sociales.",
+            "Redactar el plan de negocios formal y preparar el pitch deck para presentar a inversores en la siguiente ronda.",
+            "Entrenar o ajustar el modelo de IA con datos reales para que la lectura de caligrafías sea confiable.",
+            "Publicar semanalmente en redes sociales para mantener la presencia digital y atraer nuevos usuarios."
           ],
           "correct": 2,
           "feedback": "Las actividades clave son las que el equipo debe hacer muy bien para que la propuesta de valor funcione. Mejorar el modelo (1) es crítico: si la lectura de caligrafía falla, la promesa se rompe. Afiliar tiendas (2) es crítico: sin más clientes, no hay negocio. El diseño de identidad visual (3) puede ayudar al marketing, pero no afecta directamente la capacidad de leer cuadernos ni de cerrar contratos con tiendas. La analogía del taller: «la mochila de excursión: lleven lo indispensable»."
@@ -412,10 +412,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 7 — Actividades Clave",
           "text": "Una startup de tutorías universitarias identifica sus actividades: (A) hacer el match entre tutor y estudiante vía IA; (B) verificar la calidad académica de los tutores; (C) publicar contenido en Instagram tres veces por semana. ¿Cuál combinación de actividades es más clave para su propuesta?",
           "options": [
-            "a) A y C: el algoritmo de match es el core del producto y las redes sociales generan el tráfico de usuarios.",
-            "b) B y C: sin tutores de buena calidad no hay producto, y sin redes sociales no hay forma de captar clientes.",
-            "c) Solo A: el algoritmo de IA para el match es el único diferencial real que tiene la plataforma.",
-            "d) A y B: el match efectivo y la calidad del tutor son lo que cumple la promesa de valor."
+            "A y C: el algoritmo de match es el core del producto y las redes sociales generan el tráfico de usuarios.",
+            "B y C: sin tutores de buena calidad no hay producto, y sin redes sociales no hay forma de captar clientes.",
+            "Solo A: el algoritmo de IA para el match es el único diferencial real que tiene la plataforma.",
+            "A y B: el match efectivo y la calidad del tutor son lo que cumple la promesa de valor."
           ],
           "correct": 3,
           "feedback": "El match por IA (A) es la actividad tecnológica que conecta a estudiante y tutor en segundos con alta compatibilidad. La verificación de calidad (B) garantiza que el tutor sepa enseñar, que es la promesa central. Sin A, el proceso es lento y manual; sin B, el estudiante puede toparse con tutores incompetentes y no volver. Publicar en Instagram (C) es una actividad de marketing, no de producción del servicio: si falta, el crecimiento baja, pero el servicio sigue funcionando."
@@ -426,10 +426,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 7 — Actividades Clave",
           "text": "El taller dice que las actividades clave son «lo que el equipo debe hacer cada semana para cumplir la promesa». ¿Cuál de estas startups tiene una actividad clave mal clasificada?",
           "options": [
-            "a) «Raíces Andinas» lista «compra y control de calidad de las canastas» como actividad clave.",
-            "b) «Fiado Claro» lista «negociar alianzas con proveedores de crédito externos» como actividad clave.",
-            "c) «BiciCampus» lista «mantenimiento y recarga de las bicicletas eléctricas» como actividad clave.",
-            "d) «AlmuerzoListo» lista «coordinar con los bares la disponibilidad del menú cada mañana» como actividad clave."
+            "«Raíces Andinas» lista «compra y control de calidad de las canastas» como actividad clave.",
+            "«Fiado Claro» lista «negociar alianzas con proveedores de crédito externos» como actividad clave.",
+            "«BiciCampus» lista «mantenimiento y recarga de las bicicletas eléctricas» como actividad clave.",
+            "«AlmuerzoListo» lista «coordinar con los bares la disponibilidad del menú cada mañana» como actividad clave."
           ],
           "correct": 1,
           "feedback": "«Fiado Claro» es una app de control de fiado para tiendas de barrio. Negociar alianzas con proveedores de crédito externo puede ser una idea de expansión futura, pero no es lo que el equipo hace cada semana para que la tienda pueda registrar el fiado. Las otras tres son claramente actividades operativas sin las cuales el producto falla: sin control de calidad no hay canasta fresca (Raíces), sin mantenimiento las bicicletas se quedan sin batería (BiciCampus) y sin coordinar el menú los pedidos anticipados no sirven (AlmuerzoListo)."
@@ -440,10 +440,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 7 — Actividades Clave",
           "text": "El Ing. Rodríguez explica que para escalar, las actividades clave deben poder repetirse igual con 10 o con 100 clientes. ¿Qué significa eso en términos de diseño de actividades?",
           "options": [
-            "a) Validar el modelo completo end-to-end: que el cliente pide, la tienda entrega y el cobro funciona sin errores.",
-            "b) Negociar contratos con los bares del campus para garantizar el volumen mínimo de pedidos diarios.",
-            "c) Lanzar la campaña de marketing digital para captar los primeros 500 usuarios antes de la semana de inscripciones.",
-            "d) Revisar semanalmente los KPIs del tablero de control para asegurar que las métricas de retención van en alza."
+            "Validar el modelo completo end-to-end: que el cliente pide, la tienda entrega y el cobro funciona sin errores.",
+            "Negociar contratos con los bares del campus para garantizar el volumen mínimo de pedidos diarios.",
+            "Lanzar la campaña de marketing digital para captar los primeros 500 usuarios antes de la semana de inscripciones.",
+            "Revisar semanalmente los KPIs del tablero de control para asegurar que las métricas de retención van en alza."
           ],
           "correct": 0,
           "feedback": "La escalabilidad implica que las actividades no se multiplican linealmente con los clientes. Si el match entre tutor y estudiante lo hace manualmente un fundador, con 10 estudiantes es manejable pero con 100 se colapsa. Si está automatizado por IA con un proceso documentado, funciona igual con 100 que con 1000. La analogía de la clase: «La receta de la abuela: para abrir diez locales, la receta tiene que estar escrita con medidas exactas para que cualquier cocinero la repita igual»."
@@ -454,10 +454,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 8 — Socios Clave",
           "text": "«Fiado Claro» lista como socios: (1) distribuidores de bebidas que visitan las tiendas; (2) proveedor del modelo de IA (API de visión); (3) los propios tenderos que usan la app. ¿Cuál no es un socio clave sino un cliente?",
           "options": [
-            "a) El (1): los distribuidores de bebidas son competidores potenciales en distribución, no socios de la startup.",
-            "b) El (3): los tenderos son el segmento de clientes, no socios de la operación.",
-            "c) El (2): el proveedor de la API de IA es un recurso clave externo, no un socio estratégico de la empresa.",
-            "d) Todos son socios: cualquier persona o empresa que interactúe con la startup debe clasificarse como socio."
+            "El (1): los distribuidores de bebidas son competidores potenciales en distribución, no socios de la startup.",
+            "El (3): los tenderos son el segmento de clientes, no socios de la operación.",
+            "El (2): el proveedor de la API de IA es un recurso clave externo, no un socio estratégico de la empresa.",
+            "Todos son socios: cualquier persona o empresa que interactúe con la startup debe clasificarse como socio."
           ],
           "correct": 1,
           "feedback": "Los socios clave son organizaciones o personas externas que el equipo necesita para operar pero que no son clientes. Los tenderos son quienes reciben y pagan la propuesta de valor: pertenecen al bloque 1 (Segmento). Los distribuidores de bebidas son el canal de distribución y/o socio porque llegan a las tiendas antes que nadie. El proveedor de la API de IA es el que provee la tecnología central; puede clasificarse como recurso o socio según el nivel de integración."
@@ -468,10 +468,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 8 — Socios Clave",
           "text": "«Raíces Andinas» tiene como socios: asociaciones de pequeños productores, empresa de reparto en moto, pasarela de pagos y ONG de agroecología. ¿Qué criterio define que estos cuatro sean socios clave y no recursos?",
           "options": [
-            "a) Los proveedores de materias primas, ya que sin suministros la empresa no puede fabricar ni entregar el producto.",
-            "b) Los accionistas minoritarios que invierten capital a cambio de una participación en la empresa.",
-            "c) Los clientes frecuentes que recomiendan el servicio y actúan como embajadores de la marca en su red.",
-            "d) Distribuidores de bebidas o asociaciones de tenderos con confianza establecida en las tiendas de Quito."
+            "Los proveedores de materias primas, ya que sin suministros la empresa no puede fabricar ni entregar el producto.",
+            "Los accionistas minoritarios que invierten capital a cambio de una participación en la empresa.",
+            "Los clientes frecuentes que recomiendan el servicio y actúan como embajadores de la marca en su red.",
+            "Distribuidores de bebidas o asociaciones de tenderos con confianza establecida en las tiendas de Quito."
           ],
           "correct": 3,
           "feedback": "El Canvas diferencia recursos (lo que la startup posee o controla) de socios (lo que necesita pero no posee). Los productores cultivan los alimentos; Raíces no los posee. La empresa de reparto entrega; Raíces no tiene motos propias. La pasarela procesa pagos; Raíces no es banco. Sin ninguno de ellos la propuesta de valor (canasta fresca en tu puerta, precio justo al agricultor) no funciona. Eso los hace socios clave: son indispensables pero externos."
@@ -482,10 +482,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 8 — Socios Clave",
           "text": "Una startup que vende software de gestión de citas a consultorios dentales incluye en bloque 8 a «el Ministerio de Salud». ¿Qué problema tiene esa decisión?",
           "options": [
-            "a) La red de bares aliados en el campus, porque sin ellos no hay quién prepare ni entregue los pedidos.",
-            "b) La app móvil y el sistema de pagos en línea, ya que son la interfaz principal a través de la cual los estudiantes realizan sus pedidos.",
-            "c) El equipo de marketing, porque sin visibilidad en redes el campus no sabrá que el servicio existe.",
-            "d) El capital inicial de los fundadores, porque financia los primeros meses de operación y el desarrollo de la app."
+            "La red de bares aliados en el campus, porque sin ellos no hay quién prepare ni entregue los pedidos.",
+            "La app móvil y el sistema de pagos en línea, ya que son la interfaz principal a través de la cual los estudiantes realizan sus pedidos.",
+            "El equipo de marketing, porque sin visibilidad en redes el campus no sabrá que el servicio existe.",
+            "El capital inicial de los fundadores, porque financia los primeros meses de operación y el desarrollo de la app."
           ],
           "correct": 0,
           "feedback": "Un socio clave debe tener un rol específico y concreto en la operación. «El Ministerio de Salud» es una entidad reguladora que establece normas, pero no participa activamente en entregar la propuesta de valor (gestionar citas). Incluirlo sin especificar el rol genera un Canvas vago. El taller enseña que un socio débil dice «Ministerio de Salud»; un socio fuerte dice «Ministerio de Salud: valida la interoperabilidad de los datos clínicos con el sistema nacional»."
@@ -496,10 +496,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 8 — Socios Clave",
           "text": "El Ing. Rodríguez explica que los socios clave resuelven algo que la startup «no sabe o no puede hacer». Una startup de diagnóstico agrícola no sabe entrenar modelos de IA de visión. ¿Cuál es el socio más estratégico?",
           "options": [
-            "a) Un diseñador gráfico freelance que mejore la interfaz visual y la experiencia de usuario de la app.",
-            "b) Una cámara de comercio local que promueva la startup en ferias del sector y conecte con nuevos clientes.",
-            "c) Una universidad con laboratorio de IA que cocrea el modelo predictivo como proyecto de investigación.",
-            "d) Una agencia de publicidad que gestione las redes sociales y las campañas de contenido de la startup."
+            "Un diseñador gráfico freelance que mejore la interfaz visual y la experiencia de usuario de la app.",
+            "Una cámara de comercio local que promueva la startup en ferias del sector y conecte con nuevos clientes.",
+            "Una universidad con laboratorio de IA que cocrea el modelo predictivo como proyecto de investigación.",
+            "Una agencia de publicidad que gestione las redes sociales y las campañas de contenido de la startup."
           ],
           "correct": 2,
           "feedback": "Si la startup no puede entrenar el modelo de visión, la brecha crítica es de conocimiento técnico. Una universidad con laboratorio de IA llena exactamente esa brecha: tiene datos, investigadores y GPU. Además, la colaboración puede ser a bajo costo si se enmarca como investigación conjunta. Las otras opciones (diseñador, cámara de comercio, agencia) resuelven problemas de comunicación o visibilidad, que son importantes pero no son la brecha que tumba la propuesta de valor."
@@ -510,10 +510,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 9 — Estructura de Costos",
           "text": "«Fiado Claro» tiene estos costos mensuales: servidor cloud 50 dólares, API de IA 0,50 dólares por tienda, sueldo mínimo del equipo 300 dólares. Con 80 tiendas y precio de 5 dólares, ¿cuánto gana o pierde al mes?",
           "options": [
-            "a) Gana 10 dólares: ingresos 80 × 5 = 400; costos totales 390; resultado positivo de 10 dólares.",
-            "b) Gana 10 dólares: ingresos 400, costos fijos 350 más variables 40 suman 390. Resultado = 10.",
-            "c) Pierde 10 dólares: 80 × 5 = 400; costos fijos 350 más variables 40 = 390; el margen es negativo.",
-            "d) No se puede calcular sin conocer el número exacto de transacciones realizadas por cada tienda."
+            "Gana 10 dólares: ingresos 80 × 5 = 400; costos totales 390; resultado positivo de 10 dólares.",
+            "Gana 10 dólares: ingresos 400, costos fijos 350 más variables 40 suman 390. Resultado = 10.",
+            "Pierde 10 dólares: 80 × 5 = 400; costos fijos 350 más variables 40 = 390; el margen es negativo.",
+            "No se puede calcular sin conocer el número exacto de transacciones realizadas por cada tienda."
           ],
           "correct": 1,
           "feedback": "Costos fijos: servidor (50) + sueldo (300) = 350 dólares. Costo variable: 0,50 × 80 tiendas = 40 dólares. Total costos: 390. Ingresos: 80 × 5 = 400 dólares. Resultado: 400 − 390 = +10 dólares. La startup gana 10 dólares al mes, con 80 tiendas. El punto de equilibrio era 300 ÷ (5 − 0,50) = 67 tiendas; con 80 ya se supera. La clase exige escribir la cuenta explícita en el lienzo."
@@ -524,10 +524,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 9 — Estructura de Costos",
           "text": "El taller indica que «los costos olvidan la IA» es uno de los cinco errores que bajan la nota. ¿Por qué es importante incluir el costo de la IA en el bloque 9?",
           "options": [
-            "a) Porque la IA es el único costo variable en startups de software y domina la estructura de costos.",
-            "b) Porque si la IA se paga por uso (tokens o API), crece con los clientes y puede eliminar el margen.",
-            "c) Porque los inversores solo financian startups que muestran el costo de la IA de forma explícita en el Canvas.",
-            "d) Porque sin el costo de la IA no es posible calcular el punto de equilibrio de ninguna empresa tecnológica."
+            "Porque la IA es el único costo variable en startups de software y domina la estructura de costos.",
+            "Porque si la IA se paga por uso (tokens o API), crece con los clientes y puede eliminar el margen.",
+            "Porque los inversores solo financian startups que muestran el costo de la IA de forma explícita en el Canvas.",
+            "Porque sin el costo de la IA no es posible calcular el punto de equilibrio de ninguna empresa tecnológica."
           ],
           "correct": 1,
           "feedback": "Las APIs de IA (OpenAI, Google Vision, etc.) se pagan por uso: por token generado, por imagen procesada o por llamada. Si la startup tiene 10 clientes, el costo es manejable; con 1000 clientes puede ser un costo mayor que el servidor. Si el Canvas no lo incluye, el punto de equilibrio calculado es incorrecto y el modelo aparenta ser rentable cuando no lo es. El Ing. Rodríguez lo resume: «La IA también cuesta: se paga por uso»."
@@ -538,10 +538,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 9 — Estructura de Costos",
           "text": "Una startup tiene costos fijos de 240 dólares al mes y cobra 12 dólares por cliente. El costo de la IA es de 2 dólares por cliente. El equipo calcula el punto de equilibrio como 240 ÷ 12 = 20 clientes. ¿Qué error cometió?",
           "options": [
-            "a) Ninguno: dividir costos fijos entre el precio de venta es la fórmula estándar del punto de equilibrio.",
-            "b) El error es que no incluyó el IVA en el precio de venta, lo que distorsiona todo el cálculo del margen.",
-            "c) Usó el precio bruto en vez de la contribución neta; lo correcto es 240 ÷ (12 − 2) = 24 clientes.",
-            "d) Los costos fijos deberían incluir también el costo variable de la IA para que la fórmula sea completa."
+            "Ninguno: dividir costos fijos entre el precio de venta es la fórmula estándar del punto de equilibrio.",
+            "El error es que no incluyó el IVA en el precio de venta, lo que distorsiona todo el cálculo del margen.",
+            "Usó el precio bruto en vez de la contribución neta; lo correcto es 240 ÷ (12 − 2) = 24 clientes.",
+            "Los costos fijos deberían incluir también el costo variable de la IA para que la fórmula sea completa."
           ],
           "correct": 2,
           "feedback": "La fórmula correcta del punto de equilibrio es: costos fijos ÷ (precio − costo variable por cliente). El costo variable de 2 dólares de IA se debe restar al precio antes de dividir: 240 ÷ (12 − 2) = 240 ÷ 10 = 24 clientes. Usando solo el precio (240 ÷ 12 = 20), el equipo subestima cuántos clientes necesita y puede pensar que es rentable antes de serlo. La clase muestra esta fórmula explícita con el ejemplo de Fiado Claro."
@@ -552,10 +552,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 9 — Estructura de Costos",
           "text": "El Ing. Rodríguez compara la estructura de costos con «la mochila de excursión: sumen cuánto cuesta el viaje». Según esa lógica, ¿qué debe incluir el bloque 9 de un Canvas completo?",
           "options": [
-            "a) Costos fijos, costos variables por cliente (incluyendo IA) y punto de equilibrio calculado explícitamente.",
-            "b) Solo los costos de tecnología: servidor, dominio y herramientas de IA que se utilizan en la operación diaria.",
-            "c) Solo los costos mensuales que superen los 100 dólares; los menores son despreciables y no afectan el modelo.",
-            "d) Los costos de socios clave y recursos clave, sin incluir sueldos que se pagan al cierre del ejercicio anual."
+            "Costos fijos, costos variables por cliente (incluyendo IA) y punto de equilibrio calculado explícitamente.",
+            "Solo los costos de tecnología: servidor, dominio y herramientas de IA que se utilizan en la operación diaria.",
+            "Solo los costos mensuales que superen los 100 dólares; los menores son despreciables y no afectan el modelo.",
+            "Los costos de socios clave y recursos clave, sin incluir sueldos que se pagan al cierre del ejercicio anual."
           ],
           "correct": 0,
           "feedback": "El bloque 9 completo incluye tres elementos: (1) costos fijos (lo que se paga aunque no haya ningún cliente: servidor, sueldos base, arriendo si aplica); (2) costos variables por cliente (lo que sube con cada cliente: IA por uso, materiales, comisión de pasarela); (3) el punto de equilibrio escrito con la cuenta. El taller puntúa con 3 puntos solo si los tres están presentes y la cuenta aparece. «Las cifras pueden ser supuestos, pero escríbanlas entre corchetes y con la cuenta»."
@@ -618,12 +618,12 @@ window.QUIZ_DATA = {
           "categoryName": "Cap. 1 — Por qué Design Thinking",
           "text": "Un ingeniero lleva seis meses construyendo una plataforma de pedidos para el restaurante de Rosa, sin haber hablado con ella ni con sus clientes. Al lanzar, obtiene cero descargas. Según el libro, ¿qué diagnóstico es el más acertado?",
           "options": [
-            "Falló en la ejecución técnica: la plataforma tenía bugs que espantaron a los usuarios.",
             "Confundió el placer de programar con crear valor; construyó sin verificar que el problema existía.",
+            "Falló en la ejecución técnica: la plataforma tenía bugs que espantaron a los usuarios.",
             "Eligió mal el canal de distribución: debió lanzar en redes sociales antes que en tiendas de apps.",
             "Le faltó un cofundador de negocio: el ingeniero solitario no puede vender sin un comercial."
           ],
-          "correct": 1,
+          "correct": 0,
           "feedback": "El libro describe exactamente este caso como 'el síndrome del programador solitario': se confunde el placer de programar con crear valor para alguien. Saltar al código sin investigar es análogo a un médico que receta sin preguntar qué duele. El problema no fue técnico sino de mercado."
         },
         {
@@ -633,11 +633,11 @@ window.QUIZ_DATA = {
           "text": "El libro compara a un ingeniero que lanza sin investigar con un médico que receta a los 30 segundos sin preguntar qué duele. ¿Qué conclusión pedagógica es la más defendible según el texto?",
           "options": [
             "Ambos casos terminan bien si el profesional tiene suficiente experiencia acumulada.",
-            "El problema de ambos es la falta de herramientas técnicas actualizadas.",
             "En ambos casos el riesgo principal es de mercado o de diagnóstico, no de ejecución.",
+            "El problema de ambos es la falta de herramientas técnicas actualizadas.",
             "La analogía falla: la medicina tiene protocolos rígidos y el software no los necesita."
           ],
-          "correct": 2,
+          "correct": 1,
           "feedback": "El libro usa la analogía médica para ilustrar que el riesgo no es técnico sino de diagnóstico: el médico puede recetar perfectamente un medicamento equivocado, y el ingeniero puede programar perfectamente la solución incorrecta. El riesgo central es identificar mal el problema."
         },
         {
@@ -647,11 +647,11 @@ window.QUIZ_DATA = {
           "text": "Hace una década levantar una plataforma exigía un equipo grande y el riesgo era técnico. Hoy una persona con IA arma un prototipo en una tarde. Según el libro, ¿qué cambio de riesgo describe esa afirmación?",
           "options": [
             "El riesgo técnico desapareció; ahora el único riesgo es legal y regulatorio.",
-            "El riesgo pasó de técnico a de mercado: como construir es fácil, el peligro es construir lo equivocado.",
             "El riesgo pasó de técnico a financiero: los costos de las APIs de IA son impredecibles.",
+            "El riesgo pasó de técnico a de mercado: como construir es fácil, el peligro es construir lo equivocado.",
             "El riesgo se mantuvo igual; solo cambió quién puede asumirlo, de equipos a individuos."
           ],
-          "correct": 1,
+          "correct": 2,
           "feedback": "El libro lo dice literalmente: 'el riesgo pasó a ser de mercado. Como construir es tan fácil, el peligro real es construir lo equivocado.' La facilidad de construcción no elimina el riesgo, sino que lo desplaza desde lo técnico hacia la validación del problema y del mercado."
         },
         {
@@ -661,11 +661,11 @@ window.QUIZ_DATA = {
           "text": "Un equipo que trabaja con peluquerías formula estas preguntas para sus entrevistas: (P1) '¿Usarías una app de turnos?'; (P2) '¿Cuánto gastas hoy en resolver los turnos perdidos?'; (P3) '¿No te parece que perder turnos es un problema?'; (P4) 'Cuéntame la última vez que un cliente no llegó.' Según el Mom Test aplicado en el libro, ¿cuáles son las dos preguntas correctas?",
           "options": [
             "P1 y P3: son directas y obtienen una respuesta clara en poco tiempo.",
-            "P2 y P4: preguntan por hechos del pasado o por gastos reales, sin sugerir la respuesta.",
             "P1 y P2: preguntan sobre el futuro y el presente, cubriendo ambos horizontes temporales.",
+            "P2 y P4: preguntan por hechos del pasado o por gastos reales, sin sugerir la respuesta.",
             "P3 y P4: la primera contextualiza el problema y la segunda pide un ejemplo concreto."
           ],
-          "correct": 1,
+          "correct": 2,
           "feedback": "La regla de oro del Mom Test, tal como la describe el libro, es preguntar por el pasado y por hechos, nunca por el futuro ni por opiniones sobre tu idea. P2 ('¿cuánto gastas hoy?') pide datos de comportamiento real. P4 ('cuéntame la última vez') pide un hecho del pasado. P1 y P3 invitan a responder lo que el entrevistado cree que quieres oír."
         },
         {
@@ -689,11 +689,11 @@ window.QUIZ_DATA = {
           "text": "Un equipo de cinco estudiantes entrevistó a 12 dueños de librerías y le pidió a Claude que 'simulara' 8 entrevistados más para completar 20 casos. Según el libro, ¿qué conclusión es la más defendible sobre esa decisión?",
           "options": [
             "Es válido si el equipo indica claramente qué datos son reales y cuáles son simulados.",
-            "Reduce el esfuerzo sin afectar la calidad porque la IA usa patrones estadísticos reales.",
             "Invalida la evidencia: un usuario inventado no te va a pagar ni a revelar contradicciones reales.",
+            "Reduce el esfuerzo sin afectar la calidad porque la IA usa patrones estadísticos reales.",
             "Es aceptable solo para la fase de ideación, no para la de definición del problema."
           ],
-          "correct": 2,
+          "correct": 1,
           "feedback": "El libro es explícito: 'Lo que nunca debes hacer es pedirle a la IA que simule usuarios y tomar eso como evidencia. Un usuario inventado no te va a pagar.' La IA puede transcribir, agrupar y resumir, pero nunca reemplazar el contacto con personas reales. Los datos simulados dejan la sección de evidencia en cero."
         },
         {
@@ -702,12 +702,12 @@ window.QUIZ_DATA = {
           "categoryName": "Cap. 2 — Empatizar",
           "text": "En el mapa de empatía de Rosa, el cuadrante 'dice' registra: «Nunca sé si gané o perdí plata hasta fin de mes». El cuadrante 'hace' muestra que anota compras y ventas en un cuaderno cada noche. ¿Qué valor tiene la contradicción entre ambos cuadrantes, según el libro?",
           "options": [
+            "Es la pista más valiosa: revela que Rosa revisa los números diario pero no los entiende como ganancia.",
             "Confirma que Rosa miente: dice que no sabe pero en realidad sí registra los datos.",
             "Es una contradicción inútil porque ambas acciones ocurren en momentos distintos del día.",
-            "Es la pista más valiosa: revela que Rosa revisa los números diario pero no los entiende como ganancia.",
             "Indica que la entrevista fue mal hecha y debe repetirse con preguntas más precisas."
           ],
-          "correct": 2,
+          "correct": 0,
           "feedback": "El libro dice que 'las contradicciones entre cuadrantes son oro'. En el caso de Rosa, dice que no sabe si gana pero hace un registro diario. Eso revela el insight real: el problema no es la falta de datos, sino que el formato del cuaderno no le da la respuesta que busca (ganancia del día). Esa contradicción fue la que orientó toda la solución."
         },
         {
@@ -716,12 +716,12 @@ window.QUIZ_DATA = {
           "categoryName": "Cap. 3 — Definir",
           "text": "Un equipo tiene 47 notas de entrevista sobre comerciantes de un mercado municipal. Antes de idear, el facilitador les pide que agrupen las notas por similitud en FigJam. Rosa anota tres: 'no saben cuánto ganan', 'pierden tiempo en el cuaderno', 'tiran comida por comprar de más'. ¿Qué herramienta están aplicando y cuál es su objetivo?",
           "options": [
-            "El mapa de empatía; el objetivo es identificar qué dice, piensa, hace y siente cada comerciante.",
             "El diagrama de afinidad; el objetivo es que emerjan 3 a 6 temas repetidos entre personas distintas.",
+            "El mapa de empatía; el objetivo es identificar qué dice, piensa, hace y siente cada comerciante.",
             "El Lean Canvas; el objetivo es definir el segmento de clientes antes de idear soluciones.",
             "Los cuatro filtros; el objetivo es descartar temas que no cumplan frecuencia e intensidad mínimas."
           ],
-          "correct": 1,
+          "correct": 0,
           "feedback": "El libro describe el diagrama de afinidad en el Capítulo 3 como el primer paso de la fase Definir: escribir cada hallazgo en un post-it y agruparlos por parecido para que aparezcan 3 a 6 temas que se repiten entre personas distintas. Esos temas son los candidatos a problema central. El mapa de empatía se hace antes, por persona; el diagrama de afinidad cruza personas."
         },
         {
@@ -731,11 +731,11 @@ window.QUIZ_DATA = {
           "text": "Un equipo escribe este POV: «Los dueños de restaurantes necesitan una app de contabilidad porque llevan las cuentas en cuadernos». ¿Qué corrección es la adecuada según el libro?",
           "options": [
             "Cambiar 'restaurantes' por un segmento más específico con datos demográficos precisos.",
-            "El POV ya es correcto: menciona usuario, necesidad y causa observada en campo.",
             "Reemplazar la necesidad por el insight real: el problema es no saber la ganancia diaria, no la herramienta.",
+            "El POV ya es correcto: menciona usuario, necesidad y causa observada en campo.",
             "Quitar la causa ('porque') para que el POV no sugiera solución antes de idear."
           ],
-          "correct": 2,
+          "correct": 1,
           "feedback": "El libro muestra que un POV mal definido tiene la solución disfrazada de necesidad. Escribir 'necesitan una app de contabilidad' ya es una solución, no una necesidad. El insight de Rosa no es la herramienta sino la desconfianza: 'no confían en números que no ven todos los días'. El POV correcto plantea la necesidad sin nombrar la tecnología."
         },
         {
@@ -746,10 +746,10 @@ window.QUIZ_DATA = {
           "options": [
             "La (1): es suficientemente amplia para dejar espacio a muchas ideas de solución.",
             "La (3): tiene el mayor nivel de detalle técnico y por eso guía mejor al equipo de ingeniería.",
-            "La (2): es concreta sobre el dolor pero no menciona tecnología, dejando abierta la solución.",
-            "Las tres son válidas para distintas fases: (1) para idear, (2) para prototipar y (3) para construir."
+            "Las tres son válidas para distintas fases: (1) para idear, (2) para prototipar y (3) para construir.",
+            "La (2): es concreta sobre el dolor pero no menciona tecnología, dejando abierta la solución."
           ],
-          "correct": 2,
+          "correct": 3,
           "feedback": "El libro lo explica con el caso de Rosa: la pregunta correcta 'no menciona tecnología. Deja abierta la solución, pero es lo bastante concreta como para saber si la resolviste.' La pregunta demasiado amplia (1) produce ideas genéricas. La pregunta técnica (3) ya es una solución, no una invitación a idear."
         },
         {
@@ -759,11 +759,11 @@ window.QUIZ_DATA = {
           "text": "Un equipo evalúa el problema 'elegir qué ropa ponerse cada mañana' con los cuatro filtros. Frecuencia: 5. Intensidad: 1. Gasto actual: 1. Alcance: 4. Total: 11/20. ¿Qué decisión es la más defendible según el libro?",
           "options": [
             "Pasar a ideación: un total de 11/20 supera el umbral mínimo de 10 para emprender.",
-            "Descartar el problema: dos filtros sacan 1 o menos, lo que indica que no duele lo suficiente.",
             "Refinar el segmento: el alcance es 4, así que hay mercado aunque el problema sea menor.",
+            "Descartar el problema: dos filtros sacan 1 o menos, lo que indica que no duele lo suficiente.",
             "Validar con más entrevistas: con 20 casos adicionales la intensidad podría subir a 3."
           ],
-          "correct": 1,
+          "correct": 2,
           "feedback": "El libro advierte: 'lo que decide son los mínimos: si dos o más filtros sacan 2 o menos, busca otro problema antes de gastar tiempo en ideas.' En este caso la intensidad y el gasto actual son 1, lo que señala que la gente no sufre lo suficiente ni gasta nada en resolverlo. La frecuencia alta engaña: lo frecuente que no duele no se paga."
         },
         {
@@ -773,11 +773,11 @@ window.QUIZ_DATA = {
           "text": "Un equipo califica el problema 'saber cuánto gana Rosa al día' así: Frecuencia: 5 (diario), Intensidad: 5 (pierde dinero), Gasto actual: 4 (casi una hora con el cuaderno), Alcance: 5 (miles de restaurantes pequeños). Total: 19/20. El problema 'app para elegir ropa' obtuvo 11/20. ¿Qué explica la diferencia que más engaña a los emprendedores, según el libro?",
           "options": [
             "El alcance: hay más gente eligiendo ropa que usando cuadernos de restaurante.",
-            "La intensidad y el gasto actual: si nadie gasta nada hoy en resolverlo, probablemente no le importa tanto como dice.",
             "La frecuencia: los problemas diarios siempre superan a los esporádicos en valor de mercado.",
-            "El total: cualquier problema con más de 15 puntos garantiza tracción en el mercado."
+            "El total: cualquier problema con más de 15 puntos garantiza tracción en el mercado.",
+            "La intensidad y el gasto actual: si nadie gasta nada hoy en resolverlo, probablemente no le importa tanto como dice."
           ],
-          "correct": 1,
+          "correct": 3,
           "feedback": "El libro dice literalmente: 'Este último es el filtro que más engaña: si nadie hace nada hoy para resolver algo, probablemente no le importa tanto como dice.' La frecuencia y el alcance de la app de ropa son altos, pero la intensidad es 1 y el gasto actual es 1: nadie paga nada ni dedica tiempo. Ese es el engaño clásico del emprendedor."
         },
         {
@@ -786,12 +786,12 @@ window.QUIZ_DATA = {
           "categoryName": "Cap. 3 — Definir (Jobs to Be Done)",
           "text": "Un equipo describe el trabajo de Rosa así: «Necesita una app que lea facturas por foto». ¿Qué formulación respeta mejor el marco Jobs to Be Done según el libro?",
           "options": [
-            "«Cuando cierro el local cada noche, quiero saber en dos minutos cuánto gané y qué comprar mañana, para no perder plata ni tirar comida.»",
-            "«Necesita que la IA lea sus facturas por foto y le diga el total de gastos del día.»",
-            "«Quiero una aplicación móvil que centralice ventas, compras y ganancia en un solo panel.»",
-            "«Cuando lleva las cuentas, Rosa quiere un sistema contable digital para reemplazar el cuaderno.»"
+            "«Necesita que la IA lea sus facturas por foto y le diga el total de gastos del día.» para gestionar su negocio de forma automática y sin retrasos.",
+            "«Quiero una aplicación móvil que centralice ventas, compras y ganancia en un solo panel.» para gestionar su negocio de forma automática y sin retrasos.",
+            "«Cuando lleva las cuentas, Rosa quiere un sistema contable digital para reemplazar el cuaderno.» para gestionar su negocio de forma automática y sin retrasos.",
+            "«Cuando cierro el local cada noche, quiero saber en dos minutos cuánto gané y qué comprar mañana, para no perder plata ni tirar comida.»"
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "El libro muestra la fórmula de JTBD: 'Cuando [situación], quiero [motivación], para [resultado esperado].' La opción A respeta las tres partes: la situación (cerrar el local cada noche), la motivación (saber cuánto ganó y qué comprar) y el resultado esperado (no perder plata ni tirar comida). Las otras opciones nombran tecnología o herramientas, no el trabajo del usuario."
         },
         {
@@ -829,11 +829,11 @@ window.QUIZ_DATA = {
           "text": "Cuatro ideas del equipo de Rosa sobre la matriz impacto-esfuerzo: (I1) nota de voz y resumen nocturno, impacto 5 esfuerzo 2; (I2) foto de factura leída por IA, impacto 5 esfuerzo 4; (I3) copia semanal al contador, impacto 2 esfuerzo 1; (I4) tablero en tablet para la cocina, impacto 2 esfuerzo 4. ¿Cuál es la acción correcta para cada idea, según el libro?",
           "options": [
             "I1 descártala, I2 planifícala, I3 hazla primero, I4 mejora rápida.",
-            "I1 hazla primero, I2 planifícala, I3 mejora rápida, I4 descártala.",
             "I1 y I2 hazlas primero porque ambas tienen impacto 5, I3 e I4 descártalas.",
-            "I2 hazla primero por su mayor impacto técnico, I1 planifícala, I3 e I4 descártalas."
+            "I2 hazla primero por su mayor impacto técnico, I1 planifícala, I3 e I4 descártalas.",
+            "I1 hazla primero, I2 planifícala, I3 mejora rápida, I4 descártala."
           ],
-          "correct": 1,
+          "correct": 3,
           "feedback": "Según el libro, la lógica de la matriz es: mucho impacto + poco esfuerzo = hazlo primero (I1); mucho impacto + mucho esfuerzo = planifícalo (I2); poco impacto + poco esfuerzo = mejora rápida (I3); poco impacto + mucho esfuerzo = descártalo (I4). I1 es la nota de voz, que el caso describe como la ganadora inicial."
         },
         {
@@ -843,11 +843,11 @@ window.QUIZ_DATA = {
           "text": "Tras el Crazy 8s del caso de Rosa, la idea 'app de contabilidad' quedó en el cuadrante 'mucho impacto, mucho esfuerzo'. Al aplicarle las tres lentes, el resultado es: Deseable = 1 (Rosa no usa las que ya existen), Factible = 5, Viable = 3. ¿Qué acción recomienda el libro para esta idea?",
           "options": [
             "Lanzarla igual: la factibilidad técnica garantiza el éxito a largo plazo si se invierte en marketing.",
-            "No se descarta: falla en la lente de deseable, así que se ajusta el segmento o la propuesta de valor.",
             "Descartarla definitivamente: fallar en cualquier lente implica volver a la fase de empatizar.",
+            "No se descarta: falla en la lente de deseable, así que se ajusta el segmento o la propuesta de valor.",
             "Pivotar hacia B2B: las apps de contabilidad funcionan con empresas grandes, no con restaurantes."
           ],
-          "correct": 1,
+          "correct": 2,
           "feedback": "El libro dice: 'Si una idea falla en una lente, no se descarta: se ajusta. Si falla en dos, vuelve a la matriz.' La app falla solo en Deseable (Rosa no la usa). La acción correcta es ajustar: cambiar el formato, el segmento o la propuesta de valor. Descartar definitivamente sería prematuro con solo una lente fallida."
         },
         {
@@ -856,12 +856,12 @@ window.QUIZ_DATA = {
           "categoryName": "Cap. 5 — Prototipar",
           "text": "Un equipo quiere saber si los dueños de talleres mecánicos entenderían, sin ayuda, cómo registrar un pedido de repuesto en tres pantallas. Tiene 5 días y cero presupuesto. ¿Qué nivel de prototipo resuelve esa duda con el menor esfuerzo, según la tabla del libro?",
           "options": [
+            "Maqueta clickable en Figma: verifica si entienden la interfaz sin explicación, en un día.",
             "MVP funcional con no-code (Bubble): permite probar el flujo real con datos verdaderos.",
             "Concierge: el equipo hace manualmente cada pedido para comprobar si los talleres pagan.",
-            "Maqueta clickable en Figma: verifica si entienden la interfaz sin explicación, en un día.",
             "Mago de Oz: un integrante responde a mano para simular la IA y comprobar si el servicio genera valor."
           ],
-          "correct": 2,
+          "correct": 0,
           "feedback": "El libro muestra la tabla de niveles de fidelidad. La maqueta clickable (Figma o equivalente) sirve específicamente para aprender 'si entienden la interfaz sin explicación' y toma un día. El MVP funcional tomaría semanas; el Concierge respondería si pagan, no si entienden la interfaz; el Mago de Oz respondería si el servicio genera valor antes de automatizar."
         },
         {
@@ -870,12 +870,12 @@ window.QUIZ_DATA = {
           "categoryName": "Cap. 5 — Prototipar",
           "text": "El primer prototipo del caso de Rosa fue un Mago de Oz: ella enviaba por WhatsApp la foto de la factura y una nota de voz, y el ingeniero respondía a mano con la ganancia del día. Costo: cero. Tiempo: una tarde. ¿Qué pregunta concreta respondía ese prototipo?",
           "options": [
-            "¿El servicio es técnicamente escalable con una API de IA real a 500 restaurantes?",
             "¿El formato de tres líneas (ganancia, plato top, compras mañana) genera valor real antes de automatizar?",
+            "¿El servicio es técnicamente escalable con una API de IA real a 500 restaurantes?",
             "¿Rosa pagaría $15 al mes si tuviera la versión automatizada con n8n y WhatsApp Business?",
             "¿Cuántos restaurantes más recomendaría Rosa si el servicio funcionara bien por un mes?"
           ],
-          "correct": 1,
+          "correct": 0,
           "feedback": "El libro describe el Mago de Oz como el nivel que responde 'si el servicio genera valor antes de automatizarlo'. En el caso de Rosa, la pregunta era si el formato de tres líneas nocturnas era lo que ella quería, antes de gastar un dólar en servidores o integraciones. Las preguntas de escalabilidad (A), precio (C) y referidos (D) son del nivel MVP y de la fase de negocio."
         },
         {
@@ -885,11 +885,11 @@ window.QUIZ_DATA = {
           "text": "Un equipo construyó en dos semanas un MVP funcional con login con redes sociales, modo oscuro, panel de administración y reporte mensual. Su primer usuario aún no existe. Según el libro, ¿qué diagnóstico es el correcto?",
           "options": [
             "El equipo fue eficiente: construir todo desde el inicio evita rediseñar funciones después.",
-            "El MVP no es mínimo: tiene funciones que no responden ninguna pregunta de aprendizaje urgente.",
             "Faltó investigación de mercado: deberían publicar una landing page antes de construir.",
+            "El MVP no es mínimo: tiene funciones que no responden ninguna pregunta de aprendizaje urgente.",
             "El error fue tecnológico: eligieron un stack demasiado complejo para un equipo sin experiencia."
           ],
-          "correct": 1,
+          "correct": 2,
           "feedback": "El libro dice: 'Si tu MVP tiene login con redes sociales, modo oscuro y panel de administración antes de tener un usuario, no es mínimo.' Mínimo significa una sola función central que resuelva el dolor principal. El error no fue tecnológico ni de investigación: fue confundir el MVP con el producto terminado, construyendo funciones que no responden preguntas de aprendizaje."
         },
         {
@@ -898,12 +898,12 @@ window.QUIZ_DATA = {
           "categoryName": "Cap. 6 — Testear",
           "text": "Durante la prueba del prototipo con Rosa, el facilitador le da la tarea 'registra lo que compraste hoy' y observa en silencio. Rosa toca tres veces un botón equivocado y dice 'esto es confuso'. El facilitador anota: 'el prototipo falló, no Rosa'. ¿Qué principio del libro aplica esa anotación?",
           "options": [
-            "El principio de neutralidad: el facilitador no debe defender ni atacar al prototipo.",
             "La prueba no evalúa al usuario; evalúa la idea. Si alguien se confunde, el prototipo falló.",
+            "El principio de neutralidad: el facilitador no debe defender ni atacar al prototipo.",
             "El principio de observación pasiva: el facilitador nunca interviene aunque el usuario se equivoque.",
             "El principio de métricas: solo cuenta la tasa de error, no la opinión del usuario."
           ],
-          "correct": 1,
+          "correct": 0,
           "feedback": "El libro lo dice con precisión: 'La prueba no evalúa al usuario, evalúa tu idea. Si alguien se confunde, el prototipo falló, no la persona.' Este principio evita que el equipo culpe a los usuarios de 'no entender' y los obliga a mejorar el diseño. La opción A (neutralidad) es real pero no captura el principio específico del libro."
         },
         {
@@ -914,10 +914,10 @@ window.QUIZ_DATA = {
           "options": [
             "Pivotar: el dato de 'qué comprar mañana' no era el valor central del diseño original, así que hay que volver a empatizar.",
             "Parar: solo 7 de 12 aceptan pagar, lo que está por debajo del mínimo aceptable para continuar.",
-            "Iterar: la idea funciona y hay datos nuevos (hora, dato favorito, contador) para ajustar detalles.",
-            "Escalar directamente a los 300 restaurantes de Quito: 9 de 12 es retención suficiente para crecer."
+            "Escalar directamente a los 300 restaurantes de Quito: 9 de 12 es retención suficiente para crecer.",
+            "Iterar: la idea funciona y hay datos nuevos (hora, dato favorito, contador) para ajustar detalles."
           ],
-          "correct": 2,
+          "correct": 3,
           "feedback": "El libro describe tres caminos después de testear: 'Iteras cuando la idea funciona pero hay que ajustar detalles. Pivotas cuando descubres que el valor está en otro lado y cambias una parte grande.' Los datos muestran que la idea funciona (9 de 12 retienen, 7 pagan), con ajustes de detalle (hora, dato top, contador). No es un cambio de dirección grande, sino ajuste de detalles: iterar."
         },
         {
@@ -927,11 +927,11 @@ window.QUIZ_DATA = {
           "text": "El equipo de CierreYa define como meta inicial de activación que el 60 % de nuevos restaurantes reciba su primer resumen. Tras el primer mes, solo el 35 % lo recibió. ¿Qué paso sigue según el marco de testeo del libro?",
           "options": [
             "Escalar el gasto en adquisición: más restaurantes compensarán el bajo porcentaje de activación.",
-            "Analizar dónde abandona la gente antes de recibir el primer resumen y ajustar ese paso.",
             "Cambiar la métrica de éxito: el 35 % es un resultado razonable para un MVP en fase temprana.",
+            "Analizar dónde abandona la gente antes de recibir el primer resumen y ajustar ese paso.",
             "Parar: el 35 % está 25 puntos por debajo de la meta y eso prueba que el producto no funciona."
           ],
-          "correct": 1,
+          "correct": 2,
           "feedback": "El libro recomienda instrumentar desde el día uno y analizar en qué paso abandona la gente (el embudo de métricas). Si la activación es baja, el problema está en el paso de onboarding, no en la adquisición. Escalar sin arreglar la activación multiplica el desperdicio. Parar sería prematuro sin investigar dónde está el punto de falla."
         },
         {
@@ -941,11 +941,11 @@ window.QUIZ_DATA = {
           "text": "Doce restaurantes prueban CierreYa un mes. La prueba más honesta de valor real, según el libro, es pedir un compromiso antes de continuar. ¿Cuál de estas opciones representa ese compromiso de la forma más sólida?",
           "options": [
             "Que los 12 respondan una encuesta de satisfacción con puntaje mayor a 8 de 10.",
-            "Que al menos 7 digan en una entrevista que «les encantó» y «lo recomendarían».",
             "Que al menos 7 paguen $15 por el primer mes o firmen una carta de intención.",
+            "Que al menos 7 digan en una entrevista que «les encantó» y «lo recomendarían».",
             "Que los 12 sigan activos en la semana 4 sin que el equipo los contacte."
           ],
-          "correct": 2,
+          "correct": 1,
           "feedback": "El libro dice: 'La prueba más honesta es pedir dinero o un compromiso real: una preventa, un pago del primer mes, una carta de intención firmada. Si dicen que les encanta pero no pagan ni $5, todavía no tienes un negocio.' Las encuestas de satisfacción (A) y los cumplidos en entrevista (B) son 'opiniones que valen poco'. El uso sostenido (D) mide retención, no disposición a pagar."
         },
         {
@@ -968,12 +968,12 @@ window.QUIZ_DATA = {
           "categoryName": "Cap. 7 — Del prototipo al negocio (Modelos de ingreso)",
           "text": "CierreYa necesita dinero rápido para pagar los costos de la API en el mes 1. No tiene usuarios todavía. Un inversor propone tres modelos: (M1) suscripción mensual de $15; (M2) pago por uso ($0,50 por resumen enviado); (M3) servicio productizado: 'te instalo el sistema en 7 días por $400'. ¿Cuál es la forma más rápida de facturar, según el libro?",
           "options": [
+            "M3: el servicio productizado es la forma más rápida de facturar con alcance y precio fijos.",
             "M1: la suscripción mensual es el modelo más valorado por los inversionistas según el libro.",
             "M2: el pago por uso alinea el costo con el valor entregado y no requiere compromiso del cliente.",
-            "M3: el servicio productizado es la forma más rápida de facturar con alcance y precio fijos.",
             "Una combinación de M1 y M3: la suscripción da previsibilidad y el servicio da flujo inmediato."
           ],
-          "correct": 2,
+          "correct": 0,
           "feedback": "El libro dice textualmente: 'Servicio productizado: un servicio con alcance y precio fijos. Es la forma más rápida de facturar.' El M1 (SaaS) da ingresos predecibles pero tarda meses en crecer. El M2 requiere usuarios activos. El M3 permite cobrar una sola vez desde la primera instalación, que es lo que se necesita para cubrir costos iniciales sin base de usuarios."
         },
         {
@@ -983,11 +983,11 @@ window.QUIZ_DATA = {
           "text": "El equipo de CierreYa calcula que el servicio le ahorra a Rosa 25 horas al mes (a $3/hora) y le evita tirar $120 de comida. El costo de atender a Rosa es $4 al mes. El libro propone cobrar entre el 10 % y el 20 % del valor generado. ¿Cuál es el rango de precio correcto y por qué el piso es mayor que el costo?",
           "options": [
             "Rango: $10 a $20. El piso es el costo ($4), redondeado; el techo es lo que el mercado tolera.",
-            "Rango: $19,50 a $39. El cliente debe sentir que recibe entre 5 y 10 veces lo que paga; el piso es costo ÷ 0,30.",
             "Rango: $15 a $30. El piso es el costo × 3 y el techo es el 20 % del valor generado.",
+            "Rango: $19,50 a $39. El cliente debe sentir que recibe entre 5 y 10 veces lo que paga; el piso es costo ÷ 0,30.",
             "Rango: $4 a $10. El precio siempre se fija entre el costo y un margen razonable del 150 %."
           ],
-          "correct": 1,
+          "correct": 2,
           "feedback": "El libro calcula para Rosa: valor mensual = 25h × $3 + $120 = $195. Rango = 10 % a 20 % = $19,50 a $39. El precio mínimo es costo ÷ 0,30 = $4 ÷ 0,30 ≈ $13, para mantener un margen bruto de al menos 70 %. El precio final de $15 está dentro del rango ($13 a $39), aunque por debajo del rango estricto del 10 %. El libro justifica el 10-20 % porque el cliente debe sentir que recibe entre 5 y 10 veces lo que paga."
         },
         {
@@ -996,12 +996,12 @@ window.QUIZ_DATA = {
           "categoryName": "Cap. 7 — Del prototipo al negocio (LTV/CAC)",
           "text": "CierreYa cobra $15/mes, tiene un margen bruto de 80 % y una tasa de cancelación mensual de 5 %. Conseguir un restaurante cuesta $40 en tiempo y referidos. El libro usa la fórmula LTV = (precio mensual × margen bruto) ÷ tasa de cancelación. ¿Cuál es la relación LTV/CAC y cómo la califica el libro?",
           "options": [
-            "LTV = $180; LTV/CAC = 4,5. El libro dice que una relación mayor a 3 es sana.",
             "LTV = $240; LTV/CAC = 6. El libro dice que una relación mayor a 3 es sana.",
+            "LTV = $180; LTV/CAC = 4,5. El libro dice que una relación mayor a 3 es sana.",
             "LTV = $300; LTV/CAC = 7,5. Es excelente porque supera el doble de la referencia.",
             "LTV = $200; LTV/CAC = 5. Es suficiente para cualquier modelo SaaS en la región."
           ],
-          "correct": 1,
+          "correct": 0,
           "feedback": "El libro calcula exactamente: LTV = $15 × 0,80 ÷ 0,05 = $240. CAC = $40. LTV/CAC = 6. Y dice: 'la referencia habitual es que sea mayor a 3.' Si LTV/CAC es menor a 1, el negocio pierde dinero con cada cliente nuevo. La opción B reproduce el cálculo exacto del libro con los datos del caso de Rosa."
         },
         {
@@ -1024,12 +1024,12 @@ window.QUIZ_DATA = {
           "categoryName": "Cap. 8 — Hoja de ruta (CitaClara)",
           "text": "CitaClara, una app de recordatorios de cita médica, planea lanzar en todas las ciudades de Ecuador desde el primer día para 'no dejar espacio a competidores'. Según el libro y los principios de la hoja de ruta del caso, ¿qué lectura es la más defendible?",
           "options": [
-            "La estrategia es correcta: el primero que llega a escala en un mercado emergente lo domina.",
             "Es prematura: lanzar en toda la ciudad antes de dominar un nicho diluye la energía y los recursos.",
+            "La estrategia es correcta: el primero que llega a escala en un mercado emergente lo domina.",
             "Es válida si tienen suficiente capital para contratar un equipo de ventas en cada ciudad.",
             "Depende del modelo de ingreso: la cobertura nacional solo es viable con un modelo freemium."
           ],
-          "correct": 1,
+          "correct": 0,
           "feedback": "El libro describe la hoja de ruta de CitaClara comenzando por un solo nicho (consultorios de medicina general en un solo barrio) antes de expandir. En el libro se aplican los principios de De cero a uno: dominar un nicho pequeño primero. Escalar antes de tener el modelo probado en un nicho diluye recursos. La lógica de 'no dejar espacio' aplica cuando ya tienes tracción comprobada, no al inicio."
         },
         {
@@ -1039,11 +1039,11 @@ window.QUIZ_DATA = {
           "text": "El equipo de CitaClara identifica que los médicos podrían negarse a que el sistema contacte a sus pacientes sin autorización. Lo registran en el formato de riesgos en la columna de mitigación como 'hablar con los médicos antes del piloto'. Según el libro, ¿cuándo debía haberse gestionado ese riesgo?",
           "options": [
             "En la fase de testeo: es el momento donde los riesgos legales se confirman con datos reales.",
-            "En la fase 1 (semanas 1-4): los trámites legales y de consentimiento van desde el piloto.",
             "Después del lanzamiento: el mercado indica si la regulación es realmente una barrera.",
+            "En la fase 1 (semanas 1-4): los trámites legales y de consentimiento van desde el piloto.",
             "Al obtener el primer pago: un cliente que paga valida que el riesgo legal no es bloqueante."
           ],
-          "correct": 1,
+          "correct": 2,
           "feedback": "El libro es explícito para el caso de CitaClara: 'Los trámites legales se dejan para el final: saca el RUC y redacta el consentimiento en la fase 1, porque desde el piloto manejas teléfonos y datos de pacientes.' El manejo de datos personales y médicos requiere consentimiento desde la primera prueba, no después. Es un riesgo que debe mitigarse antes de tener el primer paciente en el sistema."
         },
         {
@@ -1053,11 +1053,11 @@ window.QUIZ_DATA = {
           "text": "Un equipo evalúa dos problemas con los cuatro filtros. Problema A: 'coordinar reuniones de equipo remoto'; Problema B: 'cuadrar el inventario de una ferretería al cierre de día'. Cada uno saca: A (Frecuencia 5, Intensidad 2, Gasto actual 1, Alcance 5 = 13), B (Frecuencia 5, Intensidad 5, Gasto actual 4, Alcance 4 = 18). ¿Cuál de las dos afirmaciones sobre los resultados es la más defendible?",
           "options": [
             "El Problema A es viable: 13/20 supera el umbral y la frecuencia alta garantiza adopción.",
-            "El Problema B pasa a ideación y el A se descarta: el A falla en intensidad y gasto actual (ambos ≤ 2).",
             "Ambos pasan: la suma de los dos supera 20 y el libro no establece un umbral individual por filtro.",
-            "El Problema A es mejor: el alcance de 5 es el filtro más importante porque define el tamaño del mercado."
+            "El Problema A es mejor: el alcance de 5 es el filtro más importante porque define el tamaño del mercado.",
+            "El Problema B pasa a ideación y el A se descarta: el A falla en intensidad y gasto actual (ambos ≤ 2)."
           ],
-          "correct": 1,
+          "correct": 3,
           "feedback": "El libro establece: 'si dos o más filtros sacan 2 o menos, busca otro problema.' El Problema A tiene Intensidad 1 y Gasto actual 1: dos filtros por debajo de 2. Eso lo descarta. El total de 13 engaña porque la frecuencia y el alcance son altos. El Problema B tiene todos los filtros en 4 o más (18/20) y pasa claramente a ideación."
         },
         {
@@ -1067,11 +1067,11 @@ window.QUIZ_DATA = {
           "text": "Un equipo calcula que su servicio de IA le ahorra 8 horas semanales a una clínica veterinaria (a $5/hora) y evita llamadas perdidas por valor de $200 al mes. El costo de atender a la clínica es $6 al mes. ¿Cuál es el rango de precio correcto según la fórmula del libro?",
           "options": [
             "Rango: $6 a $12. El precio siempre debe duplicar el costo para garantizar margen.",
-            "Rango: $36 a $72. El valor mensual es $360; el rango es 10 % a 20 % de ese valor.",
             "Rango: $18 a $36. El valor mensual es $200 de llamadas; el tiempo no se considera.",
+            "Rango: $36 a $72. El valor mensual es $360; el rango es 10 % a 20 % de ese valor.",
             "Rango: $60 a $120. El precio correcto multiplica el costo por 10 para startups tecnológicas."
           ],
-          "correct": 1,
+          "correct": 2,
           "feedback": "Siguiendo la fórmula del libro: valor mensual = (8h × 4 semanas × $5) + $200 = $160 + $200 = $360. Rango = 10 % a 20 % = $36 a $72. El precio mínimo por costo = $6 ÷ 0,30 = $20. El precio final debería estar entre $36 y $72, sobre el piso de $20. La opción C ignora el valor del tiempo, que es parte explícita del cálculo del libro."
         },
         {
@@ -1110,10 +1110,10 @@ window.QUIZ_DATA = {
           "options": [
             "El paso (2): Whisper comete errores de transcripción que sesgan el análisis posterior.",
             "El paso (3): la IA puede inventar grupos que no existen en los datos reales.",
-            "El paso (4): simular usuarios es el único uso de IA que el libro prohíbe explícitamente en empatía.",
-            "Los pasos (2) y (3): toda la transcripción y el resumen deben hacerse a mano para no perder matices."
+            "Los pasos (2) y (3): toda la transcripción y el resumen deben hacerse a mano para no perder matices.",
+            "El paso (4): simular usuarios es el único uso de IA que el libro prohíbe explícitamente en empatía."
           ],
-          "correct": 2,
+          "correct": 3,
           "feedback": "El libro acepta el uso de IA para transcribir, resumir y agrupar (pasos 1-3), pero dice textualmente: 'Lo que nunca debes hacer es pedirle a la IA que simule usuarios y tomar eso como evidencia.' El paso (4) es el único prohibido. Un usuario inventado no paga, no muestra contradicciones reales y deja la evidencia en cero."
         },
         {
@@ -1123,11 +1123,11 @@ window.QUIZ_DATA = {
           "text": "Un equipo le pide a Claude 30 ideas para su pregunta '¿Cómo podríamos...?'. Claude devuelve una lista con soluciones muy similares entre sí y ninguna usa el insight de las entrevistas (que Rosa desconfía del software). Según el libro, ¿qué ajuste es el más adecuado?",
           "options": [
             "Cambiar de modelo: GPT-4 genera ideas más diversas que Claude en tareas de ideación.",
-            "Pedir 30 ideas más que 'no se parezcan a las anteriores' y aportar el insight de las entrevistas.",
             "Descartar la lista de la IA y hacer solo un Crazy 8s manual para recuperar la creatividad.",
-            "Aceptar la lista: la IA propone lo que el mercado ya conoce, que es la base más segura para empezar."
+            "Aceptar la lista: la IA propone lo que el mercado ya conoce, que es la base más segura para empezar.",
+            "Pedir 30 ideas más que 'no se parezcan a las anteriores' y aportar el insight de las entrevistas."
           ],
-          "correct": 1,
+          "correct": 3,
           "feedback": "El libro dice: 'la IA tiende a proponer lo promedio. Tú aportas el insight que viene de tus entrevistas; y no te quedes con la primera lista, insiste. Pídele 30 ideas más que no se parezcan a las anteriores, luego que aplique SCAMPER a tu mejor idea.' El insight de la desconfianza de Rosa hacia el software es el diferenciador que la IA no tiene; el equipo debe inyectarlo."
         },
         {
@@ -1136,12 +1136,12 @@ window.QUIZ_DATA = {
           "categoryName": "Cap. 5 — Prototipar (Herramientas)",
           "text": "Un equipo quiere construir un MVP de automatización que conecte WhatsApp con un modelo de IA para leer notas de voz y responder con un resumen. No quieren escribir código de servidor. Según la lista de herramientas del libro para 2026, ¿qué combinación es la más adecuada?",
           "options": [
-            "React Native + Firebase + OpenAI API: el stack más completo para apps móviles con IA.",
             "n8n o Make + WhatsApp Business API + modelo de IA para voz a texto: automatización sin servidor propio.",
+            "React Native + Firebase + OpenAI API: el stack más completo para apps móviles con IA.",
             "Bubble + Typeform + Zapier: herramientas no-code para captar datos sin programación.",
             "Flutter + Supabase + Claude API: código asistido con base de datos lista y autenticación incluida."
           ],
-          "correct": 1,
+          "correct": 0,
           "feedback": "El libro lista específicamente: 'Automatización: n8n, Make o Zapier para conectar WhatsApp, correo, hojas y modelos de IA sin servidor propio.' Y el caso de Rosa lo confirma: el MVP funcional usó 'n8n, la API de WhatsApp Business, un modelo de IA para leer facturas y notas de voz, y una hoja de Google como base de datos. Dos semanas de trabajo.' Bubble (C) es para apps web; Flutter/React Native (A y D) requieren código y servidor."
         },
         {
@@ -1151,11 +1151,11 @@ window.QUIZ_DATA = {
           "text": "Un facilitador prueba el prototipo de CitaClara con cinco médicos. Cuando uno no sabe cómo avanzar en la pantalla de confirmar cita, el facilitador dice: 'toca el botón verde'. Según el libro, ¿qué error cometió el facilitador?",
           "options": [
             "Ninguno: ayudar al usuario en una prueba de concepto es parte del método concierge.",
-            "Violó la regla de observar sin ayudar: cuando el usuario pide ayuda, la respuesta correcta es devolverle la pregunta.",
             "Eligió mal la tarea: debió decirle 'confirma la cita' en lugar de 'toca el botón verde'.",
-            "Interrumpió el pensamiento en voz alta: el facilitador debe esperar al final para hacer preguntas."
+            "Interrumpió el pensamiento en voz alta: el facilitador debe esperar al final para hacer preguntas.",
+            "Violó la regla de observar sin ayudar: cuando el usuario pide ayuda, la respuesta correcta es devolverle la pregunta."
           ],
-          "correct": 1,
+          "correct": 3,
           "feedback": "El libro es explícito en el paso 4 de la prueba: 'Calla. Cuando quiera ayuda, devuélvele la pregunta: «¿qué crees que deberías hacer?».' Dar la respuesta al usuario elimina el aprendizaje sobre usabilidad. Si el médico no encontró el botón verde, ese es exactamente el dato que el equipo necesita para mejorar el diseño. Ayudar invalida ese dato."
         },
         {
@@ -1166,10 +1166,10 @@ window.QUIZ_DATA = {
           "options": [
             "Continuar: 7 de 10 que pagan es el 70 %, lo que supera cualquier referencia de conversión a pago del libro.",
             "Agregar las funciones pedidas: si 3 consultorios esperan más funciones para pagar, la prioridad es construirlas.",
-            "Analizar si los 3 'gratis' son señal de un problema de precio o de valor; calcular LTV con los 7 que sí pagan.",
-            "Escalar a otros barrios: 7 pagadores en la semana 8 es tracción suficiente para salir del nicho inicial."
+            "Escalar a otros barrios: 7 pagadores en la semana 8 es tracción suficiente para salir del nicho inicial.",
+            "Analizar si los 3 'gratis' son señal de un problema de precio o de valor; calcular LTV con los 7 que sí pagan."
           ],
-          "correct": 2,
+          "correct": 3,
           "feedback": "El libro enseña a distinguir entre señales de valor y señales de precio. Los 3 que piden 'más funciones' antes de pagar pueden ser: (a) usuarios que valoran el producto pero no al precio actual (problema de precio) o (b) usuarios que no ven el valor suficiente (problema de propuesta de valor). LTV de los 7 que sí pagan = $20 × 0,75 ÷ 0,08 = $187,50. Ese dato orienta si escalar o ajustar. Construir funciones sin saber la causa es la trampa del ingeniero que salta al código sin investigar."
         }
       ]
@@ -1268,12 +1268,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 1 — Guion de entrevista (The Mom Test)",
           "text": "Un equipo pregunta a duenos de lavanderias: Cuando fue la ultima vez que un cliente se quejo porque su ropa salio tarde. El entrevistado responde: El martes pasado una senora llego a las 6pm y su pedido no estaba; tuvimos que devolverle 12 dolares y perdimos al cliente. Segun el Mom Test que tipo de dato es ese?",
           "options": [
-            "Es dato real del pasado tipo D: muestra conducta verificable, no intencion hipotetica del futuro.",
             "Es un cumplido tipo C: el entrevistado revela el problema sin que se lo pidan directamente.",
+            "Es dato real del pasado tipo D: muestra conducta verificable, no intencion hipotetica del futuro.",
             "Es precio hipotetico tipo P: cuantifica el costo del problema con un monto especifico y concreto.",
             "Es abstraccion tipo A: generaliza el comportamiento de todos los duenos de lavanderias del barrio."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "Un dato tipo D incluye fecha especifica el martes, accion concreta devolucion de 12 dolares y consecuencia real perdida del cliente. A diferencia de una encuesta que mide intencion, este dato evidencia comportamiento ya ocurrido."
         },
         {
@@ -1310,12 +1310,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 1 — Guion de entrevista (The Mom Test)",
           "text": "Un equipo pregunta a un mecanico: Con que frecuencia pierdes tiempo buscando repuestos. El mecanico responde: Siempre; casi todos los dias sale algo. Segun las categorias del Mom Test C G F P D A cual es el diagnostico correcto?",
           "options": [
-            "Es respuesta generica tipo G: describe lo que suele pasar en general, no un hecho concreto del pasado.",
             "Es dato real tipo D: la palabra siempre indica una conducta medible y verificable en el tiempo.",
             "Es un cumplido tipo C: el mecanico valida implicitamente el problema sin comprometerse a nada.",
+            "Es respuesta generica tipo G: describe lo que suele pasar en general, no un hecho concreto del pasado.",
             "Es abstraccion tipo A: habla del gremio de mecanicos en general, no de su propia experiencia personal."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "Tipo G Generico describe lo que suele pasar sin anclar a una fecha, lugar o monto concreto. Casi todos los dias sale algo no dice cuando, que repuesto, ni cuanto costo. Un dato tipo D seria: El jueves sali dos horas al norte por un rodamiento y pague 15 dolares en taxi."
         },
         {
@@ -1324,12 +1324,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 2 — Mapa de empatia",
           "text": "Un equipo llena el mapa de empatia de la secretaria de un consultorio dental y escribe en la celda HACE: Dice que prefiere confirmar las citas por WhatsApp porque es mas rapido. Que error cometio el equipo y que debia escribir en esa celda?",
           "options": [
-            "Coloco en HACE una frase del DICE; en HACE va la conducta observada: llama a cada paciente por telefono antes de las 8am.",
             "El error es usar comillas; en el mapa de empatia las celdas deben ir en tercera persona sin citar al entrevistado.",
             "La frase es correcta para HACE; la distincion entre DICE y HACE no aplica cuando las dos coinciden exactamente.",
+            "Coloco en HACE una frase del DICE; en HACE va la conducta observada: llama a cada paciente por telefono antes de las 8am.",
             "Debio colocarla en PIENSA porque revela una creencia interna sobre su herramienta de trabajo diario."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "La celda HACE registra conductas observadas directamente, no lo que el entrevistado dice que hace. La frase dice que prefiere es una declaracion DICE. El Formato 2 senala que las contradicciones entre lo que la persona dice y lo que hace son las mejores pistas."
         },
         {
@@ -1338,12 +1338,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 2 — Mapa de empatia",
           "text": "En el mapa de empatia de Rosa el equipo detecta: en DICE escribe yo controlo mis numeros y en HACE escribe anota ventas en un cuaderno al final del dia sin revisar nunca el total. Segun el Formato 2 que valor tiene esa contradiccion?",
           "options": [
-            "Es la mejor pista para un insight: revela por que Rosa no usa software aunque quiera control de sus numeros.",
             "Indica que el equipo entrevisto mal; si hubiese preguntado mejor las celdas no se contradecidrian nunca.",
             "No es relevante; lo que importa es la celda SIENTE que revela la motivacion emocional real del usuario.",
-            "Significa que Rosa no es el usuario correcto; el sistema deberia dirigirse al contador externo del restaurante."
+            "Significa que Rosa no es el usuario correcto; el sistema deberia dirigirse al contador externo del restaurante.",
+            "Es la mejor pista para un insight: revela por que Rosa no usa software aunque quiera control de sus numeros."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "El Formato 2 afirma: Las contradicciones entre lo que dice y lo que hace son las mejores pistas. En Rosa, querer control pero no usar Excel revela el insight: no confia en numeros que no puede revisar linea por linea."
         },
         {
@@ -1352,12 +1352,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 2 — Mapa de empatia",
           "text": "Cuatro equipos interpretan el Formato 2 al detectar una contradiccion entre DICE y HACE. Cual de los cuatro equipos usa el formato correctamente?",
           "options": [
-            "El equipo A: anota la contradiccion en el campo Contradicciones y la convierte en entrada para el Formato 4.",
             "El equipo B: descarta la contradiccion porque el entrevistado pudo haber malintendido la pregunta del guion.",
             "El equipo C: copia la contradiccion en PIENSA porque refleja la creencia interna mas probable del usuario.",
-            "El equipo D: reporta la contradiccion como error de investigacion que invalida toda la entrevista realizada."
+            "El equipo D: reporta la contradiccion como error de investigacion que invalida toda la entrevista realizada.",
+            "El equipo A: anota la contradiccion en el campo Contradicciones y la convierte en entrada para el Formato 4."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "El Formato 2 tiene un campo explicito de Contradicciones que encontre. La instruccion es anotarlas ahi y usarlas como entrada para el Formato 4 donde se busca el insight. Descartar las contradicciones vacia el mapa de su valor diagnostico principal."
         },
         {
@@ -1366,12 +1366,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 2 — Mapa de empatia",
           "text": "El equipo llena la celda SIENTE del mapa de empatia de un contador con: Presionado porque tiene 40 clientes y cada uno usa una plantilla distinta. Otro equipo dice que la causa pertenece a DOLORES no a SIENTE. Cual tiene razon y por que?",
           "options": [
-            "El segundo equipo: en SIENTE va la emocion presionado; en DOLORES va la causa 40 clientes plantillas distintas.",
             "El primer equipo: SIENTE puede incluir contexto porque la emocion no se entiende sin su causa especifica.",
+            "El segundo equipo: en SIENTE va la emocion presionado; en DOLORES va la causa 40 clientes plantillas distintas.",
             "Ambos tienen razon: el mapa no requiere distincion estricta entre celdas; lo importante es capturar el dato.",
             "Ninguno: la frase pertenece a DICE si el contador la pronuncio textualmente durante la entrevista realizada."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "SIENTE captura emociones angustia presion entusiasmo y DOLORES registra causas concretas de frustracion. Mezclarlas hace que el equipo pierda la separacion que permite encontrar el insight: por que una persona sensata se siente asi?"
         },
         {
@@ -1394,12 +1394,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 3 — Ficha de persona",
           "text": "El Formato 3 exige que si un campo no tiene respaldo en entrevistas se deje vacio. Un equipo llena Tecnologia que usa hoy con probablemente WhatsApp porque no lo preguntaron. Cual es el problema y el paso correcto?",
           "options": [
-            "Estan inventando el perfil; deben dejar el campo vacio y agregar esa pregunta a la proxima entrevista.",
             "No hay problema; probablemente WhatsApp es una hipotesis valida mientras se valida en campo.",
             "El error es solo la redaccion; basta poner WhatsApp sin el probablemente para que sea valido.",
+            "Estan inventando el perfil; deben dejar el campo vacio y agregar esa pregunta a la proxima entrevista.",
             "Pueden deducirlo del segmento: si son pequenos comerciantes WhatsApp es un supuesto seguro y fundado."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "La instruccion del Formato 3 es terminante: Si un campo no tiene respaldo en una entrevista dejalo vacio. Escribir probablemente convierte un dato de investigacion en una suposicion del equipo que puede sesgar todo el proceso posterior."
         },
         {
@@ -1436,12 +1436,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 4 — Del hallazgo al insight",
           "text": "Un equipo trabaja con peluquerias y observa que los duenos cobran en efectivo aunque pierden de 15 a 30 minutos diarios contando billetes. Cual de las cuatro opciones es el insight y no un hallazgo repetido?",
           "options": [
-            "Desconfian de los lectores de tarjeta porque creen que los datos del cliente quedaran expuestos a terceros.",
             "Los duenos de peluqueria usan efectivo y pierden de 15 a 30 minutos diarios haciendo el cuadre de caja.",
+            "Desconfian de los lectores de tarjeta porque creen que los datos del cliente quedaran expuestos a terceros.",
             "El 80 por ciento de los clientes entrevistados paga en efectivo segun el conteo del equipo de campo.",
             "La mayoria de duenos prefiere efectivo porque les resulta mas comodo que aprender nueva tecnologia digital."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "El hallazgo es lo observado: cobran en efectivo mas pierden 15-30 min. El insight es la razon no obvia: Desconfian de la exposicion de datos. Esa razon sorprende y abre una oportunidad de diseno real. Las demas opciones reformulan el hallazgo observado."
         },
         {
@@ -1450,12 +1450,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 4 — Del hallazgo al insight",
           "text": "El equipo detecta el hallazgo: 5 de 6 mecanicos guardan pedidos de repuestos en notas de WhatsApp no en el sistema de inventario. El instructor dice que eso es hallazgo no insight. Por que y cual seria el insight correcto?",
           "options": [
-            "El hallazgo describe lo observado; el insight explica la causa: El sistema exige datos que el mecanico no tiene en el momento del pedido.",
             "El instructor se equivoca: un hallazgo cuantificado con 5 de 6 personas ya es un insight valido y accionable.",
             "Para ser insight basta agregar la contradiccion: guardan en WhatsApp aunque tienen sistema instalado.",
+            "El hallazgo describe lo observado; el insight explica la causa: El sistema exige datos que el mecanico no tiene en el momento del pedido.",
             "El insight requiere la pregunta como podriamos al final; sin ella es solo un hallazgo parcial."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "El Formato 4 dice: Un hallazgo es un dato; un insight es la razon no obvia que la competencia no conoce. 5 de 6 es un conteo. El insight responde POR QUE: el sistema exige numero de parte exacto que el mecanico no tiene hasta ver el repuesto en persona."
         },
         {
@@ -1464,12 +1464,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 4 — Del hallazgo al insight",
           "text": "Antes de llenar el Formato 4 el equipo agrupa 12 notas de entrevista en tres categorias con un diagrama de afinidad: tiempo perdido dinero perdido y verguenza. Para que sirve ese agrupamiento dentro del proceso del Formato 4?",
           "options": [
-            "Para identificar que hallazgo se repite en mas entrevistas y merece el esfuerzo de explicar su por que.",
             "Para calcular el puntaje de Frecuencia del Formato 6 antes de decidir si el problema vale la pena abordar.",
             "Para dividir el trabajo: cada integrante analiza una categoria de manera independiente y separada del equipo.",
+            "Para identificar que hallazgo se repite en mas entrevistas y merece el esfuerzo de explicar su por que.",
             "Para decidir cual de los tres dolores fue mencionado con mayor carga emocional en las entrevistas hechas."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "El Formato 4 instruye: Agrupa primero los hallazgos repetidos diagrama de afinidad. El proposito es encontrar el patron con mas respaldo empirico antes de buscar la explicacion insight. Un hallazgo en 7 de 10 entrevistas merece mas analisis que uno que aparecio una sola vez."
         },
         {
@@ -1492,12 +1492,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 5 — JTBD, POV y Como podriamos",
           "text": "Rosa cierra su restaurante cada noche y quiere saber en dos minutos cuanto gano y que comprar manana. El equipo formula el POV: Duenos de restaurantes necesitan una app de contabilidad porque no saben sus ganancias. Que correccion es necesaria?",
           "options": [
-            "El POV debe conectar usuario mas necesidad mas insight: porque no confian en cifras que no pueden revisar linea por linea.",
             "El POV es correcto; no saben sus ganancias es el insight descubierto en las entrevistas realizadas.",
             "El error esta en la necesidad; deberia decir necesitan automatizar el registro para ser mas accionable.",
-            "El POV es valido; basta agregar el nombre Rosa al inicio para personalizarlo y cumplir el Formato 5."
+            "El POV es valido; basta agregar el nombre Rosa al inicio para personalizarlo y cumplir el Formato 5.",
+            "El POV debe conectar usuario mas necesidad mas insight: porque no confian en cifras que no pueden revisar linea por linea."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "La formula del POV es: Usuario necesita necesidad porque insight. No saben sus ganancias sigue siendo el hallazgo. El insight es la razon no obvia: no confian en numeros que no pueden revisar linea por linea. Ademas mencionar una app viola la regla de no mencionar tecnologia."
         },
         {
@@ -1506,12 +1506,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 5 — JTBD, POV y Como podriamos",
           "text": "Un equipo formula tres versiones de Como podriamos para Rosa: 1 Como podriamos hacer que Rosa sepa cuanto gano sin escribir nada extra; 2 Como podriamos crear una app de contabilidad para restaurantes; 3 Como podriamos digitalizar los restaurantes pequenos de Ecuador. Cual cumple los tres criterios del Formato 5?",
           "options": [
-            "La 1: no menciona tecnologia es concreta y no es tan amplia como para ser irresoluble en una sesion.",
             "La 2: menciona la tecnologia correcta y el segmento exacto donde debe operar la solucion final.",
             "La 3: tiene el mayor alcance de mercado y permite explorar mas soluciones diversas al problema.",
+            "La 1: no menciona tecnologia es concreta y no es tan amplia como para ser irresoluble en una sesion.",
             "La 2 y la 1: la primera para el MVP inicial y la segunda para la version completa del producto final."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "El Formato 5 tiene tres criterios: no menciona tecnologia es concreta y no es tan amplia. La version 1 cumple las tres: no dice app es medible Rosa sabe cuanto gano y esta acotada. La 2 menciona la app y la 3 es demasiado amplia para guiar una sesion de ideacion enfocada."
         },
         {
@@ -1520,12 +1520,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 5 — JTBD, POV y Como podriamos",
           "text": "El equipo de CitaClara redacta: Como podriamos usar inteligencia artificial para confirmar citas medicas. El instructor la rechaza. Por que y cual seria la version correcta segun el Formato 5?",
           "options": [
-            "Menciona IA que es tecnologia; la correcta seria: Como podriamos hacer que ningun paciente olvide su cita.",
             "Es demasiado corta; debe incluir el segmento objetivo para que el equipo no se desvie al idear.",
+            "Menciona IA que es tecnologia; la correcta seria: Como podriamos hacer que ningun paciente olvide su cita.",
             "El problema es confirmar citas; deberia decir agendar citas para cubrir todo el proceso completo.",
             "Es tecnicamente correcta; el instructor la rechaza porque no menciona el presupuesto disponible del equipo."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "La lista de verificacion del Formato 5: No menciona tecnologia nada de una app ni un dashboard. La IA es tecnologia. La version correcta se enfoca en el resultado no olvidar la cita sin prescribir como lograrlo permitiendo que los Formatos 7 y 8 generen soluciones diversas."
         },
         {
@@ -1548,12 +1548,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 6 — Los cuatro filtros",
           "text": "Tres problemas detectados en consultorios odontologicos: A se pierden 45 minutos diarios confirmando citas por telefono pagados con horas de secretaria; B la sala de espera a veces huele mal y los pacientes lo comentan; C el dentista olvida actualizar la carpeta fiscal una vez al ano. En la Matriz de Cuatro Filtros cual va a la Zona de Oro?",
           "options": [
-            "El A: alta frecuencia diaria alta intensidad 45 min mas costo real de secretaria y gasto actual verificable.",
             "El B: alta intensidad emocional porque afecta la primera impresion del consultorio con cada paciente nuevo.",
             "El C: alta intensidad porque un problema fiscal puede cerrar el negocio aunque ocurra solo una vez al ano.",
+            "El A: alta frecuencia diaria alta intensidad 45 min mas costo real de secretaria y gasto actual verificable.",
             "El B y el C juntos: sumados superan al A en impacto total sobre la reputacion general del consultorio."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "La Zona de Oro es Alta Frecuencia mas Alta Intensidad. El problema A ocurre diariamente genera costo medible ya existe gasto actual y afecta a todo el segmento. El B es de baja frecuencia. El C es muy baja frecuencia 1 vez por ano. Solo el A cumple los cuatro filtros con puntajes altos."
         },
         {
@@ -1562,12 +1562,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 6 — Los cuatro filtros",
           "text": "Un equipo puntua el problema los duenos de peluqueria no saben cuanto ganaron hasta las 10 p.m.: Frecuencia 5 Intensidad 3 Gasto actual 2 Alcance 2. Que conclusion es la mas defendible segun el Formato 6?",
           "options": [
-            "Deben buscar otro problema: dos filtros sacan 2 lo que activa la regla de descarte del Formato 6.",
             "Pueden seguir: el total de 12 sobre 20 supera el umbral minimo aceptable para avanzar a la fase siguiente.",
+            "Deben buscar otro problema: dos filtros sacan 2 lo que activa la regla de descarte del Formato 6.",
             "Solo deben mejorar Alcance: las peluquerias en Ecuador son miles y el puntaje 2 esta subestimado.",
             "Deben ponderar: Frecuencia e Intensidad pesan mas; un 5 y un 3 compensan los dos puntajes bajos."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "El Formato 6 establece: Si dos o mas filtros sacan 2 o menos busca otro problema. El equipo tiene Gasto actual y Alcance en 2 activando la regla independientemente del total. El total de 12/20 no es la regla; son los puntajes individuales bajos los que determinan el descarte."
         },
         {
@@ -1576,12 +1576,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 6 — Los cuatro filtros",
           "text": "Equipo 1: Frecuencia 4 Intensidad 4 Gasto actual 3 Alcance 4 total 15/20. Equipo 2: Frecuencia 5 Intensidad 1 Gasto actual 5 Alcance 5 total 16/20. Cual de los dos debe detenerse segun el Formato 6?",
           "options": [
-            "El equipo 2: tiene Intensidad en 1 lo que activa la regla de descarte aunque los demas filtros sean altos.",
             "Ninguno: ambos superan 14 puntos sobre 20 el umbral documentado para avanzar en el proceso completo.",
+            "El equipo 2: tiene Intensidad en 1 lo que activa la regla de descarte aunque los demas filtros sean altos.",
             "El equipo 1: con 15/20 esta mas cerca del limite y tiene mayor riesgo de que el problema no sea viable.",
             "El equipo 2 debe hacer mas entrevistas: Intensidad en 1 puede corregirse con mas datos del segmento."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "La regla del Formato 6: Si dos o mas filtros sacan 2 o menos busca otro problema. El equipo 2 tiene Intensidad en 1 menor a 2. Un problema frecuente pero de muy baja intensidad es una molestia cronica no una oportunidad de negocio. El total de 16/20 no importa si un filtro falla con puntaje de 1."
         },
         {
@@ -1604,12 +1604,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 7 — Crazy 8s",
           "text": "Al iniciar los Crazy 8s un equipo escribe descripciones con palabras en vez de dibujar y dedica 4 de los 8 minutos a redactar justificacion de la primera idea. Cual es el diagnostico mas acertado segun el Formato 7?",
           "options": [
-            "Viola el proposito: dibujar rompe el bloqueo linguistico y fuerza ideas visuales que las palabras inhiben.",
             "No hay problema: si el equipo no sabe dibujar las palabras cumplen exactamente el mismo proposito creativo.",
             "El error es solo el tiempo: 4 minutos en una idea impide llegar a 8 pero el formato verbal es igual de valido.",
-            "Viola el espiritu pero no la regla: el Formato 7 no especifica dibujar explicitamente solo pide rapidez."
+            "Viola el espiritu pero no la regla: el Formato 7 no especifica dibujar explicitamente solo pide rapidez.",
+            "Viola el proposito: dibujar rompe el bloqueo linguistico y fuerza ideas visuales que las palabras inhiben."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "El Formato 7 especifica: Dibujas no escribes. No se critica nada mientras dibujas. La instruccion de dibujar es intencional: suprime el filtro racional interno. Las palabras activan el juicio y producen ideas mas convencionales. El formato visual es parte del mecanismo no un detalle opcional."
         },
         {
@@ -1618,12 +1618,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 7 — Crazy 8s",
           "text": "Despues de los Crazy 8s el equipo tiene 8 bocetos. El instructor les pide elegir uno para el Formato 9. Cual es el criterio correcto para elegir segun el proceso del documento de formatos?",
           "options": [
-            "El boceto que mejor responda a la pregunta Como podriamos definida en el Formato 5.",
             "El boceto que el equipo pueda construir mas rapido con sus habilidades tecnicas actuales esta semana.",
             "El boceto que obtuvo mas votos del equipo al finalizar los 8 minutos de ideacion sin critica alguna.",
-            "El boceto que el instructor senale como mas innovador segun su experiencia con otros proyectos similares."
+            "El boceto que el instructor senale como mas innovador segun su experiencia con otros proyectos similares.",
+            "El boceto que mejor responda a la pregunta Como podriamos definida en el Formato 5."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "El Crazy 8s responde a la pregunta Como podriamos del Formato 5. El criterio de seleccion es la alineacion con esa pregunta que esta anclada al insight mas relevante del Formato 4. La factibilidad tecnica se evalua en el Formato 9 tres lentes no como criterio de seleccion inmediato."
         },
         {
@@ -1646,12 +1646,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 8 — SCAMPER",
           "text": "El equipo de Rosa aplica la accion E Eliminar del SCAMPER a su idea de app de contabilidad. Cual de las siguientes respuestas aplica correctamente esa accion segun el Formato 8?",
           "options": [
-            "Eliminar la app y entregar el servicio por WhatsApp: quita la barrera de instalacion para el usuario.",
             "Eliminar el modulo de reportes: reduce el tiempo de desarrollo en al menos dos semanas de trabajo.",
             "Eliminar el costo de la API: buscar un proveedor gratuito para bajar el costo por cliente al mes.",
-            "Eliminar la pantalla de login: mejora la experiencia de usuario y reduce la tasa de abandono inicial."
+            "Eliminar la pantalla de login: mejora la experiencia de usuario y reduce la tasa de abandono inicial.",
+            "Eliminar la app y entregar el servicio por WhatsApp: quita la barrera de instalacion para el usuario."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "La accion E del SCAMPER pregunta: Que quito sin perder valor. En el ejemplo del Formato 8 la respuesta es exactamente: Eliminar la app todo por WhatsApp. Esto quita la barrera de instalacion sin perder el valor del resumen diario. Las otras opciones eliminan componentes internos del producto."
         },
         {
@@ -1660,12 +1660,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 8 — SCAMPER",
           "text": "Aplicando A Adaptar del SCAMPER a CitaClara un equipo propone: Adaptar el modelo de resumen nocturno de los bancos el sistema le escribe al consultorio cada noche con las citas del dia siguiente. Que evalua esa accion y cual es su ventaja frente a las otras seis letras?",
           "options": [
-            "Copia una practica de otra industria: reduce el riesgo porque ya se sabe que funciona en otro contexto.",
             "Sustituye un componente del sistema; es la mas potente porque reemplaza el elemento mas critico actual.",
+            "Copia una practica de otra industria: reduce el riesgo porque ya se sabe que funciona en otro contexto.",
             "Combina dos productos existentes; es la mas creativa porque el resultado no existe en ningun mercado.",
             "Modifica el formato del mensaje; cambia la experiencia sin tocar la logica del negocio subyacente."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "La accion A del SCAMPER pregunta: Que idea de otra industria puedo copiar. El ejemplo del Formato 8 es: El resumen nocturno de un banco. La ventaja de Adaptar es tomar algo que ya funciona en un contexto diferente reduciendo la incertidumbre de la innovacion."
         },
         {
@@ -1674,12 +1674,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 8 — SCAMPER",
           "text": "Un equipo aplica R Reordenar o invertir del SCAMPER a su sistema de pedidos y propone: En vez de que el mecanico busque el repuesto el sistema pregunta que carro esta reparando y genera la lista automaticamente. Por que es un ejemplo valido de la accion R?",
           "options": [
-            "Invierte el flujo: antes el mecanico iniciaba la busqueda; ahora el sistema toma la iniciativa del proceso.",
             "Sustituye la interfaz por un formulario de datos tecnicos del vehiculo que se llena automaticamente.",
             "Combina el catalogo de repuestos con el historial del auto uniendo dos fuentes de datos distintas.",
+            "Invierte el flujo: antes el mecanico iniciaba la busqueda; ahora el sistema toma la iniciativa del proceso.",
             "Modifica el numero de pasos: reduce de 5 a 2 pasos al simplificar toda la cadena de pedido actual."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "La accion R pregunta: Que pasa si cambio el orden o lo invierto. El Formato 8 ejemplifica: Que el sistema le escriba a Rosa no ella al sistema. La idea propuesta invierte el mismo principio: el mecanico ya no inicia la busqueda ahora el sistema toma la iniciativa. Es una inversion del flujo."
         },
         {
@@ -1688,12 +1688,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 8 — SCAMPER",
           "text": "El instructor revisa el SCAMPER del equipo y nota que las columnas Mis ideas estan vacias en 4 de las 7 acciones. Cual es el diagnostico mas acertado?",
           "options": [
-            "El SCAMPER no cumplio su proposito: con 4 acciones vacias no se exploro el espacio de ideas completo.",
             "Es aceptable: completar S C y A las tres primeras acciones es suficiente para pasar al Formato 9.",
+            "El SCAMPER no cumplio su proposito: con 4 acciones vacias no se exploro el espacio de ideas completo.",
             "El equipo debe usar IA para completar las 4 acciones restantes antes de la siguiente sesion del proyecto.",
             "No hay problema: el SCAMPER es una guia no un formulario; se pueden saltar acciones irrelevantes."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "El Formato 8 tiene 7 acciones porque cada una activa un mecanismo creativo diferente. La accion E puede revelar que el canal entero sobra; la R puede generar el producto mas innovador. Dejar 4 vacias significa usar solo 3 palancas creativas de 7 disponibles reduciendo el espacio de ideas explorado."
         },
         {
@@ -1716,12 +1716,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 9 — Matriz impacto-esfuerzo y tres lentes",
           "text": "Una idea esta en el cuadrante Hazlo primero de la matriz pero falla en el filtro Factible la puedo construir de las tres lentes. Cual es el paso correcto segun el Formato 9?",
           "options": [
-            "No pasa a prototipo: si falla cualquiera de las tres lentes la idea se descarta o ajusta antes de construir.",
             "Pasa a prototipo con restricciones: se construye la parte factible y se deja el resto para fase posterior.",
             "Se revisa la matriz: una idea no factible debe reubicarse en Alto esfuerzo y reevaluarse en el cuadrante.",
+            "No pasa a prototipo: si falla cualquiera de las tres lentes la idea se descarta o ajusta antes de construir.",
             "Se acepta si pasa las otras dos: Deseable y Viable pesan mas que Factible en la primera iteracion."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "El Formato 9 muestra que la columna Pasa a prototipo solo dice Si cuando las tres lentes marcan Si. Si cualquiera falla la respuesta es No. Factible es condicion necesaria: una idea deseada y pagada pero no construible no puede prototipase. Se debe ajustar la idea o descartarla."
         },
         {
@@ -1730,12 +1730,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 9 — Matriz impacto-esfuerzo y tres lentes",
           "text": "Las tres lentes de IDEO evaluan: Deseable la quieren Factible la puedo construir y Viable alguien la paga. Un equipo tiene: Deseable Si Factible Si Viable No. Que conclusion es la mas defendible?",
           "options": [
-            "La idea no pasa a prototipo aun: primero hay que entender quien pagaria y cuanto o ajustar el modelo.",
             "La idea pasa igual: si es deseable y factible el modelo de negocio se resuelve despues del lanzamiento.",
             "La idea se descarta definitivamente: si nadie paga no hay mercado y no vale la pena construirla nunca.",
-            "La idea pasa con condicion: se lanza gratis para ganar usuarios y luego se monetiza con publicidad."
+            "La idea pasa con condicion: se lanza gratis para ganar usuarios y luego se monetiza con publicidad.",
+            "La idea no pasa a prototipo aun: primero hay que entender quien pagaria y cuanto o ajustar el modelo."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "El Formato 9 exige que las tres lentes digan Si para que Pasa a prototipo sea afirmativa. Viable No significa que el equipo no sabe quien paga ni cuanto. El paso correcto es resolver eso antes de construir hablando con potenciales clientes sobre precio Formato 13."
         },
         {
@@ -1744,12 +1744,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 9 — Matriz impacto-esfuerzo y tres lentes",
           "text": "Un equipo ubica en Descartalo bajo impacto alto esfuerzo la idea app nativa para iPad con modo oscuro autenticacion biometrica y login con Google. El Formato 10 tambien menciona ese tipo de idea con una advertencia. Que principio comparten ambos formatos?",
           "options": [
-            "Si el impacto no justifica el esfuerzo las funciones premium distraen del problema central a resolver.",
             "El modo oscuro y la biometria son funciones deseables; el problema real es que iPad tiene bajo mercado.",
             "Las apps nativas tienen alto esfuerzo y siempre deben esperar a que el equipo consiga mas inversion.",
+            "Si el impacto no justifica el esfuerzo las funciones premium distraen del problema central a resolver.",
             "La idea puede reubicarse en Planificalo si se elimina el login biometrico y se simplifica la autenticacion."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "El Formato 9 descarta lo que tiene bajo impacto y alto esfuerzo. El Formato 10 advierte: Si tu MVP tiene modo oscuro y login con Google antes de tener un solo usuario no es minimo. Ambos expresan el principio de Lean Startup: el esfuerzo debe ser proporcional a la hipotesis que se prueba."
         },
         {
@@ -1758,12 +1758,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 10 — Plan de prototipo Mago de Oz",
           "text": "El equipo de Rosa disena este prototipo: Rosa manda una foto de sus facturas por WhatsApp el equipo las revisa a mano con Claude y le envia un resumen de tres lineas a las 9 p.m. La metrica de exito es responde al menos 5 de 7 noches. Que pregunta responde concretamente este prototipo segun el Formato 10?",
           "options": [
-            "Si Rosa usa el resumen diario y si ese dato le sirve para tomar decisiones de compra al dia siguiente.",
             "Si la IA puede procesar fotos de facturas con exactitud superior al 90 por ciento en condiciones reales.",
             "Si el precio de 15 dolares al mes es aceptable para los duenos de restaurantes del segmento de 40 mesas.",
+            "Si Rosa usa el resumen diario y si ese dato le sirve para tomar decisiones de compra al dia siguiente.",
             "Si Rosa recomendaria activamente el servicio a otros duenos de restaurantes conocidos de la zona norte."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "El Formato 10 inicia con el campo Pregunta que quiero responder. En el ejemplo del documento es exactamente: Rosa usa el resumen diario y le sirve para comprar. El Mago de Oz prueba si el usuario adopta el comportamiento no si la tecnologia funciona tecnicamente."
         },
         {
@@ -1772,12 +1772,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 10 — Plan de prototipo Mago de Oz",
           "text": "Un equipo llena el campo Que hago yo detras a mano del Formato 10 con: Programar un script en Python que conecta con la API de OpenAI para procesar los datos automaticamente. Cual es el diagnostico mas acertado?",
           "options": [
-            "No es un Mago de Oz: si el trabajo de atras requiere programacion ya es un MVP tecnico no simulacion manual.",
             "Es correcto: el script corre en el servidor del equipo y el usuario nunca lo ve cumpliendo la premisa.",
             "Es valido si el script se construye en menos de 4 horas; la complejidad no define el tipo de prototipo.",
-            "El error es usar OpenAI: el costo variable impredecible afecta la metrica de costo del Formato 10."
+            "El error es usar OpenAI: el costo variable impredecible afecta la metrica de costo del Formato 10.",
+            "No es un Mago de Oz: si el trabajo de atras requiere programacion ya es un MVP tecnico no simulacion manual."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "En un Mago de Oz el equipo hace el trabajo a mano; el usuario cree que hay un sistema automatico. Si hay codigo deja de ser Mago de Oz y pasa a ser MVP. En el ejemplo de Rosa detras significa: el equipo recibe la foto abre Claude manualmente y escribe la respuesta a mano."
         },
         {
@@ -1800,12 +1800,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 10 — Plan de prototipo Mago de Oz",
           "text": "El equipo de CitaClara disena un Mago de Oz donde la secretaria manda manualmente mensajes de confirmacion de cita desde una plantilla de WhatsApp. Cual de las siguientes metricas de exito cumple los criterios del Formato 10?",
           "options": [
-            "Al menos 8 de cada 10 pacientes confirman la cita dentro de las 2 horas siguientes al mensaje enviado.",
             "Los pacientes estan satisfechos con el servicio de confirmacion del consultorio en la encuesta final.",
             "La secretaria tarda menos tiempo confirmando citas que antes de usar la plantilla de WhatsApp manual.",
+            "Al menos 8 de cada 10 pacientes confirman la cita dentro de las 2 horas siguientes al mensaje enviado.",
             "El consultorio reduce el numero de citas perdidas en el siguiente mes completo de operacion normal."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "Una metrica valida debe ser numerica 8 de 10 medible antes de que termine el experimento en 2 horas y ligada directamente a la hipotesis. Las opciones B C y D son metricas de proceso que no responden la pregunta del prototipo: el usuario adopta el comportamiento que valida la propuesta de valor."
         },
         {
@@ -1814,12 +1814,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 11 — Registro de prueba con usuarios",
           "text": "El equipo observa a Rosa usando el prototipo y anota: Rosa dijo que le gusta mucho el resumen nocturno y que lo encuentra muy util para su negocio. El instructor tacha esa nota. Cual es el diagnostico correcto?",
           "options": [
-            "En el Formato 11 van comportamientos observados no opiniones; lo valido es: Rosa volvio a usarlo 6 de 7 noches.",
             "El error es la redaccion; debe citarse textualmente entre comillas para que la nota sea valida en el registro.",
             "La nota es valida si Rosa la dijo espontaneamente y sin que le preguntaran directamente sobre el servicio.",
-            "El instructor se equivoca: las opiniones positivas documentadas ayudan a argumentar el pitch del proyecto."
+            "El instructor se equivoca: las opiniones positivas documentadas ayudan a argumentar el pitch del proyecto.",
+            "En el Formato 11 van comportamientos observados no opiniones; lo valido es: Rosa volvio a usarlo 6 de 7 noches."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "El Formato 11 pide: Anota lo que la gente hace con tu prototipo no lo que opina. La columna clave es el hecho verificable: pago o volvio. El comportamiento real volvio pago predice la adopcion; la opinion positiva no lo hace."
         },
         {
@@ -1828,12 +1828,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 11 — Registro de prueba con usuarios",
           "text": "El Formato 11 incluye cuatro metricas: Activacion Retencion Conversion a pago y Recomendacion. Un equipo tiene: 20 prueban 14 vuelven la semana siguiente 11 lo recomiendan pero ninguno ha pagado aun. Cual metrica esta en riesgo?",
           "options": [
-            "Conversion a pago: saben que retienen y recomiendan pero no han probado si alguien pagara por ello.",
             "Retencion: 14 de 20 es solo el 70 por ciento justo en el limite; cualquier semana de baja los deja debajo.",
+            "Conversion a pago: saben que retienen y recomiendan pero no han probado si alguien pagara por ello.",
             "Activacion: si 20 prueban pero 6 no vuelven esos 6 nunca llegaron al primer momento de valor real.",
             "Recomendacion: 11 de 20 es el 55 por ciento lo que indica que el producto aun no genera entusiasmo genuino."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "Tener retencion y recomendacion sin ninguna conversion a pago es una senal critica: el producto puede ser valioso gratuitamente pero no sostenible. El Formato 13 LTV/CAC no puede calcularse sin al menos un pago real. La pregunta que el equipo debe hacerse es: Que impediria que alguien pague."
         },
         {
@@ -1856,12 +1856,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 11 — Registro de prueba con usuarios",
           "text": "El Formato 11 pide dar al usuario una tarea y pedirle que piense en voz alta sin ayudarle. Un equipo ayuda al tercer usuario porque lleva 5 minutos atascado y parece frustrado. Cual es el diagnostico correcto?",
           "options": [
-            "Invalidaron el dato: cada ayuda elimina la evidencia de usabilidad que el Formato 11 busca capturar.",
             "Hicieron bien: un usuario frustrado durante 5 minutos ya aporto datos suficientes para el registro.",
             "Depende: si la ayuda fue minima senalar la pantalla correcta el dato puede conservarse con una nota.",
-            "El Formato 11 no prohibe ayudar; prohibe opinar; senalar donde hacer clic no contamina el experimento."
+            "El Formato 11 no prohibe ayudar; prohibe opinar; senalar donde hacer clic no contamina el experimento.",
+            "Invalidaron el dato: cada ayuda elimina la evidencia de usabilidad que el Formato 11 busca capturar."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "El Formato 11 dice: Dale una tarea pidele que piense en voz alta y no la ayudes. Cada ayuda elimina una instancia de dato de usabilidad. El punto donde se tranca el tiempo que tarda y lo que dice son exactamente los datos valiosos. La frustracion visible ES el dato no un problema a resolver en ese momento."
         },
         {
@@ -1870,12 +1870,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 12 — Lean Canvas",
           "text": "Un equipo llena el bloque 1 Problema del Lean Canvas de CitaClara con: Crear una app de gestion de citas medicas para consultorios pequenos de la ciudad. Que correccion es necesaria?",
           "options": [
-            "Eso es la solucion no el problema; en el bloque 1 va: Los consultorios pierden el 15 por ciento de citas por falta de confirmacion.",
             "La descripcion es valida si se anade el segmento objetivo al inicio de la frase para contextualizarla.",
             "El error es la extension; el bloque 1 admite maximo diez palabras descriptivas del problema central.",
-            "La frase pertenece al bloque 4 Solucion; basta moverla para que el Canvas quede estructuralmente correcto."
+            "La frase pertenece al bloque 4 Solucion; basta moverla para que el Canvas quede estructuralmente correcto.",
+            "Eso es la solucion no el problema; en el bloque 1 va: Los consultorios pierden el 15 por ciento de citas por falta de confirmacion."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "El Lean Canvas tiene 9 bloques con funciones distintas. El bloque 1 es el Problema de los clientes. Crear una app describe la solucion no el problema. Colocar la solucion en el bloque de problema indica que el equipo no definio que duele solo que quiere construir."
         },
         {
@@ -1884,12 +1884,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 12 — Lean Canvas",
           "text": "Ash Maurya diseno el Lean Canvas para llenarlo en 20 minutos y tratar cada bloque como una hipotesis por validar. Cual es la consecuencia practica mas importante de ese principio para el equipo?",
           "options": [
-            "Deben actualizar el Canvas cuando la evidencia de campo contradiga cualquiera de los nueve bloques.",
             "Deben completar los 9 bloques antes de hacer una sola entrevista o experimento en campo con usuarios.",
+            "Deben actualizar el Canvas cuando la evidencia de campo contradiga cualquiera de los nueve bloques.",
             "El Canvas reemplaza al plan de negocios y no necesita revisarse despues del primer lanzamiento del producto.",
             "Solo los bloques 1 2 y 3 son hipotesis; los demas reflejan datos establecidos del modelo de negocio."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "El Formato 12 dice: Trata cada bloque como una hipotesis por validar. Si una hipotesis se refuta con datos reales por ejemplo el canal de ventas no funciona el bloque debe actualizarse. El Lean Canvas no es estatico: es un mapa de suposiciones que el equipo va confirmando o descartando con evidencia."
         },
         {
@@ -1912,12 +1912,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 12 — Lean Canvas",
           "text": "El bloque 9 Ventaja injusta del Lean Canvas de CierreYa dice: Precios del mercado acumulados y red de referidos. Un miembro dice que la red de referidos deberia ir en el bloque 5 Canales. Cual tiene razon y por que?",
           "options": [
-            "El documento original: la red acumulada es una ventaja que la competencia nueva no puede copiar rapidamente.",
             "El miembro del equipo: los referidos son un canal de adquisicion y pertenecen al bloque 5 de distribucion.",
             "Ambos tienen razon: el Lean Canvas permite que un elemento aparezca en dos bloques si cumple dos funciones.",
-            "Ninguno: los referidos pertenecen al bloque 8 Metricas porque la tasa de recomendacion es medible."
+            "Ninguno: los referidos pertenecen al bloque 8 Metricas porque la tasa de recomendacion es medible.",
+            "El documento original: la red acumulada es una ventaja que la competencia nueva no puede copiar rapidamente."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "Los referidos como canal bloque 5 son el mecanismo de distribucion actual. Los referidos como ventaja injusta bloque 9 son la red acumulada de clientes satisfechos algo que un competidor nuevo no puede tener de inmediato. Es el activo relacional construido con el tiempo no solo el canal."
         },
         {
@@ -1926,12 +1926,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 13 — Calculo de precio y LTV/CAC",
           "text": "CitaClara genera a un consultorio 9 citas confirmadas adicionales al mes a 30 dolares cada cita y ahorra 22 horas de secretaria a 3 dolares la hora. El cobro mensual es 50 dolares. Segun el Formato 13 el precio esta dentro del rango recomendado?",
           "options": [
-            "Si: el valor mensual es 336 dolares; el rango recomendado es 34 a 67 dolares 10 a 20 por ciento del valor y 50 cae dentro.",
             "No: 50 dolares supera el 15 por ciento del valor generado 336 por 0.15 igual 50.40 que es el limite superior estricto.",
             "Si pero al limite: 50 dolares es el 85 por ciento del rango maximo y deja poco margen para aumentar el precio despues.",
-            "No: las 22 horas de secretaria 66 dolares no deben sumarse porque son costos internos del consultorio mismo."
+            "No: las 22 horas de secretaria 66 dolares no deben sumarse porque son costos internos del consultorio mismo.",
+            "Si: el valor mensual es 336 dolares; el rango recomendado es 34 a 67 dolares 10 a 20 por ciento del valor y 50 cae dentro."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "El Formato 13 calcula: Valor mensual igual 9 citas por 30 mas 22h por 3 igual 270 mas 66 igual 336. Rango igual 336 por 0.10 a 336 por 0.20 igual 33.60 a 67.20. El precio de 50 cae dentro. El formato incluye las horas de secretaria porque son dinero real que el consultorio deja de perder."
         },
         {
@@ -1940,12 +1940,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 13 — Calculo de precio y LTV/CAC",
           "text": "CitaClara cobra 50 dolares al mes tiene un costo por cliente de 10 dolares y una cancelacion mensual del 5 por ciento. Cual es el LTV correcto y que nos dice sobre la salud del negocio?",
           "options": [
-            "800 dolares: precio 50 por margen bruto 80 por ciento dividido cancelacion 5 por ciento; con CAC de 100 LTV/CAC es 8: negocio sano.",
             "1000 dolares: precio 50 dividido cancelacion 5 por ciento sin aplicar el margen bruto al calculo de largo plazo.",
             "500 dolares: diferencia precio-costo 40 dividido cancelacion 5 por ciento sin ponderar por el precio mensual.",
+            "800 dolares: precio 50 por margen bruto 80 por ciento dividido cancelacion 5 por ciento; con CAC de 100 LTV/CAC es 8: negocio sano.",
             "480 dolares: precio anual 600 por margen bruto 80 por ciento sin dividir para la cancelacion mensual acumulada."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "Formula del Formato 13: LTV igual Precio por margen bruto dividido cancelacion mensual. Margen bruto igual 50 menos 10 dividido 50 igual 0.80. LTV igual 50 por 0.80 dividido 0.05 igual 800. La opcion B omite el margen 50 dividido 0.05 igual 1000 sobreestimando el LTV al ignorar el costo por cliente."
         },
         {
@@ -1954,12 +1954,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 13 — Calculo de precio y LTV/CAC",
           "text": "El precio minimo segun el Formato 13 se calcula como: Costo por cliente dividido 0.30 para asegurar margen bruto del 70 por ciento. Si el costo por cliente de CierreYa es 5 dolares al mes cual es el precio minimo y que significa?",
           "options": [
-            "16.67 dolares: por debajo de ese valor CierreYa no puede sostener sus costos con el margen minimo del 70 por ciento.",
             "5 dolares: el precio minimo siempre iguala al costo por cliente; el margen se calcula sobre esa base inicial.",
             "3.50 dolares: el 70 por ciento del costo por cliente es el precio minimo para garantizar la rentabilidad operativa.",
+            "16.67 dolares: por debajo de ese valor CierreYa no puede sostener sus costos con el margen minimo del 70 por ciento.",
             "50 dolares: el precio minimo se multiplica por el factor de mercado estandar x10 para el precio de lanzamiento."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "Formula del Formato 13: Precio minimo igual Costo por cliente dividido 0.30. Para CierreYa: 5 dividido 0.30 igual 16.67. Cobrar menos de 16.67 hace que el margen bruto sea menor al 70 por ciento requerido. En el ejemplo del documento el costo de CitaClara es aprox 10 y el precio minimo es 33 el dato exacto de la tabla."
         },
         {
@@ -1968,12 +1968,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 13 — Calculo de precio y LTV/CAC",
           "text": "Un equipo calcula LTV de su cliente en 200 dolares y CAC en 80 dolares. Que conclusion es la mas defendible segun el Formato 13?",
           "options": [
-            "LTV/CAC es 2.5: esta por debajo de 3 lo que indica riesgo; deben reducir el CAC o aumentar la retencion.",
             "LTV/CAC es 2.5: es un buen resultado porque supera 1 lo que garantiza que el negocio no pierde dinero.",
+            "LTV/CAC es 2.5: esta por debajo de 3 lo que indica riesgo; deben reducir el CAC o aumentar la retencion.",
             "El CAC debe reducirse a 40 dolares para que LTV/CAC llegue a 5 el estandar ideal de la industria SaaS global.",
             "El dato no es concluyente: solo importa LTV/CAC cuando el negocio tiene mas de 100 clientes activos."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "El Formato 13 establece: LTV dividido CAC debe ser mayor a 3. Con 200 dividido 80 igual 2.5 el ratio esta por debajo. No significa que el negocio pierde dinero 2.5 mayor a 1 pero el margen de recuperacion de inversion en adquisicion es insuficiente. El equipo tiene dos palancas: aumentar la retencion o reducir el CAC."
         },
         {
@@ -1982,12 +1982,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 13 — Calculo de precio y LTV/CAC",
           "text": "Un servicio genera 336 dolares de valor mensual al cliente. La alternativa actual secretaria manual cuesta 90 dolares al mes. El costo por cliente del equipo es 10 dolares. Segun el Formato 13 entre que rango debe estar el precio?",
           "options": [
-            "Entre 33 dolares piso 10 dividido 0.30 y 67 dolares 20 por ciento de 336 considerando que la alternativa cuesta 90.",
             "Debe igualarse a la alternativa de 90 dolares para capturar todo el valor diferencial que la competencia deja.",
+            "Entre 33 dolares piso 10 dividido 0.30 y 67 dolares 20 por ciento de 336 considerando que la alternativa cuesta 90.",
             "Puede llegar hasta 336 dolares porque ese es el valor total generado y el cliente deberia pagar por el valor real.",
             "Debe ser 10 dolares menos que la alternativa 80 dolares para ganar mercado exclusivamente por diferencial de precio."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "El Formato 13 establece tres referencias: el piso costo dividido 0.30 igual 33 el techo valor por 0.20 igual 67.20 y la alternativa del cliente 90 dolares. Como la alternativa cuesta 90 y el precio maximo recomendado es 67 cobrar dentro de ese rango es consistente con las tres variables del formato."
         },
         {
@@ -1996,12 +1996,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 14 — Registro de riesgos",
           "text": "El Formato 14 clasifica los riesgos en tres tipos: Plataforma Tecnico y Legal. Un equipo agrega el equipo no tiene tiempo para dar soporte el fin de semana y lo clasifica como Tecnico. Cual es el diagnostico mas acertado?",
           "options": [
-            "Es un riesgo operativo o de equipo no Tecnico; el Formato 14 cubre fallas de plataformas IA y tramites legales.",
             "Es correcto clasificarlo como Tecnico porque el soporte depende de la infraestructura del sistema tecnologico.",
             "No es un riesgo relevante para este formato; solo se registran riesgos externos al equipo y al proyecto.",
-            "Es un riesgo de Plataforma porque el soporte usa WhatsApp Business que es una herramienta de terceros."
+            "Es un riesgo de Plataforma porque el soporte usa WhatsApp Business que es una herramienta de terceros.",
+            "Es un riesgo operativo o de equipo no Tecnico; el Formato 14 cubre fallas de plataformas IA y tramites legales."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "El Formato 14 documenta tres tipos: Plataforma dependencia de terceros Tecnico la IA puede dar informacion incorrecta y Legal tramites consentimiento. El riesgo de capacidad operativa del equipo no encaja en ninguna categoria del Formato 14: es un riesgo de recursos humanos o gestion de proyecto."
         },
         {
@@ -2010,12 +2010,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 14 — Registro de riesgos",
           "text": "El Formato 14 incluye en la Lista de control: Toda conversacion sensible pasa a una persona al instante. Para un proyecto como CitaClara que procesa datos de pacientes con IA por que ese item es el mas critico?",
           "options": [
-            "La IA puede generar informacion medica incorrecta; una persona humana evita que ese error llegue al paciente.",
             "La regulacion ecuatoriana exige revision humana de todos los mensajes de salud antes de enviarlos al usuario.",
+            "La IA puede generar informacion medica incorrecta; una persona humana evita que ese error llegue al paciente.",
             "Sin revision humana la IA no puede personalizar el mensaje segun el historial clinico del paciente.",
             "El costo de las APIs aumenta exponencialmente si la IA procesa conversaciones medicas sin limite de tiempo."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "El Formato 14 lista como riesgo Tecnico: La IA inventa un consejo medico clinico. La accion de prevencion es: Acotarla a un documento base; lo clinico pasa a la recepcionista. Una IA mal configurada puede fabricar informacion medica plausible pero incorrecta alucinaciones generando dano clinico real."
         },
         {
@@ -2024,12 +2024,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 14 — Registro de riesgos",
           "text": "El equipo de CierreYa identifica el riesgo Meta bloquea o demora el numero de WhatsApp Business con Probabilidad M media e Impacto A alto. Que accion de prevencion es mas coherente con el ejemplo del Formato 14?",
           "options": [
-            "Iniciar la aprobacion del numero en la semana 4 del proyecto y tener un canal de respaldo por SMS o correo.",
             "Esperar al lanzamiento para iniciar la aprobacion; Meta aprueba mas rapido cuando hay usuarios activos.",
+            "Iniciar la aprobacion del numero en la semana 4 del proyecto y tener un canal de respaldo por SMS o correo.",
             "Usar el numero personal del equipo hasta que Meta apruebe; la transicion es sencilla despues del lanzamiento.",
             "Cambiar el canal principal a Telegram para eliminar completamente la dependencia de las plataformas de Meta."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "El Formato 14 documenta exactamente ese riesgo con esa accion: Iniciar la aprobacion en la semana 4; solo pacientes que aceptaron; respaldo por SMS o correo. La prevencion combina accion proactiva temprana y canal de respaldo alternativo. Esperar al lanzamiento es el error mas comun: Meta puede tardar semanas."
         }
       ]
@@ -2194,12 +2194,12 @@ window.QUIZ_DATA = {
           "categoryName": "Cap. 1 — Por qué Design Thinking",
           "text": "Un ingeniero lleva seis meses construyendo una plataforma de pedidos para el restaurante de Rosa, sin haber hablado con ella ni con sus clientes. Al lanzar, obtiene cero descargas. Según el libro, ¿qué diagnóstico es el más acertado?",
           "options": [
-            "Falló en la ejecución técnica: la plataforma tenía bugs que espantaron a los usuarios.",
             "Confundió el placer de programar con crear valor; construyó sin verificar que el problema existía.",
+            "Falló en la ejecución técnica: la plataforma tenía bugs que espantaron a los usuarios.",
             "Eligió mal el canal de distribución: debió lanzar en redes sociales antes que en tiendas de apps.",
             "Le faltó un cofundador de negocio: el ingeniero solitario no puede vender sin un comercial."
           ],
-          "correct": 1,
+          "correct": 0,
           "feedback": "El libro describe exactamente este caso como 'el síndrome del programador solitario': se confunde el placer de programar con crear valor para alguien. Saltar al código sin investigar es análogo a un médico que receta sin preguntar qué duele. El problema no fue técnico sino de mercado."
         },
         {
@@ -2209,11 +2209,11 @@ window.QUIZ_DATA = {
           "text": "El libro compara a un ingeniero que lanza sin investigar con un médico que receta a los 30 segundos sin preguntar qué duele. ¿Qué conclusión pedagógica es la más defendible según el texto?",
           "options": [
             "Ambos casos terminan bien si el profesional tiene suficiente experiencia acumulada.",
-            "El problema de ambos es la falta de herramientas técnicas actualizadas.",
             "En ambos casos el riesgo principal es de mercado o de diagnóstico, no de ejecución.",
+            "El problema de ambos es la falta de herramientas técnicas actualizadas.",
             "La analogía falla: la medicina tiene protocolos rígidos y el software no los necesita."
           ],
-          "correct": 2,
+          "correct": 1,
           "feedback": "El libro usa la analogía médica para ilustrar que el riesgo no es técnico sino de diagnóstico: el médico puede recetar perfectamente un medicamento equivocado, y el ingeniero puede programar perfectamente la solución incorrecta. El riesgo central es identificar mal el problema."
         },
         {
@@ -2223,11 +2223,11 @@ window.QUIZ_DATA = {
           "text": "Hace una década levantar una plataforma exigía un equipo grande y el riesgo era técnico. Hoy una persona con IA arma un prototipo en una tarde. Según el libro, ¿qué cambio de riesgo describe esa afirmación?",
           "options": [
             "El riesgo técnico desapareció; ahora el único riesgo es legal y regulatorio.",
-            "El riesgo pasó de técnico a de mercado: como construir es fácil, el peligro es construir lo equivocado.",
             "El riesgo pasó de técnico a financiero: los costos de las APIs de IA son impredecibles.",
+            "El riesgo pasó de técnico a de mercado: como construir es fácil, el peligro es construir lo equivocado.",
             "El riesgo se mantuvo igual; solo cambió quién puede asumirlo, de equipos a individuos."
           ],
-          "correct": 1,
+          "correct": 2,
           "feedback": "El libro lo dice literalmente: 'el riesgo pasó a ser de mercado. Como construir es tan fácil, el peligro real es construir lo equivocado.' La facilidad de construcción no elimina el riesgo, sino que lo desplaza desde lo técnico hacia la validación del problema y del mercado."
         },
         {
@@ -2237,11 +2237,11 @@ window.QUIZ_DATA = {
           "text": "Un equipo que trabaja con peluquerías formula estas preguntas para sus entrevistas: (P1) '¿Usarías una app de turnos?'; (P2) '¿Cuánto gastas hoy en resolver los turnos perdidos?'; (P3) '¿No te parece que perder turnos es un problema?'; (P4) 'Cuéntame la última vez que un cliente no llegó.' Según el Mom Test aplicado en el libro, ¿cuáles son las dos preguntas correctas?",
           "options": [
             "P1 y P3: son directas y obtienen una respuesta clara en poco tiempo.",
-            "P2 y P4: preguntan por hechos del pasado o por gastos reales, sin sugerir la respuesta.",
             "P1 y P2: preguntan sobre el futuro y el presente, cubriendo ambos horizontes temporales.",
+            "P2 y P4: preguntan por hechos del pasado o por gastos reales, sin sugerir la respuesta.",
             "P3 y P4: la primera contextualiza el problema y la segunda pide un ejemplo concreto."
           ],
-          "correct": 1,
+          "correct": 2,
           "feedback": "La regla de oro del Mom Test, tal como la describe el libro, es preguntar por el pasado y por hechos, nunca por el futuro ni por opiniones sobre tu idea. P2 ('¿cuánto gastas hoy?') pide datos de comportamiento real. P4 ('cuéntame la última vez') pide un hecho del pasado. P1 y P3 invitan a responder lo que el entrevistado cree que quieres oír."
         },
         {
@@ -2265,11 +2265,11 @@ window.QUIZ_DATA = {
           "text": "Un equipo de cinco estudiantes entrevistó a 12 dueños de librerías y le pidió a Claude que 'simulara' 8 entrevistados más para completar 20 casos. Según el libro, ¿qué conclusión es la más defendible sobre esa decisión?",
           "options": [
             "Es válido si el equipo indica claramente qué datos son reales y cuáles son simulados.",
-            "Reduce el esfuerzo sin afectar la calidad porque la IA usa patrones estadísticos reales.",
             "Invalida la evidencia: un usuario inventado no te va a pagar ni a revelar contradicciones reales.",
+            "Reduce el esfuerzo sin afectar la calidad porque la IA usa patrones estadísticos reales.",
             "Es aceptable solo para la fase de ideación, no para la de definición del problema."
           ],
-          "correct": 2,
+          "correct": 1,
           "feedback": "El libro es explícito: 'Lo que nunca debes hacer es pedirle a la IA que simule usuarios y tomar eso como evidencia. Un usuario inventado no te va a pagar.' La IA puede transcribir, agrupar y resumir, pero nunca reemplazar el contacto con personas reales. Los datos simulados dejan la sección de evidencia en cero."
         },
         {
@@ -2278,12 +2278,12 @@ window.QUIZ_DATA = {
           "categoryName": "Cap. 2 — Empatizar",
           "text": "En el mapa de empatía de Rosa, el cuadrante 'dice' registra: «Nunca sé si gané o perdí plata hasta fin de mes». El cuadrante 'hace' muestra que anota compras y ventas en un cuaderno cada noche. ¿Qué valor tiene la contradicción entre ambos cuadrantes, según el libro?",
           "options": [
+            "Es la pista más valiosa: revela que Rosa revisa los números diario pero no los entiende como ganancia.",
             "Confirma que Rosa miente: dice que no sabe pero en realidad sí registra los datos.",
             "Es una contradicción inútil porque ambas acciones ocurren en momentos distintos del día.",
-            "Es la pista más valiosa: revela que Rosa revisa los números diario pero no los entiende como ganancia.",
             "Indica que la entrevista fue mal hecha y debe repetirse con preguntas más precisas."
           ],
-          "correct": 2,
+          "correct": 0,
           "feedback": "El libro dice que 'las contradicciones entre cuadrantes son oro'. En el caso de Rosa, dice que no sabe si gana pero hace un registro diario. Eso revela el insight real: el problema no es la falta de datos, sino que el formato del cuaderno no le da la respuesta que busca (ganancia del día). Esa contradicción fue la que orientó toda la solución."
         },
         {
@@ -2292,12 +2292,12 @@ window.QUIZ_DATA = {
           "categoryName": "Cap. 3 — Definir",
           "text": "Un equipo tiene 47 notas de entrevista sobre comerciantes de un mercado municipal. Antes de idear, el facilitador les pide que agrupen las notas por similitud en FigJam. Rosa anota tres: 'no saben cuánto ganan', 'pierden tiempo en el cuaderno', 'tiran comida por comprar de más'. ¿Qué herramienta están aplicando y cuál es su objetivo?",
           "options": [
-            "El mapa de empatía; el objetivo es identificar qué dice, piensa, hace y siente cada comerciante.",
             "El diagrama de afinidad; el objetivo es que emerjan 3 a 6 temas repetidos entre personas distintas.",
+            "El mapa de empatía; el objetivo es identificar qué dice, piensa, hace y siente cada comerciante.",
             "El Lean Canvas; el objetivo es definir el segmento de clientes antes de idear soluciones.",
             "Los cuatro filtros; el objetivo es descartar temas que no cumplan frecuencia e intensidad mínimas."
           ],
-          "correct": 1,
+          "correct": 0,
           "feedback": "El libro describe el diagrama de afinidad en el Capítulo 3 como el primer paso de la fase Definir: escribir cada hallazgo en un post-it y agruparlos por parecido para que aparezcan 3 a 6 temas que se repiten entre personas distintas. Esos temas son los candidatos a problema central. El mapa de empatía se hace antes, por persona; el diagrama de afinidad cruza personas."
         },
         {
@@ -2307,11 +2307,11 @@ window.QUIZ_DATA = {
           "text": "Un equipo escribe este POV: «Los dueños de restaurantes necesitan una app de contabilidad porque llevan las cuentas en cuadernos». ¿Qué corrección es la adecuada según el libro?",
           "options": [
             "Cambiar 'restaurantes' por un segmento más específico con datos demográficos precisos.",
-            "El POV ya es correcto: menciona usuario, necesidad y causa observada en campo.",
             "Reemplazar la necesidad por el insight real: el problema es no saber la ganancia diaria, no la herramienta.",
+            "El POV ya es correcto: menciona usuario, necesidad y causa observada en campo.",
             "Quitar la causa ('porque') para que el POV no sugiera solución antes de idear."
           ],
-          "correct": 2,
+          "correct": 1,
           "feedback": "El libro muestra que un POV mal definido tiene la solución disfrazada de necesidad. Escribir 'necesitan una app de contabilidad' ya es una solución, no una necesidad. El insight de Rosa no es la herramienta sino la desconfianza: 'no confían en números que no ven todos los días'. El POV correcto plantea la necesidad sin nombrar la tecnología."
         },
         {
@@ -2322,10 +2322,10 @@ window.QUIZ_DATA = {
           "options": [
             "La (1): es suficientemente amplia para dejar espacio a muchas ideas de solución.",
             "La (3): tiene el mayor nivel de detalle técnico y por eso guía mejor al equipo de ingeniería.",
-            "La (2): es concreta sobre el dolor pero no menciona tecnología, dejando abierta la solución.",
-            "Las tres son válidas para distintas fases: (1) para idear, (2) para prototipar y (3) para construir."
+            "Las tres son válidas para distintas fases: (1) para idear, (2) para prototipar y (3) para construir.",
+            "La (2): es concreta sobre el dolor pero no menciona tecnología, dejando abierta la solución."
           ],
-          "correct": 2,
+          "correct": 3,
           "feedback": "El libro lo explica con el caso de Rosa: la pregunta correcta 'no menciona tecnología. Deja abierta la solución, pero es lo bastante concreta como para saber si la resolviste.' La pregunta demasiado amplia (1) produce ideas genéricas. La pregunta técnica (3) ya es una solución, no una invitación a idear."
         },
         {
@@ -2335,11 +2335,11 @@ window.QUIZ_DATA = {
           "text": "Un equipo evalúa el problema 'elegir qué ropa ponerse cada mañana' con los cuatro filtros. Frecuencia: 5. Intensidad: 1. Gasto actual: 1. Alcance: 4. Total: 11/20. ¿Qué decisión es la más defendible según el libro?",
           "options": [
             "Pasar a ideación: un total de 11/20 supera el umbral mínimo de 10 para emprender.",
-            "Descartar el problema: dos filtros sacan 1 o menos, lo que indica que no duele lo suficiente.",
             "Refinar el segmento: el alcance es 4, así que hay mercado aunque el problema sea menor.",
+            "Descartar el problema: dos filtros sacan 1 o menos, lo que indica que no duele lo suficiente.",
             "Validar con más entrevistas: con 20 casos adicionales la intensidad podría subir a 3."
           ],
-          "correct": 1,
+          "correct": 2,
           "feedback": "El libro advierte: 'lo que decide son los mínimos: si dos o más filtros sacan 2 o menos, busca otro problema antes de gastar tiempo en ideas.' En este caso la intensidad y el gasto actual son 1, lo que señala que la gente no sufre lo suficiente ni gasta nada en resolverlo. La frecuencia alta engaña: lo frecuente que no duele no se paga."
         },
         {
@@ -2349,11 +2349,11 @@ window.QUIZ_DATA = {
           "text": "Un equipo califica el problema 'saber cuánto gana Rosa al día' así: Frecuencia: 5 (diario), Intensidad: 5 (pierde dinero), Gasto actual: 4 (casi una hora con el cuaderno), Alcance: 5 (miles de restaurantes pequeños). Total: 19/20. El problema 'app para elegir ropa' obtuvo 11/20. ¿Qué explica la diferencia que más engaña a los emprendedores, según el libro?",
           "options": [
             "El alcance: hay más gente eligiendo ropa que usando cuadernos de restaurante.",
-            "La intensidad y el gasto actual: si nadie gasta nada hoy en resolverlo, probablemente no le importa tanto como dice.",
             "La frecuencia: los problemas diarios siempre superan a los esporádicos en valor de mercado.",
-            "El total: cualquier problema con más de 15 puntos garantiza tracción en el mercado."
+            "El total: cualquier problema con más de 15 puntos garantiza tracción en el mercado.",
+            "La intensidad y el gasto actual: si nadie gasta nada hoy en resolverlo, probablemente no le importa tanto como dice."
           ],
-          "correct": 1,
+          "correct": 3,
           "feedback": "El libro dice literalmente: 'Este último es el filtro que más engaña: si nadie hace nada hoy para resolver algo, probablemente no le importa tanto como dice.' La frecuencia y el alcance de la app de ropa son altos, pero la intensidad es 1 y el gasto actual es 1: nadie paga nada ni dedica tiempo. Ese es el engaño clásico del emprendedor."
         },
         {
@@ -2362,12 +2362,12 @@ window.QUIZ_DATA = {
           "categoryName": "Cap. 3 — Definir (Jobs to Be Done)",
           "text": "Un equipo describe el trabajo de Rosa así: «Necesita una app que lea facturas por foto». ¿Qué formulación respeta mejor el marco Jobs to Be Done según el libro?",
           "options": [
-            "«Cuando cierro el local cada noche, quiero saber en dos minutos cuánto gané y qué comprar mañana, para no perder plata ni tirar comida.»",
-            "«Necesita que la IA lea sus facturas por foto y le diga el total de gastos del día.»",
-            "«Quiero una aplicación móvil que centralice ventas, compras y ganancia en un solo panel.»",
-            "«Cuando lleva las cuentas, Rosa quiere un sistema contable digital para reemplazar el cuaderno.»"
+            "«Necesita que la IA lea sus facturas por foto y le diga el total de gastos del día.» para gestionar su negocio de forma automática y sin retrasos.",
+            "«Quiero una aplicación móvil que centralice ventas, compras y ganancia en un solo panel.» para gestionar su negocio de forma automática y sin retrasos.",
+            "«Cuando lleva las cuentas, Rosa quiere un sistema contable digital para reemplazar el cuaderno.» para gestionar su negocio de forma automática y sin retrasos.",
+            "«Cuando cierro el local cada noche, quiero saber en dos minutos cuánto gané y qué comprar mañana, para no perder plata ni tirar comida.»"
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "El libro muestra la fórmula de JTBD: 'Cuando [situación], quiero [motivación], para [resultado esperado].' La opción A respeta las tres partes: la situación (cerrar el local cada noche), la motivación (saber cuánto ganó y qué comprar) y el resultado esperado (no perder plata ni tirar comida). Las otras opciones nombran tecnología o herramientas, no el trabajo del usuario."
         },
         {
@@ -2405,11 +2405,11 @@ window.QUIZ_DATA = {
           "text": "Cuatro ideas del equipo de Rosa sobre la matriz impacto-esfuerzo: (I1) nota de voz y resumen nocturno, impacto 5 esfuerzo 2; (I2) foto de factura leída por IA, impacto 5 esfuerzo 4; (I3) copia semanal al contador, impacto 2 esfuerzo 1; (I4) tablero en tablet para la cocina, impacto 2 esfuerzo 4. ¿Cuál es la acción correcta para cada idea, según el libro?",
           "options": [
             "I1 descártala, I2 planifícala, I3 hazla primero, I4 mejora rápida.",
-            "I1 hazla primero, I2 planifícala, I3 mejora rápida, I4 descártala.",
             "I1 y I2 hazlas primero porque ambas tienen impacto 5, I3 e I4 descártalas.",
-            "I2 hazla primero por su mayor impacto técnico, I1 planifícala, I3 e I4 descártalas."
+            "I2 hazla primero por su mayor impacto técnico, I1 planifícala, I3 e I4 descártalas.",
+            "I1 hazla primero, I2 planifícala, I3 mejora rápida, I4 descártala."
           ],
-          "correct": 1,
+          "correct": 3,
           "feedback": "Según el libro, la lógica de la matriz es: mucho impacto + poco esfuerzo = hazlo primero (I1); mucho impacto + mucho esfuerzo = planifícalo (I2); poco impacto + poco esfuerzo = mejora rápida (I3); poco impacto + mucho esfuerzo = descártalo (I4). I1 es la nota de voz, que el caso describe como la ganadora inicial."
         },
         {
@@ -2419,11 +2419,11 @@ window.QUIZ_DATA = {
           "text": "Tras el Crazy 8s del caso de Rosa, la idea 'app de contabilidad' quedó en el cuadrante 'mucho impacto, mucho esfuerzo'. Al aplicarle las tres lentes, el resultado es: Deseable = 1 (Rosa no usa las que ya existen), Factible = 5, Viable = 3. ¿Qué acción recomienda el libro para esta idea?",
           "options": [
             "Lanzarla igual: la factibilidad técnica garantiza el éxito a largo plazo si se invierte en marketing.",
-            "No se descarta: falla en la lente de deseable, así que se ajusta el segmento o la propuesta de valor.",
             "Descartarla definitivamente: fallar en cualquier lente implica volver a la fase de empatizar.",
+            "No se descarta: falla en la lente de deseable, así que se ajusta el segmento o la propuesta de valor.",
             "Pivotar hacia B2B: las apps de contabilidad funcionan con empresas grandes, no con restaurantes."
           ],
-          "correct": 1,
+          "correct": 2,
           "feedback": "El libro dice: 'Si una idea falla en una lente, no se descarta: se ajusta. Si falla en dos, vuelve a la matriz.' La app falla solo en Deseable (Rosa no la usa). La acción correcta es ajustar: cambiar el formato, el segmento o la propuesta de valor. Descartar definitivamente sería prematuro con solo una lente fallida."
         },
         {
@@ -2432,12 +2432,12 @@ window.QUIZ_DATA = {
           "categoryName": "Cap. 5 — Prototipar",
           "text": "Un equipo quiere saber si los dueños de talleres mecánicos entenderían, sin ayuda, cómo registrar un pedido de repuesto en tres pantallas. Tiene 5 días y cero presupuesto. ¿Qué nivel de prototipo resuelve esa duda con el menor esfuerzo, según la tabla del libro?",
           "options": [
+            "Maqueta clickable en Figma: verifica si entienden la interfaz sin explicación, en un día.",
             "MVP funcional con no-code (Bubble): permite probar el flujo real con datos verdaderos.",
             "Concierge: el equipo hace manualmente cada pedido para comprobar si los talleres pagan.",
-            "Maqueta clickable en Figma: verifica si entienden la interfaz sin explicación, en un día.",
             "Mago de Oz: un integrante responde a mano para simular la IA y comprobar si el servicio genera valor."
           ],
-          "correct": 2,
+          "correct": 0,
           "feedback": "El libro muestra la tabla de niveles de fidelidad. La maqueta clickable (Figma o equivalente) sirve específicamente para aprender 'si entienden la interfaz sin explicación' y toma un día. El MVP funcional tomaría semanas; el Concierge respondería si pagan, no si entienden la interfaz; el Mago de Oz respondería si el servicio genera valor antes de automatizar."
         },
         {
@@ -2446,12 +2446,12 @@ window.QUIZ_DATA = {
           "categoryName": "Cap. 5 — Prototipar",
           "text": "El primer prototipo del caso de Rosa fue un Mago de Oz: ella enviaba por WhatsApp la foto de la factura y una nota de voz, y el ingeniero respondía a mano con la ganancia del día. Costo: cero. Tiempo: una tarde. ¿Qué pregunta concreta respondía ese prototipo?",
           "options": [
-            "¿El servicio es técnicamente escalable con una API de IA real a 500 restaurantes?",
             "¿El formato de tres líneas (ganancia, plato top, compras mañana) genera valor real antes de automatizar?",
+            "¿El servicio es técnicamente escalable con una API de IA real a 500 restaurantes?",
             "¿Rosa pagaría $15 al mes si tuviera la versión automatizada con n8n y WhatsApp Business?",
             "¿Cuántos restaurantes más recomendaría Rosa si el servicio funcionara bien por un mes?"
           ],
-          "correct": 1,
+          "correct": 0,
           "feedback": "El libro describe el Mago de Oz como el nivel que responde 'si el servicio genera valor antes de automatizarlo'. En el caso de Rosa, la pregunta era si el formato de tres líneas nocturnas era lo que ella quería, antes de gastar un dólar en servidores o integraciones. Las preguntas de escalabilidad (A), precio (C) y referidos (D) son del nivel MVP y de la fase de negocio."
         },
         {
@@ -2461,11 +2461,11 @@ window.QUIZ_DATA = {
           "text": "Un equipo construyó en dos semanas un MVP funcional con login con redes sociales, modo oscuro, panel de administración y reporte mensual. Su primer usuario aún no existe. Según el libro, ¿qué diagnóstico es el correcto?",
           "options": [
             "El equipo fue eficiente: construir todo desde el inicio evita rediseñar funciones después.",
-            "El MVP no es mínimo: tiene funciones que no responden ninguna pregunta de aprendizaje urgente.",
             "Faltó investigación de mercado: deberían publicar una landing page antes de construir.",
+            "El MVP no es mínimo: tiene funciones que no responden ninguna pregunta de aprendizaje urgente.",
             "El error fue tecnológico: eligieron un stack demasiado complejo para un equipo sin experiencia."
           ],
-          "correct": 1,
+          "correct": 2,
           "feedback": "El libro dice: 'Si tu MVP tiene login con redes sociales, modo oscuro y panel de administración antes de tener un usuario, no es mínimo.' Mínimo significa una sola función central que resuelva el dolor principal. El error no fue tecnológico ni de investigación: fue confundir el MVP con el producto terminado, construyendo funciones que no responden preguntas de aprendizaje."
         },
         {
@@ -2474,12 +2474,12 @@ window.QUIZ_DATA = {
           "categoryName": "Cap. 6 — Testear",
           "text": "Durante la prueba del prototipo con Rosa, el facilitador le da la tarea 'registra lo que compraste hoy' y observa en silencio. Rosa toca tres veces un botón equivocado y dice 'esto es confuso'. El facilitador anota: 'el prototipo falló, no Rosa'. ¿Qué principio del libro aplica esa anotación?",
           "options": [
-            "El principio de neutralidad: el facilitador no debe defender ni atacar al prototipo.",
             "La prueba no evalúa al usuario; evalúa la idea. Si alguien se confunde, el prototipo falló.",
+            "El principio de neutralidad: el facilitador no debe defender ni atacar al prototipo.",
             "El principio de observación pasiva: el facilitador nunca interviene aunque el usuario se equivoque.",
             "El principio de métricas: solo cuenta la tasa de error, no la opinión del usuario."
           ],
-          "correct": 1,
+          "correct": 0,
           "feedback": "El libro lo dice con precisión: 'La prueba no evalúa al usuario, evalúa tu idea. Si alguien se confunde, el prototipo falló, no la persona.' Este principio evita que el equipo culpe a los usuarios de 'no entender' y los obliga a mejorar el diseño. La opción A (neutralidad) es real pero no captura el principio específico del libro."
         },
         {
@@ -2490,10 +2490,10 @@ window.QUIZ_DATA = {
           "options": [
             "Pivotar: el dato de 'qué comprar mañana' no era el valor central del diseño original, así que hay que volver a empatizar.",
             "Parar: solo 7 de 12 aceptan pagar, lo que está por debajo del mínimo aceptable para continuar.",
-            "Iterar: la idea funciona y hay datos nuevos (hora, dato favorito, contador) para ajustar detalles.",
-            "Escalar directamente a los 300 restaurantes de Quito: 9 de 12 es retención suficiente para crecer."
+            "Escalar directamente a los 300 restaurantes de Quito: 9 de 12 es retención suficiente para crecer.",
+            "Iterar: la idea funciona y hay datos nuevos (hora, dato favorito, contador) para ajustar detalles."
           ],
-          "correct": 2,
+          "correct": 3,
           "feedback": "El libro describe tres caminos después de testear: 'Iteras cuando la idea funciona pero hay que ajustar detalles. Pivotas cuando descubres que el valor está en otro lado y cambias una parte grande.' Los datos muestran que la idea funciona (9 de 12 retienen, 7 pagan), con ajustes de detalle (hora, dato top, contador). No es un cambio de dirección grande, sino ajuste de detalles: iterar."
         },
         {
@@ -2503,11 +2503,11 @@ window.QUIZ_DATA = {
           "text": "El equipo de CierreYa define como meta inicial de activación que el 60 % de nuevos restaurantes reciba su primer resumen. Tras el primer mes, solo el 35 % lo recibió. ¿Qué paso sigue según el marco de testeo del libro?",
           "options": [
             "Escalar el gasto en adquisición: más restaurantes compensarán el bajo porcentaje de activación.",
-            "Analizar dónde abandona la gente antes de recibir el primer resumen y ajustar ese paso.",
             "Cambiar la métrica de éxito: el 35 % es un resultado razonable para un MVP en fase temprana.",
+            "Analizar dónde abandona la gente antes de recibir el primer resumen y ajustar ese paso.",
             "Parar: el 35 % está 25 puntos por debajo de la meta y eso prueba que el producto no funciona."
           ],
-          "correct": 1,
+          "correct": 2,
           "feedback": "El libro recomienda instrumentar desde el día uno y analizar en qué paso abandona la gente (el embudo de métricas). Si la activación es baja, el problema está en el paso de onboarding, no en la adquisición. Escalar sin arreglar la activación multiplica el desperdicio. Parar sería prematuro sin investigar dónde está el punto de falla."
         },
         {
@@ -2517,11 +2517,11 @@ window.QUIZ_DATA = {
           "text": "Doce restaurantes prueban CierreYa un mes. La prueba más honesta de valor real, según el libro, es pedir un compromiso antes de continuar. ¿Cuál de estas opciones representa ese compromiso de la forma más sólida?",
           "options": [
             "Que los 12 respondan una encuesta de satisfacción con puntaje mayor a 8 de 10.",
-            "Que al menos 7 digan en una entrevista que «les encantó» y «lo recomendarían».",
             "Que al menos 7 paguen $15 por el primer mes o firmen una carta de intención.",
+            "Que al menos 7 digan en una entrevista que «les encantó» y «lo recomendarían».",
             "Que los 12 sigan activos en la semana 4 sin que el equipo los contacte."
           ],
-          "correct": 2,
+          "correct": 1,
           "feedback": "El libro dice: 'La prueba más honesta es pedir dinero o un compromiso real: una preventa, un pago del primer mes, una carta de intención firmada. Si dicen que les encanta pero no pagan ni $5, todavía no tienes un negocio.' Las encuestas de satisfacción (A) y los cumplidos en entrevista (B) son 'opiniones que valen poco'. El uso sostenido (D) mide retención, no disposición a pagar."
         },
         {
@@ -2544,12 +2544,12 @@ window.QUIZ_DATA = {
           "categoryName": "Cap. 7 — Del prototipo al negocio (Modelos de ingreso)",
           "text": "CierreYa necesita dinero rápido para pagar los costos de la API en el mes 1. No tiene usuarios todavía. Un inversor propone tres modelos: (M1) suscripción mensual de $15; (M2) pago por uso ($0,50 por resumen enviado); (M3) servicio productizado: 'te instalo el sistema en 7 días por $400'. ¿Cuál es la forma más rápida de facturar, según el libro?",
           "options": [
+            "M3: el servicio productizado es la forma más rápida de facturar con alcance y precio fijos.",
             "M1: la suscripción mensual es el modelo más valorado por los inversionistas según el libro.",
             "M2: el pago por uso alinea el costo con el valor entregado y no requiere compromiso del cliente.",
-            "M3: el servicio productizado es la forma más rápida de facturar con alcance y precio fijos.",
             "Una combinación de M1 y M3: la suscripción da previsibilidad y el servicio da flujo inmediato."
           ],
-          "correct": 2,
+          "correct": 0,
           "feedback": "El libro dice textualmente: 'Servicio productizado: un servicio con alcance y precio fijos. Es la forma más rápida de facturar.' El M1 (SaaS) da ingresos predecibles pero tarda meses en crecer. El M2 requiere usuarios activos. El M3 permite cobrar una sola vez desde la primera instalación, que es lo que se necesita para cubrir costos iniciales sin base de usuarios."
         },
         {
@@ -2559,11 +2559,11 @@ window.QUIZ_DATA = {
           "text": "El equipo de CierreYa calcula que el servicio le ahorra a Rosa 25 horas al mes (a $3/hora) y le evita tirar $120 de comida. El costo de atender a Rosa es $4 al mes. El libro propone cobrar entre el 10 % y el 20 % del valor generado. ¿Cuál es el rango de precio correcto y por qué el piso es mayor que el costo?",
           "options": [
             "Rango: $10 a $20. El piso es el costo ($4), redondeado; el techo es lo que el mercado tolera.",
-            "Rango: $19,50 a $39. El cliente debe sentir que recibe entre 5 y 10 veces lo que paga; el piso es costo ÷ 0,30.",
             "Rango: $15 a $30. El piso es el costo × 3 y el techo es el 20 % del valor generado.",
+            "Rango: $19,50 a $39. El cliente debe sentir que recibe entre 5 y 10 veces lo que paga; el piso es costo ÷ 0,30.",
             "Rango: $4 a $10. El precio siempre se fija entre el costo y un margen razonable del 150 %."
           ],
-          "correct": 1,
+          "correct": 2,
           "feedback": "El libro calcula para Rosa: valor mensual = 25h × $3 + $120 = $195. Rango = 10 % a 20 % = $19,50 a $39. El precio mínimo es costo ÷ 0,30 = $4 ÷ 0,30 ≈ $13, para mantener un margen bruto de al menos 70 %. El precio final de $15 está dentro del rango ($13 a $39), aunque por debajo del rango estricto del 10 %. El libro justifica el 10-20 % porque el cliente debe sentir que recibe entre 5 y 10 veces lo que paga."
         },
         {
@@ -2572,12 +2572,12 @@ window.QUIZ_DATA = {
           "categoryName": "Cap. 7 — Del prototipo al negocio (LTV/CAC)",
           "text": "CierreYa cobra $15/mes, tiene un margen bruto de 80 % y una tasa de cancelación mensual de 5 %. Conseguir un restaurante cuesta $40 en tiempo y referidos. El libro usa la fórmula LTV = (precio mensual × margen bruto) ÷ tasa de cancelación. ¿Cuál es la relación LTV/CAC y cómo la califica el libro?",
           "options": [
-            "LTV = $180; LTV/CAC = 4,5. El libro dice que una relación mayor a 3 es sana.",
             "LTV = $240; LTV/CAC = 6. El libro dice que una relación mayor a 3 es sana.",
+            "LTV = $180; LTV/CAC = 4,5. El libro dice que una relación mayor a 3 es sana.",
             "LTV = $300; LTV/CAC = 7,5. Es excelente porque supera el doble de la referencia.",
             "LTV = $200; LTV/CAC = 5. Es suficiente para cualquier modelo SaaS en la región."
           ],
-          "correct": 1,
+          "correct": 0,
           "feedback": "El libro calcula exactamente: LTV = $15 × 0,80 ÷ 0,05 = $240. CAC = $40. LTV/CAC = 6. Y dice: 'la referencia habitual es que sea mayor a 3.' Si LTV/CAC es menor a 1, el negocio pierde dinero con cada cliente nuevo. La opción B reproduce el cálculo exacto del libro con los datos del caso de Rosa."
         },
         {
@@ -2600,12 +2600,12 @@ window.QUIZ_DATA = {
           "categoryName": "Cap. 8 — Hoja de ruta (CitaClara)",
           "text": "CitaClara, una app de recordatorios de cita médica, planea lanzar en todas las ciudades de Ecuador desde el primer día para 'no dejar espacio a competidores'. Según el libro y los principios de la hoja de ruta del caso, ¿qué lectura es la más defendible?",
           "options": [
-            "La estrategia es correcta: el primero que llega a escala en un mercado emergente lo domina.",
             "Es prematura: lanzar en toda la ciudad antes de dominar un nicho diluye la energía y los recursos.",
+            "La estrategia es correcta: el primero que llega a escala en un mercado emergente lo domina.",
             "Es válida si tienen suficiente capital para contratar un equipo de ventas en cada ciudad.",
             "Depende del modelo de ingreso: la cobertura nacional solo es viable con un modelo freemium."
           ],
-          "correct": 1,
+          "correct": 0,
           "feedback": "El libro describe la hoja de ruta de CitaClara comenzando por un solo nicho (consultorios de medicina general en un solo barrio) antes de expandir. En el libro se aplican los principios de De cero a uno: dominar un nicho pequeño primero. Escalar antes de tener el modelo probado en un nicho diluye recursos. La lógica de 'no dejar espacio' aplica cuando ya tienes tracción comprobada, no al inicio."
         },
         {
@@ -2615,11 +2615,11 @@ window.QUIZ_DATA = {
           "text": "El equipo de CitaClara identifica que los médicos podrían negarse a que el sistema contacte a sus pacientes sin autorización. Lo registran en el formato de riesgos en la columna de mitigación como 'hablar con los médicos antes del piloto'. Según el libro, ¿cuándo debía haberse gestionado ese riesgo?",
           "options": [
             "En la fase de testeo: es el momento donde los riesgos legales se confirman con datos reales.",
-            "En la fase 1 (semanas 1-4): los trámites legales y de consentimiento van desde el piloto.",
             "Después del lanzamiento: el mercado indica si la regulación es realmente una barrera.",
+            "En la fase 1 (semanas 1-4): los trámites legales y de consentimiento van desde el piloto.",
             "Al obtener el primer pago: un cliente que paga valida que el riesgo legal no es bloqueante."
           ],
-          "correct": 1,
+          "correct": 2,
           "feedback": "El libro es explícito para el caso de CitaClara: 'Los trámites legales se dejan para el final: saca el RUC y redacta el consentimiento en la fase 1, porque desde el piloto manejas teléfonos y datos de pacientes.' El manejo de datos personales y médicos requiere consentimiento desde la primera prueba, no después. Es un riesgo que debe mitigarse antes de tener el primer paciente en el sistema."
         },
         {
@@ -2629,11 +2629,11 @@ window.QUIZ_DATA = {
           "text": "Un equipo evalúa dos problemas con los cuatro filtros. Problema A: 'coordinar reuniones de equipo remoto'; Problema B: 'cuadrar el inventario de una ferretería al cierre de día'. Cada uno saca: A (Frecuencia 5, Intensidad 2, Gasto actual 1, Alcance 5 = 13), B (Frecuencia 5, Intensidad 5, Gasto actual 4, Alcance 4 = 18). ¿Cuál de las dos afirmaciones sobre los resultados es la más defendible?",
           "options": [
             "El Problema A es viable: 13/20 supera el umbral y la frecuencia alta garantiza adopción.",
-            "El Problema B pasa a ideación y el A se descarta: el A falla en intensidad y gasto actual (ambos ≤ 2).",
             "Ambos pasan: la suma de los dos supera 20 y el libro no establece un umbral individual por filtro.",
-            "El Problema A es mejor: el alcance de 5 es el filtro más importante porque define el tamaño del mercado."
+            "El Problema A es mejor: el alcance de 5 es el filtro más importante porque define el tamaño del mercado.",
+            "El Problema B pasa a ideación y el A se descarta: el A falla en intensidad y gasto actual (ambos ≤ 2)."
           ],
-          "correct": 1,
+          "correct": 3,
           "feedback": "El libro establece: 'si dos o más filtros sacan 2 o menos, busca otro problema.' El Problema A tiene Intensidad 1 y Gasto actual 1: dos filtros por debajo de 2. Eso lo descarta. El total de 13 engaña porque la frecuencia y el alcance son altos. El Problema B tiene todos los filtros en 4 o más (18/20) y pasa claramente a ideación."
         },
         {
@@ -2643,11 +2643,11 @@ window.QUIZ_DATA = {
           "text": "Un equipo calcula que su servicio de IA le ahorra 8 horas semanales a una clínica veterinaria (a $5/hora) y evita llamadas perdidas por valor de $200 al mes. El costo de atender a la clínica es $6 al mes. ¿Cuál es el rango de precio correcto según la fórmula del libro?",
           "options": [
             "Rango: $6 a $12. El precio siempre debe duplicar el costo para garantizar margen.",
-            "Rango: $36 a $72. El valor mensual es $360; el rango es 10 % a 20 % de ese valor.",
             "Rango: $18 a $36. El valor mensual es $200 de llamadas; el tiempo no se considera.",
+            "Rango: $36 a $72. El valor mensual es $360; el rango es 10 % a 20 % de ese valor.",
             "Rango: $60 a $120. El precio correcto multiplica el costo por 10 para startups tecnológicas."
           ],
-          "correct": 1,
+          "correct": 2,
           "feedback": "Siguiendo la fórmula del libro: valor mensual = (8h × 4 semanas × $5) + $200 = $160 + $200 = $360. Rango = 10 % a 20 % = $36 a $72. El precio mínimo por costo = $6 ÷ 0,30 = $20. El precio final debería estar entre $36 y $72, sobre el piso de $20. La opción C ignora el valor del tiempo, que es parte explícita del cálculo del libro."
         },
         {
@@ -2686,10 +2686,10 @@ window.QUIZ_DATA = {
           "options": [
             "El paso (2): Whisper comete errores de transcripción que sesgan el análisis posterior.",
             "El paso (3): la IA puede inventar grupos que no existen en los datos reales.",
-            "El paso (4): simular usuarios es el único uso de IA que el libro prohíbe explícitamente en empatía.",
-            "Los pasos (2) y (3): toda la transcripción y el resumen deben hacerse a mano para no perder matices."
+            "Los pasos (2) y (3): toda la transcripción y el resumen deben hacerse a mano para no perder matices.",
+            "El paso (4): simular usuarios es el único uso de IA que el libro prohíbe explícitamente en empatía."
           ],
-          "correct": 2,
+          "correct": 3,
           "feedback": "El libro acepta el uso de IA para transcribir, resumir y agrupar (pasos 1-3), pero dice textualmente: 'Lo que nunca debes hacer es pedirle a la IA que simule usuarios y tomar eso como evidencia.' El paso (4) es el único prohibido. Un usuario inventado no paga, no muestra contradicciones reales y deja la evidencia en cero."
         },
         {
@@ -2699,11 +2699,11 @@ window.QUIZ_DATA = {
           "text": "Un equipo le pide a Claude 30 ideas para su pregunta '¿Cómo podríamos...?'. Claude devuelve una lista con soluciones muy similares entre sí y ninguna usa el insight de las entrevistas (que Rosa desconfía del software). Según el libro, ¿qué ajuste es el más adecuado?",
           "options": [
             "Cambiar de modelo: GPT-4 genera ideas más diversas que Claude en tareas de ideación.",
-            "Pedir 30 ideas más que 'no se parezcan a las anteriores' y aportar el insight de las entrevistas.",
             "Descartar la lista de la IA y hacer solo un Crazy 8s manual para recuperar la creatividad.",
-            "Aceptar la lista: la IA propone lo que el mercado ya conoce, que es la base más segura para empezar."
+            "Aceptar la lista: la IA propone lo que el mercado ya conoce, que es la base más segura para empezar.",
+            "Pedir 30 ideas más que 'no se parezcan a las anteriores' y aportar el insight de las entrevistas."
           ],
-          "correct": 1,
+          "correct": 3,
           "feedback": "El libro dice: 'la IA tiende a proponer lo promedio. Tú aportas el insight que viene de tus entrevistas; y no te quedes con la primera lista, insiste. Pídele 30 ideas más que no se parezcan a las anteriores, luego que aplique SCAMPER a tu mejor idea.' El insight de la desconfianza de Rosa hacia el software es el diferenciador que la IA no tiene; el equipo debe inyectarlo."
         },
         {
@@ -2712,12 +2712,12 @@ window.QUIZ_DATA = {
           "categoryName": "Cap. 5 — Prototipar (Herramientas)",
           "text": "Un equipo quiere construir un MVP de automatización que conecte WhatsApp con un modelo de IA para leer notas de voz y responder con un resumen. No quieren escribir código de servidor. Según la lista de herramientas del libro para 2026, ¿qué combinación es la más adecuada?",
           "options": [
-            "React Native + Firebase + OpenAI API: el stack más completo para apps móviles con IA.",
             "n8n o Make + WhatsApp Business API + modelo de IA para voz a texto: automatización sin servidor propio.",
+            "React Native + Firebase + OpenAI API: el stack más completo para apps móviles con IA.",
             "Bubble + Typeform + Zapier: herramientas no-code para captar datos sin programación.",
             "Flutter + Supabase + Claude API: código asistido con base de datos lista y autenticación incluida."
           ],
-          "correct": 1,
+          "correct": 0,
           "feedback": "El libro lista específicamente: 'Automatización: n8n, Make o Zapier para conectar WhatsApp, correo, hojas y modelos de IA sin servidor propio.' Y el caso de Rosa lo confirma: el MVP funcional usó 'n8n, la API de WhatsApp Business, un modelo de IA para leer facturas y notas de voz, y una hoja de Google como base de datos. Dos semanas de trabajo.' Bubble (C) es para apps web; Flutter/React Native (A y D) requieren código y servidor."
         },
         {
@@ -2727,11 +2727,11 @@ window.QUIZ_DATA = {
           "text": "Un facilitador prueba el prototipo de CitaClara con cinco médicos. Cuando uno no sabe cómo avanzar en la pantalla de confirmar cita, el facilitador dice: 'toca el botón verde'. Según el libro, ¿qué error cometió el facilitador?",
           "options": [
             "Ninguno: ayudar al usuario en una prueba de concepto es parte del método concierge.",
-            "Violó la regla de observar sin ayudar: cuando el usuario pide ayuda, la respuesta correcta es devolverle la pregunta.",
             "Eligió mal la tarea: debió decirle 'confirma la cita' en lugar de 'toca el botón verde'.",
-            "Interrumpió el pensamiento en voz alta: el facilitador debe esperar al final para hacer preguntas."
+            "Interrumpió el pensamiento en voz alta: el facilitador debe esperar al final para hacer preguntas.",
+            "Violó la regla de observar sin ayudar: cuando el usuario pide ayuda, la respuesta correcta es devolverle la pregunta."
           ],
-          "correct": 1,
+          "correct": 3,
           "feedback": "El libro es explícito en el paso 4 de la prueba: 'Calla. Cuando quiera ayuda, devuélvele la pregunta: «¿qué crees que deberías hacer?».' Dar la respuesta al usuario elimina el aprendizaje sobre usabilidad. Si el médico no encontró el botón verde, ese es exactamente el dato que el equipo necesita para mejorar el diseño. Ayudar invalida ese dato."
         },
         {
@@ -2742,10 +2742,10 @@ window.QUIZ_DATA = {
           "options": [
             "Continuar: 7 de 10 que pagan es el 70 %, lo que supera cualquier referencia de conversión a pago del libro.",
             "Agregar las funciones pedidas: si 3 consultorios esperan más funciones para pagar, la prioridad es construirlas.",
-            "Analizar si los 3 'gratis' son señal de un problema de precio o de valor; calcular LTV con los 7 que sí pagan.",
-            "Escalar a otros barrios: 7 pagadores en la semana 8 es tracción suficiente para salir del nicho inicial."
+            "Escalar a otros barrios: 7 pagadores en la semana 8 es tracción suficiente para salir del nicho inicial.",
+            "Analizar si los 3 'gratis' son señal de un problema de precio o de valor; calcular LTV con los 7 que sí pagan."
           ],
-          "correct": 2,
+          "correct": 3,
           "feedback": "El libro enseña a distinguir entre señales de valor y señales de precio. Los 3 que piden 'más funciones' antes de pagar pueden ser: (a) usuarios que valoran el producto pero no al precio actual (problema de precio) o (b) usuarios que no ven el valor suficiente (problema de propuesta de valor). LTV de los 7 que sí pagan = $20 × 0,75 ÷ 0,08 = $187,50. Ese dato orienta si escalar o ajustar. Construir funciones sin saber la causa es la trampa del ingeniero que salta al código sin investigar."
         },
         {
@@ -2768,12 +2768,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 1 — Guion de entrevista (The Mom Test)",
           "text": "Un equipo pregunta a duenos de lavanderias: Cuando fue la ultima vez que un cliente se quejo porque su ropa salio tarde. El entrevistado responde: El martes pasado una senora llego a las 6pm y su pedido no estaba; tuvimos que devolverle 12 dolares y perdimos al cliente. Segun el Mom Test que tipo de dato es ese?",
           "options": [
-            "Es dato real del pasado tipo D: muestra conducta verificable, no intencion hipotetica del futuro.",
             "Es un cumplido tipo C: el entrevistado revela el problema sin que se lo pidan directamente.",
+            "Es dato real del pasado tipo D: muestra conducta verificable, no intencion hipotetica del futuro.",
             "Es precio hipotetico tipo P: cuantifica el costo del problema con un monto especifico y concreto.",
             "Es abstraccion tipo A: generaliza el comportamiento de todos los duenos de lavanderias del barrio."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "Un dato tipo D incluye fecha especifica el martes, accion concreta devolucion de 12 dolares y consecuencia real perdida del cliente. A diferencia de una encuesta que mide intencion, este dato evidencia comportamiento ya ocurrido."
         },
         {
@@ -2810,12 +2810,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 1 — Guion de entrevista (The Mom Test)",
           "text": "Un equipo pregunta a un mecanico: Con que frecuencia pierdes tiempo buscando repuestos. El mecanico responde: Siempre; casi todos los dias sale algo. Segun las categorias del Mom Test C G F P D A cual es el diagnostico correcto?",
           "options": [
-            "Es respuesta generica tipo G: describe lo que suele pasar en general, no un hecho concreto del pasado.",
             "Es dato real tipo D: la palabra siempre indica una conducta medible y verificable en el tiempo.",
             "Es un cumplido tipo C: el mecanico valida implicitamente el problema sin comprometerse a nada.",
+            "Es respuesta generica tipo G: describe lo que suele pasar en general, no un hecho concreto del pasado.",
             "Es abstraccion tipo A: habla del gremio de mecanicos en general, no de su propia experiencia personal."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "Tipo G Generico describe lo que suele pasar sin anclar a una fecha, lugar o monto concreto. Casi todos los dias sale algo no dice cuando, que repuesto, ni cuanto costo. Un dato tipo D seria: El jueves sali dos horas al norte por un rodamiento y pague 15 dolares en taxi."
         },
         {
@@ -2824,12 +2824,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 2 — Mapa de empatia",
           "text": "Un equipo llena el mapa de empatia de la secretaria de un consultorio dental y escribe en la celda HACE: Dice que prefiere confirmar las citas por WhatsApp porque es mas rapido. Que error cometio el equipo y que debia escribir en esa celda?",
           "options": [
-            "Coloco en HACE una frase del DICE; en HACE va la conducta observada: llama a cada paciente por telefono antes de las 8am.",
             "El error es usar comillas; en el mapa de empatia las celdas deben ir en tercera persona sin citar al entrevistado.",
             "La frase es correcta para HACE; la distincion entre DICE y HACE no aplica cuando las dos coinciden exactamente.",
+            "Coloco en HACE una frase del DICE; en HACE va la conducta observada: llama a cada paciente por telefono antes de las 8am.",
             "Debio colocarla en PIENSA porque revela una creencia interna sobre su herramienta de trabajo diario."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "La celda HACE registra conductas observadas directamente, no lo que el entrevistado dice que hace. La frase dice que prefiere es una declaracion DICE. El Formato 2 senala que las contradicciones entre lo que la persona dice y lo que hace son las mejores pistas."
         },
         {
@@ -2838,12 +2838,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 2 — Mapa de empatia",
           "text": "En el mapa de empatia de Rosa el equipo detecta: en DICE escribe yo controlo mis numeros y en HACE escribe anota ventas en un cuaderno al final del dia sin revisar nunca el total. Segun el Formato 2 que valor tiene esa contradiccion?",
           "options": [
-            "Es la mejor pista para un insight: revela por que Rosa no usa software aunque quiera control de sus numeros.",
             "Indica que el equipo entrevisto mal; si hubiese preguntado mejor las celdas no se contradecidrian nunca.",
             "No es relevante; lo que importa es la celda SIENTE que revela la motivacion emocional real del usuario.",
-            "Significa que Rosa no es el usuario correcto; el sistema deberia dirigirse al contador externo del restaurante."
+            "Significa que Rosa no es el usuario correcto; el sistema deberia dirigirse al contador externo del restaurante.",
+            "Es la mejor pista para un insight: revela por que Rosa no usa software aunque quiera control de sus numeros."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "El Formato 2 afirma: Las contradicciones entre lo que dice y lo que hace son las mejores pistas. En Rosa, querer control pero no usar Excel revela el insight: no confia en numeros que no puede revisar linea por linea."
         },
         {
@@ -2852,12 +2852,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 2 — Mapa de empatia",
           "text": "Cuatro equipos interpretan el Formato 2 al detectar una contradiccion entre DICE y HACE. Cual de los cuatro equipos usa el formato correctamente?",
           "options": [
-            "El equipo A: anota la contradiccion en el campo Contradicciones y la convierte en entrada para el Formato 4.",
             "El equipo B: descarta la contradiccion porque el entrevistado pudo haber malintendido la pregunta del guion.",
             "El equipo C: copia la contradiccion en PIENSA porque refleja la creencia interna mas probable del usuario.",
-            "El equipo D: reporta la contradiccion como error de investigacion que invalida toda la entrevista realizada."
+            "El equipo D: reporta la contradiccion como error de investigacion que invalida toda la entrevista realizada.",
+            "El equipo A: anota la contradiccion en el campo Contradicciones y la convierte en entrada para el Formato 4."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "El Formato 2 tiene un campo explicito de Contradicciones que encontre. La instruccion es anotarlas ahi y usarlas como entrada para el Formato 4 donde se busca el insight. Descartar las contradicciones vacia el mapa de su valor diagnostico principal."
         },
         {
@@ -2866,12 +2866,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 2 — Mapa de empatia",
           "text": "El equipo llena la celda SIENTE del mapa de empatia de un contador con: Presionado porque tiene 40 clientes y cada uno usa una plantilla distinta. Otro equipo dice que la causa pertenece a DOLORES no a SIENTE. Cual tiene razon y por que?",
           "options": [
-            "El segundo equipo: en SIENTE va la emocion presionado; en DOLORES va la causa 40 clientes plantillas distintas.",
             "El primer equipo: SIENTE puede incluir contexto porque la emocion no se entiende sin su causa especifica.",
+            "El segundo equipo: en SIENTE va la emocion presionado; en DOLORES va la causa 40 clientes plantillas distintas.",
             "Ambos tienen razon: el mapa no requiere distincion estricta entre celdas; lo importante es capturar el dato.",
             "Ninguno: la frase pertenece a DICE si el contador la pronuncio textualmente durante la entrevista realizada."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "SIENTE captura emociones angustia presion entusiasmo y DOLORES registra causas concretas de frustracion. Mezclarlas hace que el equipo pierda la separacion que permite encontrar el insight: por que una persona sensata se siente asi?"
         },
         {
@@ -2894,12 +2894,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 3 — Ficha de persona",
           "text": "El Formato 3 exige que si un campo no tiene respaldo en entrevistas se deje vacio. Un equipo llena Tecnologia que usa hoy con probablemente WhatsApp porque no lo preguntaron. Cual es el problema y el paso correcto?",
           "options": [
-            "Estan inventando el perfil; deben dejar el campo vacio y agregar esa pregunta a la proxima entrevista.",
             "No hay problema; probablemente WhatsApp es una hipotesis valida mientras se valida en campo.",
             "El error es solo la redaccion; basta poner WhatsApp sin el probablemente para que sea valido.",
+            "Estan inventando el perfil; deben dejar el campo vacio y agregar esa pregunta a la proxima entrevista.",
             "Pueden deducirlo del segmento: si son pequenos comerciantes WhatsApp es un supuesto seguro y fundado."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "La instruccion del Formato 3 es terminante: Si un campo no tiene respaldo en una entrevista dejalo vacio. Escribir probablemente convierte un dato de investigacion en una suposicion del equipo que puede sesgar todo el proceso posterior."
         },
         {
@@ -2936,12 +2936,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 4 — Del hallazgo al insight",
           "text": "Un equipo trabaja con peluquerias y observa que los duenos cobran en efectivo aunque pierden de 15 a 30 minutos diarios contando billetes. Cual de las cuatro opciones es el insight y no un hallazgo repetido?",
           "options": [
-            "Desconfian de los lectores de tarjeta porque creen que los datos del cliente quedaran expuestos a terceros.",
             "Los duenos de peluqueria usan efectivo y pierden de 15 a 30 minutos diarios haciendo el cuadre de caja.",
+            "Desconfian de los lectores de tarjeta porque creen que los datos del cliente quedaran expuestos a terceros.",
             "El 80 por ciento de los clientes entrevistados paga en efectivo segun el conteo del equipo de campo.",
             "La mayoria de duenos prefiere efectivo porque les resulta mas comodo que aprender nueva tecnologia digital."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "El hallazgo es lo observado: cobran en efectivo mas pierden 15-30 min. El insight es la razon no obvia: Desconfian de la exposicion de datos. Esa razon sorprende y abre una oportunidad de diseno real. Las demas opciones reformulan el hallazgo observado."
         },
         {
@@ -2950,12 +2950,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 4 — Del hallazgo al insight",
           "text": "El equipo detecta el hallazgo: 5 de 6 mecanicos guardan pedidos de repuestos en notas de WhatsApp no en el sistema de inventario. El instructor dice que eso es hallazgo no insight. Por que y cual seria el insight correcto?",
           "options": [
-            "El hallazgo describe lo observado; el insight explica la causa: El sistema exige datos que el mecanico no tiene en el momento del pedido.",
             "El instructor se equivoca: un hallazgo cuantificado con 5 de 6 personas ya es un insight valido y accionable.",
             "Para ser insight basta agregar la contradiccion: guardan en WhatsApp aunque tienen sistema instalado.",
+            "El hallazgo describe lo observado; el insight explica la causa: El sistema exige datos que el mecanico no tiene en el momento del pedido.",
             "El insight requiere la pregunta como podriamos al final; sin ella es solo un hallazgo parcial."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "El Formato 4 dice: Un hallazgo es un dato; un insight es la razon no obvia que la competencia no conoce. 5 de 6 es un conteo. El insight responde POR QUE: el sistema exige numero de parte exacto que el mecanico no tiene hasta ver el repuesto en persona."
         },
         {
@@ -2964,12 +2964,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 4 — Del hallazgo al insight",
           "text": "Antes de llenar el Formato 4 el equipo agrupa 12 notas de entrevista en tres categorias con un diagrama de afinidad: tiempo perdido dinero perdido y verguenza. Para que sirve ese agrupamiento dentro del proceso del Formato 4?",
           "options": [
-            "Para identificar que hallazgo se repite en mas entrevistas y merece el esfuerzo de explicar su por que.",
             "Para calcular el puntaje de Frecuencia del Formato 6 antes de decidir si el problema vale la pena abordar.",
             "Para dividir el trabajo: cada integrante analiza una categoria de manera independiente y separada del equipo.",
+            "Para identificar que hallazgo se repite en mas entrevistas y merece el esfuerzo de explicar su por que.",
             "Para decidir cual de los tres dolores fue mencionado con mayor carga emocional en las entrevistas hechas."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "El Formato 4 instruye: Agrupa primero los hallazgos repetidos diagrama de afinidad. El proposito es encontrar el patron con mas respaldo empirico antes de buscar la explicacion insight. Un hallazgo en 7 de 10 entrevistas merece mas analisis que uno que aparecio una sola vez."
         },
         {
@@ -2992,12 +2992,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 5 — JTBD, POV y Como podriamos",
           "text": "Rosa cierra su restaurante cada noche y quiere saber en dos minutos cuanto gano y que comprar manana. El equipo formula el POV: Duenos de restaurantes necesitan una app de contabilidad porque no saben sus ganancias. Que correccion es necesaria?",
           "options": [
-            "El POV debe conectar usuario mas necesidad mas insight: porque no confian en cifras que no pueden revisar linea por linea.",
             "El POV es correcto; no saben sus ganancias es el insight descubierto en las entrevistas realizadas.",
             "El error esta en la necesidad; deberia decir necesitan automatizar el registro para ser mas accionable.",
-            "El POV es valido; basta agregar el nombre Rosa al inicio para personalizarlo y cumplir el Formato 5."
+            "El POV es valido; basta agregar el nombre Rosa al inicio para personalizarlo y cumplir el Formato 5.",
+            "El POV debe conectar usuario mas necesidad mas insight: porque no confian en cifras que no pueden revisar linea por linea."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "La formula del POV es: Usuario necesita necesidad porque insight. No saben sus ganancias sigue siendo el hallazgo. El insight es la razon no obvia: no confian en numeros que no pueden revisar linea por linea. Ademas mencionar una app viola la regla de no mencionar tecnologia."
         },
         {
@@ -3006,12 +3006,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 5 — JTBD, POV y Como podriamos",
           "text": "Un equipo formula tres versiones de Como podriamos para Rosa: 1 Como podriamos hacer que Rosa sepa cuanto gano sin escribir nada extra; 2 Como podriamos crear una app de contabilidad para restaurantes; 3 Como podriamos digitalizar los restaurantes pequenos de Ecuador. Cual cumple los tres criterios del Formato 5?",
           "options": [
-            "La 1: no menciona tecnologia es concreta y no es tan amplia como para ser irresoluble en una sesion.",
             "La 2: menciona la tecnologia correcta y el segmento exacto donde debe operar la solucion final.",
             "La 3: tiene el mayor alcance de mercado y permite explorar mas soluciones diversas al problema.",
+            "La 1: no menciona tecnologia es concreta y no es tan amplia como para ser irresoluble en una sesion.",
             "La 2 y la 1: la primera para el MVP inicial y la segunda para la version completa del producto final."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "El Formato 5 tiene tres criterios: no menciona tecnologia es concreta y no es tan amplia. La version 1 cumple las tres: no dice app es medible Rosa sabe cuanto gano y esta acotada. La 2 menciona la app y la 3 es demasiado amplia para guiar una sesion de ideacion enfocada."
         },
         {
@@ -3020,12 +3020,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 5 — JTBD, POV y Como podriamos",
           "text": "El equipo de CitaClara redacta: Como podriamos usar inteligencia artificial para confirmar citas medicas. El instructor la rechaza. Por que y cual seria la version correcta segun el Formato 5?",
           "options": [
-            "Menciona IA que es tecnologia; la correcta seria: Como podriamos hacer que ningun paciente olvide su cita.",
             "Es demasiado corta; debe incluir el segmento objetivo para que el equipo no se desvie al idear.",
+            "Menciona IA que es tecnologia; la correcta seria: Como podriamos hacer que ningun paciente olvide su cita.",
             "El problema es confirmar citas; deberia decir agendar citas para cubrir todo el proceso completo.",
             "Es tecnicamente correcta; el instructor la rechaza porque no menciona el presupuesto disponible del equipo."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "La lista de verificacion del Formato 5: No menciona tecnologia nada de una app ni un dashboard. La IA es tecnologia. La version correcta se enfoca en el resultado no olvidar la cita sin prescribir como lograrlo permitiendo que los Formatos 7 y 8 generen soluciones diversas."
         },
         {
@@ -3048,12 +3048,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 6 — Los cuatro filtros",
           "text": "Tres problemas detectados en consultorios odontologicos: A se pierden 45 minutos diarios confirmando citas por telefono pagados con horas de secretaria; B la sala de espera a veces huele mal y los pacientes lo comentan; C el dentista olvida actualizar la carpeta fiscal una vez al ano. En la Matriz de Cuatro Filtros cual va a la Zona de Oro?",
           "options": [
-            "El A: alta frecuencia diaria alta intensidad 45 min mas costo real de secretaria y gasto actual verificable.",
             "El B: alta intensidad emocional porque afecta la primera impresion del consultorio con cada paciente nuevo.",
             "El C: alta intensidad porque un problema fiscal puede cerrar el negocio aunque ocurra solo una vez al ano.",
+            "El A: alta frecuencia diaria alta intensidad 45 min mas costo real de secretaria y gasto actual verificable.",
             "El B y el C juntos: sumados superan al A en impacto total sobre la reputacion general del consultorio."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "La Zona de Oro es Alta Frecuencia mas Alta Intensidad. El problema A ocurre diariamente genera costo medible ya existe gasto actual y afecta a todo el segmento. El B es de baja frecuencia. El C es muy baja frecuencia 1 vez por ano. Solo el A cumple los cuatro filtros con puntajes altos."
         },
         {
@@ -3062,12 +3062,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 6 — Los cuatro filtros",
           "text": "Un equipo puntua el problema los duenos de peluqueria no saben cuanto ganaron hasta las 10 p.m.: Frecuencia 5 Intensidad 3 Gasto actual 2 Alcance 2. Que conclusion es la mas defendible segun el Formato 6?",
           "options": [
-            "Deben buscar otro problema: dos filtros sacan 2 lo que activa la regla de descarte del Formato 6.",
             "Pueden seguir: el total de 12 sobre 20 supera el umbral minimo aceptable para avanzar a la fase siguiente.",
+            "Deben buscar otro problema: dos filtros sacan 2 lo que activa la regla de descarte del Formato 6.",
             "Solo deben mejorar Alcance: las peluquerias en Ecuador son miles y el puntaje 2 esta subestimado.",
             "Deben ponderar: Frecuencia e Intensidad pesan mas; un 5 y un 3 compensan los dos puntajes bajos."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "El Formato 6 establece: Si dos o mas filtros sacan 2 o menos busca otro problema. El equipo tiene Gasto actual y Alcance en 2 activando la regla independientemente del total. El total de 12/20 no es la regla; son los puntajes individuales bajos los que determinan el descarte."
         },
         {
@@ -3076,12 +3076,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 6 — Los cuatro filtros",
           "text": "Equipo 1: Frecuencia 4 Intensidad 4 Gasto actual 3 Alcance 4 total 15/20. Equipo 2: Frecuencia 5 Intensidad 1 Gasto actual 5 Alcance 5 total 16/20. Cual de los dos debe detenerse segun el Formato 6?",
           "options": [
-            "El equipo 2: tiene Intensidad en 1 lo que activa la regla de descarte aunque los demas filtros sean altos.",
             "Ninguno: ambos superan 14 puntos sobre 20 el umbral documentado para avanzar en el proceso completo.",
+            "El equipo 2: tiene Intensidad en 1 lo que activa la regla de descarte aunque los demas filtros sean altos.",
             "El equipo 1: con 15/20 esta mas cerca del limite y tiene mayor riesgo de que el problema no sea viable.",
             "El equipo 2 debe hacer mas entrevistas: Intensidad en 1 puede corregirse con mas datos del segmento."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "La regla del Formato 6: Si dos o mas filtros sacan 2 o menos busca otro problema. El equipo 2 tiene Intensidad en 1 menor a 2. Un problema frecuente pero de muy baja intensidad es una molestia cronica no una oportunidad de negocio. El total de 16/20 no importa si un filtro falla con puntaje de 1."
         },
         {
@@ -3104,12 +3104,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 7 — Crazy 8s",
           "text": "Al iniciar los Crazy 8s un equipo escribe descripciones con palabras en vez de dibujar y dedica 4 de los 8 minutos a redactar justificacion de la primera idea. Cual es el diagnostico mas acertado segun el Formato 7?",
           "options": [
-            "Viola el proposito: dibujar rompe el bloqueo linguistico y fuerza ideas visuales que las palabras inhiben.",
             "No hay problema: si el equipo no sabe dibujar las palabras cumplen exactamente el mismo proposito creativo.",
             "El error es solo el tiempo: 4 minutos en una idea impide llegar a 8 pero el formato verbal es igual de valido.",
-            "Viola el espiritu pero no la regla: el Formato 7 no especifica dibujar explicitamente solo pide rapidez."
+            "Viola el espiritu pero no la regla: el Formato 7 no especifica dibujar explicitamente solo pide rapidez.",
+            "Viola el proposito: dibujar rompe el bloqueo linguistico y fuerza ideas visuales que las palabras inhiben."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "El Formato 7 especifica: Dibujas no escribes. No se critica nada mientras dibujas. La instruccion de dibujar es intencional: suprime el filtro racional interno. Las palabras activan el juicio y producen ideas mas convencionales. El formato visual es parte del mecanismo no un detalle opcional."
         },
         {
@@ -3118,12 +3118,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 7 — Crazy 8s",
           "text": "Despues de los Crazy 8s el equipo tiene 8 bocetos. El instructor les pide elegir uno para el Formato 9. Cual es el criterio correcto para elegir segun el proceso del documento de formatos?",
           "options": [
-            "El boceto que mejor responda a la pregunta Como podriamos definida en el Formato 5.",
             "El boceto que el equipo pueda construir mas rapido con sus habilidades tecnicas actuales esta semana.",
             "El boceto que obtuvo mas votos del equipo al finalizar los 8 minutos de ideacion sin critica alguna.",
-            "El boceto que el instructor senale como mas innovador segun su experiencia con otros proyectos similares."
+            "El boceto que el instructor senale como mas innovador segun su experiencia con otros proyectos similares.",
+            "El boceto que mejor responda a la pregunta Como podriamos definida en el Formato 5."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "El Crazy 8s responde a la pregunta Como podriamos del Formato 5. El criterio de seleccion es la alineacion con esa pregunta que esta anclada al insight mas relevante del Formato 4. La factibilidad tecnica se evalua en el Formato 9 tres lentes no como criterio de seleccion inmediato."
         },
         {
@@ -3146,12 +3146,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 8 — SCAMPER",
           "text": "El equipo de Rosa aplica la accion E Eliminar del SCAMPER a su idea de app de contabilidad. Cual de las siguientes respuestas aplica correctamente esa accion segun el Formato 8?",
           "options": [
-            "Eliminar la app y entregar el servicio por WhatsApp: quita la barrera de instalacion para el usuario.",
             "Eliminar el modulo de reportes: reduce el tiempo de desarrollo en al menos dos semanas de trabajo.",
             "Eliminar el costo de la API: buscar un proveedor gratuito para bajar el costo por cliente al mes.",
-            "Eliminar la pantalla de login: mejora la experiencia de usuario y reduce la tasa de abandono inicial."
+            "Eliminar la pantalla de login: mejora la experiencia de usuario y reduce la tasa de abandono inicial.",
+            "Eliminar la app y entregar el servicio por WhatsApp: quita la barrera de instalacion para el usuario."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "La accion E del SCAMPER pregunta: Que quito sin perder valor. En el ejemplo del Formato 8 la respuesta es exactamente: Eliminar la app todo por WhatsApp. Esto quita la barrera de instalacion sin perder el valor del resumen diario. Las otras opciones eliminan componentes internos del producto."
         },
         {
@@ -3160,12 +3160,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 8 — SCAMPER",
           "text": "Aplicando A Adaptar del SCAMPER a CitaClara un equipo propone: Adaptar el modelo de resumen nocturno de los bancos el sistema le escribe al consultorio cada noche con las citas del dia siguiente. Que evalua esa accion y cual es su ventaja frente a las otras seis letras?",
           "options": [
-            "Copia una practica de otra industria: reduce el riesgo porque ya se sabe que funciona en otro contexto.",
             "Sustituye un componente del sistema; es la mas potente porque reemplaza el elemento mas critico actual.",
+            "Copia una practica de otra industria: reduce el riesgo porque ya se sabe que funciona en otro contexto.",
             "Combina dos productos existentes; es la mas creativa porque el resultado no existe en ningun mercado.",
             "Modifica el formato del mensaje; cambia la experiencia sin tocar la logica del negocio subyacente."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "La accion A del SCAMPER pregunta: Que idea de otra industria puedo copiar. El ejemplo del Formato 8 es: El resumen nocturno de un banco. La ventaja de Adaptar es tomar algo que ya funciona en un contexto diferente reduciendo la incertidumbre de la innovacion."
         },
         {
@@ -3174,12 +3174,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 8 — SCAMPER",
           "text": "Un equipo aplica R Reordenar o invertir del SCAMPER a su sistema de pedidos y propone: En vez de que el mecanico busque el repuesto el sistema pregunta que carro esta reparando y genera la lista automaticamente. Por que es un ejemplo valido de la accion R?",
           "options": [
-            "Invierte el flujo: antes el mecanico iniciaba la busqueda; ahora el sistema toma la iniciativa del proceso.",
             "Sustituye la interfaz por un formulario de datos tecnicos del vehiculo que se llena automaticamente.",
             "Combina el catalogo de repuestos con el historial del auto uniendo dos fuentes de datos distintas.",
+            "Invierte el flujo: antes el mecanico iniciaba la busqueda; ahora el sistema toma la iniciativa del proceso.",
             "Modifica el numero de pasos: reduce de 5 a 2 pasos al simplificar toda la cadena de pedido actual."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "La accion R pregunta: Que pasa si cambio el orden o lo invierto. El Formato 8 ejemplifica: Que el sistema le escriba a Rosa no ella al sistema. La idea propuesta invierte el mismo principio: el mecanico ya no inicia la busqueda ahora el sistema toma la iniciativa. Es una inversion del flujo."
         },
         {
@@ -3188,12 +3188,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 8 — SCAMPER",
           "text": "El instructor revisa el SCAMPER del equipo y nota que las columnas Mis ideas estan vacias en 4 de las 7 acciones. Cual es el diagnostico mas acertado?",
           "options": [
-            "El SCAMPER no cumplio su proposito: con 4 acciones vacias no se exploro el espacio de ideas completo.",
             "Es aceptable: completar S C y A las tres primeras acciones es suficiente para pasar al Formato 9.",
+            "El SCAMPER no cumplio su proposito: con 4 acciones vacias no se exploro el espacio de ideas completo.",
             "El equipo debe usar IA para completar las 4 acciones restantes antes de la siguiente sesion del proyecto.",
             "No hay problema: el SCAMPER es una guia no un formulario; se pueden saltar acciones irrelevantes."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "El Formato 8 tiene 7 acciones porque cada una activa un mecanismo creativo diferente. La accion E puede revelar que el canal entero sobra; la R puede generar el producto mas innovador. Dejar 4 vacias significa usar solo 3 palancas creativas de 7 disponibles reduciendo el espacio de ideas explorado."
         },
         {
@@ -3216,12 +3216,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 9 — Matriz impacto-esfuerzo y tres lentes",
           "text": "Una idea esta en el cuadrante Hazlo primero de la matriz pero falla en el filtro Factible la puedo construir de las tres lentes. Cual es el paso correcto segun el Formato 9?",
           "options": [
-            "No pasa a prototipo: si falla cualquiera de las tres lentes la idea se descarta o ajusta antes de construir.",
             "Pasa a prototipo con restricciones: se construye la parte factible y se deja el resto para fase posterior.",
             "Se revisa la matriz: una idea no factible debe reubicarse en Alto esfuerzo y reevaluarse en el cuadrante.",
+            "No pasa a prototipo: si falla cualquiera de las tres lentes la idea se descarta o ajusta antes de construir.",
             "Se acepta si pasa las otras dos: Deseable y Viable pesan mas que Factible en la primera iteracion."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "El Formato 9 muestra que la columna Pasa a prototipo solo dice Si cuando las tres lentes marcan Si. Si cualquiera falla la respuesta es No. Factible es condicion necesaria: una idea deseada y pagada pero no construible no puede prototipase. Se debe ajustar la idea o descartarla."
         },
         {
@@ -3230,12 +3230,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 9 — Matriz impacto-esfuerzo y tres lentes",
           "text": "Las tres lentes de IDEO evaluan: Deseable la quieren Factible la puedo construir y Viable alguien la paga. Un equipo tiene: Deseable Si Factible Si Viable No. Que conclusion es la mas defendible?",
           "options": [
-            "La idea no pasa a prototipo aun: primero hay que entender quien pagaria y cuanto o ajustar el modelo.",
             "La idea pasa igual: si es deseable y factible el modelo de negocio se resuelve despues del lanzamiento.",
             "La idea se descarta definitivamente: si nadie paga no hay mercado y no vale la pena construirla nunca.",
-            "La idea pasa con condicion: se lanza gratis para ganar usuarios y luego se monetiza con publicidad."
+            "La idea pasa con condicion: se lanza gratis para ganar usuarios y luego se monetiza con publicidad.",
+            "La idea no pasa a prototipo aun: primero hay que entender quien pagaria y cuanto o ajustar el modelo."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "El Formato 9 exige que las tres lentes digan Si para que Pasa a prototipo sea afirmativa. Viable No significa que el equipo no sabe quien paga ni cuanto. El paso correcto es resolver eso antes de construir hablando con potenciales clientes sobre precio Formato 13."
         },
         {
@@ -3244,12 +3244,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 9 — Matriz impacto-esfuerzo y tres lentes",
           "text": "Un equipo ubica en Descartalo bajo impacto alto esfuerzo la idea app nativa para iPad con modo oscuro autenticacion biometrica y login con Google. El Formato 10 tambien menciona ese tipo de idea con una advertencia. Que principio comparten ambos formatos?",
           "options": [
-            "Si el impacto no justifica el esfuerzo las funciones premium distraen del problema central a resolver.",
             "El modo oscuro y la biometria son funciones deseables; el problema real es que iPad tiene bajo mercado.",
             "Las apps nativas tienen alto esfuerzo y siempre deben esperar a que el equipo consiga mas inversion.",
+            "Si el impacto no justifica el esfuerzo las funciones premium distraen del problema central a resolver.",
             "La idea puede reubicarse en Planificalo si se elimina el login biometrico y se simplifica la autenticacion."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "El Formato 9 descarta lo que tiene bajo impacto y alto esfuerzo. El Formato 10 advierte: Si tu MVP tiene modo oscuro y login con Google antes de tener un solo usuario no es minimo. Ambos expresan el principio de Lean Startup: el esfuerzo debe ser proporcional a la hipotesis que se prueba."
         },
         {
@@ -3258,12 +3258,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 10 — Plan de prototipo Mago de Oz",
           "text": "El equipo de Rosa disena este prototipo: Rosa manda una foto de sus facturas por WhatsApp el equipo las revisa a mano con Claude y le envia un resumen de tres lineas a las 9 p.m. La metrica de exito es responde al menos 5 de 7 noches. Que pregunta responde concretamente este prototipo segun el Formato 10?",
           "options": [
-            "Si Rosa usa el resumen diario y si ese dato le sirve para tomar decisiones de compra al dia siguiente.",
             "Si la IA puede procesar fotos de facturas con exactitud superior al 90 por ciento en condiciones reales.",
             "Si el precio de 15 dolares al mes es aceptable para los duenos de restaurantes del segmento de 40 mesas.",
+            "Si Rosa usa el resumen diario y si ese dato le sirve para tomar decisiones de compra al dia siguiente.",
             "Si Rosa recomendaria activamente el servicio a otros duenos de restaurantes conocidos de la zona norte."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "El Formato 10 inicia con el campo Pregunta que quiero responder. En el ejemplo del documento es exactamente: Rosa usa el resumen diario y le sirve para comprar. El Mago de Oz prueba si el usuario adopta el comportamiento no si la tecnologia funciona tecnicamente."
         },
         {
@@ -3272,12 +3272,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 10 — Plan de prototipo Mago de Oz",
           "text": "Un equipo llena el campo Que hago yo detras a mano del Formato 10 con: Programar un script en Python que conecta con la API de OpenAI para procesar los datos automaticamente. Cual es el diagnostico mas acertado?",
           "options": [
-            "No es un Mago de Oz: si el trabajo de atras requiere programacion ya es un MVP tecnico no simulacion manual.",
             "Es correcto: el script corre en el servidor del equipo y el usuario nunca lo ve cumpliendo la premisa.",
             "Es valido si el script se construye en menos de 4 horas; la complejidad no define el tipo de prototipo.",
-            "El error es usar OpenAI: el costo variable impredecible afecta la metrica de costo del Formato 10."
+            "El error es usar OpenAI: el costo variable impredecible afecta la metrica de costo del Formato 10.",
+            "No es un Mago de Oz: si el trabajo de atras requiere programacion ya es un MVP tecnico no simulacion manual."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "En un Mago de Oz el equipo hace el trabajo a mano; el usuario cree que hay un sistema automatico. Si hay codigo deja de ser Mago de Oz y pasa a ser MVP. En el ejemplo de Rosa detras significa: el equipo recibe la foto abre Claude manualmente y escribe la respuesta a mano."
         },
         {
@@ -3300,12 +3300,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 10 — Plan de prototipo Mago de Oz",
           "text": "El equipo de CitaClara disena un Mago de Oz donde la secretaria manda manualmente mensajes de confirmacion de cita desde una plantilla de WhatsApp. Cual de las siguientes metricas de exito cumple los criterios del Formato 10?",
           "options": [
-            "Al menos 8 de cada 10 pacientes confirman la cita dentro de las 2 horas siguientes al mensaje enviado.",
             "Los pacientes estan satisfechos con el servicio de confirmacion del consultorio en la encuesta final.",
             "La secretaria tarda menos tiempo confirmando citas que antes de usar la plantilla de WhatsApp manual.",
+            "Al menos 8 de cada 10 pacientes confirman la cita dentro de las 2 horas siguientes al mensaje enviado.",
             "El consultorio reduce el numero de citas perdidas en el siguiente mes completo de operacion normal."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "Una metrica valida debe ser numerica 8 de 10 medible antes de que termine el experimento en 2 horas y ligada directamente a la hipotesis. Las opciones B C y D son metricas de proceso que no responden la pregunta del prototipo: el usuario adopta el comportamiento que valida la propuesta de valor."
         },
         {
@@ -3314,12 +3314,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 11 — Registro de prueba con usuarios",
           "text": "El equipo observa a Rosa usando el prototipo y anota: Rosa dijo que le gusta mucho el resumen nocturno y que lo encuentra muy util para su negocio. El instructor tacha esa nota. Cual es el diagnostico correcto?",
           "options": [
-            "En el Formato 11 van comportamientos observados no opiniones; lo valido es: Rosa volvio a usarlo 6 de 7 noches.",
             "El error es la redaccion; debe citarse textualmente entre comillas para que la nota sea valida en el registro.",
             "La nota es valida si Rosa la dijo espontaneamente y sin que le preguntaran directamente sobre el servicio.",
-            "El instructor se equivoca: las opiniones positivas documentadas ayudan a argumentar el pitch del proyecto."
+            "El instructor se equivoca: las opiniones positivas documentadas ayudan a argumentar el pitch del proyecto.",
+            "En el Formato 11 van comportamientos observados no opiniones; lo valido es: Rosa volvio a usarlo 6 de 7 noches."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "El Formato 11 pide: Anota lo que la gente hace con tu prototipo no lo que opina. La columna clave es el hecho verificable: pago o volvio. El comportamiento real volvio pago predice la adopcion; la opinion positiva no lo hace."
         },
         {
@@ -3328,12 +3328,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 11 — Registro de prueba con usuarios",
           "text": "El Formato 11 incluye cuatro metricas: Activacion Retencion Conversion a pago y Recomendacion. Un equipo tiene: 20 prueban 14 vuelven la semana siguiente 11 lo recomiendan pero ninguno ha pagado aun. Cual metrica esta en riesgo?",
           "options": [
-            "Conversion a pago: saben que retienen y recomiendan pero no han probado si alguien pagara por ello.",
             "Retencion: 14 de 20 es solo el 70 por ciento justo en el limite; cualquier semana de baja los deja debajo.",
+            "Conversion a pago: saben que retienen y recomiendan pero no han probado si alguien pagara por ello.",
             "Activacion: si 20 prueban pero 6 no vuelven esos 6 nunca llegaron al primer momento de valor real.",
             "Recomendacion: 11 de 20 es el 55 por ciento lo que indica que el producto aun no genera entusiasmo genuino."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "Tener retencion y recomendacion sin ninguna conversion a pago es una senal critica: el producto puede ser valioso gratuitamente pero no sostenible. El Formato 13 LTV/CAC no puede calcularse sin al menos un pago real. La pregunta que el equipo debe hacerse es: Que impediria que alguien pague."
         },
         {
@@ -3356,12 +3356,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 11 — Registro de prueba con usuarios",
           "text": "El Formato 11 pide dar al usuario una tarea y pedirle que piense en voz alta sin ayudarle. Un equipo ayuda al tercer usuario porque lleva 5 minutos atascado y parece frustrado. Cual es el diagnostico correcto?",
           "options": [
-            "Invalidaron el dato: cada ayuda elimina la evidencia de usabilidad que el Formato 11 busca capturar.",
             "Hicieron bien: un usuario frustrado durante 5 minutos ya aporto datos suficientes para el registro.",
             "Depende: si la ayuda fue minima senalar la pantalla correcta el dato puede conservarse con una nota.",
-            "El Formato 11 no prohibe ayudar; prohibe opinar; senalar donde hacer clic no contamina el experimento."
+            "El Formato 11 no prohibe ayudar; prohibe opinar; senalar donde hacer clic no contamina el experimento.",
+            "Invalidaron el dato: cada ayuda elimina la evidencia de usabilidad que el Formato 11 busca capturar."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "El Formato 11 dice: Dale una tarea pidele que piense en voz alta y no la ayudes. Cada ayuda elimina una instancia de dato de usabilidad. El punto donde se tranca el tiempo que tarda y lo que dice son exactamente los datos valiosos. La frustracion visible ES el dato no un problema a resolver en ese momento."
         },
         {
@@ -3370,12 +3370,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 12 — Lean Canvas",
           "text": "Un equipo llena el bloque 1 Problema del Lean Canvas de CitaClara con: Crear una app de gestion de citas medicas para consultorios pequenos de la ciudad. Que correccion es necesaria?",
           "options": [
-            "Eso es la solucion no el problema; en el bloque 1 va: Los consultorios pierden el 15 por ciento de citas por falta de confirmacion.",
             "La descripcion es valida si se anade el segmento objetivo al inicio de la frase para contextualizarla.",
             "El error es la extension; el bloque 1 admite maximo diez palabras descriptivas del problema central.",
-            "La frase pertenece al bloque 4 Solucion; basta moverla para que el Canvas quede estructuralmente correcto."
+            "La frase pertenece al bloque 4 Solucion; basta moverla para que el Canvas quede estructuralmente correcto.",
+            "Eso es la solucion no el problema; en el bloque 1 va: Los consultorios pierden el 15 por ciento de citas por falta de confirmacion."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "El Lean Canvas tiene 9 bloques con funciones distintas. El bloque 1 es el Problema de los clientes. Crear una app describe la solucion no el problema. Colocar la solucion en el bloque de problema indica que el equipo no definio que duele solo que quiere construir."
         },
         {
@@ -3384,12 +3384,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 12 — Lean Canvas",
           "text": "Ash Maurya diseno el Lean Canvas para llenarlo en 20 minutos y tratar cada bloque como una hipotesis por validar. Cual es la consecuencia practica mas importante de ese principio para el equipo?",
           "options": [
-            "Deben actualizar el Canvas cuando la evidencia de campo contradiga cualquiera de los nueve bloques.",
             "Deben completar los 9 bloques antes de hacer una sola entrevista o experimento en campo con usuarios.",
+            "Deben actualizar el Canvas cuando la evidencia de campo contradiga cualquiera de los nueve bloques.",
             "El Canvas reemplaza al plan de negocios y no necesita revisarse despues del primer lanzamiento del producto.",
             "Solo los bloques 1 2 y 3 son hipotesis; los demas reflejan datos establecidos del modelo de negocio."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "El Formato 12 dice: Trata cada bloque como una hipotesis por validar. Si una hipotesis se refuta con datos reales por ejemplo el canal de ventas no funciona el bloque debe actualizarse. El Lean Canvas no es estatico: es un mapa de suposiciones que el equipo va confirmando o descartando con evidencia."
         },
         {
@@ -3412,12 +3412,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 12 — Lean Canvas",
           "text": "El bloque 9 Ventaja injusta del Lean Canvas de CierreYa dice: Precios del mercado acumulados y red de referidos. Un miembro dice que la red de referidos deberia ir en el bloque 5 Canales. Cual tiene razon y por que?",
           "options": [
-            "El documento original: la red acumulada es una ventaja que la competencia nueva no puede copiar rapidamente.",
             "El miembro del equipo: los referidos son un canal de adquisicion y pertenecen al bloque 5 de distribucion.",
             "Ambos tienen razon: el Lean Canvas permite que un elemento aparezca en dos bloques si cumple dos funciones.",
-            "Ninguno: los referidos pertenecen al bloque 8 Metricas porque la tasa de recomendacion es medible."
+            "Ninguno: los referidos pertenecen al bloque 8 Metricas porque la tasa de recomendacion es medible.",
+            "El documento original: la red acumulada es una ventaja que la competencia nueva no puede copiar rapidamente."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "Los referidos como canal bloque 5 son el mecanismo de distribucion actual. Los referidos como ventaja injusta bloque 9 son la red acumulada de clientes satisfechos algo que un competidor nuevo no puede tener de inmediato. Es el activo relacional construido con el tiempo no solo el canal."
         },
         {
@@ -3426,12 +3426,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 13 — Calculo de precio y LTV/CAC",
           "text": "CitaClara genera a un consultorio 9 citas confirmadas adicionales al mes a 30 dolares cada cita y ahorra 22 horas de secretaria a 3 dolares la hora. El cobro mensual es 50 dolares. Segun el Formato 13 el precio esta dentro del rango recomendado?",
           "options": [
-            "Si: el valor mensual es 336 dolares; el rango recomendado es 34 a 67 dolares 10 a 20 por ciento del valor y 50 cae dentro.",
             "No: 50 dolares supera el 15 por ciento del valor generado 336 por 0.15 igual 50.40 que es el limite superior estricto.",
             "Si pero al limite: 50 dolares es el 85 por ciento del rango maximo y deja poco margen para aumentar el precio despues.",
-            "No: las 22 horas de secretaria 66 dolares no deben sumarse porque son costos internos del consultorio mismo."
+            "No: las 22 horas de secretaria 66 dolares no deben sumarse porque son costos internos del consultorio mismo.",
+            "Si: el valor mensual es 336 dolares; el rango recomendado es 34 a 67 dolares 10 a 20 por ciento del valor y 50 cae dentro."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "El Formato 13 calcula: Valor mensual igual 9 citas por 30 mas 22h por 3 igual 270 mas 66 igual 336. Rango igual 336 por 0.10 a 336 por 0.20 igual 33.60 a 67.20. El precio de 50 cae dentro. El formato incluye las horas de secretaria porque son dinero real que el consultorio deja de perder."
         },
         {
@@ -3440,12 +3440,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 13 — Calculo de precio y LTV/CAC",
           "text": "CitaClara cobra 50 dolares al mes tiene un costo por cliente de 10 dolares y una cancelacion mensual del 5 por ciento. Cual es el LTV correcto y que nos dice sobre la salud del negocio?",
           "options": [
-            "800 dolares: precio 50 por margen bruto 80 por ciento dividido cancelacion 5 por ciento; con CAC de 100 LTV/CAC es 8: negocio sano.",
             "1000 dolares: precio 50 dividido cancelacion 5 por ciento sin aplicar el margen bruto al calculo de largo plazo.",
             "500 dolares: diferencia precio-costo 40 dividido cancelacion 5 por ciento sin ponderar por el precio mensual.",
+            "800 dolares: precio 50 por margen bruto 80 por ciento dividido cancelacion 5 por ciento; con CAC de 100 LTV/CAC es 8: negocio sano.",
             "480 dolares: precio anual 600 por margen bruto 80 por ciento sin dividir para la cancelacion mensual acumulada."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "Formula del Formato 13: LTV igual Precio por margen bruto dividido cancelacion mensual. Margen bruto igual 50 menos 10 dividido 50 igual 0.80. LTV igual 50 por 0.80 dividido 0.05 igual 800. La opcion B omite el margen 50 dividido 0.05 igual 1000 sobreestimando el LTV al ignorar el costo por cliente."
         },
         {
@@ -3454,12 +3454,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 13 — Calculo de precio y LTV/CAC",
           "text": "El precio minimo segun el Formato 13 se calcula como: Costo por cliente dividido 0.30 para asegurar margen bruto del 70 por ciento. Si el costo por cliente de CierreYa es 5 dolares al mes cual es el precio minimo y que significa?",
           "options": [
-            "16.67 dolares: por debajo de ese valor CierreYa no puede sostener sus costos con el margen minimo del 70 por ciento.",
             "5 dolares: el precio minimo siempre iguala al costo por cliente; el margen se calcula sobre esa base inicial.",
             "3.50 dolares: el 70 por ciento del costo por cliente es el precio minimo para garantizar la rentabilidad operativa.",
+            "16.67 dolares: por debajo de ese valor CierreYa no puede sostener sus costos con el margen minimo del 70 por ciento.",
             "50 dolares: el precio minimo se multiplica por el factor de mercado estandar x10 para el precio de lanzamiento."
           ],
-          "correct": 0,
+          "correct": 2,
           "feedback": "Formula del Formato 13: Precio minimo igual Costo por cliente dividido 0.30. Para CierreYa: 5 dividido 0.30 igual 16.67. Cobrar menos de 16.67 hace que el margen bruto sea menor al 70 por ciento requerido. En el ejemplo del documento el costo de CitaClara es aprox 10 y el precio minimo es 33 el dato exacto de la tabla."
         },
         {
@@ -3468,12 +3468,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 13 — Calculo de precio y LTV/CAC",
           "text": "Un equipo calcula LTV de su cliente en 200 dolares y CAC en 80 dolares. Que conclusion es la mas defendible segun el Formato 13?",
           "options": [
-            "LTV/CAC es 2.5: esta por debajo de 3 lo que indica riesgo; deben reducir el CAC o aumentar la retencion.",
             "LTV/CAC es 2.5: es un buen resultado porque supera 1 lo que garantiza que el negocio no pierde dinero.",
+            "LTV/CAC es 2.5: esta por debajo de 3 lo que indica riesgo; deben reducir el CAC o aumentar la retencion.",
             "El CAC debe reducirse a 40 dolares para que LTV/CAC llegue a 5 el estandar ideal de la industria SaaS global.",
             "El dato no es concluyente: solo importa LTV/CAC cuando el negocio tiene mas de 100 clientes activos."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "El Formato 13 establece: LTV dividido CAC debe ser mayor a 3. Con 200 dividido 80 igual 2.5 el ratio esta por debajo. No significa que el negocio pierde dinero 2.5 mayor a 1 pero el margen de recuperacion de inversion en adquisicion es insuficiente. El equipo tiene dos palancas: aumentar la retencion o reducir el CAC."
         },
         {
@@ -3482,12 +3482,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 13 — Calculo de precio y LTV/CAC",
           "text": "Un servicio genera 336 dolares de valor mensual al cliente. La alternativa actual secretaria manual cuesta 90 dolares al mes. El costo por cliente del equipo es 10 dolares. Segun el Formato 13 entre que rango debe estar el precio?",
           "options": [
-            "Entre 33 dolares piso 10 dividido 0.30 y 67 dolares 20 por ciento de 336 considerando que la alternativa cuesta 90.",
             "Debe igualarse a la alternativa de 90 dolares para capturar todo el valor diferencial que la competencia deja.",
+            "Entre 33 dolares piso 10 dividido 0.30 y 67 dolares 20 por ciento de 336 considerando que la alternativa cuesta 90.",
             "Puede llegar hasta 336 dolares porque ese es el valor total generado y el cliente deberia pagar por el valor real.",
             "Debe ser 10 dolares menos que la alternativa 80 dolares para ganar mercado exclusivamente por diferencial de precio."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "El Formato 13 establece tres referencias: el piso costo dividido 0.30 igual 33 el techo valor por 0.20 igual 67.20 y la alternativa del cliente 90 dolares. Como la alternativa cuesta 90 y el precio maximo recomendado es 67 cobrar dentro de ese rango es consistente con las tres variables del formato."
         },
         {
@@ -3496,12 +3496,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 14 — Registro de riesgos",
           "text": "El Formato 14 clasifica los riesgos en tres tipos: Plataforma Tecnico y Legal. Un equipo agrega el equipo no tiene tiempo para dar soporte el fin de semana y lo clasifica como Tecnico. Cual es el diagnostico mas acertado?",
           "options": [
-            "Es un riesgo operativo o de equipo no Tecnico; el Formato 14 cubre fallas de plataformas IA y tramites legales.",
             "Es correcto clasificarlo como Tecnico porque el soporte depende de la infraestructura del sistema tecnologico.",
             "No es un riesgo relevante para este formato; solo se registran riesgos externos al equipo y al proyecto.",
-            "Es un riesgo de Plataforma porque el soporte usa WhatsApp Business que es una herramienta de terceros."
+            "Es un riesgo de Plataforma porque el soporte usa WhatsApp Business que es una herramienta de terceros.",
+            "Es un riesgo operativo o de equipo no Tecnico; el Formato 14 cubre fallas de plataformas IA y tramites legales."
           ],
-          "correct": 0,
+          "correct": 3,
           "feedback": "El Formato 14 documenta tres tipos: Plataforma dependencia de terceros Tecnico la IA puede dar informacion incorrecta y Legal tramites consentimiento. El riesgo de capacidad operativa del equipo no encaja en ninguna categoria del Formato 14: es un riesgo de recursos humanos o gestion de proyecto."
         },
         {
@@ -3510,12 +3510,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 14 — Registro de riesgos",
           "text": "El Formato 14 incluye en la Lista de control: Toda conversacion sensible pasa a una persona al instante. Para un proyecto como CitaClara que procesa datos de pacientes con IA por que ese item es el mas critico?",
           "options": [
-            "La IA puede generar informacion medica incorrecta; una persona humana evita que ese error llegue al paciente.",
             "La regulacion ecuatoriana exige revision humana de todos los mensajes de salud antes de enviarlos al usuario.",
+            "La IA puede generar informacion medica incorrecta; una persona humana evita que ese error llegue al paciente.",
             "Sin revision humana la IA no puede personalizar el mensaje segun el historial clinico del paciente.",
             "El costo de las APIs aumenta exponencialmente si la IA procesa conversaciones medicas sin limite de tiempo."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "El Formato 14 lista como riesgo Tecnico: La IA inventa un consejo medico clinico. La accion de prevencion es: Acotarla a un documento base; lo clinico pasa a la recepcionista. Una IA mal configurada puede fabricar informacion medica plausible pero incorrecta alucinaciones generando dano clinico real."
         },
         {
@@ -3524,12 +3524,12 @@ window.QUIZ_DATA = {
           "categoryName": "Formato 14 — Registro de riesgos",
           "text": "El equipo de CierreYa identifica el riesgo Meta bloquea o demora el numero de WhatsApp Business con Probabilidad M media e Impacto A alto. Que accion de prevencion es mas coherente con el ejemplo del Formato 14?",
           "options": [
-            "Iniciar la aprobacion del numero en la semana 4 del proyecto y tener un canal de respaldo por SMS o correo.",
             "Esperar al lanzamiento para iniciar la aprobacion; Meta aprueba mas rapido cuando hay usuarios activos.",
+            "Iniciar la aprobacion del numero en la semana 4 del proyecto y tener un canal de respaldo por SMS o correo.",
             "Usar el numero personal del equipo hasta que Meta apruebe; la transicion es sencilla despues del lanzamiento.",
             "Cambiar el canal principal a Telegram para eliminar completamente la dependencia de las plataformas de Meta."
           ],
-          "correct": 0,
+          "correct": 1,
           "feedback": "El Formato 14 documenta exactamente ese riesgo con esa accion: Iniciar la aprobacion en la semana 4; solo pacientes que aceptaron; respaldo por SMS o correo. La prevencion combina accion proactiva temprana y canal de respaldo alternativo. Esperar al lanzamiento es el error mas comun: Meta puede tardar semanas."
         },
         {
@@ -3538,10 +3538,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 1 — Segmento de Clientes",
           "text": "El equipo de «Fiado Claro» escribe en su bloque de Segmento: «Pequeños comerciantes de 30 a 60 años de Ecuador». Según la clase, ¿qué diagnóstico es correcto?",
           "options": [
-            "a) Es válido: la edad delimita al cliente y ecuatoriano indica el mercado geográfico.",
-            "b) Es demasiado estrecho: hay que ampliar a toda Latinoamérica para crecer como startup.",
-            "c) Falta solo añadir el género y la zona de residencia; con eso el segmento ya sirve para buscar clientes.",
-            "d) Es demográfico pero no accionable: no dice dónde encontrarlos ni qué conducta tienen."
+            "Es válido: la edad delimita al cliente y ecuatoriano indica el mercado geográfico.",
+            "Es demasiado estrecho: hay que ampliar a toda Latinoamérica para crecer como startup.",
+            "Falta solo añadir el género y la zona de residencia; con eso el segmento ya sirve para buscar clientes.",
+            "Es demográfico pero no accionable: no dice dónde encontrarlos ni qué conducta tienen."
           ],
           "correct": 3,
           "feedback": "El Canvas distingue segmento demográfico de segmento accionable. «Comerciantes de 30-60 años» dice quiénes son, pero no dónde están ni qué conducta tienen. Un segmento accionable como «tiendas de barrio de Quito que fían y lo anotan en cuaderno» sí permite salir a buscarlos mañana. La edad y la geografía amplia no reemplazan el comportamiento observable."
@@ -3552,10 +3552,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 1 — Segmento de Clientes",
           "text": "«BiciCampus» ofrece alquiler de bicicletas eléctricas en la universidad. En su bloque 1 el equipo escribe: «Estudiantes que viven a menos de 3 km del campus y que hoy llegan en taxi». ¿Qué afirmación es la más correcta sobre ese segmento?",
           "options": [
-            "a) Es accionable: combina dónde están, qué hacen hoy y un dolor concreto (pagar taxi).",
-            "b) Es demográfico; debería indicar la edad del estudiante para ser útil.",
-            "c) Es correcto para usuario, pero falta indicar quién paga si el padre cubre los gastos.",
-            "d) Es demasiado estrecho: limitar a 3 km excluye a la mayoría del mercado potencial."
+            "Es accionable: combina dónde están, qué hacen hoy y un dolor concreto (pagar taxi).",
+            "Es demográfico; debería indicar la edad del estudiante para ser útil.",
+            "Es correcto para usuario, pero falta indicar quién paga si el padre cubre los gastos.",
+            "Es demasiado estrecho: limitar a 3 km excluye a la mayoría del mercado potencial."
           ],
           "correct": 0,
           "feedback": "El segmento «estudiantes a menos de 3 km que hoy llegan en taxi» es accionable porque indica dónde viven, qué conducta tienen y qué alternativa usan hoy. Permite salir y encontrarlos. La distinción usuario/pagador es válida en otros casos, pero aquí el estudiante mismo paga el taxi, así que no hay brecha. La clase enseña que un segmento estrecho y real es mejor que uno amplio y vago."
@@ -3566,10 +3566,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 1 — Segmento de Clientes",
           "text": "«AlmuerzoListo» es una app de pedidos anticipados en el campus. El equipo identifica dos perfiles: (A) el estudiante que usa la app para pedir; (B) los bares del campus que reciben y preparan los pedidos. Según el Canvas, ¿cómo se clasifican correctamente?",
           "options": [
-            "a) A es el pagador y B es el usuario; ambos van en el bloque 1.",
-            "b) Ambos son segmentos distintos; hay que llenar dos lienzos independientes.",
-            "c) A es cliente (usuario y pagador); B es socio clave, no segmento.",
-            "d) B es el segmento porque sin el bar no hay producto; A es solo usuario final."
+            "A es el pagador y B es el usuario; ambos van en el bloque 1.",
+            "Ambos son segmentos distintos; hay que llenar dos lienzos independientes.",
+            "A es cliente (usuario y pagador); B es socio clave, no segmento.",
+            "B es el segmento porque sin el bar no hay producto; A es solo usuario final."
           ],
           "correct": 2,
           "feedback": "En el Canvas, el Segmento de Clientes agrupa a quienes reciben y pagan la propuesta de valor. El estudiante es quien paga y usa el servicio, por lo que va en el bloque 1. Los bares son socios o canales: hacen posible el servicio pero no son los destinatarios de la propuesta. Mezclar socios con clientes en el bloque 1 es uno de los cinco errores que destaca el taller."
@@ -3580,10 +3580,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 1 — Segmento de Clientes",
           "text": "Una startup de tutorías universitarias escribe en bloque 1: «Todos los estudiantes universitarios de Ecuador». Tiene un presupuesto de 200 dólares para el piloto. Según la lógica del Canvas que enseña el Ing. Rodríguez, ¿qué debe hacer primero?",
           "options": [
-            "a) Lanzar ya: un mercado grande atrae inversionistas y justifica el presupuesto disponible.",
-            "b) Ampliar el presupuesto antes de acotar el segmento, para no limitar el potencial del negocio.",
-            "c) Registrar la marca en Ecuador para proteger el mercado antes de seleccionar el nicho inicial.",
-            "d) Acotar a un grupo concreto: por ejemplo, estudiantes de Ingeniería PUCE antes de parciales."
+            "Lanzar ya: un mercado grande atrae inversionistas y justifica el presupuesto disponible.",
+            "Ampliar el presupuesto antes de acotar el segmento, para no limitar el potencial del negocio.",
+            "Registrar la marca en Ecuador para proteger el mercado antes de seleccionar el nicho inicial.",
+            "Acotar a un grupo concreto: por ejemplo, estudiantes de Ingeniería PUCE antes de parciales."
           ],
           "correct": 3,
           "feedback": "Con 200 dólares no se puede llegar a todos los universitarios del país. La clase enseña que el primer segmento debe ser tan concreto que el equipo pueda encontrarlo, hablar con él y servirlo con recursos limitados. «Estudiantes de Ingeniería de la PUCE antes de parciales» permite ir a la facultad, hablar con 10 personas y validar. El mercado grande se conquista después, nicho por nicho."
@@ -3594,10 +3594,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 2 — Propuesta de Valor",
           "text": "«Fiado Claro» dice en bloque 2: «Una app con inteligencia artificial que lee la foto del cuaderno de fiado y lleva la cuenta de cada vecino automáticamente». El Ing. Rodríguez clasifica el rol de la IA en tres niveles: adorno, ayuda o núcleo. ¿En qué nivel está esta propuesta?",
           "options": [
-            "a) Adorno: si se apaga la IA, igual se puede registrar el fiado manualmente en papel o Excel.",
-            "b) Ayuda: la IA acelera el registro, pero la tienda podría igualmente llevar la cuenta con una hoja de cálculo.",
-            "c) Núcleo: sin la IA nadie puede leer miles de caligrafías distintas en tiempo real.",
-            "d) Núcleo solo si la IA supera el 90 % de precisión; debajo de ese umbral es apenas una ayuda menor."
+            "Adorno: si se apaga la IA, igual se puede registrar el fiado manualmente en papel o Excel.",
+            "Ayuda: la IA acelera el registro, pero la tienda podría igualmente llevar la cuenta con una hoja de cálculo.",
+            "Núcleo: sin la IA nadie puede leer miles de caligrafías distintas en tiempo real.",
+            "Núcleo solo si la IA supera el 90 % de precisión; debajo de ese umbral es apenas una ayuda menor."
           ],
           "correct": 2,
           "feedback": "La IA es núcleo cuando sin ella el producto no existe como se propone. Aquí el diferencial es que la IA lee cualquier letra manuscrita y actualiza el saldo en segundos: eso no se puede reemplazar con Excel ni con un digitador sin perder la promesa (inmediatez, cero errores manuales). Un chatbot añadido a una app ya funcional sería adorno; una IA que hace más rápido lo que igual se haría es ayuda. La IA núcleo es lo que busca ALAS."
@@ -3608,10 +3608,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 2 — Propuesta de Valor",
           "text": "Cuatro propuestas de valor para una app de tutorías universitarias. ¿Cuál sigue mejor la frase del Canvas: «Ayudamos a [segmento] que [problema], con [solución], a diferencia de [alternativa]»?",
           "options": [
-            "a) «Ayudamos a estudiantes PUCE que no entienden cálculo, con tutorías de un par en 24 horas, a diferencia de buscar en YouTube.»",
-            "b) «La mejor plataforma de aprendizaje del Ecuador, con tutores certificados y acceso desde cualquier dispositivo a precio accesible.»",
-            "c) «Ayudamos a estudiantes universitarios con dudas de cualquier materia, con tutores disponibles las 24 horas, a diferencia de estudiar completamente solos.»",
-            "d) «Conectamos tutores certificados y estudiantes universitarios usando IA para el match ideal según materia y estilo de aprendizaje.»"
+            "«Ayudamos a estudiantes PUCE que no entienden cálculo, con tutorías de un par en 24 horas, a diferencia de buscar en YouTube.»",
+            "«La mejor plataforma de aprendizaje del Ecuador, con tutores certificados y acceso desde cualquier dispositivo a precio accesible.»",
+            "«Ayudamos a estudiantes universitarios con dudas de cualquier materia, con tutores disponibles las 24 horas, a diferencia de estudiar completamente solos.»",
+            "«Conectamos tutores certificados y estudiantes universitarios usando IA para el match ideal según materia y estilo de aprendizaje.»"
           ],
           "correct": 0,
           "feedback": "La frase del Canvas exige cuatro elementos: segmento concreto (Ingeniería PUCE), problema específico (no entender cálculo antes del parcial), solución precisa (tutoría en 24 h de un par) y alternativa real (YouTube sin respuesta). La opción c los cumple todos. Las demás son frases de marketing genéricas que no permiten saber a quién ayudan, en qué situación o qué pierden si no usan el servicio."
@@ -3622,10 +3622,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 2 — Propuesta de Valor",
           "text": "«Raíces Andinas» entrega canastas de verduras agroecológicas a domicilio. Su propuesta dice: «Comida fresca y sin químicos, en tu puerta cada semana; precio justo para el agricultor; sabes quién cultivó lo que comes». Un competidor lanza exactamente la misma propuesta. Según el Canvas, ¿qué bloque habría fallado en «Raíces Andinas»?",
           "options": [
-            "a) Bloque 9 (costos): si no tiene costos menores, el competidor puede copiarlo y cobrar precios más bajos.",
-            "b) Bloque 2 (propuesta de valor): una propuesta que se puede copiar en texto no ofrece ventaja competitiva real.",
-            "c) Bloque 5 (ingresos): el precio está mal definido y cualquier competidor con más capital puede igualarlo fácilmente.",
-            "d) Bloque 8 (socios clave): sin acuerdos exclusivos con productores, cualquiera replica la cadena."
+            "Bloque 9 (costos): si no tiene costos menores, el competidor puede copiarlo y cobrar precios más bajos.",
+            "Bloque 2 (propuesta de valor): una propuesta que se puede copiar en texto no ofrece ventaja competitiva real.",
+            "Bloque 5 (ingresos): el precio está mal definido y cualquier competidor con más capital puede igualarlo fácilmente.",
+            "Bloque 8 (socios clave): sin acuerdos exclusivos con productores, cualquiera replica la cadena."
           ],
           "correct": 3,
           "feedback": "La propuesta de valor en el Canvas describe qué se ofrece, pero la sostenibilidad del modelo depende de las barreras en otros bloques. Si «Raíces Andinas» tiene contratos exclusivos con asociaciones de productores (bloque 8: socios clave), un competidor no puede replicar la cadena con los mismos proveedores. La propuesta de valor en texto siempre puede copiarse; la ventaja real está en los recursos y socios difíciles de duplicar."
@@ -3636,10 +3636,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 2 — Propuesta de Valor",
           "text": "El taller indica que un Canvas con la IA como «adorno» baja la nota. ¿Cuál de estas startups tiene la IA como adorno?",
           "options": [
-            "a) Una app que usa IA para leer las fotos de cuadernos de fiado y calcular saldos en tiempo real.",
-            "b) Una plataforma de pedidos de almuerzo que añade un chatbot de «¿en qué te ayudo?» en el menú.",
-            "c) Un sistema de diagnóstico de enfermedades de plantas que analiza la foto de la hoja y recomienda el tratamiento.",
-            "d) Una herramienta que genera rutas de entrega optimizadas en tiempo real según el tráfico y los pedidos activos."
+            "Una app que usa IA para leer las fotos de cuadernos de fiado y calcular saldos en tiempo real.",
+            "Una plataforma de pedidos de almuerzo que añade un chatbot de «¿en qué te ayudo?» en el menú.",
+            "Un sistema de diagnóstico de enfermedades de plantas que analiza la foto de la hoja y recomienda el tratamiento.",
+            "Una herramienta que genera rutas de entrega optimizadas en tiempo real según el tráfico y los pedidos activos."
           ],
           "correct": 1,
           "feedback": "Un chatbot que responde «¿en qué te ayudo?» en un menú de pedidos no cambia la propuesta central: el cliente igualmente elige y paga el almuerzo sin el chatbot. Si se apaga la IA, el producto funciona igual. Eso es adorno. Las otras opciones tienen la IA en el núcleo: sin el modelo de visión computacional no hay diagnóstico de plantas ni lectura del cuaderno, y sin la IA de optimización las rutas serían manuales y lentas."
@@ -3650,10 +3650,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 3 — Canales",
           "text": "«Fiado Claro» define su canal como «redes sociales». El taller advierte que ese canal es débil. ¿Cuál sería una versión accionable y coherente con el segmento «tiendas de barrio de Quito que fían»?",
           "options": [
-            "a) Los distribuidores de bebidas que ya visitan cada tienda semanalmente.",
-            "b) Instagram y TikTok con anuncios segmentados por edad y ciudad de residencia.",
-            "c) Una página web con formulario de registro en línea y video de demostración del producto.",
-            "d) Volantes repartidos en ferias de emprendimiento y mercados populares de Quito."
+            "Los distribuidores de bebidas que ya visitan cada tienda semanalmente.",
+            "Instagram y TikTok con anuncios segmentados por edad y ciudad de residencia.",
+            "Una página web con formulario de registro en línea y video de demostración del producto.",
+            "Volantes repartidos en ferias de emprendimiento y mercados populares de Quito."
           ],
           "correct": 0,
           "feedback": "El canal debe llegar al segmento donde este ya está. Los distribuidores de bebidas (Coca-Cola, cervecerías) visitan personalmente cada tienda de barrio cada semana para surtirla. Ese contacto ya existe, ya tiene confianza y llega exactamente al segmento. «Redes sociales» es vago y no garantiza llegar al tendero que usa cuaderno, que probablemente no ve anuncios de apps. Un canal concreto dice quién, cómo y cuándo llega al cliente."
@@ -3664,10 +3664,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 3 — Canales",
           "text": "«BiciCampus» usa como canal «puntos de alquiler en la entrada de la universidad y reserva por app». ¿Qué virtud específica tiene este canal para el segmento «estudiantes a menos de 3 km»?",
           "options": [
-            "a) Es completamente digital, lo que reduce costos operativos y permite escalar sin contratar personal adicional.",
-            "b) Es el único canal viable porque los estudiantes de ese segmento no usan redes sociales convencionales.",
-            "c) Permite cobrar sin pasarela de pagos externa, eliminando comisiones bancarias y simplificando la tesorería.",
-            "d) Combina punto físico en la entrada del campus con reserva digital para reducir fricciones al cliente."
+            "Es completamente digital, lo que reduce costos operativos y permite escalar sin contratar personal adicional.",
+            "Es el único canal viable porque los estudiantes de ese segmento no usan redes sociales convencionales.",
+            "Permite cobrar sin pasarela de pagos externa, eliminando comisiones bancarias y simplificando la tesorería.",
+            "Combina punto físico en la entrada del campus con reserva digital para reducir fricciones al cliente."
           ],
           "correct": 3,
           "feedback": "El canal ideal llega al cliente donde ya está y en el momento en que tiene el problema. El estudiante cruza la entrada del campus todos los días; ver las bicicletas físicamente activa el deseo de usarlas. La app de reserva reduce la fricción de tener que hacer fila. Esta combinación (físico + digital) es coherente con el segmento porque no exige que el cliente cambie su ruta ni aprenda un proceso largo."
@@ -3678,10 +3678,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 3 — Canales",
           "text": "Una startup que vende software de gestión a veterinarias define su canal como «venta directa puerta a puerta». El precio es de 8 dólares al mes. Según el Canvas y la lógica del punto de equilibrio, ¿qué problema tiene este canal?",
           "options": [
-            "a) La venta directa solo funciona para productos físicos; para software SaaS el canal correcto es digital.",
-            "b) La venta directa requiere una fuerza de ventas dedicada, incompatible con el tamaño inicial de una startup.",
-            "c) El costo de visitar cada veterinaria puede superar los ingresos que genera ese cliente, haciendo el modelo insostenible.",
-            "d) El canal es incorrecto: las veterinarias prefieren contratar software por e-commerce sin intervención de vendedores externos."
+            "La venta directa solo funciona para productos físicos; para software SaaS el canal correcto es digital.",
+            "La venta directa requiere una fuerza de ventas dedicada, incompatible con el tamaño inicial de una startup.",
+            "El costo de visitar cada veterinaria puede superar los ingresos que genera ese cliente, haciendo el modelo insostenible.",
+            "El canal es incorrecto: las veterinarias prefieren contratar software por e-commerce sin intervención de vendedores externos."
           ],
           "correct": 2,
           "feedback": "El Canvas exige coherencia entre canal e ingresos. Si visitar cada veterinaria cuesta 15 dólares en tiempo y transporte, y el cliente paga solo 8 dólares al mes, el primer mes ya es negativo. El canal solo es sostenible si su costo de adquisición cabe dentro del valor que genera el cliente durante su vida (LTV). La clase enseña el punto de equilibrio: costos fijos ÷ (precio − costo por cliente) = clientes necesarios; el canal afecta el costo por cliente."
@@ -3692,10 +3692,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 3 — Canales",
           "text": "El Ing. Rodríguez explica: «El canal es la tubería que lleva el agua hasta la casa». Con esa analogía, ¿cuál de estas startups tiene el canal más incoherente con su segmento?",
           "options": [
-            "a) «TutorYa»: plataforma digital que usa una oficina en un centro comercial para registrar nuevos tutores.",
-            "b) «AlmuerzoListo»: app de pedidos que usa el grupo de WhatsApp de cada facultad para publicitar sus servicios.",
-            "c) «Fiado Claro»: app para tiendas de barrio que usa distribuidores de bebidas que ya visitan cada tienda semanalmente.",
-            "d) «BiciCampus»: alquiler de bicicletas que posiciona puntos físicos de retiro en la entrada principal del campus."
+            "«TutorYa»: plataforma digital que usa una oficina en un centro comercial para registrar nuevos tutores.",
+            "«AlmuerzoListo»: app de pedidos que usa el grupo de WhatsApp de cada facultad para publicitar sus servicios.",
+            "«Fiado Claro»: app para tiendas de barrio que usa distribuidores de bebidas que ya visitan cada tienda semanalmente.",
+            "«BiciCampus»: alquiler de bicicletas que posiciona puntos físicos de retiro en la entrada principal del campus."
           ],
           "correct": 0,
           "feedback": "«TutorYa» ofrece un servicio 100 % digital (tutorías en línea), pero usa una oficina física en un centro comercial como canal de captación de tutores. Esto genera un costo fijo alto (arriendo) y un alcance geográfico limitado, incoherente con una plataforma digital que debería captar tutores por redes o campus. El taller señala este caso como ERROR 2 de costos: la oficina no sirve a un canal digital."
@@ -3706,10 +3706,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 4 — Relación con Clientes",
           "text": "«Fiado Claro» define su relación con clientes como «resumen semanal por WhatsApp de las deudas de los vecinos». Según el Canvas, ¿qué función principal cumple ese elemento?",
           "options": [
-            "a) Es parte del canal, porque WhatsApp es el medio de comunicación entre la startup y el tendero.",
-            "b) Es un recurso clave, porque la mensajería tiene costo variable por mensaje enviado.",
-            "c) Es la acción que hace volver al cliente cada semana sin que se lo pidan, generando hábito y retención.",
-            "d) Es la propuesta de valor, porque el resumen automático de deudas es exactamente lo que el tendero compra."
+            "Es parte del canal, porque WhatsApp es el medio de comunicación entre la startup y el tendero.",
+            "Es un recurso clave, porque la mensajería tiene costo variable por mensaje enviado.",
+            "Es la acción que hace volver al cliente cada semana sin que se lo pidan, generando hábito y retención.",
+            "Es la propuesta de valor, porque el resumen automático de deudas es exactamente lo que el tendero compra."
           ],
           "correct": 2,
           "feedback": "El bloque 4 (Relación con clientes) responde: ¿qué hace que el cliente vuelva? El resumen semanal automático crea un hábito: el tendero espera ese mensaje cada lunes y, si no llega, lo extraña. Eso es retención. No es el canal (WhatsApp puede ser canal, pero la relación es la acción que genera vínculo), ni la propuesta de valor (que es leer el cuaderno y calcular saldos). La clase enseña que la relación es «lo que hace volver cada semana sin pedírselo»."
@@ -3720,10 +3720,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 4 — Relación con Clientes",
           "text": "El taller señala que la escalabilidad requiere que «el servicio funciona igual con 10 que con 100 usuarios». ¿Qué tipo de relación con clientes es más escalable para una startup de software?",
           "options": [
-            "a) Atención personal de un fundador que llama a cada cliente cada semana para revisar su cuenta.",
-            "b) Comunidad de usuarios donde los propios clientes se ayudan entre sí en un foro.",
-            "c) Un ejecutivo de cuenta asignado a cada cliente para resolver dudas 24/7.",
-            "d) Visitas presenciales mensuales del equipo para capacitar a cada cliente nuevo."
+            "Atención personal de un fundador que llama a cada cliente cada semana para revisar su cuenta.",
+            "Comunidad de usuarios donde los propios clientes se ayudan entre sí en un foro.",
+            "Un ejecutivo de cuenta asignado a cada cliente para resolver dudas 24/7.",
+            "Visitas presenciales mensuales del equipo para capacitar a cada cliente nuevo."
           ],
           "correct": 1,
           "feedback": "La escalabilidad en el Canvas implica que el modelo de relación no crezca en costos al mismo ritmo que los clientes. Una comunidad de usuarios (foro, grupo) donde los mismos clientes resuelven dudas de los nuevos escala sin costo adicional. Las opciones a, c y d requieren más personas (y más costos) por cada cliente adicional, lo que no escala. La clase muestra que las tres señales de escalabilidad son: retención sin pedirlo, CAC menor al LTV y servicio igual con 10 o 100 usuarios."
@@ -3734,10 +3734,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 4 — Relación con Clientes",
           "text": "«TutorYa» ofrece tutorías y define su relación con clientes como «los estudiantes pueden calificar al tutor después de cada sesión». ¿Qué problema de Canvas tiene esta definición de relación?",
           "options": [
-            "a) Las calificaciones son un recurso clave de datos, no una relación; deberían registrarse en el bloque 6.",
-            "b) Es correcta: la calificación pública genera confianza y esa confianza es suficiente para retener al estudiante.",
-            "c) El problema es técnico: implementar calificaciones requiere un módulo de software que añade costo de desarrollo.",
-            "d) La calificación es puntual; no explica qué hace que el estudiante regrese la próxima vez que necesita tutoría."
+            "Las calificaciones son un recurso clave de datos, no una relación; deberían registrarse en el bloque 6.",
+            "Es correcta: la calificación pública genera confianza y esa confianza es suficiente para retener al estudiante.",
+            "El problema es técnico: implementar calificaciones requiere un módulo de software que añade costo de desarrollo.",
+            "La calificación es puntual; no explica qué hace que el estudiante regrese la próxima vez que necesita tutoría."
           ],
           "correct": 3,
           "feedback": "La Relación con clientes debe responder qué genera que el cliente vuelva, no solo qué pasa después de cada sesión. Calificar al tutor mejora la calidad para el próximo usuario, pero no garantiza que ese mismo estudiante regrese. Una relación más sólida sería, por ejemplo, enviarle un recordatorio antes del siguiente parcial con los tutores disponibles en su área, o mostrarle su historial de mejora. La relación es el vínculo activo, no solo el feedback pasivo."
@@ -3748,10 +3748,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 4 — Relación con Clientes",
           "text": "Una startup de gestión de inventarios para ferreterías define en bloque 4: «Capacitación gratuita presencial al momento de la venta». Tiene 50 clientes y quiere llegar a 300. ¿Qué ajuste debe hacer en el bloque de relación para escalar?",
           "options": [
-            "a) Sustituir la capacitación presencial por videos tutoriales y soporte por chat para que el cliente se autogestione.",
-            "b) Ampliar el equipo de ventas para que más personas capaciten a clientes en paralelo y se cubra la demanda creciente.",
-            "c) Cobrar por la capacitación inicial para generar un ingreso adicional que financie el escalamiento del equipo.",
-            "d) Eliminar la capacitación completamente: si el software tiene buena UX, el cliente no necesita ayuda para usarlo."
+            "Sustituir la capacitación presencial por videos tutoriales y soporte por chat para que el cliente se autogestione.",
+            "Ampliar el equipo de ventas para que más personas capaciten a clientes en paralelo y se cubra la demanda creciente.",
+            "Cobrar por la capacitación inicial para generar un ingreso adicional que financie el escalamiento del equipo.",
+            "Eliminar la capacitación completamente: si el software tiene buena UX, el cliente no necesita ayuda para usarlo."
           ],
           "correct": 0,
           "feedback": "Para escalar de 50 a 300 clientes sin que los costos crezcan igual, la relación debe pasar de personal a autoservicio. Videos tutoriales, una base de conocimiento y un chatbot de soporte permiten que el cliente aprenda solo, en cualquier momento, sin que el equipo tenga que estar presente. Ampliar el equipo de ventas sí escala los ingresos, pero también los costos, lo que no mejora el margen. La clase describe el escalamiento como «crecer sin que los costos crezcan igual»."
@@ -3762,10 +3762,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 5 — Fuentes de Ingresos",
           "text": "«TutorYa» cobra 120 dólares al mes por acceso ilimitado a tutorías. Su segmento son estudiantes universitarios. El taller marca esto como un error. ¿Cuál es el diagnóstico más preciso?",
           "options": [
-            "a) El precio es muy bajo; debería subirse para financiar correctamente a los tutores y cubrir los costos.",
-            "b) El problema es el modelo: freemium funcionaría mejor que suscripción mensual para este tipo de servicio.",
-            "c) El error está en el canal de distribución: si mejoran la captación de usuarios, el precio puede mantenerse igual.",
-            "d) 120 dólares al mes supera lo que un estudiante puede pagar; es incoherente con el segmento."
+            "El precio es muy bajo; debería subirse para financiar correctamente a los tutores y cubrir los costos.",
+            "El problema es el modelo: freemium funcionaría mejor que suscripción mensual para este tipo de servicio.",
+            "El error está en el canal de distribución: si mejoran la captación de usuarios, el precio puede mantenerse igual.",
+            "120 dólares al mes supera lo que un estudiante puede pagar; es incoherente con el segmento."
           ],
           "correct": 3,
           "feedback": "El Canvas exige coherencia entre el precio y quién paga. Un estudiante universitario promedio gasta entre 5 y 15 dólares en servicios digitales al mes. 120 dólares mensuales es más que lo que muchos estudiantes gastan en transporte y alimentación juntos. El taller señala esto como ERROR 1 (ingresos): «$120 al mes no lo paga un estudiante con poco presupuesto». La solución es cobro por sesión (6–8 dólares) o paquetes de 5 tutorías antes de exámenes."
@@ -3776,10 +3776,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 5 — Fuentes de Ingresos",
           "text": "«Fiado Claro» define su modelo de ingresos: «Gratis hasta 20 vecinos en el fiado; desde el vecino 21 en adelante, 5 dólares al mes». ¿Qué lógica de modelo de ingresos aplica?",
           "options": [
-            "a) Pago único: el tendero compra una licencia y ya no paga más.",
-            "b) Freemium: la versión básica es gratuita y la versión con más capacidad tiene costo.",
-            "c) Publicidad: el modelo se financia con anuncios de proveedores dentro de la app.",
-            "d) Comisión por transacción: cada vez que se registra un pago de fiado, se cobra un porcentaje."
+            "Pago único: el tendero compra una licencia y ya no paga más.",
+            "Freemium: la versión básica es gratuita y la versión con más capacidad tiene costo.",
+            "Publicidad: el modelo se financia con anuncios de proveedores dentro de la app.",
+            "Comisión por transacción: cada vez que se registra un pago de fiado, se cobra un porcentaje."
           ],
           "correct": 1,
           "feedback": "El modelo freemium ofrece una versión gratuita funcional (hasta 20 vecinos) para que el tendero adopte el hábito, y una versión de pago cuando el volumen justifica el costo. Es la estrategia de «gratis hasta que necesitas más». Este modelo reduce la barrera de entrada y permite validar que el tendero realmente usa la app antes de cobrar. La clase muestra este esquema exacto como ejemplo de Fiado Claro."
@@ -3790,10 +3790,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 5 — Fuentes de Ingresos",
           "text": "Una startup de control de inventarios para ferreterías cobra 15 dólares por ferretería al mes. El costo de IA por ferretería es de 3 dólares. Los costos fijos (servidor, sueldos mínimos) son 180 dólares al mes. ¿Cuántas ferreterías necesita para no perder dinero?",
           "options": [
-            "a) 12 ferreterías",
-            "b) 15 ferreterías",
-            "c) 18 ferreterías",
-            "d) 60 ferreterías — punto de equilibrio sin descontar costo variable de la IA"
+            "12 ferreterías",
+            "15 ferreterías",
+            "18 ferreterías",
+            "60 ferreterías — punto de equilibrio sin descontar costo variable de la IA"
           ],
           "correct": 2,
           "feedback": "La fórmula del punto de equilibrio es: costos fijos ÷ (precio − costo variable por cliente) = clientes necesarios. Aquí: 180 ÷ (15 − 3) = 180 ÷ 12 = 15 ferreterías. Con 15 ferreterías los ingresos (225) cubren exactamente los costos fijos (180) más los costos variables (45). La respuesta c (18) es un error frecuente al dividir costos totales estimados por el precio sin descontar el costo variable. La clase enseña a escribir la cuenta explícita en el lienzo."
@@ -3804,10 +3804,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 5 — Fuentes de Ingresos",
           "text": "«Raíces Andinas» vende canastas a 25 dólares. Paga 14 dólares a los productores y 4 dólares de reparto. ¿Qué margen deja cada canasta antes de descontar costos fijos, y qué nombre recibe ese número en el Canvas?",
           "options": [
-            "a) 7 dólares; se llama margen bruto o contribución por unidad.",
-            "b) 7 dólares; se llama beneficio neto.",
-            "c) 11 dólares; se llama margen bruto porque solo se restan los costos de producción.",
-            "d) 25 dólares; los costos fijos son el único gasto real de un negocio digital."
+            "7 dólares; se llama margen bruto o contribución por unidad.",
+            "7 dólares; se llama beneficio neto.",
+            "11 dólares; se llama margen bruto porque solo se restan los costos de producción.",
+            "25 dólares; los costos fijos son el único gasto real de un negocio digital."
           ],
           "correct": 0,
           "feedback": "El margen bruto (o contribución unitaria) es el precio menos los costos variables directos de entregar ese producto o servicio. Aquí: 25 − 14 − 4 = 7 dólares por canasta. Este número es la «contribución» que cada canasta hace para cubrir los costos fijos. El beneficio neto solo se calcula restando también los costos fijos al total de contribuciones. La clase muestra este cálculo en el ejemplo de Raíces Andinas."
@@ -3818,10 +3818,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 6 — Recursos Clave",
           "text": "«Fiado Claro» lista como recursos clave: (1) el modelo de IA entrenado para leer caligrafía manuscrita; (2) la base de datos de las deudas de cada tienda; (3) las bicicletas del sistema BiciCampus. ¿Cuál de los tres NO pertenece a «Fiado Claro»?",
           "options": [
-            "a) El (1) y el (3): el modelo de IA es un costo, no un recurso.",
-            "b) Solo el (3): las bicicletas son el recurso de otra startup.",
-            "c) El (2): los datos de las tiendas son un activo del cliente, no de la startup.",
-            "d) Ninguno: los tres son válidos para cualquier startup de tecnología."
+            "El (1) y el (3): el modelo de IA es un costo, no un recurso.",
+            "Solo el (3): las bicicletas son el recurso de otra startup.",
+            "El (2): los datos de las tiendas son un activo del cliente, no de la startup.",
+            "Ninguno: los tres son válidos para cualquier startup de tecnología."
           ],
           "correct": 1,
           "feedback": "Las bicicletas son el recurso físico central de BiciCampus, no de Fiado Claro. Para Fiado Claro, el modelo de IA entrenado (1) es el recurso tecnológico que hace posible la propuesta de valor, y la base de datos de deudas (2) es el activo de datos que genera el efecto de red y la barrera de salida. Incluir recursos de otras startups en el bloque 6 es un error común de Canvas que el taller advierte: cada recurso debe responder a «¿qué necesitamos tener para cumplir la promesa?»"
@@ -3832,10 +3832,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 6 — Recursos Clave",
           "text": "El taller describe los recursos clave con la analogía de «la mochila de excursión: lleven solo lo indispensable». Una startup de diagnóstico de enfermedades de plantas por foto lista sus recursos: (A) modelo de visión computacional entrenado con 50 000 imágenes de hojas; (B) app móvil con interfaz de cámara; (C) oficina en Quito con sala de reuniones. ¿Cuál NO es indispensable para cumplir la propuesta?",
           "options": [
-            "a) El modelo de visión (A): si no hay modelo, no hay diagnóstico.",
-            "b) La app móvil (B): si no hay app, el agricultor no puede tomar la foto.",
-            "c) La oficina con sala de reuniones (C): el diagnóstico funciona igual sin ella.",
-            "d) Todos son indispensables: una startup no puede prescindir de ninguno de sus activos."
+            "El modelo de visión (A): si no hay modelo, no hay diagnóstico.",
+            "La app móvil (B): si no hay app, el agricultor no puede tomar la foto.",
+            "La oficina con sala de reuniones (C): el diagnóstico funciona igual sin ella.",
+            "Todos son indispensables: una startup no puede prescindir de ninguno de sus activos."
           ],
           "correct": 2,
           "feedback": "El modelo de IA (A) y la app (B) son indispensables: sin el modelo no hay diagnóstico, y sin la app el agricultor no puede usar el servicio. La oficina con sala de reuniones (C) es un costo fijo que no contribuye directamente a cumplir la promesa de «diagnosticar con una foto». Para una startup digital temprana, una oficina física es una carga sin retorno. Los recursos clave son los que, si faltan, el producto no puede entregarse."
@@ -3846,10 +3846,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 6 — Recursos Clave",
           "text": "Una startup de logística usa una red de 200 repartidores independientes para entregar pedidos en 2 horas. ¿Cómo clasificaría este activo en el Canvas?",
           "options": [
-            "a) El dominio, el hosting y las cuentas de redes sociales, ya que toda startup digital los necesita para operar.",
-            "b) El equipo fundador y el capital inicial, porque sin personas ni dinero no puede arrancar ningún negocio.",
-            "c) El algoritmo de IA o las bases de datos propias, siempre que sean el elemento que hace diferente a la startup.",
-            "d) Los recursos sin los cuales la propuesta de valor no se puede entregar: IA, datos o red de proveedores."
+            "El dominio, el hosting y las cuentas de redes sociales, ya que toda startup digital los necesita para operar.",
+            "El equipo fundador y el capital inicial, porque sin personas ni dinero no puede arrancar ningún negocio.",
+            "El algoritmo de IA o las bases de datos propias, siempre que sean el elemento que hace diferente a la startup.",
+            "Los recursos sin los cuales la propuesta de valor no se puede entregar: IA, datos o red de proveedores."
           ],
           "correct": 3,
           "feedback": "La red de repartidores puede aparecer en distintos bloques según cómo se gestione. Si son empleados propios o están integrados en la plataforma como el recurso central de la operación, van en bloque 6 (recursos humanos). Si son empresas externas contratadas (como una empresa de mensajería), van en bloque 8 (socios). Si su función principal es ser el medio por el que el pedido llega al cliente, también se puede mencionar en bloque 3. El contexto (200 repartidores en la red propia de la startup) indica un recurso humano clave."
@@ -3860,10 +3860,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 6 — Recursos Clave",
           "text": "El Ing. Rodríguez señala que en startups con IA los datos son un recurso clave. ¿Por qué los datos históricos de los clientes son más valiosos que el código de la app?",
           "options": [
-            "a) Los créditos de la API de OpenAI, porque sin ellos la lectura del cuaderno no funciona y el servicio se cae.",
-            "b) La base de datos de caligrafías etiquetadas, porque sin esa data el modelo de IA no puede funcionar.",
-            "c) El dominio web y el hosting en la nube, porque son los que alojan la app y permiten que el cliente la descargue.",
-            "d) El número de celular del fundador, porque es el canal de soporte principal para las tiendas en caso de fallas."
+            "Los créditos de la API de OpenAI, porque sin ellos la lectura del cuaderno no funciona y el servicio se cae.",
+            "La base de datos de caligrafías etiquetadas, porque sin esa data el modelo de IA no puede funcionar.",
+            "El dominio web y el hosting en la nube, porque son los que alojan la app y permiten que el cliente la descargue.",
+            "El número de celular del fundador, porque es el canal de soporte principal para las tiendas en caso de fallas."
           ],
           "correct": 1,
           "feedback": "El código de una app puede ser reescrito por un competidor con suficiente dinero. Los datos históricos de comportamiento de clientes reales (cuánto fían, con qué frecuencia pagan, qué productos se mueven más) no se pueden fabricar; requieren tiempo y adopción real. Eso crea una barrera de entrada: mientras más tiempo lleva la startup con sus clientes, más preciso es su modelo de IA y más difícil es que un competidor nuevo lo iguale. Por eso los datos son el recurso más estratégico en modelos de IA."
@@ -3874,10 +3874,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 7 — Actividades Clave",
           "text": "«Fiado Claro» lista sus actividades clave: (1) mejorar el modelo de reconocimiento de caligrafía; (2) afiliar nuevas tiendas cada semana; (3) diseñar la identidad visual de la marca. ¿Cuál de las tres es menos clave para cumplir la propuesta de valor?",
           "options": [
-            "a) Diseñar la identidad de marca: logo, colores, tipografía y tono de voz para las redes sociales.",
-            "b) Redactar el plan de negocios formal y preparar el pitch deck para presentar a inversores en la siguiente ronda.",
-            "c) Entrenar o ajustar el modelo de IA con datos reales para que la lectura de caligrafías sea confiable.",
-            "d) Publicar semanalmente en redes sociales para mantener la presencia digital y atraer nuevos usuarios."
+            "Diseñar la identidad de marca: logo, colores, tipografía y tono de voz para las redes sociales.",
+            "Redactar el plan de negocios formal y preparar el pitch deck para presentar a inversores en la siguiente ronda.",
+            "Entrenar o ajustar el modelo de IA con datos reales para que la lectura de caligrafías sea confiable.",
+            "Publicar semanalmente en redes sociales para mantener la presencia digital y atraer nuevos usuarios."
           ],
           "correct": 2,
           "feedback": "Las actividades clave son las que el equipo debe hacer muy bien para que la propuesta de valor funcione. Mejorar el modelo (1) es crítico: si la lectura de caligrafía falla, la promesa se rompe. Afiliar tiendas (2) es crítico: sin más clientes, no hay negocio. El diseño de identidad visual (3) puede ayudar al marketing, pero no afecta directamente la capacidad de leer cuadernos ni de cerrar contratos con tiendas. La analogía del taller: «la mochila de excursión: lleven lo indispensable»."
@@ -3888,10 +3888,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 7 — Actividades Clave",
           "text": "Una startup de tutorías universitarias identifica sus actividades: (A) hacer el match entre tutor y estudiante vía IA; (B) verificar la calidad académica de los tutores; (C) publicar contenido en Instagram tres veces por semana. ¿Cuál combinación de actividades es más clave para su propuesta?",
           "options": [
-            "a) A y C: el algoritmo de match es el core del producto y las redes sociales generan el tráfico de usuarios.",
-            "b) B y C: sin tutores de buena calidad no hay producto, y sin redes sociales no hay forma de captar clientes.",
-            "c) Solo A: el algoritmo de IA para el match es el único diferencial real que tiene la plataforma.",
-            "d) A y B: el match efectivo y la calidad del tutor son lo que cumple la promesa de valor."
+            "A y C: el algoritmo de match es el core del producto y las redes sociales generan el tráfico de usuarios.",
+            "B y C: sin tutores de buena calidad no hay producto, y sin redes sociales no hay forma de captar clientes.",
+            "Solo A: el algoritmo de IA para el match es el único diferencial real que tiene la plataforma.",
+            "A y B: el match efectivo y la calidad del tutor son lo que cumple la promesa de valor."
           ],
           "correct": 3,
           "feedback": "El match por IA (A) es la actividad tecnológica que conecta a estudiante y tutor en segundos con alta compatibilidad. La verificación de calidad (B) garantiza que el tutor sepa enseñar, que es la promesa central. Sin A, el proceso es lento y manual; sin B, el estudiante puede toparse con tutores incompetentes y no volver. Publicar en Instagram (C) es una actividad de marketing, no de producción del servicio: si falta, el crecimiento baja, pero el servicio sigue funcionando."
@@ -3902,10 +3902,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 7 — Actividades Clave",
           "text": "El taller dice que las actividades clave son «lo que el equipo debe hacer cada semana para cumplir la promesa». ¿Cuál de estas startups tiene una actividad clave mal clasificada?",
           "options": [
-            "a) «Raíces Andinas» lista «compra y control de calidad de las canastas» como actividad clave.",
-            "b) «Fiado Claro» lista «negociar alianzas con proveedores de crédito externos» como actividad clave.",
-            "c) «BiciCampus» lista «mantenimiento y recarga de las bicicletas eléctricas» como actividad clave.",
-            "d) «AlmuerzoListo» lista «coordinar con los bares la disponibilidad del menú cada mañana» como actividad clave."
+            "«Raíces Andinas» lista «compra y control de calidad de las canastas» como actividad clave.",
+            "«Fiado Claro» lista «negociar alianzas con proveedores de crédito externos» como actividad clave.",
+            "«BiciCampus» lista «mantenimiento y recarga de las bicicletas eléctricas» como actividad clave.",
+            "«AlmuerzoListo» lista «coordinar con los bares la disponibilidad del menú cada mañana» como actividad clave."
           ],
           "correct": 1,
           "feedback": "«Fiado Claro» es una app de control de fiado para tiendas de barrio. Negociar alianzas con proveedores de crédito externo puede ser una idea de expansión futura, pero no es lo que el equipo hace cada semana para que la tienda pueda registrar el fiado. Las otras tres son claramente actividades operativas sin las cuales el producto falla: sin control de calidad no hay canasta fresca (Raíces), sin mantenimiento las bicicletas se quedan sin batería (BiciCampus) y sin coordinar el menú los pedidos anticipados no sirven (AlmuerzoListo)."
@@ -3916,10 +3916,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 7 — Actividades Clave",
           "text": "El Ing. Rodríguez explica que para escalar, las actividades clave deben poder repetirse igual con 10 o con 100 clientes. ¿Qué significa eso en términos de diseño de actividades?",
           "options": [
-            "a) Validar el modelo completo end-to-end: que el cliente pide, la tienda entrega y el cobro funciona sin errores.",
-            "b) Negociar contratos con los bares del campus para garantizar el volumen mínimo de pedidos diarios.",
-            "c) Lanzar la campaña de marketing digital para captar los primeros 500 usuarios antes de la semana de inscripciones.",
-            "d) Revisar semanalmente los KPIs del tablero de control para asegurar que las métricas de retención van en alza."
+            "Validar el modelo completo end-to-end: que el cliente pide, la tienda entrega y el cobro funciona sin errores.",
+            "Negociar contratos con los bares del campus para garantizar el volumen mínimo de pedidos diarios.",
+            "Lanzar la campaña de marketing digital para captar los primeros 500 usuarios antes de la semana de inscripciones.",
+            "Revisar semanalmente los KPIs del tablero de control para asegurar que las métricas de retención van en alza."
           ],
           "correct": 0,
           "feedback": "La escalabilidad implica que las actividades no se multiplican linealmente con los clientes. Si el match entre tutor y estudiante lo hace manualmente un fundador, con 10 estudiantes es manejable pero con 100 se colapsa. Si está automatizado por IA con un proceso documentado, funciona igual con 100 que con 1000. La analogía de la clase: «La receta de la abuela: para abrir diez locales, la receta tiene que estar escrita con medidas exactas para que cualquier cocinero la repita igual»."
@@ -3930,10 +3930,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 8 — Socios Clave",
           "text": "«Fiado Claro» lista como socios: (1) distribuidores de bebidas que visitan las tiendas; (2) proveedor del modelo de IA (API de visión); (3) los propios tenderos que usan la app. ¿Cuál no es un socio clave sino un cliente?",
           "options": [
-            "a) El (1): los distribuidores de bebidas son competidores potenciales en distribución, no socios de la startup.",
-            "b) El (3): los tenderos son el segmento de clientes, no socios de la operación.",
-            "c) El (2): el proveedor de la API de IA es un recurso clave externo, no un socio estratégico de la empresa.",
-            "d) Todos son socios: cualquier persona o empresa que interactúe con la startup debe clasificarse como socio."
+            "El (1): los distribuidores de bebidas son competidores potenciales en distribución, no socios de la startup.",
+            "El (3): los tenderos son el segmento de clientes, no socios de la operación.",
+            "El (2): el proveedor de la API de IA es un recurso clave externo, no un socio estratégico de la empresa.",
+            "Todos son socios: cualquier persona o empresa que interactúe con la startup debe clasificarse como socio."
           ],
           "correct": 1,
           "feedback": "Los socios clave son organizaciones o personas externas que el equipo necesita para operar pero que no son clientes. Los tenderos son quienes reciben y pagan la propuesta de valor: pertenecen al bloque 1 (Segmento). Los distribuidores de bebidas son el canal de distribución y/o socio porque llegan a las tiendas antes que nadie. El proveedor de la API de IA es el que provee la tecnología central; puede clasificarse como recurso o socio según el nivel de integración."
@@ -3944,10 +3944,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 8 — Socios Clave",
           "text": "«Raíces Andinas» tiene como socios: asociaciones de pequeños productores, empresa de reparto en moto, pasarela de pagos y ONG de agroecología. ¿Qué criterio define que estos cuatro sean socios clave y no recursos?",
           "options": [
-            "a) Los proveedores de materias primas, ya que sin suministros la empresa no puede fabricar ni entregar el producto.",
-            "b) Los accionistas minoritarios que invierten capital a cambio de una participación en la empresa.",
-            "c) Los clientes frecuentes que recomiendan el servicio y actúan como embajadores de la marca en su red.",
-            "d) Distribuidores de bebidas o asociaciones de tenderos con confianza establecida en las tiendas de Quito."
+            "Los proveedores de materias primas, ya que sin suministros la empresa no puede fabricar ni entregar el producto.",
+            "Los accionistas minoritarios que invierten capital a cambio de una participación en la empresa.",
+            "Los clientes frecuentes que recomiendan el servicio y actúan como embajadores de la marca en su red.",
+            "Distribuidores de bebidas o asociaciones de tenderos con confianza establecida en las tiendas de Quito."
           ],
           "correct": 3,
           "feedback": "El Canvas diferencia recursos (lo que la startup posee o controla) de socios (lo que necesita pero no posee). Los productores cultivan los alimentos; Raíces no los posee. La empresa de reparto entrega; Raíces no tiene motos propias. La pasarela procesa pagos; Raíces no es banco. Sin ninguno de ellos la propuesta de valor (canasta fresca en tu puerta, precio justo al agricultor) no funciona. Eso los hace socios clave: son indispensables pero externos."
@@ -3958,10 +3958,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 8 — Socios Clave",
           "text": "Una startup que vende software de gestión de citas a consultorios dentales incluye en bloque 8 a «el Ministerio de Salud». ¿Qué problema tiene esa decisión?",
           "options": [
-            "a) La red de bares aliados en el campus, porque sin ellos no hay quién prepare ni entregue los pedidos.",
-            "b) La app móvil y el sistema de pagos en línea, ya que son la interfaz principal a través de la cual los estudiantes realizan sus pedidos.",
-            "c) El equipo de marketing, porque sin visibilidad en redes el campus no sabrá que el servicio existe.",
-            "d) El capital inicial de los fundadores, porque financia los primeros meses de operación y el desarrollo de la app."
+            "La red de bares aliados en el campus, porque sin ellos no hay quién prepare ni entregue los pedidos.",
+            "La app móvil y el sistema de pagos en línea, ya que son la interfaz principal a través de la cual los estudiantes realizan sus pedidos.",
+            "El equipo de marketing, porque sin visibilidad en redes el campus no sabrá que el servicio existe.",
+            "El capital inicial de los fundadores, porque financia los primeros meses de operación y el desarrollo de la app."
           ],
           "correct": 0,
           "feedback": "Un socio clave debe tener un rol específico y concreto en la operación. «El Ministerio de Salud» es una entidad reguladora que establece normas, pero no participa activamente en entregar la propuesta de valor (gestionar citas). Incluirlo sin especificar el rol genera un Canvas vago. El taller enseña que un socio débil dice «Ministerio de Salud»; un socio fuerte dice «Ministerio de Salud: valida la interoperabilidad de los datos clínicos con el sistema nacional»."
@@ -3972,10 +3972,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 8 — Socios Clave",
           "text": "El Ing. Rodríguez explica que los socios clave resuelven algo que la startup «no sabe o no puede hacer». Una startup de diagnóstico agrícola no sabe entrenar modelos de IA de visión. ¿Cuál es el socio más estratégico?",
           "options": [
-            "a) Un diseñador gráfico freelance que mejore la interfaz visual y la experiencia de usuario de la app.",
-            "b) Una cámara de comercio local que promueva la startup en ferias del sector y conecte con nuevos clientes.",
-            "c) Una universidad con laboratorio de IA que cocrea el modelo predictivo como proyecto de investigación.",
-            "d) Una agencia de publicidad que gestione las redes sociales y las campañas de contenido de la startup."
+            "Un diseñador gráfico freelance que mejore la interfaz visual y la experiencia de usuario de la app.",
+            "Una cámara de comercio local que promueva la startup en ferias del sector y conecte con nuevos clientes.",
+            "Una universidad con laboratorio de IA que cocrea el modelo predictivo como proyecto de investigación.",
+            "Una agencia de publicidad que gestione las redes sociales y las campañas de contenido de la startup."
           ],
           "correct": 2,
           "feedback": "Si la startup no puede entrenar el modelo de visión, la brecha crítica es de conocimiento técnico. Una universidad con laboratorio de IA llena exactamente esa brecha: tiene datos, investigadores y GPU. Además, la colaboración puede ser a bajo costo si se enmarca como investigación conjunta. Las otras opciones (diseñador, cámara de comercio, agencia) resuelven problemas de comunicación o visibilidad, que son importantes pero no son la brecha que tumba la propuesta de valor."
@@ -3986,10 +3986,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 9 — Estructura de Costos",
           "text": "«Fiado Claro» tiene estos costos mensuales: servidor cloud 50 dólares, API de IA 0,50 dólares por tienda, sueldo mínimo del equipo 300 dólares. Con 80 tiendas y precio de 5 dólares, ¿cuánto gana o pierde al mes?",
           "options": [
-            "a) Gana 10 dólares: ingresos 80 × 5 = 400; costos totales 390; resultado positivo de 10 dólares.",
-            "b) Gana 10 dólares: ingresos 400, costos fijos 350 más variables 40 suman 390. Resultado = 10.",
-            "c) Pierde 10 dólares: 80 × 5 = 400; costos fijos 350 más variables 40 = 390; el margen es negativo.",
-            "d) No se puede calcular sin conocer el número exacto de transacciones realizadas por cada tienda."
+            "Gana 10 dólares: ingresos 80 × 5 = 400; costos totales 390; resultado positivo de 10 dólares.",
+            "Gana 10 dólares: ingresos 400, costos fijos 350 más variables 40 suman 390. Resultado = 10.",
+            "Pierde 10 dólares: 80 × 5 = 400; costos fijos 350 más variables 40 = 390; el margen es negativo.",
+            "No se puede calcular sin conocer el número exacto de transacciones realizadas por cada tienda."
           ],
           "correct": 1,
           "feedback": "Costos fijos: servidor (50) + sueldo (300) = 350 dólares. Costo variable: 0,50 × 80 tiendas = 40 dólares. Total costos: 390. Ingresos: 80 × 5 = 400 dólares. Resultado: 400 − 390 = +10 dólares. La startup gana 10 dólares al mes, con 80 tiendas. El punto de equilibrio era 300 ÷ (5 − 0,50) = 67 tiendas; con 80 ya se supera. La clase exige escribir la cuenta explícita en el lienzo."
@@ -4000,10 +4000,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 9 — Estructura de Costos",
           "text": "El taller indica que «los costos olvidan la IA» es uno de los cinco errores que bajan la nota. ¿Por qué es importante incluir el costo de la IA en el bloque 9?",
           "options": [
-            "a) Porque la IA es el único costo variable en startups de software y domina la estructura de costos.",
-            "b) Porque si la IA se paga por uso (tokens o API), crece con los clientes y puede eliminar el margen.",
-            "c) Porque los inversores solo financian startups que muestran el costo de la IA de forma explícita en el Canvas.",
-            "d) Porque sin el costo de la IA no es posible calcular el punto de equilibrio de ninguna empresa tecnológica."
+            "Porque la IA es el único costo variable en startups de software y domina la estructura de costos.",
+            "Porque si la IA se paga por uso (tokens o API), crece con los clientes y puede eliminar el margen.",
+            "Porque los inversores solo financian startups que muestran el costo de la IA de forma explícita en el Canvas.",
+            "Porque sin el costo de la IA no es posible calcular el punto de equilibrio de ninguna empresa tecnológica."
           ],
           "correct": 1,
           "feedback": "Las APIs de IA (OpenAI, Google Vision, etc.) se pagan por uso: por token generado, por imagen procesada o por llamada. Si la startup tiene 10 clientes, el costo es manejable; con 1000 clientes puede ser un costo mayor que el servidor. Si el Canvas no lo incluye, el punto de equilibrio calculado es incorrecto y el modelo aparenta ser rentable cuando no lo es. El Ing. Rodríguez lo resume: «La IA también cuesta: se paga por uso»."
@@ -4014,10 +4014,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 9 — Estructura de Costos",
           "text": "Una startup tiene costos fijos de 240 dólares al mes y cobra 12 dólares por cliente. El costo de la IA es de 2 dólares por cliente. El equipo calcula el punto de equilibrio como 240 ÷ 12 = 20 clientes. ¿Qué error cometió?",
           "options": [
-            "a) Ninguno: dividir costos fijos entre el precio de venta es la fórmula estándar del punto de equilibrio.",
-            "b) El error es que no incluyó el IVA en el precio de venta, lo que distorsiona todo el cálculo del margen.",
-            "c) Usó el precio bruto en vez de la contribución neta; lo correcto es 240 ÷ (12 − 2) = 24 clientes.",
-            "d) Los costos fijos deberían incluir también el costo variable de la IA para que la fórmula sea completa."
+            "Ninguno: dividir costos fijos entre el precio de venta es la fórmula estándar del punto de equilibrio.",
+            "El error es que no incluyó el IVA en el precio de venta, lo que distorsiona todo el cálculo del margen.",
+            "Usó el precio bruto en vez de la contribución neta; lo correcto es 240 ÷ (12 − 2) = 24 clientes.",
+            "Los costos fijos deberían incluir también el costo variable de la IA para que la fórmula sea completa."
           ],
           "correct": 2,
           "feedback": "La fórmula correcta del punto de equilibrio es: costos fijos ÷ (precio − costo variable por cliente). El costo variable de 2 dólares de IA se debe restar al precio antes de dividir: 240 ÷ (12 − 2) = 240 ÷ 10 = 24 clientes. Usando solo el precio (240 ÷ 12 = 20), el equipo subestima cuántos clientes necesita y puede pensar que es rentable antes de serlo. La clase muestra esta fórmula explícita con el ejemplo de Fiado Claro."
@@ -4028,10 +4028,10 @@ window.QUIZ_DATA = {
           "categoryName": "Bloque 9 — Estructura de Costos",
           "text": "El Ing. Rodríguez compara la estructura de costos con «la mochila de excursión: sumen cuánto cuesta el viaje». Según esa lógica, ¿qué debe incluir el bloque 9 de un Canvas completo?",
           "options": [
-            "a) Costos fijos, costos variables por cliente (incluyendo IA) y punto de equilibrio calculado explícitamente.",
-            "b) Solo los costos de tecnología: servidor, dominio y herramientas de IA que se utilizan en la operación diaria.",
-            "c) Solo los costos mensuales que superen los 100 dólares; los menores son despreciables y no afectan el modelo.",
-            "d) Los costos de socios clave y recursos clave, sin incluir sueldos que se pagan al cierre del ejercicio anual."
+            "Costos fijos, costos variables por cliente (incluyendo IA) y punto de equilibrio calculado explícitamente.",
+            "Solo los costos de tecnología: servidor, dominio y herramientas de IA que se utilizan en la operación diaria.",
+            "Solo los costos mensuales que superen los 100 dólares; los menores son despreciables y no afectan el modelo.",
+            "Los costos de socios clave y recursos clave, sin incluir sueldos que se pagan al cierre del ejercicio anual."
           ],
           "correct": 0,
           "feedback": "El bloque 9 completo incluye tres elementos: (1) costos fijos (lo que se paga aunque no haya ningún cliente: servidor, sueldos base, arriendo si aplica); (2) costos variables por cliente (lo que sube con cada cliente: IA por uso, materiales, comisión de pasarela); (3) el punto de equilibrio escrito con la cuenta. El taller puntúa con 3 puntos solo si los tres están presentes y la cuenta aparece. «Las cifras pueden ser supuestos, pero escríbanlas entre corchetes y con la cuenta»."
